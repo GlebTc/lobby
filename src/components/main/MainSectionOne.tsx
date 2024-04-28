@@ -5,14 +5,15 @@ const MainSectionOne = () => {
   const componentName = 'MAIN_SECTION_ONE';
   return (
     <div
-      className={`${componentName}_MAIN_CONTAINER h-fit grid md:grid-cols-2 md:my-8 lg:mx-4`}
+      className={`${componentName}_MAIN_CONTAINER h-fit grid md:grid-cols-2 md:my-8 lg:mx-4 md:p-4`}
     >
-              <div
+      <div
         className={`${componentName}_IMG_CONTAINER h-full flex items-center`}
       >
         <Image
           src={main_section_one_img}
           alt='Main Hero Menu Image One'
+          className='floating_container'
         />
       </div>
       <div
@@ -36,7 +37,6 @@ const MainSectionOne = () => {
           view menu
         </a>
       </div>
-
     </div>
   );
 };

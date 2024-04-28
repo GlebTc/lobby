@@ -14,5 +14,13 @@ h1 {
 
 
 p {
-  @apply text-lg sm:text-2xl font-[500];
+  @apply text-lg sm:text-2xl font-[500] text-center;
+}
+
+.floating_container {
+  @apply md:shadow-xl md:shadow-gray-400 md:rounded-lg;
+}
+
+.floating_container_all {
+  @apply shadow-xl shadow-gray-400 rounded-lg mb-8;
 }
