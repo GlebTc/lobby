@@ -40,7 +40,7 @@ const MobileMenu = ({
             <Image
               src={lobby_logo}
               alt='Logo | Web Development Hamilton'
-              className='cursor-pointer object-contain floating_container'
+              className='cursor-pointer object-contain'
             />
           </a>
           <AiOutlineClose
