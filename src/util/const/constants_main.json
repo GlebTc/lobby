@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Home",
+    "href": "/",
+    "alt": "Lobby Bar Restaurant | Home Page"
+  },
+  {
+    "title": "Menus",
+    "href": "/menus",
+    "alt": "Lobby Bar Restaurant | Menus"
+  },
+  {
+    "title": "Locations",
+    "href": "/locations",
+    "alt": "Lobby Bar Restaurant | Locations"
+  },
+  {
+    "title": "Private Events",
+    "href": "/private-events",
+    "alt": "Lobby Bar Restaurant | Private Events"
+  }
+]
