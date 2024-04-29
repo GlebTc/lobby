@@ -16,6 +16,8 @@ const MainSectionOne = () => {
           className='floating_container'
           placeholder='blur'
           priority
+          width={700}
+          height={700}
           quality={10}
         />
       </div>
