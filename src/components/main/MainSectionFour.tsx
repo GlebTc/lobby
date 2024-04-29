@@ -17,7 +17,7 @@ const MainSectionFour = () => {
           className='w-[100%] h-[80dvh] object-cover floating_container_all'
         />
         <div
-          className={`${componentName}_HEADINGS_CONTAINER text-3xl font-[700] tracking-widest flex flex-col items-center`}
+          className={`${componentName}_HEADINGS_CONTAINER text-3xl font-[700] tracking-widest flex flex-col items-center text-center`}
         >
           <h2>Indulge in Weekend Bliss</h2>
         </div>
@@ -38,9 +38,9 @@ const MainSectionFour = () => {
           className='w-[100%] h-[80dvh] object-cover floating_container_all'
         />
         <div
-          className={`${componentName}_HEADINGS_CONTAINER text-3xl font-[700] tracking-widest flex flex-col items-center`}
+          className={`${componentName}_HEADINGS_CONTAINER text-3xl font-[700] tracking-widest flex flex-col items-center text-center`}
         >
-          <h2 className='text-center'>Elegance Meets Excellence</h2>
+          <h2>Elegance Meets Excellence</h2>
         </div>
         <p>
           As the sun sets, join us for a dinner that transcends the ordinary.
