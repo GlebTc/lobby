@@ -32,7 +32,7 @@ const MainSectionTwo = () => {
         </p>
         <a
           href='#'
-          className='uppercase font-[600] border-2 border-white px-4 py-2 hover:bg-[var(--main-bg-color)] rounded-lg duration-[var(--main-duration)] hover:text-black'
+          className='secondary_button'
         >
           reserve now
         </a>

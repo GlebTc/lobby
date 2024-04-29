@@ -8,12 +8,9 @@
   --main-duration: 0.5s;
 }
 
-
-
 h1 {
   @apply text-4xl sm:text-6xl font-[700] tracking-widest;
 }
-
 
 p {
   @apply text-lg sm:text-2xl font-[500] text-center;
@@ -25,4 +22,12 @@ p {
 
 .floating_container_all {
   @apply shadow-xl shadow-gray-400 rounded-lg mb-8;
+}
+
+.main_button {
+  @apply uppercase text-lg font-[700] px-2 py-1 rounded-lg bg-[var(--main-text-color)] text-white border-[1px] border-[var(--main-text-color)] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-black min-w-[150px] animate-pulse;
+}
+
+.secondary_button {
+  @apply uppercase text-lg font-[700] border-2 border-white px-4 py-2 hover:bg-[var(--main-bg-color)] rounded-lg duration-[var(--main-duration)] hover:text-black min-w-[150px];
 }

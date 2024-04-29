@@ -37,7 +37,7 @@ const MainSectionOne = () => {
         </p>
         <a
           href='#'
-          className={`${componentName}_NAVBAR_RESERVATION_BUTTON uppercase font-[600] px-2 py-1 rounded-lg bg-[var(--main-text-color)] text-white border-[1px] border-[var(--main-text-color)] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-black`}
+          className={`${componentName}_NAVBAR_RESERVATION_BUTTON main_button`}
         >
           view menu
         </a>
