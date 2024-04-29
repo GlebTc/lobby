@@ -36,7 +36,11 @@ const MainGallery = () => {
               alt={`gallery_img_0${number}`}
               fill
               className='object-cover w-full h-full'
+              quality={10}
+              loading='lazy'
             />
+
+            
           </div>
         );
       })}

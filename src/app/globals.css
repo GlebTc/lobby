@@ -8,6 +8,8 @@
   --main-duration: 0.5s;
 }
 
+
+
 h1 {
   @apply text-4xl sm:text-6xl font-[700] tracking-widest;
 }

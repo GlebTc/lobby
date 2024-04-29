@@ -14,10 +14,16 @@ const MainSectionFour = () => {
         <Image
           src={main_section_four_img}
           alt='Main Hero Menu Image Four'
-          className='w-[100%] h-[80dvh] object-cover floating_container_all'
+          className='floating_container_all'
+          placeholder='blur'
+          priority
+          width={700}
+          height={700}
+          quality={10}
         />
+
         <div
-          className={`${componentName}_HEADINGS_CONTAINER text-3xl font-[700] tracking-widest flex flex-col items-center`}
+          className={`${componentName}_HEADINGS_CONTAINER text-3xl font-[700] tracking-widest flex flex-col items-center text-center`}
         >
           <h2>Indulge in Weekend Bliss</h2>
         </div>
@@ -25,9 +31,12 @@ const MainSectionFour = () => {
           Brunch like never before. From classics to innovative creations, our
           menu is a celebration of weekend indulgence
         </p>
-        <div className='uppercase border-2 border-white px-4 py-2 bg-[#E09900] w-fit'>
-          Explore Menu
-        </div>
+        <a
+          href='#'
+          className={`${componentName}_NAVBAR_RESERVATION_BUTTON uppercase font-[600] px-2 py-1 rounded-lg bg-[var(--main-text-color)] text-white border-[1px] border-[var(--main-text-color)] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-black`}
+        >
+          explore menu
+        </a>
       </div>
       <div
         className={`${componentName}_EXPLORE_MENU_TWO_CONTAINER p-8 flex flex-col justify-center items-center gap-4`}
@@ -35,21 +44,29 @@ const MainSectionFour = () => {
         <Image
           src={main_section_four_img_two}
           alt='Main Hero Menu Image Four'
-          className='w-[100%] h-[80dvh] object-cover floating_container_all'
+          className='floating_container_all'
+          placeholder='blur'
+          priority
+          width={700}
+          height={700}
+          quality={10}
         />
         <div
-          className={`${componentName}_HEADINGS_CONTAINER text-3xl font-[700] tracking-widest flex flex-col items-center`}
+          className={`${componentName}_HEADINGS_CONTAINER text-3xl font-[700] tracking-widest flex flex-col items-center text-center`}
         >
-          <h2 className='text-center'>Elegance Meets Excellence</h2>
+          <h2>Elegance Meets Excellence</h2>
         </div>
         <p>
           As the sun sets, join us for a dinner that transcends the ordinary.
           Immerse yourself in an evening of culinary delight and sophisticated
           ambiance.
         </p>
-        <div className='uppercase border-2 border-white px-4 py-2 bg-[#E09900] w-fit'>
-          Explore Menu
-        </div>
+        <a
+          href='#'
+          className={`${componentName}_NAVBAR_RESERVATION_BUTTON uppercase font-[600] px-2 py-1 rounded-lg bg-[var(--main-text-color)] text-white border-[1px] border-[var(--main-text-color)] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-black`}
+        >
+          explore menu
+        </a>
       </div>
     </div>
   );

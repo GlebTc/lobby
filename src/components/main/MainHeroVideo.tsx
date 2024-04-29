@@ -16,16 +16,18 @@ const MainHeroVideo = () => {
         <iframe
           src='https://www.youtube.com/embed/18x1Qp559Ic?autoplay=1&mute=1&controls=0&loop=1&playlist=18x1Qp559Ic'
           className={`${componentName}_IFRAME_CONTAINER absolute ${xsmallScreen} ${smallScreen} ${xlScreen}`}
+          loading='lazy'
         ></iframe>
       </div>
       <div
         className={`${componentName}_TEXT_AND_BUTTON_CONTAINER absolute top-0 left-0 w-[100%] h-[100%] flex flex-col gap-4 justify-center items-center text-white bg-gray-950/50 text-center`}
       >
-        <h1>
-          Pure Delight
-        </h1>
+        <h1>Pure Delight</h1>
         <p>Vibrant Moments and Incredible Nights</p>
-        <a href="#" className='uppercase font-[600] border-2 border-white px-4 py-2 hover:bg-[var(--main-bg-color)] rounded-lg duration-[var(--main-duration)] hover:text-black'>
+        <a
+          href='#'
+          className='uppercase font-[600] border-2 border-white px-4 py-2 hover:bg-[var(--main-bg-color)] rounded-lg duration-[var(--main-duration)] hover:text-black'
+        >
           reservations
         </a>
       </div>

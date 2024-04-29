@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import main_section_one_img from '@/public/assets/main_section_one_img.webp';
+import main_section_one_img_smaller from '@/public/assets/main_section_one_img_smaller.webp';
 
 const MainSectionOne = () => {
   const componentName = 'MAIN_SECTION_ONE';
@@ -11,9 +11,14 @@ const MainSectionOne = () => {
         className={`${componentName}_IMG_CONTAINER h-full flex items-center`}
       >
         <Image
-          src={main_section_one_img}
+          src={main_section_one_img_smaller}
           alt='Main Hero Menu Image One'
           className='floating_container'
+          placeholder='blur'
+          priority
+          width={700}
+          height={700}
+          quality={10}
         />
       </div>
       <div
