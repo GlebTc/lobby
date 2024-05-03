@@ -32,14 +32,14 @@ const MobileMenu = ({
           className={`${componentName}_CLOSE_BUTTON_AND_LOGO_CONTAINER h-[65px] flex justify-between items-center px-4 border-b-2 border-[#e09900]`}
         >
           <a
-            href='https://www.lobby.ca'
+            href='#'
             className='max-w-[64px] md:max-w-[120px] relative'
             aria-label='Lobby Bar Restaurant | Home Page'
             title='Lobby Bar Restaurant | Home Page'
           >
             <Image
               src={lobby_logo}
-              alt='Logo | Web Development Hamilton'
+              alt='Logo | Lobby Restaurant Hamilton Toronto'
               className='cursor-pointer object-contain'
             />
           </a>

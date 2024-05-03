@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --main-bg-color: #fff9ef;
+  --main-bg-color: #b8a17a;
   --main-text-color: #e09900;
   --main-duration: 0.5s;
 }
