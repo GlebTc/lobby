@@ -2,7 +2,7 @@ import lobby_toronto from '@/public/assets/lobby_toronto.webp';
 import Image from 'next/image';
 import { FaPhone, FaLocationDot } from 'react-icons/fa6';
 
-const Toronto = () => {
+const locationsToronto = () => {
   const componentName = 'LOCATIONS_TORONTO';
   return (
     <div
@@ -41,4 +41,4 @@ const Toronto = () => {
   );
 };
 
-export default Toronto;
+export default locationsToronto;

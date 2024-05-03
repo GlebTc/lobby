@@ -44,7 +44,7 @@ const MainSectionThree = () => {
           </a>
         </div>
       </div>
-      <div className={`${componentName}_SECOND_SECTION_DELICIOUS h-[35dvh] flex flex-col justify-center items-center text-center gap-8 m-8`}>
+      <div className={`${componentName}_SECOND_SECTION_DELICIOUS h-[35dvh] flex flex-col justify-center items-center text-center gap-8 p-8 bg-[var(--main-bg-color)]`}>
         <div
           className={`${componentName}_HEADINGS_CONTAINER text-3xl font-[700] tracking-widest flex flex-col items-center`}
         >
