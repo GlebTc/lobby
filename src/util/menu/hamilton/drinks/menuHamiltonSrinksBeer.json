@@ -1,0 +1,162 @@
+{
+  "title": "Beer",
+  "beers": {
+    "draughts": [
+      {
+        "draught_type_title": "domestic",
+        "draught_list": [
+          {
+            "brand": "canadian",
+            "price_20": 8.5,
+            "price_16": 7
+          },
+          {
+            "brand": "coors & coors original",
+            "price_20": 8.5,
+            "price_16": 7
+          },
+          {
+            "brand": "miller lite",
+            "price_20": 8.5,
+            "price_16": 7
+          }
+        ]
+      },
+      {
+        "draught_type_title": "premium",
+        "draught_list": [
+          {
+            "brand": "blue moon/belgian moon",
+            "price_20": 9,
+            "price_16": 7.5
+          },
+          {
+            "brand": "rickards red",
+            "price_20": 9,
+            "price_16": 7.5
+          },
+          {
+            "brand": "creemore lager",
+            "price_20": 9,
+            "price_16": 7.5
+          },
+          {
+            "brand": "creemore urbock",
+            "price_20": 9,
+            "price_16": 7.5
+          },
+          {
+            "brand": "apocalypso",
+            "price_20": 9,
+            "price_16": 7.5
+          }
+        ]
+      },
+      {
+        "draught_type_title": "import",
+        "draught_list": [
+          {
+            "brand": "heineken",
+            "price_20": 9.25,
+            "price_16": 7.75
+          },
+          {
+            "brand": "strongbow cider",
+            "price_20": 9.25,
+            "price_16": 7.75
+          },
+          {
+            "brand": "madri exceptional",
+            "price_20": 9.25,
+            "price_16": 7.75
+          },
+          {
+            "brand": "murphy's",
+            "price_20": 9.25,
+            "price_16": 7.75
+          },
+          {
+            "brand": "hop valley ipa",
+            "price_20": 9.25,
+            "price_16": 7.75
+          },
+          {
+            "brand": "birra moretti",
+            "price_20": 9.25,
+            "price_16": 7.75
+          }
+        ]
+      }
+    ],
+    "bottles_cans": [
+      {
+        "bottles_cans_type_title": "domestic",
+        "bottles_cans_list": [
+          {
+            "brand": "canadian",
+            "price": 6.5
+          },
+          {
+            "brand": "coors light",
+            "price": 6.5
+          },
+          {
+            "brand": "molson ultra",
+            "price": 6.5
+          },
+          {
+            "brand": "miller high life",
+            "price": 6.5
+          },
+          {
+            "brand": "mgd",
+            "price": 6.5
+          }
+        ]
+      },
+      {
+        "bottles_cans_type_title": "import",
+        "bottles_cans_list": [
+          {
+            "brand": "heineken",
+            "price": 7.25
+          },
+          {
+            "brand": "dos equis",
+            "price": 7.25
+          },
+          {
+            "brand": "sol",
+            "price": 7.25
+          },
+          {
+            "brand": "amster ultra",
+            "price": 7.25
+          }
+        ]
+      },
+      {
+        "bottles_cans_type_title": "non alcoholic beer",
+        "bottles_cans_list": [
+          {
+            "brand": "heineken 0.0",
+            "price": 6
+          }
+        ]
+      },
+      {
+        "bottles_cans_type_title": "coolers",
+        "bottles_cans_list": [
+          {
+            "brand": "vizzy",
+            "price": 9.25
+          },
+          {
+            "brand": "coors seltzer",
+            "price": 9.25
+          }
+        ]
+      }
+    ]
+  }
+}
