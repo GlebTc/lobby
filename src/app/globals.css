@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --main-bg-color: #b8a17a;
+  --main-bg-color: #e0d5c2;
   --main-text-color: #e09900;
   --main-duration: 0.5s;
 }
@@ -12,9 +12,9 @@ h1 {
   @apply text-4xl sm:text-6xl font-[700] tracking-widest;
 }
 
-p {
+/* p {
   @apply text-lg sm:text-2xl font-[500] text-center;
-}
+} */
 
 .floating_container {
   @apply md:shadow-xl md:shadow-gray-400 md:rounded-lg;
