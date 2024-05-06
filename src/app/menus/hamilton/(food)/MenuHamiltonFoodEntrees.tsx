@@ -22,7 +22,7 @@ const MenuHamiltonFoodEntrees = () => {
                 </p>
               </div>
               <p className='text-[#c69a50] pl-4 font-semibold'>
-                {item.price && `$${item.price}`}
+                {item.price && `${item.price}`}
               </p>
             </div>
           );

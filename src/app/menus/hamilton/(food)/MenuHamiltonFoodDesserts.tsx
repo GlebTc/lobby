@@ -1,6 +1,6 @@
 import menuHamiltonFoodDesserts from '@/src/util/menu/hamilton/food/menuHamiltonFoodDesserts.json';
 
-const MenuHamiltonFoodEntrees = () => {
+const MenuHamiltonFoodDesserts = () => {
   const componentName = 'MENU_HAMILTON_FOODS_DESSERTS';
 
   return (
@@ -32,4 +32,4 @@ const MenuHamiltonFoodEntrees = () => {
   );
 };
 
-export default MenuHamiltonFoodEntrees;
+export default MenuHamiltonFoodDesserts;
