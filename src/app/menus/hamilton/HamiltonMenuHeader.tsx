@@ -9,7 +9,7 @@ const HamiltonMenuHeader = ({
   setCategory: any;
 }) => {
   const componentName = 'HAMILTON_MENU_HEADER';
-  const menuItems = ['drinks', 'food', 'desserts', 'specials']
+  const menuItems = ['drinks', 'food', 'brunch', 'bottle service']
   return (
     <div className={`${componentName}_MAIN_CONTAINER relative`}>
       <div className={`${componentName}_IMAGE_CONTAINER relative h-[306px]`}>

@@ -1,0 +1,30 @@
+{
+    "title": "sides",
+    "sides": [
+      {
+        "name": "garlic braised rapini",
+        "price": 9
+      },
+      {
+        "name": "triple cooked frites",
+        "price": 9
+      },
+      {
+        "name": "parm truffle frites",
+        "price": 11
+      },
+      {
+        "name": "brussels sprouts",
+        "price": 14
+      },
+      {
+        "name": "mashed potatos",
+        "price": 11
+      },
+      {
+        "name": "sautéed mushrooms",
+        "price": 10
+      }
+    ]
+  }
+  

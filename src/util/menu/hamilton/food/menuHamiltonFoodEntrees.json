@@ -1,0 +1,51 @@
+{
+    "title": "entrees",
+    "entrees": [
+      {
+        "name": "rigatoni alla vodka",
+        "description": "RIGATONI PASTA IN A CLASSIC ROSÉ SAUCE WITH ITALIAN CHILI & GRANA PADANO",
+        "price": 18
+      },
+      {
+        "name": "pappardelle alle bolognese",
+        "description": "PAPPARDELLE PASTA IN A TRADITIONAL TOMATO BRAISED BEEF RAGU",
+        "price": 21
+      },
+      {
+        "name": "gnocchi",
+        "description": "TENDER HAND-MADE RICOTTA DUMPLINGS IN BUTTER WITH PARMESAN CHEESE",
+        "price": 22
+      },
+      {
+        "name": "chicken parmesan",
+        "description": "LIGHTLY BREADED CHICKEN BREAST WITH TOMATO SAUCE, MOZZARELLA AND GRANA PADANO CHEESES, SERVED WITH YOUR CHOICE OF SIDE",
+        "price": 26
+      },
+      {
+        "name": "sea bass",
+        "description": "PAN ROASTED CYPRIAN FILLET WITH ZUCCHINI, PRESERVED CHILLIES, OLIVE OIL & HERBS",
+        "price": 29
+      },
+      {
+        "name": "lamb chops",
+        "description": "ROASTED ROSEMARY LAMB CHOPS WITH LEMON & GARLIC BRAISED RAPINI",
+        "price": 40
+      },
+      {
+        "name": "striploin steak",
+        "description": "GRILLED 12OZ AAA STRIPLOIN STEAK SERVED WITH BRAISED GREENS, SALSA VERDE & YOUR PREFERRED SIDE",
+        "price": 48
+      },
+      {
+        "name": "tomahawk",
+        "description": "GRILLED 45OZ BONE-IN RIB STEAK SERVED WITH BRUSSELS SPROUTS, CRISPY FRITES AND SALSA VERDE",
+        "price": "MP"
+      },
+      {
+        "name": "tenderloin steak",
+        "description": "GRILLED 8OZ AAA TENDERLOIN STEAK SERVED WITH BRAISED GREENS, SALSA VERDE & YOUR PREFERRED SIDE",
+        "price": 64
+      }
+    ]
+  }
+  
