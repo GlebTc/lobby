@@ -10,7 +10,7 @@ const MenuHamiltonDrinksWine = () => {
       <div
         className={`${componentName}_WINE_LIST_CONTAINER grid md:grid-cols-2 gap-8`}
       >
-        {menuHamiltonDrinksWine.wines.map((wine_type, index) => {
+        {menuHamiltonDrinksWine.wines.map((item, index) => {
           return (
             <div key={index}>
               <table
@@ -19,20 +19,20 @@ const MenuHamiltonDrinksWine = () => {
                 <thead>
                   <tr>
                     <th className='text-[#c69a50] font-[300] text-xl text-left w-[70%]'>
-                      {wine_type.wine_type_title}
+                      {item.wine_type_title}
                     </th>
                     <th>6oz</th>
                     <th>bottle</th>
                   </tr>
                 </thead>
                 <tbody>
-                  {wine_type.wine_list.map((wine, index) => (
+                  {item.wine_list.map((item, index) => (
                     <tr key={index}>
                       <td>
-                        <h4 className='text-left'>{wine.brand}</h4>
+                        <h4 className='text-left'>{item.brand}</h4>
                       </td>
-                      {wine.price_6oz ? <td>${wine.price_6oz}</td> : <td></td>}
-                      <td>${wine.price_bottle}</td>
+                      {item.price_6oz ? <td>${item.price_6oz}</td> : <td></td>}
+                      <td>${item.price_bottle}</td>
                     </tr>
                   ))}
                 </tbody>

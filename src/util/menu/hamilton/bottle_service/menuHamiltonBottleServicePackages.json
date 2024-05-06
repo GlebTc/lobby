@@ -1,0 +1,34 @@
+{
+    "title": "packages",
+    "packages": [
+        {
+            "name": "meet me in the lobby",
+            "description_one": "3X Grey Goose OR",
+            "description_two": "Casamigos Blanco",
+            "description_three": "4X Belaire",
+            "notes": "Upgrade to Casamigos Reposado for $40 per bottle",
+            "price": 2000
+
+        },
+        {
+            "name": "We only drink tequila",
+            "description_one": "6X Casamigos Reposado",
+            "price": 2200
+        },
+        {
+            "name": "its only money",
+            "description_one": "2X Don Julio 1942 OR",
+            "description_two": "Clase Azul",
+            "description_three": "1X Ace of Spades",
+            "price": 2750  
+        },
+        {
+            "name": "expensive taste",
+            "description_one": "3X Don Julio 1942 or clase azul",
+            "description_two": "2X casa blanco or grey goose",
+            "description_three": "1x ace of spades",
+            "price": 4500
+        }
+    ]
+  }
+  
