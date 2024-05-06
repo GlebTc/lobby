@@ -1,4 +1,5 @@
 import menuHamiltonDrinksZeroProof from '@/src/util/menu/hamilton/drinks/menuHamiltonDrinksZeroProof.json';
+import MenuTitleDescriptionPrice from '@/src/components/reusable/MenuTitleDescriptionPrice';
 
 const MenuHamiltonDrinksZeroProof = () => {
   const componentName = 'MENU_HAMILTON_DRINKS_ZERO_PROOF';
@@ -18,26 +19,16 @@ const MenuHamiltonDrinksZeroProof = () => {
         <div
           className={`${componentName}_MOCKTAILS_LIST_CONTAINER grid sm:grid-cols-2 lg:grid-cols-3 gap-8`}
         >
-          {menuHamiltonDrinksZeroProof.zeros.mocktails.map(
-            (mocktail, index) => {
-              return (
-                <div
-                  key={index}
-                  className='flex justify-between'
-                >
-                  <div>
-                    <h2 className='font-bold'>{mocktail.brand}</h2>
-                    <p className='text-gray-600 text-left'>
-                      {mocktail.description}
-                    </p>
-                  </div>
-                  <p className='text-[#c69a50] pl-4 font-semibold'>
-                    ${mocktail.price}
-                  </p>
-                </div>
-              );
-            }
-          )}
+          {menuHamiltonDrinksZeroProof.zeros.mocktails.map((item, index) => {
+            return (
+              <MenuTitleDescriptionPrice
+                key={index}
+                individual_menu_item_title={item.name}
+                individual_menu_item_description={item.description}
+                individual_menu_item_price_one={item.price}
+              />
+            );
+          })}
         </div>
         <h2
           className={`text-[#c69a50] font-[300] tracking-tight text-2xl text-center border-b-2 mb-4 py-4`}
@@ -48,17 +39,17 @@ const MenuHamiltonDrinksZeroProof = () => {
           className={`${componentName}_NON_ALCOHOLIC_LIST_CONTAINER grid sm:grid-cols-2 lg:grid-cols-3 gap-8`}
         >
           {menuHamiltonDrinksZeroProof.zeros.non_alcoholic.map(
-            (non_alcoholic, index) => {
+            (item, index) => {
               return (
                 <div
                   key={index}
                   className='flex justify-between'
                 >
                   <div>
-                    <h2 className='font-bold'>{non_alcoholic.brand}</h2>
+                    <h2 className='font-bold'>{item.name}</h2>
                   </div>
                   <p className='text-[#c69a50] pl-4 font-semibold'>
-                    ${non_alcoholic.price}
+                    ${item.price}
                   </p>
                 </div>
               );
@@ -81,7 +72,7 @@ const MenuHamiltonDrinksZeroProof = () => {
                 className='flex justify-between'
               >
                 <div>
-                  <h2 className='font-bold'>{coffee.brand}</h2>
+                  <h2 className='font-bold'>{coffee.name}</h2>
                 </div>
                 <p className='text-[#c69a50] pl-4 font-semibold'>
                   ${coffee.price}
