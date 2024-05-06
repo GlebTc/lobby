@@ -1,0 +1,135 @@
+{
+  "title": "Wine",
+  "wines": [
+    {
+      "wine_type_title": "red wine",
+      "wine_list": [
+        {
+          "brand": "gota wines, prunus private",
+          "price_6oz": 15,
+          "price_bottle": 45
+        },
+        {
+          "brand": "bread and butter cabernet sauvignon",
+          "price_6oz": 16,
+          "price_bottle": 50
+        },
+        {
+          "brand": "carlos basso, malbec",
+          "price_6oz": 17,
+          "price_bottle": 55
+        },
+        {
+          "brand": "j lohr cabernet sauvignon",
+          "price_6oz": 22,
+          "price_bottle": 60
+        },
+        {
+          "brand": "di luiano, chianti classico",
+          "price_6oz": 22,
+          "price_bottle": 60
+        },
+        {
+          "brand": "zenato ripassa valpolicella ripasso",
+          "price_bottle": 75
+        },
+        {
+          "brand": "deadeye cabernet sauvignon",
+          "price_bottle": 80
+        },
+        {
+          "brand": "antonio gaudioso, brunello di montalcino",
+          "price_bottle": 90
+        },
+        {
+          "brand": "fontanafreda barolo",
+          "price_bottle": 90
+        },
+        {
+          "brand": "pago de los capellanes, tempranillo",
+          "price_bottle": 100
+        },
+        {
+          "brand": "caymus cabernet sauvignon",
+          "price_bottle": 300
+        }
+      ]
+    },
+    {
+      "wine_type_title": "white wine",
+      "wine_list": [
+        {
+          "brand": "cave spring, riesling",
+          "price_6oz": 15,
+          "price_bottle": 45
+        },
+        {
+          "brand": "misty cove, sauvignon blanc",
+          "price_6oz": 17,
+          "price_bottle": 55
+        },
+        {
+          "brand": "albariño bernon, rias baixas",
+          "price_6oz": 17,
+          "price_bottle": 55
+        },
+        {
+          "brand": "santa margarita, pinot grigio",
+          "price_6oz": 17,
+          "price_bottle": 55
+        },
+        {
+          "brand": "antonutti, pinot grigio",
+          "price_6oz": 22,
+          "price_bottle": 60
+        },
+        {
+          "brand": "vina somoza, godello-neno",
+          "price_bottle": 70
+        },
+        {
+          "brand": "dead eye, chardonnay",
+          "price_bottle": 75
+        },
+        {
+          "brand": "fontanassa, di gavi roverte",
+          "price_bottle": 90
+        }
+      ]
+    },
+    {
+      "wine_type_title": "sparkling",
+      "wine_list": [
+        {
+          "brand": "mas fi cava brut",
+          "price_6oz": 16,
+          "price_bottle": 50
+        },
+        {
+          "brand": "anticavigna prosecco",
+          "price_6oz": 16,
+          "price_bottle": 50
+        },
+        {
+          "brand": "tenuta santome, prosecco rose",
+          "price_6oz": 17,
+          "price_bottle": 55
+        }
+      ]
+    },
+    {
+      "wine_type_title": "rose wine",
+      "wine_list": [
+        {
+          "brand": "zinio rosado",
+          "price_6oz": 17,
+          "price_bottle": 55
+        },
+        {
+          "brand": "chateau roubine, la vie en rose",
+          "price_bottle": 75
+        }
+      ]
+    }
+  ]
+}
