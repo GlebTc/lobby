@@ -24,7 +24,7 @@ const HamiltonMenuHeader = ({
         className={`${componentName}_MENU_LIST_CONTAINER absolute left-0 bottom-0 w-full`}
       >
         <ul
-          className={`${componentName}_MENU_LIST flex flex-col md:flex-row gap-1 bg-white`}
+          className={`${componentName}_MENU_LIST flex flex-col md:flex-row gap-1 bg-white md:w-[80%] mx-auto`}
         >
           {menuItems.map((category: any, index: any) => (
             <li

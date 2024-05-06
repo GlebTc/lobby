@@ -6,7 +6,7 @@ import MenuHamiltonFoodDesserts from '@/src/app/menus/hamilton/(food)/MenuHamilt
 const MenuHamiltonFoodMain = () => {
   const componentName = 'MENU_HAMILTON_FOOD_MAIN';
   return (
-    <div className={`${componentName}_MAIN_CONTAINER p-4 uppercase`}>
+    <div className={`${componentName}_MAIN_CONTAINER p-4`}>
       <MenuHamiltonFoodAppetizers />
       <MenuHamiltonFoodEntrees />
       <MenuHamiltonFoodSides />

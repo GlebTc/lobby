@@ -6,7 +6,7 @@ import MenuHamiltonDrinksZeroProof from '@/src/app/menus/hamilton/(drinks)/MenuH
 const MenuHamiltonDrinksMain = () => {
     const componentName = 'MENU_HAMILTON_DRINKS_MAIN';
   return (
-    <div className={`${componentName}_MAIN_CONTAINER p-4 uppercase`}>
+    <div className={`${componentName}_MAIN_CONTAINER p-4`}>
       <MenuHamiltonDrinksCocktails />
       <MenuHamiltonDrinksBeer />
       <MenuHamiltonDrinksWine />
