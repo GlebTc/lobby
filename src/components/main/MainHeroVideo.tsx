@@ -1,8 +1,5 @@
 const MainHeroVideo = () => {
   const componentName = 'MAIN_HERO_VIDEO';
-  const xsmallScreen = 'w-[220%] h-[145%] right-[-60%] top-[-22%]';
-  const smallScreen = 'sm:w-[150%] sm:h-[100%] sm:right-[-25%] sm:top-0';
-  const xlScreen = 'xl:h-[140%] xl:top-[-10%]';
 
   return (
     <div
