@@ -8,57 +8,57 @@
           {
             "name": "LOBBY ESPRESSO MARTINI (2OZ)",
             "description": "GREY GOOSE VODKA, LICOR 43, ESPRESSO, KAHLUA, FRANGELICO, COCOA POWDER",
-            "price": 20
+            "price": "20"
           },
           {
             "name": "SEX ON A PEACH (2OZ)",
             "description": "PATRON SILVER, BASIL, PEACH, LIME, AGAVE, ROSEMARY",
-            "price": 22
+            "price": "22"
           },
           {
             "name": "“LET THAT MAN-GO” (2OZ)",
             "description": "WHITE CLAW MANGO VODKA, LIQUOR 43, MANGO JUICE, LIME JUICE, AGAVE",
-            "price": 19
+            "price": "19"
           },
           {
             "name": "BURNING LOVE (2OZ)",
             "description": "DON JULIO BLANCO, CAMPARI, LEMON, RASPBERRIES",
-            "price": 18
+            "price": "18"
           },
           {
             "name": "DEVIL IN A NEW DRESS (2OZ)",
             "description": "WHITE RUM, APEROL, ST GERMAIN, GRENADINE, WATERMELON SYRUP, LEMON JUICE, FRESNO PEPPERS",
-            "price": 19
+            "price": "19"
           },
           {
             "name": "PINK SKIES MOJITO (1.5OZ)",
             "description": "TANQUERAY, LIME, SIMPLE, GRAPEFRUIT JUICE, TOP SODA, MINT LEAVES",
-            "price": 17
+            "price": "17"
           },
           {
             "name": "BLACK PANTHER (2OZ)",
             "description": "PATRON REPOSADO, GRAPEFRUIT, COINTREAU, TORCHED JALAPENO, AGAVE, LIME, ACTIVATED CHARCOAL, TAJIN SPICE",
-            "price": 24
+            "price": "24"
           },
           {
             "name": "PERMANENT VACATION (2OZ)",
             "description": "CIROC RED BERRY, LEMON, EGG WHITES, HONEY, STRAWBERRY PUREE",
-            "price": 18
+            "price": "18"
           },
           {
             "name": "LYCÉE MIJITO",
             "description": "WHITE RUM, LIME, SIMPLE, ST-GERMAIN, SOHO, LYCHEE JUICE, MINT, SODA",
-            "price": 17
+            "price": "17"
           },
           {
             "name": "TARONTOS FINEST",
             "description": "SPICED RUM, BAILEYS, SIMPLE, TAPIOCA PEARLS, TARO POWDER",
-            "price": 20
+            "price": "20"
           },
           {
             "name": "LYCHEE MARTINI",
             "description": "GREY GOOSE, ST-GERMAIN, LYCHEE LIQUEUR, APEROL, LEMON, SPARKLING WINE",
-            "price": 20
+            "price": "20"
           }
         ]
       },
@@ -68,27 +68,27 @@
           {
             "name": "OLD FASHION",
             "description": "BULLEIT BOURBON , BITTERS, SUGAR",
-            "price": 16
+            "price": "16"
           },
           {
             "name": "NEGRONI",
             "description": "BOTANIST GIN, CAMPARI, SWEET VERMOUTH",
-            "price": 16
+            "price": "16"
           },
           {
             "name": "DEALERS CHOICE",
             "description": "CHOOSE YOUR BASE, WE DO THE REST",
-            "price": 16
+            "price": "16"
           },
           {
             "name": "WHISKEY SOUR",
             "description": "CROWN ROYAL, LIME, EGG WHITES, BITTERS",
-            "price": 16
+            "price": "16"
           },
           {
             "name": "MOJITO",
             "description": "CHOICE OF LIME OR STRAWBERRY, CAPTAIN MORGAN SPICE RUM, SIMPLE SYRUP, MINT",
-            "price": 16
+            "price": "16"
           }
         ]
       }

@@ -4,22 +4,22 @@
     {
       "name": "HEINEKEN DRAFT (16OZ)",
       "description": "5.0% LAGER...NETHERLANDS",
-      "price": 8.5
+      "price": "8.50"
     },
     {
       "name": "ASAHI BTL (330ML)",
       "description": "5.2% LAGER…JAPAN",
-      "price": 7.5
+      "price": "7.50"
     },
     {
       "name": "HEINEKEN BTL (330ML)",
       "description": "5.0% LAGER...NETHERLANDS",
-      "price": 7.5
+      "price": "7.50"
     },
     {
       "name": "NEGRA MODELO BTL (355ML)",
       "description": "5.3% LAGER...MEXICO",
-      "price": 7.5
+      "price": "7.50"
     }
   ]
 }
