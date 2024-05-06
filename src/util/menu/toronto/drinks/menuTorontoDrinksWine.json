@@ -1,0 +1,77 @@
+{
+  "title": "Wine",
+  "wines": [
+    {
+      "wine_type_title": "white wine",
+      "wine_list": [
+        {
+          "brand": "STRACCALI PINOT GRIGIO 2020 | 13% ABV",
+          "price_6oz": 15,
+          "price_bottle": 55
+        },
+        {
+          "brand": "KIM CRAWFORD SAUVIGNON BLANC 13.5% ABV",
+          "price_6oz": 17,
+          "price_bottle": 65
+        },
+        {
+          "brand": "BAYWOOD CHARDONNAY | 13.5% ABV",
+          "price_6oz": 15,
+          "price_bottle": 55
+        },
+        {
+          "brand": "SONOMA-CUTRER RUSSIAN RIVER RANCHES CHARDONNAY | 14.2% ABV (750ML)",
+          "price_bottle": 65
+        }
+      ]
+    },
+    {
+      "wine_type_title": "red wine",
+      "wine_list": [
+        {
+          "brand": "BAYWOOD CABERNET SAUVIGNON | 14% ABV",
+          "price_6oz": 15,
+          "price_bottle": 55
+        },
+        {
+          "brand": "TENUTA DI MARTUCINO BAROLO 2016 | 14.5% ABV (750ML) 13.5% ABV",
+          "price_bottle": 125
+        },
+        {
+          "brand": "CARLOS BASSO 2020 MALBEC ‘DOS FINCAS’ 14% ABV",
+          "price_6oz": 15,
+          "price_bottle": 55
+        },
+        {
+          "brand": "CAYMUS NAPA VALLEY 2019 CABERNET SAUVIGNON | 14.5% ABV (750ML)",
+          "price_bottle": 345
+        },
+        {
+          "brand": "HEADWIND PINOT NOIR 2021 | 13.5% ABV",
+          "price_6oz": 16,
+          "price_bottle": 60
+        }
+      ]
+    },
+    {
+      "wine_type_title": "rose",
+      "wine_list": [
+        {
+          "brand": "JEAN-LUC COLOMBO ROSÉ 2018 | 12.5% ABV",
+          "price_6oz": 16,
+          "price_bottle": 60
+        }
+      ]
+    },
+    {
+      "wine_type_title": "sangria",
+      "wine_list": [
+        {
+          "brand": "LOLEA NO.1 SANGRIA",
+          "price_6oz": 15,
+          "price_bottle": 58
+        }
+      ]
+    }
+  ]
+}

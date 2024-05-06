@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import lobby_hamilton_menu from '@/public/assets/lobby_hamilton_menu.webp';
 
-const HamiltonMenuHeader = ({
+const MenuHeader = ({
   category,
   setCategory,
 }: {
@@ -41,4 +41,4 @@ const HamiltonMenuHeader = ({
   );
 };
 
-export default HamiltonMenuHeader;
+export default MenuHeader;

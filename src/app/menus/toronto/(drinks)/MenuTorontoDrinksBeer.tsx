@@ -1,15 +1,15 @@
-import menuHamiltonDrinksCocktails from '@/src/util/menu/hamilton/drinks/menuHamiltonDrinksCocktails.json';
+import menuTorontoDrinksBeer from '@/src/util/menu/toronto/drinks/menuTorontoDrinksBeer.json';
 
-const MenuHamiltonDrinksCocktails = () => {
-  const componentName = 'MENU_HAMILTON_DRINKS_COCKTAILS';
+const MenuHamiltonDrinksBeer = () => {
+  const componentName = 'MENU_TORONTO_DRINKS_BEERS';
   // console.log(menuHamiltonDrinksCocktails.cocktails);
   return (
     <div className={`${componentName}_MAIN_CONTAINER flex flex-col gap-8 pt-8`}>
       <h1 className={`text-[#c69a50] font-[300] tracking-tight`}>
-        {menuHamiltonDrinksCocktails.title}
+        {menuTorontoDrinksBeer.title}
       </h1>
       <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8'>
-        {menuHamiltonDrinksCocktails.cocktails.map((item, index) => {
+        {menuTorontoDrinksBeer.beers.map((item, index) => {
           return (
             <div
               key={index}
@@ -32,4 +32,4 @@ const MenuHamiltonDrinksCocktails = () => {
   );
 };
 
-export default MenuHamiltonDrinksCocktails;
+export default MenuHamiltonDrinksBeer;
