@@ -10,16 +10,18 @@ const MainSectionOne = () => {
       <div
         className={`${componentName}_IMG_CONTAINER h-full flex items-center`}
       >
-        <Image
-          src={main_section_one_img_smaller}
-          alt='Main Hero Menu Image One'
-          className='floating_container'
-          placeholder='blur'
-          priority
-          width={700}
-          height={700}
-          quality={10}
-        />
+        <div className='relative h-[40vh] w-full'>
+          <Image
+            src={main_section_one_img_smaller}
+            alt='Main Hero Menu Image One'
+            fill
+            sizes='100'
+            className='floating_container object-cover'
+            placeholder='blur'
+            priority
+            quality={10}
+          />
+        </div>
       </div>
       <div
         className={`${componentName}_CONTENT_CONTAINER flex flex-col items-center justify-center gap-8 h-full p-4 lg:p-12 text-center sm:min-h-[331px]`}

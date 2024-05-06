@@ -58,7 +58,7 @@ const MainGallery = () => {
             aria-label='Advantages Slider Navigation Dot'
             title='Navigation Dot'
             key={index}
-            className={`w-3 h-3 rounded-full bg-white border border-gray-300 ${
+            className={`w-4 h-4 rounded-full bg-white border border-gray-300 ${
               index === currentIndex ? 'bg-yellow-600' : ''
             }`}
             onClick={() => {

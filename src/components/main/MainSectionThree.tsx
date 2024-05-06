@@ -11,16 +11,17 @@ const MainSectionThree = () => {
         <div
           className={`${componentName}_IMG_CONTAINER h-full flex items-center order-2`}
         >
-          <Image
-            src={main_section_three_img}
-            alt='Main Hero Menu Image Three'
-            className='floating_container'
-            placeholder='blur'
-            priority
-            width={700}
-            height={700}
-            quality={10}
-          />
+          <div className='relative h-[40vh] w-full'>
+            <Image
+              src={main_section_three_img}
+              alt='Main Hero Menu Image Three'
+              fill
+              sizes='100'
+              className='floating_container object-cover'
+              placeholder='blur'
+              quality={10}
+            />
+          </div>
         </div>
         <div
           className={`${componentName}_CONTENT_CONTAINER flex flex-col items-center justify-center gap-8 h-full p-4 lg:p-12 text-center sm:min-h-[331px]`}
@@ -44,7 +45,9 @@ const MainSectionThree = () => {
           </a>
         </div>
       </div>
-      <div className={`${componentName}_SECOND_SECTION_DELICIOUS h-full flex flex-col justify-center items-center text-center gap-8 p-8 bg-[var(--main-bg-color)]`}>
+      <div
+        className={`${componentName}_SECOND_SECTION_DELICIOUS h-full flex flex-col justify-center items-center text-center gap-8 p-8 bg-[var(--main-bg-color)]`}
+      >
         <div
           className={`${componentName}_HEADINGS_CONTAINER text-3xl font-[700] tracking-widest flex flex-col items-center`}
         >

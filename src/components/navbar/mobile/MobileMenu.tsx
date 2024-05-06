@@ -64,7 +64,7 @@ const MobileMenu = ({
             </a>
           ))}
           <a
-            href='#'
+            href='/reservations'
             className={`${componentName}_NAVBAR_RESERVATION_BUTTON main_button`}
           >
             Reservations
