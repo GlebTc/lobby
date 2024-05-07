@@ -11,12 +11,21 @@
 }
 
 h1 {
-  @apply text-4xl sm:text-6xl font-[700] tracking-widest;
+  @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-[700] tracking-widest;
 }
 
-/* p {
-  @apply text-lg sm:text-2xl font-[500] text-center;
-} */
+h2 {
+  @apply font-[600] text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center
+}
+
+h3 {
+  @apply font-bold
+}
+
+.menu_price {
+  @apply text-[#c69a50] pl-4 font-bold;
+
+}
 
 .floating_container {
   @apply md:shadow-xl md:shadow-gray-400 md:rounded-lg;

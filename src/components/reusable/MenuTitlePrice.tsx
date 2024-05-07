@@ -4,21 +4,14 @@
 // MenuHamiltonFoodDesserts.tsx
 // MenuHamiltonFoodEntrees.tsx
 
-import { MenuTitleDescriptionPriceProps } from '@/src/util/types';
-
-const MenuTitleDescriptionPrice = ({
+const MenuTitlePrice = ({
   individual_menu_item_title,
-  individual_menu_item_description,
   individual_menu_item_price_one,
-}: MenuTitleDescriptionPriceProps) => {
+}: {individual_menu_item_title: string, individual_menu_item_price_one: string}) => {
   return (
     <div className='flex justify-between'>
-      <div>
-        <h3>{individual_menu_item_title}</h3>
-        <p className='text-gray-600 text-left'>
-          {individual_menu_item_description}
-        </p>
-      </div>
+      <h3>{individual_menu_item_title}</h3>
+
       <p className='menu_price'>
         ${individual_menu_item_price_one}
       </p>
@@ -26,4 +19,4 @@ const MenuTitleDescriptionPrice = ({
   );
 };
 
-export default MenuTitleDescriptionPrice;
+export default MenuTitlePrice;

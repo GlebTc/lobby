@@ -1,11 +1,7 @@
+========== To Do =========
+1. Add rounded to maps in locations.
+
 ========== Z-Index =========
 MainHeroVideo.tsx - VIDEO_CONTAINER - z-[-10]
 MainHeroVideo.tsx - TEXT_AND_BUTTON_CONTAINER - z-[-5]
 
-
-
-========== To Complete =========
-- Reservation Buttons Links or actuvate side menu
-
-========== Menu Display (data) =========
--

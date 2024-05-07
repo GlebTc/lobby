@@ -4,47 +4,47 @@
     {
       "name": "FLORENTINE EGGS BENEDICT",
       "description": "FARM-FRESH POACHED EGGS, BABY SPINACH ON TOASTED ENGLISH MUFFIN, SMOTHERED IN HOLLANDAISE SAUCE SERVED WITH HOME FRIED & FRESH GREENS",
-      "price": 20
+      "price": "20"
     },
     {
       "name": "SMOKED SALMON EGGS BENEDICT",
       "description": "FARM-FRESH POACHED EGGS, SMOKED SALMON ON TOASTED ENGLISH MUFFIN, SMOTHERED IN HOLLANDAISE SAUCE, SERVED WITH HOME FRIES AND FRESH GREENS",
-      "price": 21
+      "price": "21"
     },
     {
       "name": "SALMON & AVOCADO BAGEL",
       "description": "SMOKED SALMON SET ON A BED OF SLICED AVOCADO & TOASTED PLAIN BAGEL, GARNISHED WITH WHIPPED RICOTTA & MICRO BASIL, SERVED WITH FRESH GREENS.",
-      "price": 16
+      "price": "16"
     },
     {
       "name": "BLUEBERRY PANCAKES",
       "description": "HOUSE MADE PANCAKES, LAYERED WITH HONEY & ORANGE LABNEH, TOPPED WITH BLUEBERRY COMPOTE",
-      "price": 17
+      "price": "17"
     },
     {
       "name": "STEAK FRITES",
       "description": "ADD POACHED EGG +$3. GRILLED 6OZ AAA STRIPLOIN STEAK SERVED WITH TRIPLE COOKED FRITES AND FRESH GREENS",
-      "price": 25
+      "price": "25"
     },
     {
       "name": "FRITTATA ",
       "description": "LEEKS, ROASTED RED PEPPER, BRIE TOPPED WITH BLISTERED CHERRY TOMATOES & MICRO GREENS",
-      "price": 16
+      "price": "16"
     },
     {
       "name": "BREAKFAST BAGEL SANDWICH",
       "description": "SCRAMBLED EGGS ON A BED OF ARUGULA, SPICY MAYONNAISE & TOASTED BAGEL",
-      "price": 15
+      "price": "15"
     },
     {
       "name": "LOBBY SALAD ",
       "description": "ARUGULA & FRESH HERBS DRESSED IN A CITRUS VINAIGRETTE TOPPED WITH PARMESAN",
-      "price": 16
+      "price": "16"
     },
     {
       "name": "BOTTOMLESS MIMOSAS ",
       "description": "2OZ MIONETTO PROSECCO, YOUR CHOICE OF ORANGE, GRAPEFRUIT OR PINEAPPLE (2HR LIMIT)",
-      "price": 35
+      "price": "35"
     }
   ]
 }

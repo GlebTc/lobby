@@ -1,5 +1,6 @@
 import menuHamiltonDrinksZeroProof from '@/src/util/menu/hamilton/drinks/menuHamiltonDrinksZeroProof.json';
 import MenuTitleDescriptionPrice from '@/src/components/reusable/MenuTitleDescriptionPrice';
+import MenuTitlePrice from '@/src/components/reusable/MenuTitlePrice';
 
 const MenuHamiltonDrinksZeroProof = () => {
   const componentName = 'MENU_HAMILTON_DRINKS_ZERO_PROOF';
@@ -41,17 +42,11 @@ const MenuHamiltonDrinksZeroProof = () => {
           {menuHamiltonDrinksZeroProof.zeros.non_alcoholic.map(
             (item, index) => {
               return (
-                <div
+                <MenuTitlePrice
                   key={index}
-                  className='flex justify-between'
-                >
-                  <div>
-                    <h2 className='font-bold'>{item.name}</h2>
-                  </div>
-                  <p className='text-[#c69a50] pl-4 font-semibold'>
-                    ${item.price}
-                  </p>
-                </div>
+                  individual_menu_item_title={item.name}
+                  individual_menu_item_price_one={item.price}
+                />
               );
             }
           )}
@@ -67,17 +62,11 @@ const MenuHamiltonDrinksZeroProof = () => {
         >
           {menuHamiltonDrinksZeroProof.zeros.coffee.map((coffee, index) => {
             return (
-              <div
+              <MenuTitlePrice
                 key={index}
-                className='flex justify-between'
-              >
-                <div>
-                  <h2 className='font-bold'>{coffee.name}</h2>
-                </div>
-                <p className='text-[#c69a50] pl-4 font-semibold'>
-                  ${coffee.price}
-                </p>
-              </div>
+                individual_menu_item_title={coffee.name}
+                individual_menu_item_price_one={coffee.price}
+              />
             );
           })}
         </div>
