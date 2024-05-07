@@ -6,6 +6,8 @@
   --main-bg-color: #e0d5c2;
   --main-text-color: #e09900;
   --main-duration: 0.5s;
+  --top-bar-h: 41px;
+  --menu-bar-h: 65px;
 }
 
 h1 {
