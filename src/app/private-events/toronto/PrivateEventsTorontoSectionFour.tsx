@@ -22,12 +22,15 @@ const PrivateEventsTorontoSectionFour = () => {
       <div
         className={`${componentName}_IMAGE_CONTAINER h-full flex items-center md:p-4`}
       >
-        <div className='relative h-[40dvh] w-full'>
+        <div className='relative h-[40dvh] md:h-[50dvh] w-full'>
           <Image
             src={private_events_toronto_one}
             alt='Private Events Toronto'
             fill
-            className='object-cover floating_container'
+            sizes='100'
+            className='floating_container object-cover'
+            placeholder='blur'
+            priority
             quality={10}
           />
         </div>

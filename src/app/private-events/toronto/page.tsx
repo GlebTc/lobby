@@ -7,7 +7,7 @@ import PrivateEventsTorontoSectionFour from './PrivateEventsTorontoSectionFour';
 const PrivateEventsToronto = () => {
   const componentName = 'PRIVATE_EVENTS_TORONTO';
   return (
-    <div className={`${componentName}_MAIN_CONTAINER`}>
+    <div className={`${componentName}_MAIN_CONTAINER flex flex-col md:gap-8`}>
       <PrivateEventsTorontoMainHero />
       <PrivateEventsTorontoSectionOne />
       <PrivateEventsTorontoSectionTwo />
