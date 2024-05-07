@@ -29,10 +29,13 @@ const NavMobile = () => {
         className='max-h-[60%] w-auto object-contain'
         priority
       />
-      <FaCalendarAlt
-        size={25}
-        className='text-3xl cursor-pointer hover:scale-105 duration-[var(--main-duration)]'
-      />
+      <a href='/reservations'>
+        {' '}
+        <FaCalendarAlt
+          size={25}
+          className='text-3xl cursor-pointer hover:scale-105 duration-[var(--main-duration)]'
+        />
+      </a>
 
       <MobileMenu
         mobileMenu={mobileMenu}
