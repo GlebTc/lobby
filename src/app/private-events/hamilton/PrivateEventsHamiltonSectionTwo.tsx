@@ -1,34 +1,32 @@
 import Image from 'next/image';
-import private_events_toronto_three from '@/public/assets/private_events_toronto_three.webp';
+import private_events_hamilton_three from '@/public/assets/private_events_hamilton_three.webp';
 import { FaCheck } from 'react-icons/fa';
 
-const PrivateEventsTorontoSectionTwo = () => {
-  const componentName = 'PRIVATE_EVENTS_TORONTO_SECTION_TWO';
+const PrivateEventsHamiltonSectionTwo = () => {
+  const componentName = 'PRIVATE_EVENTS_HAMILTON_SECTION_TWO';
   return (
     <div
       className={`${componentName}_MAIN_CONTAINER grid md:grid-cols-2 h-full`}
     >
       <div className={`${componentName}_MAIN_CONTENT_CONTAINER p-4`}>
-        <h1 className='pb-4'>The Mezzanine</h1>
-        <p>
-          The Mezzanine provides an elevated landing overlooking the main venue,
-          designed with style and comfort in mind. Ideal for business socials
-          and intimate special occasions.
-        </p>
+        <h1 className='pb-4'>Patio</h1>
+
         <p className='mb-4'>
-          Personalized menu options, private service staff, and optional Bottle
-          Service packages ensure a tailored experience for every event hosted
-          in this chic semi-private space.
+        Surrounded by the vibrant energy of the city, this outdoor oasis is ideal for those who relish al fresco events. Embrace the natural charm of our Patio for an intimate or lively gathering beneath the open skies.
         </p>
         <p className='mb-4'>Capacity:</p>
         <ul>
-          <li className='flex items-center gap-2'>
+        <li className='flex items-center gap-2'>
             <FaCheck />
-            <p>50 cocktail reception</p>
+            <p>2,800 sq ft</p>
           </li>
           <li className='flex items-center gap-2'>
             <FaCheck />
-            <p>25 seated</p>
+            <p>180 cocktail reception</p>
+          </li>
+          <li className='flex items-center gap-2'>
+            <FaCheck />
+            <p>80 seated</p>
           </li>
         </ul>
       </div>
@@ -37,8 +35,8 @@ const PrivateEventsTorontoSectionTwo = () => {
       >
         <div className='relative h-[40dvh] md:h-[50dvh] w-full'>
           <Image
-            src={private_events_toronto_three}
-            alt='Private Events Toronto'
+            src={private_events_hamilton_three}
+            alt='Private Events Hamilton'
             fill
             sizes='100'
             className='floating_container object-cover'
@@ -52,4 +50,4 @@ const PrivateEventsTorontoSectionTwo = () => {
   );
 };
 
-export default PrivateEventsTorontoSectionTwo;
+export default PrivateEventsHamiltonSectionTwo;

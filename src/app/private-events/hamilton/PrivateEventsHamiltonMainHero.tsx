@@ -1,16 +1,16 @@
 import Image from 'next/image';
-import private_events_toronto_one from '@/public/assets/private_events_toronto_one.webp';
+import private_events_hamilton_one from '@/public/assets/private_events_hamilton_one.webp';
 
-const PrivateEventsTorontoMainHero = () => {
-  const componentName = 'PRIVATE_EVENTS_TORONTO_MAIN_HERO';
+const PrivateEventsHamiltonMainHero = () => {
+  const componentName = 'PRIVATE_EVENTS_HAMILTON_MAIN_HERO';
   return (
     <div className={`${componentName}_MAIN_CONTAINER`}>
       <div
         className={`${componentName}_IMAGE_CONTAINER relative h-[40dvh] md:h-[60dvh] lg:h-[calc(100dvh-var(--top-bar-h)-var(--menu-bar-h))] w-full`}
       >
         <Image
-          src={private_events_toronto_one}
-          alt='Private Events Toronto'
+          src={private_events_hamilton_one}
+          alt='Private Events Hamilton'
           fill
           className='object-cover'
           quality={10}
@@ -21,14 +21,13 @@ const PrivateEventsTorontoMainHero = () => {
         >
           <h1>Private Groups & Corporate Events</h1>
           <p>
-            We host private parties, groups and corporate events at the lobby
-            Toronto venue
+          The lobby Hamilton venue is perfect for private groups, parties and corporate events
           </p>
           <a
             href='#'
             className='secondary_button'
           >
-            reservations
+            inquire now
           </a>
         </div>
       </div>
@@ -36,4 +35,4 @@ const PrivateEventsTorontoMainHero = () => {
   );
 };
 
-export default PrivateEventsTorontoMainHero;
+export default PrivateEventsHamiltonMainHero;
