@@ -5,7 +5,7 @@ import private_events_hamilton_two from '@/public/assets/private_events_hamilton
 import private_events_toronto_two from '@/public/assets/private_events_toronto_two.webp';
 
 const Reservations = () => {
-  const componentName = 'MENS';
+  const componentName = 'RSERVATIONS';
   const [torontoButton, setTorontoButton] = useState(false);
   const [hamiltonButton, setHamiltonButton] = useState(false);
 
