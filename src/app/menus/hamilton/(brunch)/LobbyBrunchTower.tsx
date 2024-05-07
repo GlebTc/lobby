@@ -7,8 +7,8 @@ const LobbyBrunchTower = () => {
       <div className={`${componentName}_BRUNCH_TOWER_CONTAINER`}>
         <div>
           <div className='flex justify-center'>
-            <h2 className='font-bold'>Lobby Brunch tower</h2>
-            <p className='text-[#c69a50] font-semibold min-w-[150px]'>
+            <h3>Lobby Brunch tower</h3>
+            <p className='text-[#c69a50] font-bold min-w-[150px]'>
               $140 | half $75
             </p>
           </div>
@@ -27,7 +27,7 @@ const LobbyBrunchTower = () => {
         <div
           className={`${componentName}_TIER_ONE flex flex-col items-center w-full`}
         >
-          <h2 className='font-bold'>BOTTOM TIER</h2>
+          <h3 className='font-bold'>BOTTOM TIER</h3>
           <p className='text-gray-600'>
             BLUEBERRY PANCAKES, CROQUETTES, SCRAMBLED EGGS, TURKEY SAUSAGE
           </p>
@@ -35,7 +35,7 @@ const LobbyBrunchTower = () => {
         <div
           className={`${componentName}_TIER_TWO flex flex-col items-center w-full`}
         >
-          <h2 className='font-bold'>MIDDLE TIER</h2>
+          <h3 className='font-bold'>MIDDLE TIER</h3>
           <p className='text-gray-600'>
             EGGS FLORENTINE, SMOKED SALMON & AVOCADO BAGELS, HONEY & ORANGE
             LABNEH, GRANOLA
@@ -44,7 +44,7 @@ const LobbyBrunchTower = () => {
         <div
           className={`${componentName}_TIER_THREE flex flex-col items-center w-full`}
         >
-          <h2 className='font-bold'>TOP TIER</h2>
+          <h3 className='font-bold'>TOP TIER</h3>
           <p className='text-gray-600'>SEASONAL FRUIT</p>
         </div>
       </div>

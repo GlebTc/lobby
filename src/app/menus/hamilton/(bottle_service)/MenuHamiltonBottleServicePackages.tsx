@@ -4,9 +4,7 @@ const MenuHamiltonBottleServicePackages = () => {
   const componentName = 'MENU_HAMILTON_BOTTLE_SERVICE_PACKAGES';
   return (
     <div>
-      <h2
-        className={`text-[#c69a50] font-[300] tracking-tight text-4xl text-center border-b-2 my-4 pb-4`}
-      >
+      <h2 className={`text-[#c69a50] tracking-tight border-b-2 my-4 pb-4`}>
         {menuHamiltonBottleServicePackages.title}
       </h2>
       <div className='grid md:grid-cols-2 gap-4 md:gap-8'>
@@ -17,7 +15,7 @@ const MenuHamiltonBottleServicePackages = () => {
               className={`${componentName}_PACKAGE_HEADING_AND_LIST_CONTAINER flex justify-between`}
             >
               <div>
-                <h2 className='font-bold'>{item.name}</h2>
+                <h3>{item.name}</h3>
                 <p className='text-gray-600 text-left'>
                   {item.description_one}
                 </p>
@@ -36,7 +34,9 @@ const MenuHamiltonBottleServicePackages = () => {
           );
         })}
       </div>
-      <p className='text-center text-gray-400'>20% gratuity will be included for parties of 7 or larger</p>
+      <p className='text-center text-gray-400'>
+        20% gratuity will be included for parties of 7 or larger
+      </p>
     </div>
   );
 };

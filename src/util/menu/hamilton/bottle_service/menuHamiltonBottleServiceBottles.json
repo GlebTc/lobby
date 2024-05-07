@@ -6,19 +6,19 @@
       "bottle_list": [
         {
           "name": "Grey Goose",
-          "price": 290
+          "price": "290"
         },
         {
           "name": "Grey Goose 1.75L",
-          "price": 675
+          "price": "675"
         },
         {
           "name": "Grey Goose 3L",
-          "price": 1050
+          "price": "1050"
         },
         {
           "name": "Ciroc Flavours",
-          "price": 300
+          "price": "300"
         }
       ]
     },
@@ -27,35 +27,35 @@
       "bottle_list": [
         {
           "name": "CAZADORES BLANCO",
-          "price": 270
+          "price": "270"
         },
         {
           "name": "Patron Silver",
-          "price": 320
+          "price": "320"
         },
         {
           "name": "Patron Reposado",
-          "price": 350
+          "price": "350"
         },
         {
           "name": "Patron El Cielo",
-          "price": 750
+          "price": "750"
         },
         {
           "name": "casamigos blanco",
-          "price": 360
+          "price": "360"
         },
         {
           "name": "casamigos reposado",
-          "price": 400
+          "price": "400"
         },
         {
           "name": "don julio 1942",
-          "price": 950
+          "price": "950"
         },
         {
           "name": "clase azul 1L",
-          "price": 1000
+          "price": "1000"
         }
       ]
     },
@@ -64,11 +64,11 @@
       "bottle_list": [
         {
           "name": "bombay",
-          "price": 260
+          "price": "260"
         },
         {
           "name": "Hendricks",
-          "price": 290
+          "price": "290"
         }
       ]
     },
@@ -77,20 +77,20 @@
       "bottle_list": [
         {
           "name": "Jack Daniels",
-          "price": 270
+          "price": "270"
         },
         {
           "name": "Jameson",
-          "price": 270
+          "price": "270"
         },
 
         {
           "name": "Johnnie Walker Black",
-          "price": 320
+          "price": "320"
         },
         {
           "name": "Johnnie Walker Blue",
-          "price": 1000
+          "price": "1000"
         }
       ]
     },
@@ -99,15 +99,15 @@
       "bottle_list": [
         {
           "name": "Remy Martin VSOP",
-          "price": 370
+          "price": "370"
         },
         {
           "name": "Remy Martin XO",
-          "price": 900
+          "price": "900"
         },
         {
           "name": "Hennessy VS",
-          "price": 350
+          "price": "350"
         }
       ]
     },
@@ -116,11 +116,11 @@
       "bottle_list": [
         {
           "name": "Bacardi White",
-          "price": 270
+          "price": "270"
         },
         {
           "name": "Bacardi Spiced",
-          "price": 270
+          "price": "270"
         }
       ]
     },
@@ -129,27 +129,27 @@
       "bottle_list": [
         {
           "name": "Lux Belaire",
-          "price": 270
+          "price": "270"
         },
         {
           "name": "Moet Chandon",
-          "price": 320
+          "price": "320"
         },
         {
           "name": "Moet Chandon Rose",
-          "price": 350
+          "price": "350"
         },
         {
           "name": "Veuve Clicquot",
-          "price": 350
+          "price": "350"
         },
         {
           "name": "Dom Perignon Brut",
-          "price": 800
+          "price": "800"
         },
         {
           "name": "Ace of Spades",
-          "price": 1000
+          "price": "1000"
         }
       ]
     }

@@ -21,7 +21,7 @@ const locationsToronto = () => {
       <div
         className={`${componentName}_INFO_CONTAINER absolute top-0 left-0 h-full w-full flex flex-col gap-8 px-4 justify-start items-center mt-8 text-[#02242D]`}
       >
-        <h1 className='text-6xl font-[900]'>Toronto</h1>
+        <h1 className='font-[900]'>Toronto</h1>
         <p className='text-2xl font-[900] flex items-censtartter gap-2'>
           <FaLocationDot /> 1032 Queen St W, Toronto, ON M6J 1H7
         </p>
