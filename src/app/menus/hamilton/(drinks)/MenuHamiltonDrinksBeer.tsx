@@ -1,4 +1,5 @@
 import menuHamiltonDrinksBeer from '@/src/util/menu/hamilton/drinks/menuHamiltonDrinksBeer.json';
+import MenuTwoOptions from '@/src/components/reusable/MenuTwoOptions';
 
 const MenuHamiltonDrinksBeer = () => {
   const componentName = 'MENU_HAMILTON_DRINKS_BEER';
@@ -38,10 +39,10 @@ const MenuHamiltonDrinksBeer = () => {
                     {draught_type.draught_list.map((beer, index) => (
                       <tr key={index}>
                         <td>
-                          <h4 className='text-left'>{beer.brand}</h4>
+                          <p className='text-left'>{beer.brand}</p>
                         </td>
-                        <td>${beer.price_20}</td>
-                        <td>${beer.price_16}</td>
+                        <td className='menu_price'>${beer.price_20}</td>
+                        <td className='menu_price'>${beer.price_16}</td>
                       </tr>
                     ))}
                   </tbody>
@@ -81,9 +82,9 @@ const MenuHamiltonDrinksBeer = () => {
                       {bottle_cans_type.bottles_cans_list.map((beer, index) => (
                         <tr key={index}>
                           <td>
-                            <h4 className='text-left'>{beer.brand}</h4>
+                            <p className='text-left'>{beer.brand}</p>
                           </td>
-                          <td>${beer.price}</td>
+                          <td className='menu_price'>${beer.price}</td>
                         </tr>
                       ))}
                     </tbody>

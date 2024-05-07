@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 import MenuTorontoDrinksMain from '@/src/app/menus/toronto/(drinks)/MenuTorontoDrinksMain';
-
+import MenuTorontoFoodMain from '@/src/app/menus/toronto/(food)/MenuTorontoFoodMain';
 import MenuHeader from '@/src/app/menus/MenuHeader';
 
 const menusHamilton = () => {
@@ -18,8 +18,8 @@ const menusHamilton = () => {
         setCategory={setCategory}
       />
       {category === 'drinks' && <MenuTorontoDrinksMain />}
-      {/* {category === 'food' && <MenuHamiltonFoodMain />}
-      {category === 'brunch' && <MenuHamiltonBrunchMain />}
+      {category === 'food' && <MenuTorontoFoodMain />}
+      {/* {category === 'brunch' && <MenuHamiltonBrunchMain />}
       {category === 'bottle service' && <MenuHamiltonBottlServiceMain />} */}
     </div>
   );
