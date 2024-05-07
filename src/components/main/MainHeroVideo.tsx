@@ -24,10 +24,10 @@ const MainHeroVideo = () => {
         className={`${componentName}_TEXT_AND_BUTTON_CONTAINER absolute top-0 left-0 w-[100%] h-[100%] flex flex-col gap-4 justify-center items-center text-white bg-gray-950/30 text-center`}
       >
         <h1>Pure Delight</h1>
-        <p>Vibrant Moments and Incredible Nights</p>
+        <p className="text-white pb-8">Vibrant Moments and Incredible Nights</p>
         <a
           href='#'
-          className='secondary_button'
+          className='secondary_button animate-bounce'
         >
           reservations
         </a>

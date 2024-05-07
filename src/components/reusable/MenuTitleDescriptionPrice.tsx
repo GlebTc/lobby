@@ -15,7 +15,7 @@ const MenuTitleDescriptionPrice = ({
     <div className='flex justify-between'>
       <div>
         <h3>{individual_menu_item_title}</h3>
-        <p className='text-gray-600 text-left'>
+        <p className='text-left'>
           {individual_menu_item_description}
         </p>
       </div>

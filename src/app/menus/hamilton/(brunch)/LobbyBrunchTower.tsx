@@ -12,7 +12,7 @@ const LobbyBrunchTower = () => {
               $140 | half $75
             </p>
           </div>
-          <p className='text-gray-600'>
+          <p>
             CAN'T DECIDE WHAT TO HAVE? HAVE IT ALL ON OUR SIGNATURE THREE TIER
             BRUNCH TOWER (SERVES 2-4)
           </p>
@@ -28,15 +28,13 @@ const LobbyBrunchTower = () => {
           className={`${componentName}_TIER_ONE flex flex-col items-center w-full`}
         >
           <h3 className='font-bold'>BOTTOM TIER</h3>
-          <p className='text-gray-600'>
-            BLUEBERRY PANCAKES, CROQUETTES, SCRAMBLED EGGS, TURKEY SAUSAGE
-          </p>
+          <p>BLUEBERRY PANCAKES, CROQUETTES, SCRAMBLED EGGS, TURKEY SAUSAGE</p>
         </div>
         <div
           className={`${componentName}_TIER_TWO flex flex-col items-center w-full`}
         >
           <h3 className='font-bold'>MIDDLE TIER</h3>
-          <p className='text-gray-600'>
+          <p>
             EGGS FLORENTINE, SMOKED SALMON & AVOCADO BAGELS, HONEY & ORANGE
             LABNEH, GRANOLA
           </p>
@@ -45,7 +43,7 @@ const LobbyBrunchTower = () => {
           className={`${componentName}_TIER_THREE flex flex-col items-center w-full`}
         >
           <h3 className='font-bold'>TOP TIER</h3>
-          <p className='text-gray-600'>SEASONAL FRUIT</p>
+          <p>SEASONAL FRUIT</p>
         </div>
       </div>
     </div>

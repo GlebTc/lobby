@@ -7,3 +7,6 @@
 - Inconcistency in package descriptions (some have 1X, some don't)
 - I want change main page video to full size at all screens
   - Might need to add a message below it in between video and "lobby" image
+- Prices are missing from food section Toronto
+- The menu items are in different order between locations
+- ***SUGGESTION*** Menu should be more consistent bewteen locations, for example desserts
