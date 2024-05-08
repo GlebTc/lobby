@@ -1,5 +1,6 @@
 ========== To Do =========
 1. Add rounded to maps in locations.
+2. Check all the links for labels and titles
 
 ========== Z-Index =========
 MainHeroVideo.tsx - VIDEO_CONTAINER - z-[-10]

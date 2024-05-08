@@ -38,7 +38,7 @@ const MainSectionOne = () => {
           into an experience.
         </p>
         <a
-          href='#'
+          href='/menus'
           className={`${componentName}_NAVBAR_RESERVATION_BUTTON main_button`}
         >
           view menu
