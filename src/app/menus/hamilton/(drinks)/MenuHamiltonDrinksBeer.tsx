@@ -1,5 +1,4 @@
 import menuHamiltonDrinksBeer from '@/src/util/menu/hamilton/drinks/menuHamiltonDrinksBeer.json';
-import MenuTwoOptions from '@/src/components/reusable/MenuTwoOptions';
 
 const MenuHamiltonDrinksBeer = () => {
   const componentName = 'MENU_HAMILTON_DRINKS_BEER';
