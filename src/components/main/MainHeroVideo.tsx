@@ -26,7 +26,7 @@ const MainHeroVideo = () => {
         <h1>Pure Delight</h1>
         <p className="text-white pb-8">Vibrant Moments and Incredible Nights</p>
         <a
-          href='#'
+          href='/reservations'
           className='secondary_button animate-bounce'
         >
           reservations

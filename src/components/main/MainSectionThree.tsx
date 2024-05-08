@@ -38,7 +38,7 @@ const MainSectionThree = () => {
             destinations.
           </p>
           <a
-            href='#'
+            href='/menus'
             className={`${componentName}_NAVBAR_RESERVATION_BUTTON main_button`}
           >
             view menu
@@ -58,7 +58,7 @@ const MainSectionThree = () => {
           masterpieces designed to elevate your dining experience.
         </p>
         <a
-          href='#'
+          href='/menus'
           className={`${componentName}_NAVBAR_RESERVATION_BUTTON main_button`}
         >
           view menu

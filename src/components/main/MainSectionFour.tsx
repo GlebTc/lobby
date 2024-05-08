@@ -32,7 +32,7 @@ const MainSectionFour = () => {
           menu is a celebration of weekend indulgence
         </p>
         <a
-          href='#'
+          href='/menus'
           className={`${componentName}_NAVBAR_RESERVATION_BUTTON main_button`}
         >
           explore menu
@@ -62,7 +62,7 @@ const MainSectionFour = () => {
           ambiance.
         </p>
         <a
-          href='#'
+          href='/menus'
           className={`${componentName}_NAVBAR_RESERVATION_BUTTON main_button`}
         >
           explore menu

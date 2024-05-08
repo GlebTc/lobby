@@ -31,7 +31,7 @@ const MainSectionTwo = () => {
           experience at Lobby.
         </p>
         <a
-          href='#'
+          href='/reservations'
           className='secondary_button'
         >
           reserve now
