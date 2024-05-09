@@ -9,4 +9,5 @@
   - Might need to add a message below it in between video and "lobby" image
 - Prices are missing from food section Toronto
 - The menu items are in different order between locations
+- Separate the main hero video with next section with another message
 - ***SUGGESTION*** Menu should be more consistent bewteen locations, for example desserts
