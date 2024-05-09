@@ -34,7 +34,7 @@ const Reservations = () => {
             src={private_events_toronto_two}
             alt='Private Events Hamilton'
             fill
-            className='object-cover opacity-40 z-[-1]'
+            className='object-cover opacity-40 z-[-1] rounded-lg'
             quality={10}
             priority
             sizes='auto'
@@ -62,7 +62,7 @@ const Reservations = () => {
             src={private_events_hamilton_two}
             alt='Private Events Hamilton'
             fill
-            className='object-cover opacity-40 z-[-1]'
+            className='object-cover opacity-40 z-[-1] rounded-lg'
             quality={10}
             priority
             sizes='auto'
