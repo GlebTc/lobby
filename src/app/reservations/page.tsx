@@ -29,7 +29,7 @@ const Reservations = () => {
             : `${componentName}_TORONTO_SLIDE_IN_BUTTON_CLOSED MOBILE_MENU absolute opacity-0 right-[-100%] top-[5%] w-[100%] h-[30dvh] ease-in duration-[var(--main-duration)]`
         }`}
       >
-        <div className='text-lg font-[700] px-2 py-1  text-black border-[1px] border-[var(--main-bg-color)] w-[98dvw] md:w-[50dvw] mx-auto h-full flex flex-col gap-4 justify-center items-center rounded-lg relative group shadow-lg shadow-[var(--main-text-color)]'>
+        <div className='text-lg font-[700] px-2 py-1  text-black border-[1px] border-[var(--main-bg-color)] w-[98dvw] md:w-[70dvw] lg:w-[60dvw] mx-auto h-full flex flex-col gap-4 justify-center items-center rounded-lg relative group shadow-lg shadow-[var(--main-text-color)]'>
           <Image
             src={private_events_toronto_two}
             alt='Private Events Hamilton'
@@ -57,7 +57,7 @@ const Reservations = () => {
             : `${componentName}_HAMILTON_SLIDE_IN_BUTTON_CLOSED MOBILE_MENU absolute opacity-0 left-[-100%] top-[55%] w-[100%] h-[30dvh] ease-in duration-[var(--main-duration)]`
         }`}
       >
-        <div className='text-lg font-[700] px-2 py-1  text-black border-[1px] border-[var(--main-bg-color)] w-[98dvw] md:w-[50dvw] mx-auto h-full flex flex-col gap-4 justify-center items-center rounded-lg relative group shadow-lg shadow-[var(--main-text-color)]'>
+        <div className='text-lg font-[700] px-2 py-1  text-black border-[1px] border-[var(--main-bg-color)] w-[98dvw] md:w-[70dvw] lg:w-[60dvw] mx-auto h-full flex flex-col gap-4 justify-center items-center rounded-lg relative group shadow-lg shadow-[var(--main-text-color)]'>
           <Image
             src={private_events_hamilton_two}
             alt='Private Events Hamilton'
