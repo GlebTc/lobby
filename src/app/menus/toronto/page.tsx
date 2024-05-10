@@ -4,6 +4,7 @@ import MenuTorontoDrinksMain from '@/src/app/menus/toronto/(drinks)/MenuTorontoD
 import MenuTorontoFoodMain from '@/src/app/menus/toronto/(food)/MenuTorontoFoodMain';
 import MenuHeader from '@/src/app/menus/MenuHeader';
 import MenuTorontoBrunchMain from './(brunch)/MenuTorontoBrunchMain';
+import MenuTorontoBottlServiceMain from './(bottle_service)/MenuTorontoBottleServiceMain';
 
 const menusHamilton = () => {
   const componentName = 'MENUS_TORONTO';
@@ -21,7 +22,7 @@ const menusHamilton = () => {
       {category === 'drinks' && <MenuTorontoDrinksMain />}
       {category === 'food' && <MenuTorontoFoodMain />}
       {category === 'brunch' && <MenuTorontoBrunchMain />}
-      {/* {category === 'bottle service' && <MenuHamiltonBottlServiceMain />} */}
+      {category === 'bottle service' && <MenuTorontoBottlServiceMain />}
     </div>
   );
 };

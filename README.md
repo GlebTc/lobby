@@ -12,4 +12,6 @@
 - Separate the main hero video with next section with another message
 - I would remove image carousel from locations
 - Prices are not in order
+- Bottle service format is inconcistent
+- Should the mimosas and gratuity footnotes appear everywhere?
 - ***SUGGESTION*** Menu should be more consistent bewteen locations, for example desserts
