@@ -3,6 +3,7 @@ import MenuTorontoBrunchTower from '@/src/app/menus/toronto/(brunch)/MenuToronto
 import MenuTorontoBrunchMenu from '@/src/app/menus/toronto/(brunch)/MenuTorontoBrunchMenu';
 import MenuHamiltonFoodDesserts from '@/src/app/menus/hamilton/(food)/MenuHamiltonFoodDesserts';
 import MenuHotBeverages from '@/src/app/menus/(reusable)/MenuHotBeverages';
+import MimosasFootNote from '@/src/app/menus/(reusable)/MimosasFootNote';
 
 const MenuTorontoBrunchMain = () => {
   const componentName = 'MENU_TORONTO_BRUNCH_MAIN';
@@ -21,9 +22,7 @@ const MenuTorontoBrunchMain = () => {
       </div>
       <MenuHamiltonFoodDesserts />
       <MenuHotBeverages />
-      <p className='text-center text-gray-400'>
-        20% gratuity will be included for parties of 7 or larger
-      </p>
+      <MimosasFootNote />
     </div>
   );
 };

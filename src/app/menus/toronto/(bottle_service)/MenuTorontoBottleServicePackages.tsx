@@ -1,14 +1,14 @@
-import menuHamiltonBottleServicePackages from '@/src/util/menu/hamilton/bottle_service/menuHamiltonBottleServicePackages.json';
+import menuTorontoBottleServicePackages from '@/src/util/menu/toronto/bottle_service/menuTorontoBottleServicePackages.json';
 
-const MenuHamiltonBottleServicePackages = () => {
-  const componentName = 'MENU_HAMILTON_BOTTLE_SERVICE_PACKAGES';
+const MenuTorontoBottleServicePackages = () => {
+  const componentName = 'MENU_Toronto_BOTTLE_SERVICE_PACKAGES';
   return (
     <div>
       <h2 className={`text-[#c69a50] tracking-tight border-b-2 my-4 pb-4`}>
-        {menuHamiltonBottleServicePackages.title}
+        {menuTorontoBottleServicePackages.title}
       </h2>
       <div className='grid md:grid-cols-2 gap-4 md:gap-8'>
-        {menuHamiltonBottleServicePackages.packages.map((item, index) => {
+        {menuTorontoBottleServicePackages.packages.map((item, index) => {
           return (
             <div
               key={index}
@@ -34,8 +34,11 @@ const MenuHamiltonBottleServicePackages = () => {
           );
         })}
       </div>
+      <p className='text-center text-gray-400'>
+        20% gratuity will be included for parties of 7 or larger
+      </p>
     </div>
   );
 };
 
-export default MenuHamiltonBottleServicePackages;
+export default MenuTorontoBottleServicePackages;

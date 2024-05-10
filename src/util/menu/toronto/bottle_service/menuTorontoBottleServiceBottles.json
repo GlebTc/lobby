@@ -1,0 +1,231 @@
+{
+  "title": "bottle service",
+  "bottles": [
+    {
+      "bottle_title": "vodka",
+      "bottle_list": [
+        {
+          "name": "Grey Goose",
+          "price": "320"
+        },
+        {
+          "name": "White Claw Original",
+          "price": "320"
+        },
+        {
+          "name": "White Claw Mango",
+          "price": "320"
+        },
+        {
+          "name": "Ciroc Original",
+          "price": "320"
+        },
+        {
+          "name": "Ciroc Red Berry",
+          "price": "320"
+        },
+        {
+          "name": "Ciroc Peach",
+          "price": "320"
+        },
+        {
+          "name": "Ciroc Coconut",
+          "price": "320"
+        },
+        {
+          "name": "Ciroc Pineapple",
+          "price": "320"
+        },
+        {
+          "name": "Ciroc Mango",
+          "price": "320"
+        }
+      ]
+    },
+    {
+      "bottle_title": "Vodka Large Format",
+      "bottle_list": [
+        {
+          "name": "Belvedere 1.75L",
+          "price": "700"
+        },
+        {
+          "name": "Grey Goose 1.75L",
+          "price": "700"
+        },
+        {
+          "name": "Grey Goose 3L",
+          "price": "1250"
+        }
+      ]
+    },
+    {
+      "bottle_title": "tequila",
+      "bottle_list": [
+        {
+          "name": "Tromba Blanco",
+          "price": "320"
+        },
+        {
+          "name": "Tromba Reposado",
+          "price": "350"
+        },
+        {
+          "name": "Patron Silver",
+          "price": "350"
+        },
+        {
+          "name": "Patron Reposado",
+          "price": "400"
+        },
+        {
+          "name": "Patron El Cielo",
+          "price": "800"
+        },
+        {
+          "name": "Casamigo Blanco",
+          "price": "380"
+        },
+        {
+          "name": "Casamigo Reposado",
+          "price": "420"
+        },
+        {
+          "name": "Casamigo Anejo",
+          "price": "450"
+        },
+        {
+          "name": "Cincoro Anejo",
+          "price": "900"
+        },
+        {
+          "name": "Don Julio 1942",
+          "price": "950"
+        },
+        {
+          "name": "Clase Azul",
+          "price": "1000"
+        }
+      ]
+    },
+    {
+      "bottle_title": "gin",
+      "bottle_list": [
+        {
+          "name": "Hendricks",
+          "price": "300"
+        },
+        {
+          "name": "bombay",
+          "price": "280"
+        },
+        {
+          "name": "Botanist",
+          "price": "320"
+        },
+        {
+          "name": "Tanqueray",
+          "price": "280"
+        }
+      ]
+    },
+    {
+      "bottle_title": "whiskey / scotch",
+      "bottle_list": [
+        {
+          "name": "Jack Daniels",
+          "price": "280"
+        },
+        {
+          "name": "Crowne Royal",
+          "price": "280"
+        },
+
+        {
+          "name": "Jameson",
+          "price": "280"
+        },
+        {
+          "name": "Johnnie Walker Blue",
+          "price": "1000"
+        }
+      ]
+    },
+    {
+      "bottle_title": "cognac",
+      "bottle_list": [
+        {
+          "name": "Hennessy VS",
+          "price": "350"
+        },
+        {
+          "name": "Hennessy VSOP",
+          "price": "440"
+        },
+
+        {
+          "name": "Remy Martin VSOP",
+          "price": "400"
+        },
+        {
+          "name": "Dusse",
+          "price": "480"
+        }
+      ]
+    },
+    {
+      "bottle_title": "rum",
+      "bottle_list": [
+        {
+          "name": "Bacardi Spiced",
+          "price": "280"
+        },
+        {
+          "name": "Captain Morgan White",
+          "price": "280"
+        },
+        {
+          "name": "Bacardi 8",
+          "price": "320"
+        },
+        {
+          "name": "Bumbu Craft",
+          "price": "320"
+        }
+      ]
+    },
+    {
+      "bottle_title": "champagne",
+      "bottle_list": [
+        {
+          "name": "Mionetto Prosecco",
+          "price": "95"
+        },
+        {
+          "name": "Lux Belaire",
+          "price": "280"
+        },
+        {
+          "name": "Moet Chandon",
+          "price": "350"
+        },
+        {
+          "name": "Moet Chandon Rose",
+          "price": "370"
+        },
+        {
+          "name": "Veuve Clicquot",
+          "price": "350"
+        },
+        {
+          "name": "Dom Perignon Brut",
+          "price": "750"
+        },
+        {
+          "name": "Ace of Spades",
+          "price": "850"
+        }
+      ]
+    }
+  ]
+}
