@@ -1,0 +1,45 @@
+{
+    "title": "Lobby Signature Rolls",
+    "shares": [
+      {
+        "name": "ABURI SALMON",
+        "description": "TORCHED SALMON, AVOCADO, CUCUMBER, CHILI, SOY GLAZE",
+        "price": "18"
+      },
+      {
+        "name": "LOBBY ROLL",
+        "description": "RICE, NORI, SHRIMP TEMPURA, CUCUMBER, TUNA, MISO GLAZE, SPICY MAY",
+        "price": "20"
+      },
+      {
+        "name": "CUCUMBER KAPPAMAKI ROLL Ⓥ",
+        "description": "CUCUMBER, SESAME SEEDS, SUSHI RICE",
+        "price": "11"
+      },
+      {
+        "name": "GREEN DRAGON ROLL",
+        "description": "AVOCADO, SHRIMP TEMPURA, SIRACHA AIOLI, SPICY TUNA, SUSHI RICE",
+        "price": "19"
+      },
+      {
+        "name": "RED DRAGON ROLL",
+        "description": "SOY GLAZE, SALMON, TEMPURA SHRIMP, AVOCADO, SUSHI RICE",
+        "price": "20"
+      },
+      {
+        "name": "LOBBY SUSHI PLATTER",
+        "description": "2 CHOICES OF ANY SUSHI (COMES WITH X2 ORDER OF EACH ROLL), 8 PCS RED DRAGON, 4 SHRIMP TEMPURA HAND ROLLS",
+        "price": "140"
+      },
+      {
+        "name": "SHRIMP TEMPURA",
+        "description": "SHRIMP TEMPURA, CUCUMBER, SESAME SEEDS, SUSHI RICE, SOY GLAZE, SPICY MAYO",
+        "price": "16"
+      },
+      {
+        "name": "SPICY TUNA ROLL",
+        "description": "TUNA, TEMPURA BITS, CHIVES, CHIPOTLE MAYO, YUZU TOBIKO, SESAME, SUSHI RICE",
+        "price": "16"
+      }
+    ]
+  }

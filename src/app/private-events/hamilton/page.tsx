@@ -19,7 +19,9 @@ const PrivateEventsHamilton = () => {
       <PrivateEventsHamiltonSectionSix />
       <div className='w-full h-full flex justify-center text-center my-8'>
         <a
-          href='#'
+          aria-label={`Lobby Bar Restaurant | Locations Hamilton | Call 289-389-3109`}
+          title={`Lobby Bar Restaurant | Locations Hamilton | Call 289-389-3109`}
+          href='tel:4169016768'
           className={`${componentName}_RESERVATION_BUTTON main_button`}
         >
           inquire now

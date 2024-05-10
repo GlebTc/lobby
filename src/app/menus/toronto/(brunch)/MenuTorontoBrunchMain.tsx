@@ -1,11 +1,11 @@
 import menuHamiltonBrunch from '@/src/util/menu/hamilton/brunch/menuHamiltonBrunch.json';
-import MenuHamiltonBrunchTower from './MenuHamiltonBrunchTower';
-import MenuHamiltonBrunchMenu from '@/src/app/menus/hamilton/(brunch)/MenuHamiltonBrunchMenu';
-import MenuHamiltonFoodDesserts from '../(food)/MenuHamiltonFoodDesserts';
+import MenuTorontoBrunchTower from '@/src/app/menus/toronto/(brunch)/MenuTorontoBrunchTower';
+import MenuTorontoBrunchMenu from '@/src/app/menus/toronto/(brunch)/MenuTorontoBrunchMenu';
+import MenuHamiltonFoodDesserts from '@/src/app/menus/hamilton/(food)/MenuHamiltonFoodDesserts';
 import MenuHotBeverages from '@/src/app/menus/(reusable)/MenuHotBeverages';
 
-const MenuHamiltonMain = () => {
-  const componentName = 'MENU_HAMILTON_BRUNCH_MAIN';
+const MenuTorontoBrunchMain = () => {
+  const componentName = 'MENU_TORONTO_BRUNCH_MAIN';
   return (
     <div
       className={`${componentName}_MAIN_CONTAINER flex flex-col gap-8 pt-8 p-4`}
@@ -16,8 +16,8 @@ const MenuHamiltonMain = () => {
         {menuHamiltonBrunch.title}
       </h1>
       <div className={`${componentName}_BRUNCH_OPTIONS grid md:grid-cols-2`}>
-        <MenuHamiltonBrunchTower />
-        <MenuHamiltonBrunchMenu />
+        <MenuTorontoBrunchTower />
+        <MenuTorontoBrunchMenu />
       </div>
       <MenuHamiltonFoodDesserts />
       <MenuHotBeverages />
@@ -28,4 +28,4 @@ const MenuHamiltonMain = () => {
   );
 };
 
-export default MenuHamiltonMain;
+export default MenuTorontoBrunchMain;

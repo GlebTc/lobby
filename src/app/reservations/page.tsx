@@ -29,19 +29,19 @@ const Reservations = () => {
             : `${componentName}_TORONTO_SLIDE_IN_BUTTON_CLOSED MOBILE_MENU absolute opacity-0 right-[-100%] top-[5%] w-[100%] h-[30dvh] ease-in duration-[var(--main-duration)]`
         }`}
       >
-        <div className='text-lg font-[700] px-2 py-1  text-black border-[1px] border-[var(--main-bg-color)] w-[98dvw] md:w-[50dvw] mx-auto h-full flex flex-col gap-4 justify-center items-center rounded-lg relative'>
+        <div className='text-lg font-[700] px-2 py-1  text-black border-[1px] border-[var(--main-bg-color)] w-[98dvw] md:w-[50dvw] mx-auto h-full flex flex-col gap-4 justify-center items-center rounded-lg relative group shadow-lg shadow-[var(--main-text-color)]'>
           <Image
             src={private_events_toronto_two}
             alt='Private Events Hamilton'
             fill
-            className='object-cover opacity-40 z-[-1] rounded-lg'
+            className='object-cover opacity-60 z-[-1] rounded-lg group-hover:opacity-10 duration-[var(--main-duration)]'
             quality={10}
             priority
             sizes='auto'
           />
           <h1>Toronto</h1>
-          <p>1032 Queen St W, Toronto, ON M6J 1H7</p>
-          <p>(416) 901-6768</p>
+          <p className='text-black'>1032 Queen St W, Toronto, ON M6J 1H7</p>
+          <p className='text-black'>(416) 901-6768</p>
           <a
             href='https://www.opentable.ca/r/lobby-toronto'
             className='main_button'
@@ -57,19 +57,19 @@ const Reservations = () => {
             : `${componentName}_HAMILTON_SLIDE_IN_BUTTON_CLOSED MOBILE_MENU absolute opacity-0 left-[-100%] top-[55%] w-[100%] h-[30dvh] ease-in duration-[var(--main-duration)]`
         }`}
       >
-        <div className='text-lg font-[700] px-2 py-1 text-black border-[1px] border-[var(--main-bg-color)] w-[98dvw] md:w-[50dvw] mx-auto h-full flex flex-col gap-4 justify-center items-center rounded-lg relative'>
+        <div className='text-lg font-[700] px-2 py-1  text-black border-[1px] border-[var(--main-bg-color)] w-[98dvw] md:w-[50dvw] mx-auto h-full flex flex-col gap-4 justify-center items-center rounded-lg relative group shadow-lg shadow-[var(--main-text-color)]'>
           <Image
             src={private_events_hamilton_two}
             alt='Private Events Hamilton'
             fill
-            className='object-cover opacity-40 z-[-1] rounded-lg'
+            className='object-cover opacity-60 z-[-1] rounded-lg group-hover:opacity-10 duration-[var(--main-duration)]'
             quality={10}
             priority
             sizes='auto'
           />
           <h1>Hamilton</h1>
-          <p>151 James St S, Hamilton, ON L8P 2Z5</p>
-          <p>(289) 389-3109</p>
+          <p className='text-black'>151 James St S, Hamilton, ON L8P 2Z5</p>
+          <p className='text-black'>(289) 389-3109</p>
           <a
             href='https://www.opentable.ca/r/lobby-hamilton'
             className='main_button'
