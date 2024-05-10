@@ -6,7 +6,7 @@ const MainSectionThree = () => {
   return (
     <div>
       <div
-        className={`${componentName}_MAIN_CONTAINER h-fit grid md:grid-cols-2 md:my-8 lg:mx-4 md:p-4`}
+        className={`${componentName}_MAIN_CONTAINER h-fit grid md:grid-cols-2 md:py-8 lg:px-4 md:p-4`}
       >
         <div
           className={`${componentName}_IMG_CONTAINER h-full flex items-center order-2`}
@@ -14,11 +14,13 @@ const MainSectionThree = () => {
           <div className='relative h-[40vh] w-full'>
             <Image
               src={main_section_three_img}
-              alt='Main Hero Menu Image Three'
+              alt={`Lobby Bar Restaurant | Main Page | Savor Flavor in Two Cities Image`}
+              title={`Lobby Bar Restaurant | Main Page | Savor Flavor in Two Cities Image`}
               fill
-              sizes='100'
+              sizes='1'
               className='floating_container object-cover'
               placeholder='blur'
+              priority
               quality={10}
             />
           </div>
@@ -39,7 +41,9 @@ const MainSectionThree = () => {
           </p>
           <a
             href='/menus'
-            className={`${componentName}_NAVBAR_RESERVATION_BUTTON main_button`}
+            className={`${componentName}_VIEW_MENU_BUTTON main_button`}
+            aria-label={`Lobby Bar Restaurant | Main Page | Section Three | View Menu Button`}
+            title={`Lobby Bar Restaurant | Main Page | Section Three | View Menu Button`}
           >
             view menu
           </a>
@@ -49,7 +53,7 @@ const MainSectionThree = () => {
         className={`${componentName}_SECOND_SECTION_DELICIOUS h-full flex flex-col justify-center items-center text-center gap-8 p-8 bg-[var(--main-bg-color)]`}
       >
         <div
-          className={`${componentName}_HEADINGS_CONTAINER text-3xl font-[700] tracking-widest flex flex-col items-center`}
+          className={`${componentName}_HEADINGS_CONTAINER tracking-widest flex flex-col items-center`}
         >
           <h2>Delicious Culinary Masterpieces</h2>
         </div>
@@ -59,7 +63,9 @@ const MainSectionThree = () => {
         </p>
         <a
           href='/menus'
-          className={`${componentName}_NAVBAR_RESERVATION_BUTTON main_button`}
+          className={`${componentName}_VIEW_MENU_BUTTON main_button`}
+          aria-label={`Lobby Bar Restaurant | Main Page | Section Three | Deliecious Culinary Masterpieces | View Menu Button`}
+          title={`Lobby Bar Restaurant | Main Page | Section Three | Deliecious Culinary Masterpieces | View Menu Button`}
         >
           view menu
         </a>

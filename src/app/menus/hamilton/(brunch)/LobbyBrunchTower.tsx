@@ -6,7 +6,7 @@ const LobbyBrunchTower = () => {
     >
       <div className={`${componentName}_BRUNCH_TOWER_CONTAINER`}>
         <div>
-          <div className='flex justify-center'>
+          <div className='flex justify-center gap-2 items-center'>
             <h3>Lobby Brunch tower</h3>
             <p className='text-[#c69a50] font-bold min-w-[150px]'>
               $140 | half $75

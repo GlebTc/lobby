@@ -5,7 +5,7 @@ const MainSectionOne = () => {
   const componentName = 'MAIN_SECTION_ONE';
   return (
     <div
-      className={`${componentName}_MAIN_CONTAINER h-fit grid md:grid-cols-2 md:my-8 lg:mx-4 md:p-4`}
+      className={`${componentName}_MAIN_CONTAINER h-fit grid md:grid-cols-2 md:py-8 lg:px-4 md:p-4`}
     >
       <div
         className={`${componentName}_IMG_CONTAINER h-full flex items-center`}
@@ -13,9 +13,10 @@ const MainSectionOne = () => {
         <div className='relative h-[40vh] w-full'>
           <Image
             src={main_section_one_img_smaller}
-            alt='Main Hero Menu Image One'
+            alt={`Lobby Bar Restaurant | Main Page | Lobby Cappucino Image`}
+            title={`Lobby Bar Restaurant | Main Page | Lobby Cappucino Image`}
             fill
-            sizes='100'
+            sizes='1'
             className='floating_container object-cover'
             placeholder='blur'
             priority
@@ -39,7 +40,9 @@ const MainSectionOne = () => {
         </p>
         <a
           href='/menus'
-          className={`${componentName}_NAVBAR_RESERVATION_BUTTON main_button`}
+          className={`${componentName}_VIEW_MENU_BUTTON main_button`}
+          aria-label={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
+          title={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
         >
           view menu
         </a>
