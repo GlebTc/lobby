@@ -10,8 +10,29 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Lobby Bar Restaurant',
+  metadataBase: new URL('https://www.lobby.ca/'),
+  title: {
+    default: 'Lobby Bar Restaurant',
+    template: '%s | Lobby Bar Restaurant',
+  },
   description: 'Lobby Bar Restaurant',
+  twitter: {
+    title: 'Lobby Bar Restaurant',
+    card: 'summary_large_image',
+    description: 'Lobby Bar Restaurant',
+  },
+  keywords: [
+    'Toronto Bar',
+    'Toronto Restaurant',
+    'Toronto Pub',
+    'Toronto Lounge',
+    'Hamilton Bar',
+    'Hamilton Restaurant',
+    'Hamilton Pub',
+    'Hamilton Lounge',
+  ],
+  creator: 'Web Development Hamilton | www.webdevelopmenthamilton.com',
+  publisher: 'Web Development Hamilton | www.webdevelopmenthamilton.com',
 };
 
 export default function RootLayout({

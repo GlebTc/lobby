@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import TorontoSlideInButton from '@/src/components/reusable/TorontoSlideInButton';
 import HamiltonSlideInButton from '@/src/components/reusable/HamiltonSlideInButton';
 
-const Location = () => {
+const Locations = () => {
   const componentName = 'LOCATIONS';
   const [torontoButton, setTorontoButton] = useState(false);
   const [hamiltonButton, setHamiltonButton] = useState(false);
@@ -51,4 +51,4 @@ const Location = () => {
   );
 };
 
-export default Location;
+export default Locations;

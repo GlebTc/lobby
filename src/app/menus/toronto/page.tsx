@@ -3,6 +3,7 @@ import { useState } from 'react';
 import MenuTorontoDrinksMain from '@/src/app/menus/toronto/(drinks)/MenuTorontoDrinksMain';
 import MenuTorontoFoodMain from '@/src/app/menus/toronto/(food)/MenuTorontoFoodMain';
 import MenuHeader from '@/src/app/menus/MenuHeader';
+import MenuTorontoBrunchMain from './(brunch)/MenuTorontoBrunchMain';
 
 const menusHamilton = () => {
   const componentName = 'MENUS_TORONTO';
@@ -19,8 +20,8 @@ const menusHamilton = () => {
       />
       {category === 'drinks' && <MenuTorontoDrinksMain />}
       {category === 'food' && <MenuTorontoFoodMain />}
-      {/* {category === 'brunch' && <MenuHamiltonBrunchMain />}
-      {category === 'bottle service' && <MenuHamiltonBottlServiceMain />} */}
+      {category === 'brunch' && <MenuTorontoBrunchMain />}
+      {/* {category === 'bottle service' && <MenuHamiltonBottlServiceMain />} */}
     </div>
   );
 };

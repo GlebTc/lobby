@@ -20,16 +20,18 @@ const PrivateEventsTorontoMainHero = () => {
           className={`${componentName}_IMAGE_OVERLAY_TEXT absolute top-0 left-0 h-full w-full flex flex-col justify-center items-center gap-4 text-white text-center z-[2]`}
         >
           <h1>Private Groups & Corporate Events</h1>
-          <p>
+          <p className='text-white pb-8'>
             We host private parties, groups and corporate events at the lobby
             Toronto venue
           </p>
           <a
-            href='#'
-            className='secondary_button'
-          >
-            reservations
-          </a>
+          aria-label={`Lobby Bar Restaurant | Main Page | Hero Video | Reserve Now Button | Call 416-901-6768`}
+          title={`Lobby Bar Restaurant | Main Page | Hero Video | Reserve Now Button | Call 416-901-6768`}
+          href='tel:4169016768'
+          className={`${componentName}_RESERVATION_BUTTON secondary_button animate-bounce`}
+        >
+          reserve now
+        </a>
         </div>
       </div>
     </div>
