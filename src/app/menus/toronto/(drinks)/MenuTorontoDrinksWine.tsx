@@ -31,8 +31,8 @@ const MenuTorontoDrinksWine = () => {
                         <td>
                           <h4 className='text-left'>{item.brand}</h4>
                         </td>
-                        {item.price_6oz ? <td>${item.price_6oz}</td> : <td></td>}
-                        <td>${item.price_bottle}</td>
+                        {item.price_6oz ? <td className='menu_price'>${item.price_6oz}</td> : <td></td>}
+                      <td className='menu_price'>${item.price_bottle}</td>
                       </tr>
                     ))}
                   </tbody>
