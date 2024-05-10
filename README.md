@@ -10,4 +10,5 @@
 - Prices are missing from food section Toronto
 - The menu items are in different order between locations
 - Separate the main hero video with next section with another message
+- I would remove image carousel from locations
 - ***SUGGESTION*** Menu should be more consistent bewteen locations, for example desserts
