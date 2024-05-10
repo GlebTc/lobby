@@ -19,24 +19,35 @@ const NavMobile = () => {
       className={`${componentName}_MAIN_CONTAINER bg-[var(--main-bg-color)] h-[65px] w-full flex justify-between items-center px-8`}
     >
       <IoMenu
+        aria-label='Lobby Bar Restaurant | Mobile Menu Open Button'
+        title='Lobby Bar Restaurant | Mobile Menu Open Button'
         size={35}
         className='text-3xl cursor-pointer hover:scale-105 duration-[var(--main-duration)]'
         onClick={handleMobileMenu}
       />
-      <Image
-        src={lobby_logo}
-        alt='Lobby Logo'
-        className='max-h-[60%] w-auto object-contain'
-        priority
-      />
-      <a href='/reservations'>
-        {' '}
+      <a
+        href='/'
+        className='max-w-[64px] md:max-w-[76px] relative'
+        aria-label='Lobby Bar Restaurant | Mobile Navbar Logo | Home Page Link'
+        title='Lobby Bar Restaurant | Mobile Navbar Logo | Home Page Link'
+      >
+        <Image
+          src={lobby_logo}
+          alt={`Lobby Bar Restaurant | Mobile Navbar | Logo`}
+          title={`Lobby Bar Restaurant | Mobile Navbar | Logo`}
+          className='cursor-pointer object-contain'
+        />
+      </a>
+      <a
+        href='/reservations'
+        title={`Lobby Bar Restaurant | Desktop Navbar | Reservations Link`}
+        aria-label={`Lobby Bar Restaurant | Desktop Navbar | Reservations Link`}
+      >
         <FaCalendarAlt
           size={25}
           className='text-3xl cursor-pointer hover:scale-105 duration-[var(--main-duration)]'
         />
       </a>
-
       <MobileMenu
         mobileMenu={mobileMenu}
         handleMobileMenu={handleMobileMenu}

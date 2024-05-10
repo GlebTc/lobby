@@ -1,5 +1,5 @@
 const MainHeroVideo = () => {
-  const componentName = 'MAIN_HERO_VIDEO';
+  const componentName = 'MAIN_PAGE_HERO_VIDEO';
 
   return (
     <div
@@ -10,6 +10,7 @@ const MainHeroVideo = () => {
       >
         <video
           className='object-cover w-full h-full z-[-1]'
+          aria-label={`Lobby Bar Restaurant | Main Page Hero Video`}
           autoPlay
           muted
           loop
@@ -24,12 +25,14 @@ const MainHeroVideo = () => {
         className={`${componentName}_TEXT_AND_BUTTON_CONTAINER absolute top-0 left-0 w-[100%] h-[100%] flex flex-col gap-4 justify-center items-center text-white bg-gray-950/30 text-center`}
       >
         <h1>Pure Delight</h1>
-        <p className="text-white pb-8">Vibrant Moments and Incredible Nights</p>
+        <p className='text-white pb-8'>Vibrant Moments and Incredible Nights</p>
         <a
+          aria-label={`Lobby Bar Restaurant | Main Page | Hero Video | Reserve Now Button`}
+          title={`Lobby Bar Restaurant | Main Page | Hero Video | Reserve Now Button`}
           href='/reservations'
-          className='secondary_button animate-bounce'
+          className={`${componentName}_RESERVATION_BUTTON secondary_button animate-bounce`}
         >
-          reservations
+          reserve now
         </a>
       </div>
     </div>

@@ -33,7 +33,8 @@ const MainGallery = () => {
           >
             <Image
               src={`/assets/gallery/gallery_img_0${number}.webp`}
-              alt={`gallery_img_0${number}`}
+              alt={`Lobby Bar Restaurant | Main Page Carousel | Image 0${number}`}
+              title={`Lobby Bar Restaurant | Main Page Carousel | Image 0${number}`}
               fill
               className='object-cover w-full h-full'
               quality={10}
@@ -55,8 +56,8 @@ const MainGallery = () => {
       >
         {imageUrlNumber.map((_, index) => (
           <button
-            aria-label='Advantages Slider Navigation Dot'
-            title='Navigation Dot'
+            aria-label={`Lobby Bar Restaurant | Main Page Carousel Dots`}
+            title={`Lobby Bar Restaurant | Main Page Carousel Dots`}
             key={index}
             className={`w-4 h-4 rounded-full bg-white border border-gray-300 ${
               index === currentIndex ? 'bg-yellow-600' : ''

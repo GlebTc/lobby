@@ -1,15 +1,21 @@
 const LinksToronto = ({ componentName }: { componentName: string }) => {
   const linkContent = [
     {
-      title: 'View Menu',
+      href: '/menus/toronto',
+      tag: 'View Menu',
+      title: 'Lobby Bar Restaurant | Toronto | View Menu',
       className: 'VIEW_MENU_LINK_CONTAINER',
     },
     {
-      title: 'Book Private Events',
+      href: '/private-events/toronto',
+      tag: 'Book Private Events',
+      title: 'Lobby Bar Restaurant | Toronto | Book Private Event',
       className: 'PRIVATE_EVENTS_LINK_CONTAINER',
     },
     {
-      title: 'Explore Upcomming Events',
+      href: '/',
+      tag: 'Explore Upcomming Events',
+      title: 'Lobby Bar Restaurant | Toronto | Explore Upcomming Events',
       className: 'UPCOMMING_EVENTS_LINK_CONTAINER',
     },
   ];
@@ -19,10 +25,12 @@ const LinksToronto = ({ componentName }: { componentName: string }) => {
     >
       {linkContent.map((content, index) => (
         <a
-          href='/reservations'
+          href={content.href}
           className={`${componentName}_${content.className} main_button`}
+          title={content.title}
+          aria-label={content.title}
         >
-          {content.title}
+          {content.tag}
         </a>
       ))}
     </div>

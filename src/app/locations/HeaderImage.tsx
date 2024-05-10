@@ -6,7 +6,8 @@ const HeaderImage = ({componentName}:{componentName: string}) => {
     <div className={`${componentName}_IMAGE_CONTAINER relative h-[25dvh]`}>
     <Image
       src={lobby_image}
-      alt='Lobby Image'
+      alt={`Lobby Bar Restaurant | Locations Page | Lobby Cappucino Image`}
+      title={`Lobby Bar Restaurant | Locations Page | Lobby Cappucino Image`}
       fill
       className='object-cover'
       quality={100}

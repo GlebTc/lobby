@@ -34,16 +34,19 @@ const MobileMenu = ({
           <a
             href='/'
             className='max-w-[64px] md:max-w-[120px] relative'
-            aria-label='Lobby Bar Restaurant | Home Page'
-            title='Lobby Bar Restaurant | Home Page'
+            aria-label='Lobby Bar Restaurant | Mobile Navbar Logo | Open Menu | Home Page Link'
+            title='Lobby Bar Restaurant | Mobile Navbar Logo | Open Menu | Home Page Link'
           >
             <Image
               src={lobby_logo}
-              alt='Logo | Lobby Restaurant Hamilton Toronto'
-              className='cursor-pointer object-contain'
+              alt={`Lobby Bar Restaurant | Mobile Navbar Logo | Open Menu`}
+              title={`Lobby Bar Restaurant | Mobile Navbar Logo | Open Menu`}
+              className='object-contain'
             />
           </a>
           <AiOutlineClose
+            aria-label='Lobby Bar Restaurant | Mobile Menu Close Button'
+            title='Lobby Bar Restaurant | Mobile Menu Close Button'
             size={35}
             className='cursor-pointer hover:scale-105 duration-[var(--main-duration)]'
             onClick={handleMobileMenu}
@@ -57,8 +60,8 @@ const MobileMenu = ({
               key={index}
               className={`${componentName}_MAPPED_NAV_ITEMS px-2 py-1 rounded-lg hover:bg-[var(--main-text-color)] hover:text-white duration-[var(--main-duration)]`}
               href={navItem.href}
-              title={navItem.alt}
-              aria-label={navItem.alt}
+              title={`Lobby Bar Restaurant | Mobile Menu | ${navItem.alt} Link`}
+              aria-label={`Lobby Bar Restaurant | Mobile Menu | ${navItem.alt} Link`}
             >
               {navItem.title}
             </a>
@@ -66,6 +69,8 @@ const MobileMenu = ({
           <a
             href='/reservations'
             className={`${componentName}_NAVBAR_RESERVATION_BUTTON main_button`}
+            title={`Lobby Bar Restaurant | Mobile Menu | Reservations Link`}
+            aria-label={`Lobby Bar Restaurant | Mobile Menu | Reservations Link`}
           >
             Reservations
           </a>
