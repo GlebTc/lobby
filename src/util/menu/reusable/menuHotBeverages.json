@@ -9,7 +9,10 @@
       "name": "long espresso",
       "price": "3.00"
     },
-
+    {
+      "name": "hot chocolate",
+      "price": "3.00"
+    },
     {
       "name": "americano",
       "price": "4.00"
@@ -22,10 +25,7 @@
       "name": "cappuccino",
       "price": "4.00"
     },
-    {
-      "name": "hot chocolate",
-      "price": "3.00"
-    },
+
     {
       "name": "coffee late",
       "price": "4.00"

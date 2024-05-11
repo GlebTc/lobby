@@ -1,9 +1,3 @@
-// This Resusable Component is used in the following components:
-// MenuHamiltonDrinksCocktails.tsx
-// MenuHamiltonFoodAppetizers.tsx
-// MenuHamiltonFoodDesserts.tsx
-// MenuHamiltonFoodEntrees.tsx
-
 import { MenuTitleDescriptionPriceProps } from '@/src/util/types';
 
 const MenuTitleDescriptionPrice = ({
@@ -15,7 +9,7 @@ const MenuTitleDescriptionPrice = ({
     <div className='flex justify-between'>
       <div>
         <h3>{individual_menu_item_title}</h3>
-        <p className='text-left'>
+        <p className='text-left pr-12'>
           {individual_menu_item_description}
         </p>
       </div>

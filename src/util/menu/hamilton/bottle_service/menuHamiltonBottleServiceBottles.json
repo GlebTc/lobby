@@ -9,16 +9,16 @@
           "price": "290"
         },
         {
+          "name": "Ciroc Flavours",
+          "price": "300"
+        },
+        {
           "name": "Grey Goose 1.75L",
           "price": "675"
         },
         {
           "name": "Grey Goose 3L",
           "price": "1050"
-        },
-        {
-          "name": "Ciroc Flavours",
-          "price": "300"
         }
       ]
     },
@@ -38,16 +38,16 @@
           "price": "350"
         },
         {
-          "name": "Patron El Cielo",
-          "price": "750"
-        },
-        {
           "name": "casamigos blanco",
           "price": "360"
         },
         {
           "name": "casamigos reposado",
           "price": "400"
+        },
+        {
+          "name": "Patron El Cielo",
+          "price": "750"
         },
         {
           "name": "don julio 1942",
@@ -98,16 +98,16 @@
       "bottle_title": "cognac",
       "bottle_list": [
         {
+          "name": "Hennessy VS",
+          "price": "350"
+        },
+        {
           "name": "Remy Martin VSOP",
           "price": "370"
         },
         {
           "name": "Remy Martin XO",
           "price": "900"
-        },
-        {
-          "name": "Hennessy VS",
-          "price": "350"
         }
       ]
     },

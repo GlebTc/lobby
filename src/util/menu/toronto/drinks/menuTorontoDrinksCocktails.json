@@ -3,22 +3,17 @@
   "cocktails": {
     "types": [
       {
-        "cocktail_type_title": "signature cocktails",
+        "cocktail_type_title": "Signature Cocktails",
         "cocktail_list": [
           {
-            "name": "LOBBY ESPRESSO MARTINI (2OZ)",
-            "description": "GREY GOOSE VODKA, LICOR 43, ESPRESSO, KAHLUA, FRANGELICO, COCOA POWDER",
-            "price": "20"
+            "name": "Pink Skies Mojito (1.5OZ)",
+            "description": "Tanqueray, Lime, Simple, Grapefruit Juice, Top Soda, Mint Leaves",
+            "price": "17"
           },
           {
-            "name": "SEX ON A PEACH (2OZ)",
-            "description": "PATRON SILVER, BASIL, PEACH, LIME, AGAVE, ROSEMARY",
-            "price": "22"
-          },
-          {
-            "name": "“LET THAT MAN-GO” (2OZ)",
-            "description": "WHITE CLAW MANGO VODKA, LIQUOR 43, MANGO JUICE, LIME JUICE, AGAVE",
-            "price": "19"
+            "name": "LYCÉE MIJITO",
+            "description": "WHITE RUM, LIME, SIMPLE, ST-GERMAIN, SOHO, LYCHEE JUICE, MINT, SODA",
+            "price": "17"
           },
           {
             "name": "BURNING LOVE (2OZ)",
@@ -26,29 +21,24 @@
             "price": "18"
           },
           {
-            "name": "DEVIL IN A NEW DRESS (2OZ)",
-            "description": "WHITE RUM, APEROL, ST GERMAIN, GRENADINE, WATERMELON SYRUP, LEMON JUICE, FRESNO PEPPERS",
-            "price": "19"
-          },
-          {
-            "name": "PINK SKIES MOJITO (1.5OZ)",
-            "description": "TANQUERAY, LIME, SIMPLE, GRAPEFRUIT JUICE, TOP SODA, MINT LEAVES",
-            "price": "17"
-          },
-          {
-            "name": "BLACK PANTHER (2OZ)",
-            "description": "PATRON REPOSADO, GRAPEFRUIT, COINTREAU, TORCHED JALAPENO, AGAVE, LIME, ACTIVATED CHARCOAL, TAJIN SPICE",
-            "price": "24"
-          },
-          {
             "name": "PERMANENT VACATION (2OZ)",
             "description": "CIROC RED BERRY, LEMON, EGG WHITES, HONEY, STRAWBERRY PUREE",
             "price": "18"
           },
           {
-            "name": "LYCÉE MIJITO",
-            "description": "WHITE RUM, LIME, SIMPLE, ST-GERMAIN, SOHO, LYCHEE JUICE, MINT, SODA",
-            "price": "17"
+            "name": "“LET THAT MAN-GO” (2OZ)",
+            "description": "WHITE CLAW MANGO VODKA, LIQUOR 43, MANGO JUICE, LIME JUICE, AGAVE",
+            "price": "19"
+          },
+          {
+            "name": "DEVIL IN A NEW DRESS (2OZ)",
+            "description": "WHITE RUM, APEROL, ST GERMAIN, GRENADINE, WATERMELON SYRUP, LEMON JUICE, FRESNO PEPPERS",
+            "price": "19"
+          },
+          {
+            "name": "LOBBY ESPRESSO MARTINI (2OZ)",
+            "description": "GREY GOOSE VODKA, LICOR 43, ESPRESSO, KAHLUA, FRANGELICO, COCOA POWDER",
+            "price": "20"
           },
           {
             "name": "TARONTOS FINEST",
@@ -59,6 +49,16 @@
             "name": "LYCHEE MARTINI",
             "description": "GREY GOOSE, ST-GERMAIN, LYCHEE LIQUEUR, APEROL, LEMON, SPARKLING WINE",
             "price": "20"
+          },
+          {
+            "name": "SEX ON A PEACH (2OZ)",
+            "description": "PATRON SILVER, BASIL, PEACH, LIME, AGAVE, ROSEMARY",
+            "price": "22"
+          },
+          {
+            "name": "BLACK PANTHER (2OZ)",
+            "description": "PATRON REPOSADO, GRAPEFRUIT, COINTREAU, TORCHED JALAPENO, AGAVE, LIME, ACTIVATED CHARCOAL, TAJIN SPICE",
+            "price": "24"
           }
         ]
       },

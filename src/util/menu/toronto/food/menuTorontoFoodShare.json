@@ -2,14 +2,19 @@
   "title": "share or go solo",
   "shares": [
     {
+      "name": "CALAMARI",
+      "description": "CALAMARI, FLOUR DREDGE, CHILLI, SCALLION, TOGARASHI SPICE SERVE WITH AIOLI AND SWEET CHILLI SAUCE",
+      "price": "10"
+    },
+    {
+      "name": "HERB GARLIC FRIES",
+      "description": "CLEAR COAT FRIES, HERBS, GARLIC, PARMESAN, AIOLI",
+      "price": "13"
+    },
+    {
       "name": "CAESAR SALAD",
       "description": "BABY GEM, BACON, TRUFFLE CROUTONS, CAESAR DRESSING, PARMESAN",
       "price": "14"
-    },
-    {
-      "name": "SMOKED TERIYAKI SLIDERS",
-      "description": "BEEF PATTY, SMOKED TERIYAKI SAUCE, ASIAN SLAW, SESAME MAYO, AGED CHEDDAR, BRIOCHE BUN",
-      "price": "19"
     },
     {
       "name": "CRISPY EGGPLANT",
@@ -22,9 +27,19 @@
       "price": "18"
     },
     {
-      "name": "HERB GARLIC FRIES",
-      "description": "CLEAR COAT FRIES, HERBS, GARLIC, PARMESAN, AIOLI",
-      "price": "13"
+      "name": "PEACH PROSCIUTTO SALAD",
+      "description": "PEACH, PROSCIUTTO, PICKLED PEARL ONION,CHERRY TOMATO, RADISH, MIX GREENS, BASIL BALSAMIC VINAIGRETTE",
+      "price": "18"
+    },
+    {
+      "name": "CHICKEN PARMESAN SLIDER",
+      "description": "BREADED CHICKEN, SUGO, MOZZARELLA, MIX SALAD, MORTADELLA, AIOLI, BRIOCHE BUN",
+      "price": "18"
+    },
+    {
+      "name": "SMOKED TERIYAKI SLIDERS",
+      "description": "BEEF PATTY, SMOKED TERIYAKI SAUCE, ASIAN SLAW, SESAME MAYO, AGED CHEDDAR, BRIOCHE BUN",
+      "price": "19"
     },
     {
       "name": "BEEF SALPICAO",
@@ -37,24 +52,9 @@
       "price": "25"
     },
     {
-      "name": "PEACH PROSCIUTTO SALAD",
-      "description": "PEACH, PROSCIUTTO, PICKLED PEARL ONION,CHERRY TOMATO, RADISH, MIX GREENS, BASIL BALSAMIC VINAIGRETTE",
-      "price": "18"
-    },
-    {
-      "name": "CHICKEN PARMESAN SLIDER",
-      "description": "BREADED CHICKEN, SUGO, MOZZARELLA, MIX SALAD, MORTADELLA, AIOLI, BRIOCHE BUN",
-      "price": "18"
-    },
-    {
       "name": "STEAK FRITZ",
       "description": "NY STEAK AAA 6OZ, GREMOLARA, BORDELAISE,  COATED FRIES, AIOLI",
       "price": "25"
-    },
-    {
-      "name": "CALAMARI",
-      "description": "CALAMARI, FLOUR DREDGE, CHILLI, SCALLION, TOGARASHI SPICE SERVE WITH AIOLI AND SWEET CHILLI SAUCE",
-      "price": "10"
     }
   ]
 }

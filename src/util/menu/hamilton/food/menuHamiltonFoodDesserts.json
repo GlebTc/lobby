@@ -2,14 +2,14 @@
   "title": "desserts",
   "desserts": [
     {
-      "name": "tiramisu",
-      "description": "ESPRESSO-SOAKED LADY FINGER CAKE WITH ZABAGLIONE & CACAO",
-      "price": "14"
-    },
-    {
       "name": "strawberry champagne cheesecake",
       "description": "VANILLA CHEESECAKE MARBLED WITH STRAWBERRY BAKED ATOP A CHOCOLATE COOKIE GRAHAM",
       "price": "10"
+    },
+    {
+      "name": "tiramisu",
+      "description": "ESPRESSO-SOAKED LADY FINGER CAKE WITH ZABAGLIONE & CACAO",
+      "price": "14"
     },
     {
       "name": "GERTIE'S PEANUT BUTTER PIE",
