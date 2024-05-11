@@ -1,6 +1,7 @@
 import menuHamiltonDrinksZeroProof from '@/src/util/menu/hamilton/drinks/menuHamiltonDrinksZeroProof.json';
 import MenuTitleDescriptionPrice from '@/src/components/reusable/MenuTitleDescriptionPrice';
 import MenuTitlePrice from '@/src/components/reusable/MenuTitlePrice';
+import MenuHotBeverages from '../../(reusable)/MenuHotBeverages';
 
 const MenuHamiltonDrinksZeroProof = () => {
   const componentName = 'MENU_HAMILTON_DRINKS_ZERO_PROOF';
@@ -50,25 +51,6 @@ const MenuHamiltonDrinksZeroProof = () => {
               );
             }
           )}
-        </div>
-
-        <h2
-          className={`text-[#c69a50] font-[300] tracking-tight text-2xl text-center border-b-2 mb-4 py-4`}
-        >
-          coffee
-        </h2>
-        <div
-          className={`${componentName}_COFFEE_LIST_CONTAINER grid sm:grid-cols-2 lg:grid-cols-3 gap-8`}
-        >
-          {menuHamiltonDrinksZeroProof.zeros.coffee.map((coffee, index) => {
-            return (
-              <MenuTitlePrice
-                key={index}
-                individual_menu_item_title={coffee.name}
-                individual_menu_item_price_one={coffee.price}
-              />
-            );
-          })}
         </div>
       </div>
     </div>

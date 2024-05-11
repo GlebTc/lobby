@@ -2,14 +2,14 @@
     "title": "brunch",
     "brunch": [
       {
-        "name": "BLUEBERRY PANCAKES",
-        "description": "WILD BLUEBERRIES, PRESSED YOGURT, MAPLE SYRUP",
-        "price": "15"
-      },
-      {
         "name": "HERB GARLIC FRIES",
         "description": "CLEAR COAT FRIES, HERBS, GARLIC, PARMESAN, AIOLI",
         "price": "13"
+      },
+      {
+        "name": "BLUEBERRY PANCAKES",
+        "description": "WILD BLUEBERRIES, PRESSED YOGURT, MAPLE SYRUP",
+        "price": "15"
       },
       {
         "name": "SALMON & AVOCADO BAGEL",

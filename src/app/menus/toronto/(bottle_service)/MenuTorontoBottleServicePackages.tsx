@@ -1,7 +1,7 @@
 import menuTorontoBottleServicePackages from '@/src/util/menu/toronto/bottle_service/menuTorontoBottleServicePackages.json';
 
 const MenuTorontoBottleServicePackages = () => {
-  const componentName = 'MENU_Toronto_BOTTLE_SERVICE_PACKAGES';
+  const componentName = 'MENU_TORONTO_BOTTLE_SERVICE_PACKAGES';
   return (
     <div>
       <h2 className={`text-[#c69a50] tracking-tight border-b-2 my-4 pb-4`}>
@@ -25,7 +25,12 @@ const MenuTorontoBottleServicePackages = () => {
                 <p className='text-gray-600 text-left'>
                   {item.description_three}
                 </p>
-                <p className='text-[10px] mt-2 tracking-wide text-gray-500 italic'>
+                {item.description_four && (
+                  <p className='text-gray-600 text-left'>
+                    {item.description_four}
+                  </p>
+                )}
+                <p className='text-[10px] mt-2 tracking-wide text-gray-500 italic normal-case'>
                   {item.notes}
                 </p>
               </div>
@@ -34,9 +39,6 @@ const MenuTorontoBottleServicePackages = () => {
           );
         })}
       </div>
-      <p className='text-center text-gray-400'>
-        20% gratuity will be included for parties of 7 or larger
-      </p>
     </div>
   );
 };
