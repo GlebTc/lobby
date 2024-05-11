@@ -18,7 +18,7 @@ const MainSectionOne = () => {
             fill
             sizes='1'
             className='floating_container object-cover'
-            placeholder='blur'
+            // placeholder='blur'
             priority
             quality={10}
           />
