@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import private_events_toronto_four from '@/public/assets/gallery/gallery_img_07.webp';
 
-
 const PrivateEventsTorontoSectionThree = () => {
   const componentName = 'PRIVATE_EVENTS_TORONTO_SECTION_THREE';
   return (
@@ -28,7 +27,7 @@ const PrivateEventsTorontoSectionThree = () => {
             src={private_events_toronto_four}
             alt='Private Events Toronto'
             fill
-            sizes='100'
+            sizes='auto'
             className='floating_container object-cover'
             placeholder='blur'
             priority

@@ -40,7 +40,7 @@ const PrivateEventsTorontoSectionTwo = () => {
             src={private_events_toronto_three}
             alt='Private Events Toronto'
             fill
-            sizes='100'
+            sizes='auto'
             className='floating_container object-cover'
             placeholder='blur'
             priority
