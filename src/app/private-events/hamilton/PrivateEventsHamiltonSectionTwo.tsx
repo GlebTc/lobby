@@ -12,11 +12,14 @@ const PrivateEventsHamiltonSectionTwo = () => {
         <h1 className='pb-4'>Patio</h1>
 
         <p className='mb-4'>
-        Surrounded by the vibrant energy of the city, this outdoor oasis is ideal for those who relish al fresco events. Embrace the natural charm of our Patio for an intimate or lively gathering beneath the open skies.
+          Surrounded by the vibrant energy of the city, this outdoor oasis is
+          ideal for those who relish al fresco events. Embrace the natural charm
+          of our Patio for an intimate or lively gathering beneath the open
+          skies.
         </p>
         <p className='mb-4'>Capacity:</p>
         <ul>
-        <li className='flex items-center gap-2'>
+          <li className='flex items-center gap-2'>
             <FaCheck />
             <p>2,800 sq ft</p>
           </li>
@@ -38,7 +41,7 @@ const PrivateEventsHamiltonSectionTwo = () => {
             src={private_events_hamilton_three}
             alt='Private Events Hamilton'
             fill
-            sizes='100'
+            sizes='auto'
             className='floating_container object-cover'
             placeholder='blur'
             priority

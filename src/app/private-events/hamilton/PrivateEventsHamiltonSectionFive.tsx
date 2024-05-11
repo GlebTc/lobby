@@ -26,7 +26,7 @@ const PrivateEventsHamiltonSectionFive = () => {
             src={private_events_hamilton_six}
             alt='Private Events Hamilton'
             fill
-            sizes='100'
+            sizes='auto'
             className='floating_container object-cover'
             placeholder='blur'
             priority
