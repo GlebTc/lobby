@@ -23,7 +23,7 @@ const locationsHamilton = () => {
         <div
           className={`${componentName}_HOURS_CONTAINER h-[calc(100%-100px)]`}
         >
-          <HoursContainer componentName={componentName} />
+          <HoursContainer componentName={componentName} location="Hamilton" />
         </div>
       </div>
       <MainGallery />
