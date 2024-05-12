@@ -50,7 +50,7 @@ const MainSectionThree = () => {
         </div>
       </div>
       <div
-        className={`${componentName}_SECOND_SECTION_DELICIOUS h-full flex flex-col justify-center items-center text-center gap-8 p-4 bg-[var(--main-bg-color)]`}
+        className={`${componentName}_SECOND_SECTION_DELICIOUS h-full flex flex-col justify-center items-center text-center gap-8 p-4 bg-[var(--main-bg-color)] md:p-12`}
       >
         <div
           className={`${componentName}_HEADINGS_CONTAINER tracking-widest flex flex-col items-center`}

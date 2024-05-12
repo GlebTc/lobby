@@ -15,7 +15,7 @@ const TorontoSlideInButton = ({
   return (
     <Link
       href={`/${href}/toronto`}
-      className='text-lg font-[700] px-2 py-1  text-white border-[1px] border-[var(--main-bg-color)] w-[98dvw] md:w-[70dvw] lg:w-[60dvw] mx-auto h-full flex flex-col gap-4 justify-center items-center rounded-lg relative group shadow-lg shadow-[var(--main-text-color)]'
+      className='text-lg font-[700] px-2 py-1  text-white border-[1px] border-[var(--main-bg-color)] w-[98dvw] md:w-[70dvw] lg:w-[60dvw] mx-auto h-full flex flex-col gap-4 justify-center items-center rounded-lg relative group shadow-md shadow-[var(--main-text-color)]'
       title={`${title} | Select Location | Toronto`}
       aria-label={`${title} | Select Location | Toronto`}
     >

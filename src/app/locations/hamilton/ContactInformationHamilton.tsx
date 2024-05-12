@@ -5,7 +5,7 @@ const ContactInformationHamilton = ({
 }) => {
   return (
     <div
-      className={`${componentName}_CONTACT_INFORMATION_CONTENT_CONTAINER bg-[var(--main-bg-color)] w-[90%] flex flex-col justify-center items-center text-center py-2 uppercase rounded-lg shadow-lg shadow-gray-500`}
+      className={`${componentName}_CONTACT_INFORMATION_CONTENT_CONTAINER bg-[var(--main-bg-color)] w-[90%] flex flex-col justify-center items-center text-center py-2 uppercase rounded-lg shadow-md shadow-gray-500`}
     >
       <h1>Hamilton</h1>
       <a
