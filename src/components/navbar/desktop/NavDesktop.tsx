@@ -24,11 +24,11 @@ const NavDesktop = () => {
       </a>
 
       <div
-        className={`${componentName}_NAV_ITEMS flex gap-4 text-lg uppercase font-[600] items-center justify-end`}
+        className={`${componentName}_NAV_ITEMS flex gap-8 text-md uppercase font-[500] items-center justify-end`}
       >
         {navItems.map((navItem, index) => (
           <a
-            className={`${componentName}_MAPPED_NAV_ITEMS px-2 py-1 rounded-lg hover:bg-[var(--main-text-color)] hover:text-white duration-[var(--main-duration)]`}
+            className={`${componentName}_MAPPED_NAV_ITEMS hover:text-[var(--secondary-color)] duration-[var(--main-duration)]`}
             href={navItem.href}
             title={`Lobby Bar Restaurant | Desktop Menu | ${navItem.alt} Link`}
             aria-label={`Lobby Bar Restaurant | Desktop Menu | ${navItem.alt} Link`}

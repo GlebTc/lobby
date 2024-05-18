@@ -28,7 +28,7 @@ const PrivateEventsTorontoMainHero = () => {
           aria-label={`Lobby Bar Restaurant | Main Page | Hero Video | Reserve Now Button | Call 416-901-6768`}
           title={`Lobby Bar Restaurant | Main Page | Hero Video | Reserve Now Button | Call 416-901-6768`}
           href='tel:4169016768'
-          className={`${componentName}_RESERVATION_BUTTON secondary_button animate-bounce`}
+          className={`${componentName}_RESERVATION_BUTTON secondary_button`}
         >
           reserve now
         </a>
