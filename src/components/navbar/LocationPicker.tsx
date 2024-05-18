@@ -46,14 +46,14 @@ const LocationPicker = ({
         <Link
           href={`${selectedMenuItem}/toronto`}
           onClick={() => setShowLocationPicker(!showLocationPicker)}
-          className='h-[70px] w-[100%] border-b-[1px] border-[var(--secondary-color)] flex items-center justify-center'
+          className='h-[70px] w-[100%] border-b-[1px] border-[var(--secondary-color)] flex items-center justify-center hover:text-[var(--secondary-color)] duration-[var(--main-duration)]'
         >
           Toronto
         </Link>
         <Link
           href={`${selectedMenuItem}/hamilton`}
           onClick={() => setShowLocationPicker(!showLocationPicker)}
-          className='h-[70px] w-[100%] border-b-[1px] border-[var(--secondary-color)] flex items-center justify-center'
+          className='h-[70px] w-[100%] border-b-[1px] border-[var(--secondary-color)] flex items-center justify-center hover:text-[var(--secondary-color)] duration-[var(--main-duration)]'
         >
           Hamilton
         </Link>
