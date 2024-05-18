@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --main-bg-color: #e0d5c2;
+  --main-bg-color: #fff9ef;
+  --secondary-color: #c69a50;
   --main-text-color: #e09900;
-  --main-duration: 0.5s;
+  --main-duration: 0.7s;
   --top-bar-h: 41px;
   --menu-bar-h: 65px;
 }
@@ -40,9 +41,9 @@ p {
 }
 
 .main_button {
-  @apply uppercase text-lg font-[700] px-2 py-1 rounded-lg bg-[var(--main-text-color)] text-white border-[1px] border-[var(--main-text-color)] hover:bg-white duration-[var(--main-duration)] hover:text-black min-w-[150px] cursor-pointer shadow-md shadow-gray-700;
+  @apply uppercase text-base font-[500] px-4 py-2 bg-[var(--secondary-color)] text-white border-[1px] border-[var(--secondary-color)] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-[var(--secondary-color)] min-w-[150px] cursor-pointer text-center;
 }
 
 .secondary_button {
-  @apply uppercase text-lg font-[700] border-2 border-white px-4 py-2 hover:bg-[var(--main-bg-color)] rounded-lg duration-[var(--main-duration)] hover:text-black min-w-[150px];
+  @apply uppercase text-lg font-[500] border-2 border-white px-4 py-2 hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-black min-w-[150px];
 }

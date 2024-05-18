@@ -1,8 +1,19 @@
-========== To Do =========
-1. Add rounded to maps in locations.
-2. Check all the links for labels and titles
+1. Keep same font and text styling.
+2, Mobiile menu to pop from the top just like the original
+3. Make all the menus the same
+4, The contact form has to be the same and has to be submitted to "mailchimp"
+5 just bottle service for both "+ hst & 20% gratuity"
 
-========== Z-Index =========
-MainHeroVideo.tsx - VIDEO_CONTAINER - z-[-10]
-MainHeroVideo.tsx - TEXT_AND_BUTTON_CONTAINER - z-[-5]
 
+
+==========================Z-Index==========================
+- Layout.tsx - Navbar div - z-[10]
+- MenuHeader.tsx - header image - z-[-1]
+- PrivateEventsHamiltonMainHero.tsx
+    - IMAGE_OVERLAY - z-[-1]
+    - IMAGE_OVERLAY_TEXT - z-[2]
+- PrivateEventsTorontoMainHero.tsx
+    - IMAGE_OVERLAY - z-[-1]
+    - IMAGE_OVERLAY_TEXT - z-[2]
+
+- MobileMenu.tsx - MAIN_CONTAINER - z-[30]

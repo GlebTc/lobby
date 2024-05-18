@@ -1,10 +1,5 @@
 [
   {
-    "title": "Home",
-    "href": "/",
-    "alt": "Home Page"
-  },
-  {
     "title": "Menus",
     "href": "/menus",
     "alt": "Menus"

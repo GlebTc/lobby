@@ -36,7 +36,7 @@ const MainSectionTwo = () => {
           aria-label={`Lobby Bar Restaurant | Main Page | Late Night Redefined | Reserve Now Button`}
           title={`Lobby Bar Restaurant | Main Page | Late Night Redefined | Reserve Now Button`}
           href='/reservations'
-          className={`${componentName}_RESERVATION_BUTTON secondary_button animate-bounce`}
+          className={`${componentName}_RESERVATION_BUTTON secondary_button`}
         >
           reserve now
         </a>

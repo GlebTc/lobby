@@ -10,7 +10,7 @@ const ContactInformationHamilton = ({
       <h1>Hamilton</h1>
       <a
         href='/reservations'
-        className='main_button mb-4 animate-bounce'
+        className='main_button mb-4'
       >
         Reserve Now
       </a>
