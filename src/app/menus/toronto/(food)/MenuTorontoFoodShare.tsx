@@ -15,6 +15,7 @@ const MenuTorontoFoodShare = () => {
               key={index}
               individual_menu_item_title={item.name}
               individual_menu_item_description={item.description}
+              individual_menu_item_description_two={item.description_two}
               individual_menu_item_price_one={item.price}
             />
           );
