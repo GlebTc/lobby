@@ -1,8 +1,17 @@
+'use client';
+import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
 import Image from 'next/image';
 import main_section_one_img_smaller from '@/public/assets/main_section_one_img_smaller.webp';
 
 const MainSectionOne = () => {
   const componentName = 'MAIN_SECTION_ONE';
+  const { showLocationPicker, setShowLocationPicker, setSelectedMenuItem } =
+    useLocationPickerStore();
+
+  const handleButtonClick = () => {
+    setSelectedMenuItem('menus');
+    setShowLocationPicker(showLocationPicker);
+  };
   return (
     <div
       className={`${componentName}_MAIN_CONTAINER h-fit grid md:grid-cols-2 md:py-8 lg:px-4 md:p-4`}
@@ -18,7 +27,6 @@ const MainSectionOne = () => {
             fill
             sizes='1'
             className='floating_container object-cover'
-            // placeholder='blur'
             priority
             quality={100}
           />
@@ -38,14 +46,14 @@ const MainSectionOne = () => {
           handcrafted coctails and an inviting atmosphere that transforms dining
           into an experience.
         </p>
-        <a
-          href='/menus'
+        <div
           className={`${componentName}_VIEW_MENU_BUTTON main_button`}
           aria-label={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
           title={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
+          onClick={handleButtonClick}
         >
           view menu
-        </a>
+        </div>
       </div>
     </div>
   );

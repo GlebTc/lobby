@@ -1,8 +1,17 @@
+'use client';
+import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
 import Image from 'next/image';
 import main_section_three_img from '@/public/assets/main_section_three_img.webp';
 
 const MainSectionThree = () => {
   const componentName = 'MAIN_SECTION_THREE';
+  const { showLocationPicker, setShowLocationPicker, setSelectedMenuItem } =
+  useLocationPickerStore();
+
+const handleButtonClick = () => {
+  setSelectedMenuItem('menus');
+  setShowLocationPicker(showLocationPicker);
+};
   return (
     <div>
       <div
@@ -39,14 +48,14 @@ const MainSectionThree = () => {
             you the same exceptional dining and nightlife in two vibrant
             destinations.
           </p>
-          <a
-            href='/menus'
-            className={`${componentName}_VIEW_MENU_BUTTON main_button`}
-            aria-label={`Lobby Bar Restaurant | Main Page | Section Three | View Menu Button`}
-            title={`Lobby Bar Restaurant | Main Page | Section Three | View Menu Button`}
-          >
-            view menu
-          </a>
+          <div
+          className={`${componentName}_VIEW_MENU_BUTTON main_button`}
+          aria-label={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
+          title={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
+          onClick={handleButtonClick}
+        >
+          view menu
+        </div>
         </div>
       </div>
       <div
@@ -61,14 +70,14 @@ const MainSectionThree = () => {
           Explore a carousel of flavors. Our menu is a symphony of culinary
           masterpieces designed to elevate your dining experience.
         </p>
-        <a
-          href='/menus'
+        <div
           className={`${componentName}_VIEW_MENU_BUTTON main_button`}
-          aria-label={`Lobby Bar Restaurant | Main Page | Section Three | Deliecious Culinary Masterpieces | View Menu Button`}
-          title={`Lobby Bar Restaurant | Main Page | Section Three | Deliecious Culinary Masterpieces | View Menu Button`}
+          aria-label={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
+          title={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
+          onClick={handleButtonClick}
         >
           view menu
-        </a>
+        </div>
       </div>
     </div>
   );

@@ -1,5 +1,15 @@
+'use client';
+import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
+
 const MainHeroVideo = () => {
   const componentName = 'MAIN_PAGE_HERO_VIDEO';
+  const { showLocationPicker, setShowLocationPicker, setSelectedMenuItem } =
+    useLocationPickerStore();
+
+  const handleButtonClick = () => {
+    setSelectedMenuItem('reservations');
+    setShowLocationPicker(showLocationPicker);
+  };
 
   return (
     <div
@@ -26,14 +36,14 @@ const MainHeroVideo = () => {
       >
         <h1>Pure Delight</h1>
         <p className='text-white pb-8'>Vibrant Moments and Incredible Nights</p>
-        <a
+        <div
           aria-label={`Lobby Bar Restaurant | Main Page | Hero Video | Reserve Now Button`}
           title={`Lobby Bar Restaurant | Main Page | Hero Video | Reserve Now Button`}
-          href='/reservations'
-          className={`${componentName}_RESERVATION_BUTTON secondary_button`}
+          onClick={handleButtonClick}
+          className={`${componentName}_RESERVATION_BUTTON secondary_button cursor-pointer`}
         >
           reserve now
-        </a>
+        </div>
       </div>
     </div>
   );
