@@ -44,14 +44,22 @@ const LocationPicker = ({
           />
         </div>
         <Link
-          href={`${selectedMenuItem}/toronto`}
+          href={
+            selectedMenuItem == 'reservations'
+              ? 'https://www.opentable.ca/r/lobby-toronto'
+              : `${selectedMenuItem}/toronto`
+          }
           onClick={() => setShowLocationPicker(!showLocationPicker)}
           className='h-[70px] w-[100%] border-b-[1px] border-[var(--secondary-color)] flex items-center justify-center hover:text-[var(--secondary-color)] duration-[var(--main-duration)]'
         >
           Toronto
         </Link>
         <Link
-          href={`${selectedMenuItem}/hamilton`}
+          href={
+            selectedMenuItem == 'reservations'
+              ? 'https://www.opentable.ca/r/lobby-hamilton'
+              : `${selectedMenuItem}/hamilton`
+          }
           onClick={() => setShowLocationPicker(!showLocationPicker)}
           className='h-[70px] w-[100%] border-b-[1px] border-[var(--secondary-color)] flex items-center justify-center hover:text-[var(--secondary-color)] duration-[var(--main-duration)]'
         >

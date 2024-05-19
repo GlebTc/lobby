@@ -1,7 +1,7 @@
 import lobby_image from '@/public/assets/main_section_one_img.webp';
 import Image from 'next/image';
 
-const HeaderImage = ({componentName}:{componentName: string}) => {
+const TorontoHeaderImage = ({componentName}:{componentName: string}) => {
   return (
     <div className={`${componentName}_IMAGE_CONTAINER relative h-[25dvh]`}>
     <Image
@@ -16,4 +16,4 @@ const HeaderImage = ({componentName}:{componentName: string}) => {
   )
 }
 
-export default HeaderImage
+export default TorontoHeaderImage

@@ -14,7 +14,6 @@ const MenuHamiltonDrinksMain = () => {
       <MenuHamiltonDrinksWine />
       <MenuHamiltonDrinksZeroProof />
       <MenuHotBeverages />
-      <MimosasFootNote />
     </div>
   );
 };

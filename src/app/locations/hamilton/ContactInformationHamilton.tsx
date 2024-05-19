@@ -7,7 +7,7 @@ const ContactInformationHamilton = ({
     <div
       className={`${componentName}_CONTACT_INFORMATION_CONTENT_CONTAINER bg-[var(--main-bg-color)] w-[90%] flex flex-col justify-center items-center text-center py-2 uppercase shadow-md shadow-gray-300 h-[270px] mb-8`}
     >
-      <h1 className='tracking-wide'>Hamilton</h1>
+      <h1 className='tracking-tight'>Hamilton</h1>
       <a
         href='/reservations'
         className='main_button mb-4 w-[75%]'
