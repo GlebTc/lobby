@@ -16,7 +16,7 @@ const LinksHamilton = ({ componentName }: { componentName: string }) => {
         View Menu
       </a>
       <a
-        href='/private-events/hamilton'
+        href='/private-events/hamilton/inquire'
         className={`${componentName}_BOOK_PRIVATE_EVENTS_CONTAINER border-t-[1px] border-[var(--secondary-color)] flex p-[10px] gap-8 text-gray-700 font-[500] text-[18px] items-center`}
         title='Lobby Bar Restaurant | Hamilton | Book Private Event'
         aria-label='Lobby Bar Restaurant | Hamilton | Book Private Event'
