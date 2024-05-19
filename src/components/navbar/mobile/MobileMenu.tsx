@@ -46,7 +46,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
           key={index}
           className={`${
             mobileMenu ? 'h-[44px] py-[12px] ' : 'h-0 p-0 overflow-hidden'
-          } duration-500 w-full bg-[var(--main-bg-color)] hover:bg-[var(--secondary-color)] hover:text-white cursor-pointer px-[30px]`}
+          } duration-500 w-screen bg-[var(--main-bg-color)] hover:bg-[var(--secondary-color)] hover:text-white cursor-pointer px-[30px]`}
         >
           {item.title}
         </li>
