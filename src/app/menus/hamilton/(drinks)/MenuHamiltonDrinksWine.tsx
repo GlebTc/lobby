@@ -21,15 +21,15 @@ const MenuHamiltonDrinksWine = () => {
                     <th className='text-[#c69a50] font-[300] text-xl text-left w-[70%]'>
                       {item.wine_type_title}
                     </th>
-                    <th>6oz</th>
-                    <th>bottle</th>
+                    <th className='text-center italic font-light normal-case'>6oz</th>
+                    <th className='text-center italic font-light normal-case'>bottle</th>
                   </tr>
                 </thead>
                 <tbody>
                   {item.wine_list.map((item, index) => (
                     <tr key={index}>
                       <td>
-                        <p className='text-left'>{item.brand}</p>
+                        <p className='text-left text-black text-lg font-semibold'>{item.brand}</p>
                       </td>
                       {item.price_6oz ? <td className='menu_price'>${item.price_6oz}</td> : <td></td>}
                       <td className='menu_price'>${item.price_bottle}</td>

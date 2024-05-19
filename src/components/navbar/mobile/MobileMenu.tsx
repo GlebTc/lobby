@@ -32,7 +32,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
           mobileMenu ? 'h-[44px] py-[12px] ' : 'h-0 p-0 overflow-hidden'
         } duration-500 w-full bg-[var(--main-bg-color)] hover:bg-[var(--secondary-color)] hover:text-white cursor-pointer px-[30px]`}
       >
-        <Link href='/'>Home</Link>
+        <Link href='/' onClick={() => handleMobileMenu(false)}>Home</Link>
       </li>
       {menuItems.map((item, index) => (
         <li

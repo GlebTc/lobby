@@ -30,15 +30,15 @@ const MenuHamiltonDrinksBeer = () => {
                       <th className='text-[#c69a50] font-[300] text-xl text-left w-[70%]'>
                         {draught_type.draught_type_title}
                       </th>
-                      <th>20 oz</th>
-                      <th>16 oz</th>
+                      <th className='italic font-light'>20 oz</th>
+                      <th className='italic font-light'>16 oz</th>
                     </tr>
                   </thead>
                   <tbody>
                     {draught_type.draught_list.map((beer, index) => (
                       <tr key={index}>
                         <td>
-                          <p className='text-left'>{beer.brand}</p>
+                          <p className='text-left text-black text-lg font-semibold'>{beer.brand}</p>
                         </td>
                         <td className='menu_price'>${beer.price_20}</td>
                         <td className='menu_price'>${beer.price_16}</td>
@@ -74,14 +74,14 @@ const MenuHamiltonDrinksBeer = () => {
                         <th className='text-[#c69a50] font-[300] text-xl text-left w-[70%]'>
                           {bottle_cans_type.bottles_cans_type_title}
                         </th>
-                        <th className='text-center'>355 ml</th>
+                        <th className='text-center italic font-light'>355 ml</th>
                       </tr>
                     </thead>
                     <tbody>
                       {bottle_cans_type.bottles_cans_list.map((beer, index) => (
                         <tr key={index}>
                           <td>
-                            <p className='text-left'>{beer.brand}</p>
+                            <p className='text-left text-black text-lg font-semibold'>{beer.brand}</p>
                           </td>
                           <td className='menu_price'>${beer.price}</td>
                         </tr>

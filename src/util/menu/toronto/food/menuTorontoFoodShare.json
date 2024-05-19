@@ -7,44 +7,14 @@
       "price": "10"
     },
     {
-      "name": "HERB GARLIC FRIES",
-      "description": "CLEAR COAT FRIES, HERBS, GARLIC, PARMESAN, AIOLI",
-      "price": "13"
-    },
-    {
       "name": "CAESAR SALAD",
       "description": "BABY GEM, BACON, TRUFFLE CROUTONS, CAESAR DRESSING, PARMESAN",
       "price": "14"
     },
     {
-      "name": "CRISPY EGGPLANT",
-      "description": "EGGPLANT, SPICY MISO, EDAMAME, RICE CRISPY, TAHINI VINAIGRETTE, MICRO MIX",
-      "price": "18"
-    },
-    {
       "name": "FRESH SHUCKED OYSTERS",
       "description": "6PC. RASPBERRY POINT - PEI, SHISO PEARLS",
       "price": "18"
-    },
-    {
-      "name": "PEACH PROSCIUTTO SALAD",
-      "description": "PEACH, PROSCIUTTO, PICKLED PEARL ONION,CHERRY TOMATO, RADISH, MIX GREENS, BASIL BALSAMIC VINAIGRETTE",
-      "price": "18"
-    },
-    {
-      "name": "CHICKEN PARMESAN SLIDER",
-      "description": "BREADED CHICKEN, SUGO, MOZZARELLA, MIX SALAD, MORTADELLA, AIOLI, BRIOCHE BUN",
-      "price": "18"
-    },
-    {
-      "name": "SMOKED TERIYAKI SLIDERS",
-      "description": "BEEF PATTY, SMOKED TERIYAKI SAUCE, ASIAN SLAW, SESAME MAYO, AGED CHEDDAR, BRIOCHE BUN",
-      "price": "19"
-    },
-    {
-      "name": "BEEF SALPICAO",
-      "description": "BEEF SKEWERS, GINGER AIOLI, CRISPY SHALLOTS, CURL BELL PEPPER, CURL SCALLIONS",
-      "price": "21"
     },
     {
       "name": "CHARCUTERIE BOARDS",
@@ -55,6 +25,36 @@
       "name": "STEAK FRITZ",
       "description": "NY STEAK AAA 6OZ, GREMOLARA, BORDELAISE,  COATED FRIES, AIOLI",
       "price": "25"
+    },
+    {
+      "name": "SMOKED TERIYAKI SLIDERS",
+      "description": "BEEF PATTY, SMOKED TERIYAKI SAUCE, ASIAN SLAW, SESAME MAYO, AGED CHEDDAR, BRIOCHE BUN",
+      "price": "19"
+    },
+    {
+      "name": "HERB GARLIC FRIES",
+      "description": "CLEAR COAT FRIES, HERBS, GARLIC, PARMESAN, AIOLI",
+      "price": "13"
+    },
+    {
+      "name": "PEACH PROSCIUTTO SALAD",
+      "description": "PEACH, PROSCIUTTO, PICKLED PEARL ONION,CHERRY TOMATO, RADISH, MIX GREENS, BASIL BALSAMIC VINAIGRETTE",
+      "price": "18"
+    },
+    {
+      "name": "CRISPY EGGPLANT",
+      "description": "EGGPLANT, SPICY MISO, EDAMAME, RICE CRISPY, TAHINI VINAIGRETTE, MICRO MIX",
+      "price": "18"
+    },
+    {
+      "name": "BEEF SALPICAO",
+      "description": "BEEF SKEWERS, GINGER AIOLI, CRISPY SHALLOTS, CURL BELL PEPPER, CURL SCALLIONS",
+      "price": "21"
+    },
+    {
+      "name": "CHICKEN PARMESAN SLIDER",
+      "description": "BREADED CHICKEN, SUGO, MOZZARELLA, MIX SALAD, MORTADELLA, AIOLI, BRIOCHE BUN",
+      "price": "18"
     }
   ]
 }
