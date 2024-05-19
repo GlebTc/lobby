@@ -1,7 +1,7 @@
 import menuHamiltonDrinksZeroProof from '@/src/util/menu/hamilton/drinks/menuHamiltonDrinksZeroProof.json';
 import MenuTitleDescriptionPrice from '@/src/components/reusable/MenuTitleDescriptionPrice';
 import MenuTitlePrice from '@/src/components/reusable/MenuTitlePrice';
-import MenuHotBeverages from '../../(reusable)/MenuHotBeverages';
+
 
 const MenuHamiltonDrinksZeroProof = () => {
   const componentName = 'MENU_HAMILTON_DRINKS_ZERO_PROOF';
@@ -27,6 +27,7 @@ const MenuHamiltonDrinksZeroProof = () => {
                 key={index}
                 individual_menu_item_title={item.name}
                 individual_menu_item_description={item.description}
+                individual_menu_item_description_two={item.description_two}
                 individual_menu_item_price_one={item.price}
               />
             );
