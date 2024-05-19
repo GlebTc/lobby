@@ -1,19 +1,18 @@
 'use client';
-import { useState } from 'react';
 import lobby_logo from '@/public/assets/lobby_logo.png';
 import Image from 'next/image';
 import navItems from '@/src/util/const/constants_main.json';
-import LocationPicker from '../LocationPicker';
+import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
 
 const NavDesktop = () => {
   const componentName = 'NAV_DESKTOP';
-  const [showLocationPicker, setShowLocationPicker] = useState(false);
-  const [selectedMenuItem, setSelectedMenuItem] = useState('');
+  const { showLocationPicker, setShowLocationPicker, setSelectedMenuItem } =
+  useLocationPickerStore();
+
 
   const handleSelection = (itemHref: string) => {
     setSelectedMenuItem(itemHref);
-
-    setShowLocationPicker(!showLocationPicker);
+    setShowLocationPicker(showLocationPicker);
   };
 
   return (
@@ -58,18 +57,11 @@ const NavDesktop = () => {
         ))}
         <div
           className={`${componentName}_NAVBAR_RESERVATION_BUTTON main_button`}
-          onClick={() => handleSelection("reservations")}
+          onClick={() => handleSelection('reservations')}
           title={`Lobby Bar Restaurant | Desktop Menu | Reservations Link`}
           aria-label={`Lobby Bar Restaurant | Desktop Menu | Reservations Link`}
         >
           Reservations
-        </div>
-        <div>
-          <LocationPicker
-            showLocationPicker={showLocationPicker}
-            setShowLocationPicker={setShowLocationPicker}
-            selectedMenuItem={selectedMenuItem}
-          />
         </div>
       </div>
     </div>

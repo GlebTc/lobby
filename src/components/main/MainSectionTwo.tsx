@@ -1,8 +1,17 @@
+'use client';
+import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
 import Image from 'next/image';
 import main_section_two_img from '@/public/assets/main_section_two_img.webp';
 
 const MainSectionTwo = () => {
   const componentName = 'MAIN_SECTION_TWO';
+  const { showLocationPicker, setShowLocationPicker, setSelectedMenuItem } =
+    useLocationPickerStore();
+
+  const handleButtonClick = () => {
+    setSelectedMenuItem('reservations');
+    setShowLocationPicker(showLocationPicker);
+  };
   return (
     <div className={`${componentName}_MAIN_CONTAINER relative h-[482px]`}>
       <div
@@ -35,8 +44,8 @@ const MainSectionTwo = () => {
         <a
           aria-label={`Lobby Bar Restaurant | Main Page | Late Night Redefined | Reserve Now Button`}
           title={`Lobby Bar Restaurant | Main Page | Late Night Redefined | Reserve Now Button`}
-          href='/reservations'
-          className={`${componentName}_RESERVATION_BUTTON secondary_button`}
+          onClick={handleButtonClick}
+          className={`${componentName}_RESERVATION_BUTTON secondary_button cursor-pointer`}
         >
           reserve now
         </a>

@@ -1,9 +1,18 @@
+'use client';
+import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
 import Image from 'next/image';
 import main_section_four_img from '@/public/assets/main_section_four_img.webp';
 import main_section_four_img_two from '@/public/assets/main_section_four_img_two.webp';
 
 const MainSectionFour = () => {
   const componentName = 'MAIN_SECTION_FOUR';
+  const { showLocationPicker, setShowLocationPicker, setSelectedMenuItem } =
+    useLocationPickerStore();
+
+  const handleButtonClick = () => {
+    setSelectedMenuItem('menus');
+    setShowLocationPicker(showLocationPicker);
+  };
   return (
     <div
       className={`${componentName}_MAIN_CONTAINER h-fit grid md:grid-cols-2 md:my-8 md:mx-4`}
@@ -33,14 +42,14 @@ const MainSectionFour = () => {
           Brunch like never before. From classics to innovative creations, our
           menu is a celebration of weekend indulgence
         </p>
-        <a
-          href='/menus'
-          className={`${componentName}_VIEW_MENU_BUTTON main_button text-center`}
-          aria-label={`Lobby Bar Restaurant | Main Page | Section Four | Indulge in Weekend Bliss | View Menu Button`}
-          title={`Lobby Bar Restaurant | Main Page | Section Four | Indulge in Weekend Bliss | View Menu Button`}
+        <div
+          className={`${componentName}_VIEW_MENU_BUTTON main_button`}
+          aria-label={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
+          title={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
+          onClick={handleButtonClick}
         >
           view menu
-        </a>
+        </div>
       </div>
       <div
         className={`${componentName}_EXPLORE_MENU_TWO_CONTAINER p-4 flex flex-col justify-center items-center gap-4`}
@@ -68,14 +77,14 @@ const MainSectionFour = () => {
           Immerse yourself in an evening of culinary delight and sophisticated
           ambiance.
         </p>
-        <a
-          href='/menus'
-          className={`${componentName}_VIEW_MENU_BUTTON main_button text-center`}
-          aria-label={`Lobby Bar Restaurant | Main Page | Section Four | Elegance Meets Excellence | View Menu Button`}
-          title={`Lobby Bar Restaurant | Main Page | Section Four | Elegance Meets Excellence | View Menu Button`}
+        <div
+          className={`${componentName}_VIEW_MENU_BUTTON main_button`}
+          aria-label={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
+          title={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
+          onClick={handleButtonClick}
         >
           view menu
-        </a>
+        </div>
       </div>
     </div>
   );

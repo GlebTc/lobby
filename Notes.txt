@@ -7,13 +7,12 @@
 
 
 ==========================Z-Index==========================
-- Layout.tsx - Navbar div - z-[10]
-- MenuHeader.tsx - header image - z-[-1]
-- PrivateEventsHamiltonMainHero.tsx
-    - IMAGE_OVERLAY - z-[-1]
-    - IMAGE_OVERLAY_TEXT - z-[2]
-- PrivateEventsTorontoMainHero.tsx
-    - IMAGE_OVERLAY - z-[-1]
-    - IMAGE_OVERLAY_TEXT - z-[2]
-
-- MobileMenu.tsx - MAIN_CONTAINER - z-[30]
+Layout.tsx - relative - z-none
+    - Navbar.tsx - (sticky) - z-[10]
+        - NavDesktop.tsx - z-[10]
+        - NavMobile.tsx - z-[10]
+    - page.tsx - relative - (leave z-[10] for now)
+            ==== z-[10] - menu location picker behind main
+            ==== z-[10] - button location picker works
+            ==== z-none - menu location picker works
+            ==== z-none - button location picker is behind navbar

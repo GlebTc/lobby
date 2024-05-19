@@ -1,26 +1,24 @@
+'use client';
 import { IoClose } from 'react-icons/io5';
 import Link from 'next/link';
-import NewsLetter from './NewsLetter';
+import NewsLetter from '../navbar/NewsLetter';
+import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
 
-const LocationPicker = ({
-  showLocationPicker,
-  setShowLocationPicker,
-  selectedMenuItem,
-}: {
-  setShowLocationPicker: any;
-  showLocationPicker: boolean;
-  selectedMenuItem: string;
-}) => {
+const LocationPicker = () => {
   const componentName = 'LOCATION_PICKER';
-  const handleClick = () => {
-    setShowLocationPicker(!showLocationPicker);
+  const { showLocationPicker, setShowLocationPicker, selectedMenuItem } =
+    useLocationPickerStore();
+
+  const handleCloseButtonClick = () => {
+    setShowLocationPicker(showLocationPicker);
   };
+
   return (
-    <div className={`${componentName}_MAIN_CONTAINER z-[100]`}>
+    <div className={`${componentName}_MAIN_CONTAINER relative`}>
       <div
         className={
           showLocationPicker
-            ? `${componentName}_OVERLAY md:hidden fixed left-0 top-0 w-full h-screen bg-gray-800/90 duration-300`
+            ? `${componentName}_OVERLAY fixed left-0 top-0 w-full h-screen bg-gray-800/90 duration-300`
             : `${componentName}_OVERLAY hidden`
         }
       ></div>
@@ -38,7 +36,7 @@ const LocationPicker = ({
             Choose A Location
           </div>
           <IoClose
-            onClick={handleClick}
+            onClick={handleCloseButtonClick}
             size={25}
             className='absolute right-5 top-[1/2] text-[var(--secondary-color)] cursor-pointer hover:text-black duration-[var(--main-duration)]'
           />
@@ -49,7 +47,7 @@ const LocationPicker = ({
               ? 'https://www.opentable.ca/r/lobby-toronto'
               : `${selectedMenuItem}/toronto`
           }
-          onClick={() => setShowLocationPicker(!showLocationPicker)}
+          onClick={handleCloseButtonClick}
           className='h-[70px] w-[100%] border-b-[1px] border-[var(--secondary-color)] flex items-center justify-center hover:text-[var(--secondary-color)] duration-[var(--main-duration)]'
         >
           Toronto
@@ -60,7 +58,7 @@ const LocationPicker = ({
               ? 'https://www.opentable.ca/r/lobby-hamilton'
               : `${selectedMenuItem}/hamilton`
           }
-          onClick={() => setShowLocationPicker(!showLocationPicker)}
+          onClick={handleCloseButtonClick}
           className='h-[70px] w-[100%] border-b-[1px] border-[var(--secondary-color)] flex items-center justify-center hover:text-[var(--secondary-color)] duration-[var(--main-duration)]'
         >
           Hamilton

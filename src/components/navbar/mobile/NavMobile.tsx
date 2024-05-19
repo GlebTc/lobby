@@ -1,16 +1,25 @@
 'use client';
+import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
 import { useState } from 'react';
 import lobby_logo from '@/public/assets/lobby_logo.png';
 import Image from 'next/image';
 import { IoMenu, IoClose } from 'react-icons/io5';
 import { FaCalendarAlt } from 'react-icons/fa';
 import MobileMenu from './MobileMenu';
-import LocationPicker from '../LocationPicker';
+
+
 
 const NavMobile = () => {
   const componentName = 'NAV_MOBILE';
   const [mobileMenu, setMobileMenu] = useState(false);
-  const [showLocationPicker, setShowLocationPicker] = useState(false);
+  const { showLocationPicker, setShowLocationPicker, setSelectedMenuItem } =
+  useLocationPickerStore();
+
+const handleButtonClick = () => {
+  setSelectedMenuItem('reservations');
+  setShowLocationPicker(showLocationPicker);
+};
+
 
   const handleMobileMenu = () => {
     setMobileMenu(!mobileMenu);
@@ -49,29 +58,17 @@ const NavMobile = () => {
             className='cursor-pointer object-contain'
           />
         </a>
-        {/* <a
-          href='/reservations'
-          title={`Lobby Bar Restaurant | Desktop Navbar | Reservations Link`}
-          aria-label={`Lobby Bar Restaurant | Desktop Navbar | Reservations Link`}
-        > */}
-          <FaCalendarAlt
-            onClick={() => setShowLocationPicker(!showLocationPicker)}
-            size={25}
-            className='text-3xl cursor-pointer hover:scale-105 duration-[var(--main-duration)]'
-          />
-        {/* </a> */}
+
+        <FaCalendarAlt
+    onClick={handleButtonClick}
+          size={25}
+          className='text-3xl cursor-pointer hover:scale-105 duration-[var(--main-duration)]'
+        />
       </div>
       <MobileMenu
         mobileMenu={mobileMenu}
         handleMobileMenu={handleMobileMenu}
       />
-      <div>
-        <LocationPicker
-          showLocationPicker={showLocationPicker}
-          setShowLocationPicker={setShowLocationPicker}
-          selectedMenuItem={'reservations'}
-        />
-      </div>
     </div>
   );
 };
