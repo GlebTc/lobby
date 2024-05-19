@@ -1,9 +1,20 @@
+'use client';
+import { useState } from 'react';
 import lobby_logo from '@/public/assets/lobby_logo.png';
 import Image from 'next/image';
 import navItems from '@/src/util/const/constants_main.json';
+import LocationPicker from '../LocationPicker';
 
 const NavDesktop = () => {
   const componentName = 'NAV_DESKTOP';
+  const [showLocationPicker, setShowLocationPicker] = useState(false);
+  const [selectedMenuItem, setSelectedMenuItem] = useState('');
+
+  const handleSelection = (itemHref: string) => {
+    setSelectedMenuItem(itemHref);
+
+    setShowLocationPicker(!showLocationPicker);
+  };
 
   return (
     <div
@@ -26,25 +37,40 @@ const NavDesktop = () => {
       <div
         className={`${componentName}_NAV_ITEMS flex gap-8 text-md uppercase font-[500] items-center justify-end`}
       >
+        <a
+          href='/'
+          title={`Lobby Bar Restaurant | Desktop Menu | Home Link`}
+          aria-label={`Lobby Bar Restaurant | Desktop Menu | Home Link`}
+          className={`${componentName}_MAPPED_NAV_ITEMS hover:text-[var(--secondary-color)] duration-[var(--main-duration)]`}
+        >
+          Home
+        </a>
         {navItems.map((navItem, index) => (
-          <a
-            className={`${componentName}_MAPPED_NAV_ITEMS hover:text-[var(--secondary-color)] duration-[var(--main-duration)]`}
-            href={navItem.href}
+          <div
+            className={`${componentName}_MAPPED_NAV_ITEMS hover:text-[var(--secondary-color)] duration-[var(--main-duration)] cursor-pointer`}
+            onClick={() => handleSelection(navItem.href)}
             title={`Lobby Bar Restaurant | Desktop Menu | ${navItem.alt} Link`}
             aria-label={`Lobby Bar Restaurant | Desktop Menu | ${navItem.alt} Link`}
             key={index}
           >
             {navItem.title}
-          </a>
+          </div>
         ))}
-        <a
-          href='/reservations'
+        <div
           className={`${componentName}_NAVBAR_RESERVATION_BUTTON main_button`}
+          onClick={() => handleSelection("reservations")}
           title={`Lobby Bar Restaurant | Desktop Menu | Reservations Link`}
           aria-label={`Lobby Bar Restaurant | Desktop Menu | Reservations Link`}
         >
           Reservations
-        </a>
+        </div>
+        <div>
+          <LocationPicker
+            showLocationPicker={showLocationPicker}
+            setShowLocationPicker={setShowLocationPicker}
+            selectedMenuItem={selectedMenuItem}
+          />
+        </div>
       </div>
     </div>
   );

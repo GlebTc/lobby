@@ -22,7 +22,6 @@ const MenuHamiltonMain = () => {
       </div>
       <MenuHamiltonFoodDesserts />
       <MenuHotBeverages />
-      <MimosasFootNote />
     </div>
   );
 };

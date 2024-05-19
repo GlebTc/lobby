@@ -1,38 +1,38 @@
+import MenuSvg from '../MenuSvg';
+import CalendarSvg from '../CalendarSvg';
+
 const LinksToronto = ({ componentName }: { componentName: string }) => {
-  const linkContent = [
-    {
-      href: '/menus/toronto',
-      tag: 'View Menu',
-      title: 'Lobby Bar Restaurant | Toronto | View Menu',
-      className: 'VIEW_MENU_LINK_CONTAINER',
-    },
-    {
-      href: '/private-events/toronto',
-      tag: 'Book Private Events',
-      title: 'Lobby Bar Restaurant | Toronto | Book Private Event',
-      className: 'PRIVATE_EVENTS_LINK_CONTAINER',
-    },
-    {
-      href: '/',
-      tag: 'Explore Upcomming Events',
-      title: 'Lobby Bar Restaurant | Toronto | Explore Upcomming Events',
-      className: 'UPCOMMING_EVENTS_LINK_CONTAINER',
-    },
-  ];
   return (
     <div
-      className={`${componentName}_LINKS_CONTAINER uppercase w-full flex flex-col gap-4 text-center`}
+      className={`${componentName}_LINKS_CONTAINER uppercase w-full flex flex-col text-center border-b-[1px] border-[var(--secondary-color)] mb-8`}
     >
-      {linkContent.map((content, index) => (
-        <a
-          href={content.href}
-          className={`${componentName}_${content.className} main_button`}
-          title={content.title}
-          aria-label={content.title}
-        >
-          {content.tag}
-        </a>
-      ))}
+      <a
+        href='/menus/toronto'
+        className={`${componentName}_VIEW_MENU_CONTAINER border-t-[1px] border-[var(--secondary-color)] flex p-[10px] gap-8 text-gray-700 font-[500] text-[18px] items-center`}
+        title='Lobby Bar Restaurant | Toronto | View Menu'
+        aria-label='Lobby Bar Restaurant | Toronto | View Menu'
+      >
+        <MenuSvg />
+        View Menu
+      </a>
+      <a
+        href='/private-events/toronto'
+        className={`${componentName}_BOOK_PRIVATE_EVENTS_CONTAINER border-t-[1px] border-[var(--secondary-color)] flex p-[10px] gap-8 text-gray-700 font-[500] text-[18px] items-center`}
+        title='Lobby Bar Restaurant | Toronto | Book Private Event'
+        aria-label='Lobby Bar Restaurant | Toronto | Book Private Event'
+      >
+        <CalendarSvg />
+        Book Private Events
+      </a>
+      <a
+        href='/'
+        className={`${componentName}_EXPLORE_UPCOMING_EVENTS_CONTAINER border-t-[1px] border-[var(--secondary-color)] flex p-[10px] gap-8 text-gray-700 font-[500] text-[18px] items-center`}
+        title='Lobby Bar Restaurant | Toronto | Book Private Event'
+        aria-label='Lobby Bar Restaurant | Toronto | Book Private Event'
+      >
+        <CalendarSvg />
+        Explore Upcoming Events
+      </a>
     </div>
   );
 };

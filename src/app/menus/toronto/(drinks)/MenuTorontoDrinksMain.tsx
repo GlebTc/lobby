@@ -10,7 +10,6 @@ const MenuTorontoDrinksMain = () => {
       <MenuHamiltonDrinksBeer />
       <MenuTorontoDrinksCocktails />
       <MenuTorontoDrinksWine />
-      <MimosasFootNote />
     </div>
   );
 };
