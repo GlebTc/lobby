@@ -17,9 +17,9 @@
       "price": "17"
     },
     {
-      "name": "mortadella sandwich",
-      "description": "TOASTED BRIOCHE, WARM MORTADELLA, GARLIC MAYO & PIPARRAS PEPPERS WITH CRISPY FRITES",
-      "price": "19"
+      "name": "fritto misto",
+      "description": "FRIED CALAMARI, SHRIMP, ATLANTIC COD, JALAPENO AND ONION WITH FRESH LEMON & SPICY CALABRESE DIP",
+      "price": "28"
     },
     {
       "name": "carpaccio",
@@ -27,14 +27,14 @@
       "price": "20"
     },
     {
-      "name": "oysters",
-      "description": "1/2 DOZEN $20 | DOZEN $36 DAILY SELECTION, SERVED WITH FRESH HORSERADISH & LEMON",
-      "price": "20"
+      "name": "mortadella sandwich",
+      "description": "TOASTED BRIOCHE, WARM MORTADELLA, GARLIC MAYO & PIPARRAS PEPPERS WITH CRISPY FRITES",
+      "price": "19"
     },
     {
-      "name": "fritto misto",
-      "description": "FRIED CALAMARI, SHRIMP, ATLANTIC COD, JALAPENO AND ONION WITH FRESH LEMON & SPICY CALABRESE DIP",
-      "price": "28"
+      "name": "oysters",
+      "description": "DAILY SELECTION, SERVED WITH FRESH HORSERADISH & LEMON",
+      "description_two": "1/2 DOZEN $20 | DOZEN $36"
     }
   ]
 }

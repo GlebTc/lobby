@@ -20,7 +20,6 @@ const MenuTorontoBrunchMain = () => {
         <MenuTorontoBrunchTower />
         <MenuTorontoBrunchMenu />
       </div>
-      <MenuHamiltonFoodDesserts />
       <MenuHotBeverages />
     </div>
   );

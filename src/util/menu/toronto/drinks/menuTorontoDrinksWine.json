@@ -10,14 +10,14 @@
           "price_bottle": 55
         },
         {
-          "brand": "BAYWOOD CHARDONNAY | 13.5% ABV",
-          "price_6oz": 15,
-          "price_bottle": 55
-        },
-        {
           "brand": "KIM CRAWFORD SAUVIGNON BLANC 13.5% ABV",
           "price_6oz": 17,
           "price_bottle": 65
+        },
+        {
+          "brand": "BAYWOOD CHARDONNAY | 13.5% ABV",
+          "price_6oz": 15,
+          "price_bottle": 55
         },
         {
           "brand": "SONOMA-CUTRER RUSSIAN RIVER RANCHES CHARDONNAY | 14.2% ABV (750ML)",
@@ -34,22 +34,22 @@
           "price_bottle": 55
         },
         {
+          "brand": "TENUTA DI MARTUCINO BAROLO 2016 | 14.5% ABV (750ML) 13.5% ABV",
+          "price_bottle": 125
+        },
+        {
           "brand": "CARLOS BASSO 2020 MALBEC ‘DOS FINCAS’ 14% ABV",
           "price_6oz": 15,
           "price_bottle": 55
         },
         {
+          "brand": "CAYMUS NAPA VALLEY 2019 CABERNET SAUVIGNON | 14.5% ABV (750ML)",
+          "price_bottle": 345
+        },
+        {
           "brand": "HEADWIND PINOT NOIR 2021 | 13.5% ABV",
           "price_6oz": 16,
           "price_bottle": 60
-        },
-        {
-          "brand": "TENUTA DI MARTUCINO BAROLO 2016 | 14.5% ABV (750ML) 13.5% ABV",
-          "price_bottle": 125
-        },
-        {
-          "brand": "CAYMUS NAPA VALLEY 2019 CABERNET SAUVIGNON | 14.5% ABV (750ML)",
-          "price_bottle": 345
         }
       ]
     },

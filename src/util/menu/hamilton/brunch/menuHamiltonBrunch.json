@@ -2,6 +2,12 @@
   "title": "brunch",
   "brunch": [
     {
+      "name": "FLORENTINE EGGS BENEDICT",
+      "description": "FARM-FRESH POACHED EGGS, BABY SPINACH ON TOASTED ENGLISH MUFFIN, SMOTHERED IN HOLLANDAISE SAUCE SERVED WITH HOME FRIED & FRESH GREENS",
+      "description_two": null,
+      "price": "20"
+    },
+    {
       "name": "BREAKFAST BAGEL SANDWICH",
       "description": "SCRAMBLED EGGS ON A BED OF ARUGULA, SPICY MAYONNAISE & TOASTED BAGEL",
       "price": "15"
@@ -25,11 +31,6 @@
       "name": "BLUEBERRY PANCAKES",
       "description": "HOUSE MADE PANCAKES, LAYERED WITH HONEY & ORANGE LABNEH, TOPPED WITH BLUEBERRY COMPOTE",
       "price": "17"
-    },
-    {
-      "name": "FLORENTINE EGGS BENEDICT",
-      "description": "FARM-FRESH POACHED EGGS, BABY SPINACH ON TOASTED ENGLISH MUFFIN, SMOTHERED IN HOLLANDAISE SAUCE SERVED WITH HOME FRIED & FRESH GREENS",
-      "price": "20"
     },
     {
       "name": "SMOKED SALMON EGGS BENEDICT",

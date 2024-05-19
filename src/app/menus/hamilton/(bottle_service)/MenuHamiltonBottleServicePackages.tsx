@@ -25,7 +25,7 @@ const MenuHamiltonBottleServicePackages = () => {
                 <p className='text-gray-600 text-left'>
                   {item.description_three}
                 </p>
-                <p className='text-[10px] mt-2 tracking-wide text-gray-500 italic'>
+                <p className='text-[10px] tracking-wide text-gray-500 italic normal-case'>
                   {item.notes}
                 </p>
               </div>

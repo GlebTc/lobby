@@ -4,11 +4,11 @@ import MenuTitlePrice from '@/src/components/reusable/MenuTitlePrice';
 const MenuHotBeverages = () => {
   const componentName = 'MENU_TORONTO_COFFEE';
   return (
-    <div>
+    <div className={`${componentName}_MAIN_CONTAINER pt-16`}>
       <h1
         className={`${componentName}_HEADER text-[#c69a50] font-[300] tracking-tight pb-12`}
       >
-        Hot Beverages
+        Coffee
       </h1>
       <div
         className={`${componentName}_COFFEE_LIST_CONTAINER grid sm:grid-cols-2 lg:grid-cols-3 gap-8`}

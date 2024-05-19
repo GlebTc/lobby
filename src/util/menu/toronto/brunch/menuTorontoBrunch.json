@@ -2,14 +2,14 @@
     "title": "brunch",
     "brunch": [
       {
-        "name": "HERB GARLIC FRIES",
-        "description": "CLEAR COAT FRIES, HERBS, GARLIC, PARMESAN, AIOLI",
-        "price": "13"
-      },
-      {
         "name": "BLUEBERRY PANCAKES",
         "description": "WILD BLUEBERRIES, PRESSED YOGURT, MAPLE SYRUP",
         "price": "15"
+      },
+      {
+        "name": "HERB GARLIC FRIES",
+        "description": "CLEAR COAT FRIES, HERBS, GARLIC, PARMESAN, AIOLI",
+        "price": "13"
       },
       {
         "name": "SALMON & AVOCADO BAGEL",
@@ -23,7 +23,8 @@
       },
       {
         "name": "BOTTOMLESS MIMOSAS",
-        "description": "2OZ MIONETTO PROSECCO, ORANGE JUICE ** TERMS & CONDITIONS APPLY",
+        "description": "2OZ MIONETTO PROSECCO, ORANGE JUICE",
+        "description_two": "** TERMS & CONDITIONS APPLY",
         "price": "35"
       }
     ]

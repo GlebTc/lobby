@@ -33,7 +33,7 @@ const MenuHamiltonDrinksZeroProof = () => {
           })}
         </div>
         <h2
-          className={`text-[#c69a50] font-[300] tracking-tight text-2xl text-center border-b-2 mb-4 py-4`}
+          className={`text-[#c69a50] font-[300] tracking-tight text-2xl text-center border-b-2 mb-4 py-4 mt-12`}
         >
           non alcoholic
         </h2>

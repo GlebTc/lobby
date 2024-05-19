@@ -14,7 +14,7 @@ const LobbyBrunchTower = () => {
           </div>
           <p>
             CAN'T DECIDE WHAT TO HAVE? HAVE IT ALL ON OUR SIGNATURE THREE TIER
-            BRUNCH TOWER (SERVES 2-4)
+            BRUNCH TOWER {'{SERVES 2-4}'}
           </p>
         </div>
       </div>

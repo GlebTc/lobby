@@ -112,20 +112,20 @@
       "bottle_title": "gin",
       "bottle_list": [
         {
-          "name": "bombay",
-          "price": "280"
-        },
-        {
-          "name": "Tanqueray",
-          "price": "280"
-        },
-        {
           "name": "Hendricks",
           "price": "300"
         },
         {
+          "name": "bombay",
+          "price": "280"
+        },
+        {
           "name": "Botanist",
           "price": "320"
+        },
+        {
+          "name": "Tanqueray",
+          "price": "280"
         }
       ]
     },
@@ -180,12 +180,12 @@
           "price": "280"
         },
         {
-          "name": "Bacardi 8",
-          "price": "320"
-        },
-        {
           "name": "Captain Morgan White",
           "price": "280"
+        },
+        {
+          "name": "Bacardi 8",
+          "price": "320"
         },
         {
           "name": "Bumbu Craft",
@@ -209,12 +209,12 @@
           "price": "350"
         },
         {
-          "name": "Veuve Clicquot",
-          "price": "350"
-        },
-        {
           "name": "Moet Chandon Rose",
           "price": "370"
+        },
+        {
+          "name": "Veuve Clicquot",
+          "price": "350"
         },
         {
           "name": "Dom Perignon Brut",
