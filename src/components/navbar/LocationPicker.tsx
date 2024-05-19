@@ -16,7 +16,7 @@ const LocationPicker = ({
     setShowLocationPicker(!showLocationPicker);
   };
   return (
-    <div className={`${componentName}_MAIN_CONTAINER`}>
+    <div className={`${componentName}_MAIN_CONTAINER z-[100]`}>
       <div
         className={
           showLocationPicker
