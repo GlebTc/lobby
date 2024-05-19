@@ -3,7 +3,6 @@ import MenuTitleDescriptionPrice from '@/src/components/reusable/MenuTitleDescri
 
 const MenuHamiltonDrinksCocktails = () => {
   const componentName = 'MENU_HAMILTON_DRINKS_COCKTAILS';
-  // console.log(menuHamiltonDrinksCocktails.cocktails);
   return (
     <div className={`${componentName}_MAIN_CONTAINER flex flex-col gap-8 pt-8`}>
       <h1 className={`text-[#c69a50] font-[300] tracking-tight`}>
@@ -16,6 +15,7 @@ const MenuHamiltonDrinksCocktails = () => {
               key={index}
               individual_menu_item_title={item.name}
               individual_menu_item_description={item.description}
+              individual_menu_item_description_two={item.description_two}
               individual_menu_item_price_one={item.price}
             />
           );
