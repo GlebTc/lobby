@@ -9,7 +9,7 @@ const ContactInformationToronto = ({
     >
       <h1 className='tracking-tight'>Toronto</h1>
       <a
-        href='/reservations'
+        href='https://www.opentable.ca/r/lobby-toronto'
         className='main_button mb-4 w-[75%]'
       >
         Reserve Now

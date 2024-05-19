@@ -9,7 +9,7 @@ const ContactInformationHamilton = ({
     >
       <h1 className='tracking-tight'>Hamilton</h1>
       <a
-        href='/reservations'
+        href='https://www.opentable.ca/r/lobby-hamilton'
         className='main_button mb-4 w-[75%]'
       >
         Reserve Now
