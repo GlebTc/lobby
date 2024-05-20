@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import private_events_toronto_one from '@/public/assets/private_events_toronto_one.webp';
+import Link from 'next/link';
 
 const PrivateEventsTorontoMainHero = () => {
   const componentName = 'PRIVATE_EVENTS_TORONTO_MAIN_HERO';
@@ -27,10 +28,10 @@ const PrivateEventsTorontoMainHero = () => {
           <a
           aria-label={`Lobby Bar Restaurant | Main Page | Hero Video | Reserve Now Button | Call 416-901-6768`}
           title={`Lobby Bar Restaurant | Main Page | Hero Video | Reserve Now Button | Call 416-901-6768`}
-          href='tel:4169016768'
+          href='/private-events/toronto/inquire'
           className={`${componentName}_RESERVATION_BUTTON secondary_button`}
         >
-          reserve now
+          inquire now
         </a>
         </div>
       </div>

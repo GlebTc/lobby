@@ -2,8 +2,8 @@ import HamiltonHeaderImage from '../hamilton/HamiltonHeaderImage';
 import ContactInformationHamilton from './ContactInformationHamilton';
 import LinksHamilton from '@/src/app/locations/hamilton/LinksHamilton';
 import MapContainerHamilton from '@/src/app/locations//hamilton/MapContainerHamilton';
-import MainGallery from '@/src/components/main/MainGallery';
 import HamiltonHoursContainer from './HamiltonHoursContainer';
+import MenuCarousel from '@/src/components/reusable/MenuCarousel';
 
 const locationsHamilton = () => {
   const componentName = 'LOCATIONS_HAMILTON';
@@ -26,7 +26,7 @@ const locationsHamilton = () => {
           <HamiltonHoursContainer />
         </div>
       </div>
-      <MainGallery />
+      <MenuCarousel />
     </div>
   );
 };

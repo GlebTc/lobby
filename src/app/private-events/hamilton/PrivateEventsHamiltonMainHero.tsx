@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import private_events_hamilton_one from '@/public/assets/private_events_hamilton_one.webp';
+import Link from 'next/link';
 
 const PrivateEventsHamiltonMainHero = () => {
   const componentName = 'PRIVATE_EVENTS_HAMILTON_MAIN_HERO';
@@ -26,14 +27,14 @@ const PrivateEventsHamiltonMainHero = () => {
             The lobby Hamilton venue is perfect for private groups, parties and
             corporate events
           </p>
-          <a
+          <Link
             aria-label={`Lobby Bar Restaurant | Main Page | Hero Video | Reserve Now Button | Call 289-389-3109`}
             title={`Lobby Bar Restaurant | Main Page | Hero Video | Reserve Now Button | Call 289-389-3109`}
             href='/private-events/hamilton/inquire'
             className={`${componentName}_RESERVATION_BUTTON secondary_button`}
           >
             Inquire Now
-          </a>
+          </Link>
         </div>
       </div>
     </div>

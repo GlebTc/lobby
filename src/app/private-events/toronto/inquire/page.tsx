@@ -6,7 +6,7 @@ import TorontoInquireForm from './TorontoInquireForm';
 const Inquire = () => {
   const componentName = 'TORONTO_INQUIRE';
   return (
-    <div className={`${componentName}_MAIN_CONTAINER relative bg-[var(--main-bg-color)]`}>
+    <div className={`${componentName}_MAIN_CONTAINER relative bg-[#fff]`}>
       <div className='h-[185px] relative'>
         <Image
           src={private_events_toronto_two}
