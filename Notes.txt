@@ -1,11 +1,3 @@
-1. Keep same font and text styling.
-2, Mobiile menu to pop from the top just like the original
-3. Make all the menus the same
-4, The contact form has to be the same and has to be submitted to "mailchimp"
-5 just bottle service for both "+ hst & 20% gratuity"
-
-
-
 ==========================Z-Index==========================
 Layout.tsx - relative - z-none
     - Navbar.tsx - (sticky) - z-[10]
