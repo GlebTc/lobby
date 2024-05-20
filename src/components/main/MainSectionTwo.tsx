@@ -41,14 +41,14 @@ const MainSectionTwo = () => {
           atmosphere that's as lively as your spirits. Elevate your late-night
           experience at Lobby.
         </p>
-        <a
+        <div
           aria-label={`Lobby Bar Restaurant | Main Page | Late Night Redefined | Reserve Now Button`}
           title={`Lobby Bar Restaurant | Main Page | Late Night Redefined | Reserve Now Button`}
           onClick={handleButtonClick}
           className={`${componentName}_RESERVATION_BUTTON secondary_button cursor-pointer`}
         >
           reserve now
-        </a>
+        </div>
       </div>
     </div>
   );

@@ -24,6 +24,7 @@ const MainHeroVideo = () => {
           autoPlay
           muted
           loop
+
         >
           <source
             src='/assets/lobby_hero_video.mp4'
