@@ -29,8 +29,8 @@ const MenuCarousel = () => {
             className={`absolute top-0 left-0 w-[100%] h-[100%]
             ${
               currentIndex === index
-                ? 'opacity-100 duration-500 transition-opacity'
-                : 'opacity-0 duration-500 transition-opacity'
+                ? 'opacity-100 duration-1000 transition-opacity'
+                : 'opacity-0 duration-1000 transition-opacity'
             }
             `}
           >
