@@ -29,10 +29,10 @@ const PrivateEventsHamiltonMainHero = () => {
           <a
             aria-label={`Lobby Bar Restaurant | Main Page | Hero Video | Reserve Now Button | Call 289-389-3109`}
             title={`Lobby Bar Restaurant | Main Page | Hero Video | Reserve Now Button | Call 289-389-3109`}
-            href='tel:2893893109'
+            href='/private-events/hamilton/inquire'
             className={`${componentName}_RESERVATION_BUTTON secondary_button`}
           >
-            reserve now
+            Inquire Now
           </a>
         </div>
       </div>

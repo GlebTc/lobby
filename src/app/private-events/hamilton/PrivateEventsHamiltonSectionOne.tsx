@@ -12,7 +12,7 @@ const PrivateEventsHamiltonSectionOne = () => {
         <h1 className='pb-4'>Full Venue</h1>
         <p className='mb-4'>
           Our versatile and stylish venue is the perfect canvas for any
-          occasion. Whether it’s a corporate gathering or a special celebration,
+          occasion. Whether it's a corporate gathering or a special celebration,
           make your mark in this dynamic setting, where seamless design and
           functionality converge for an unforgettable experience.
         </p>
