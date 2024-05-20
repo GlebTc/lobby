@@ -2,7 +2,7 @@
 import { useState } from 'react';
 
 const HamiltonInquireForm = () => {
-  const componentName = 'HAMILTON_INQUIRE_FORM';
+  const componentName = 'TORONTO_INQUIRE_FORM';
   const arrayOfStartTime = [
     '11am',
     '12pm',
@@ -37,7 +37,6 @@ const HamiltonInquireForm = () => {
     '1am',
     '2am',
   ];
-
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -51,7 +50,9 @@ const HamiltonInquireForm = () => {
   });
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >
   ) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
@@ -166,7 +167,6 @@ const HamiltonInquireForm = () => {
             className='form_input'
           />
         </div>
-
         <div className='grid w-full'>
           <label
             htmlFor='startTime'
@@ -181,9 +181,7 @@ const HamiltonInquireForm = () => {
             className='form_input bg-white'
           >
             {arrayOfStartTime.map((time) => {
-              return (
-                <option>{time}</option>
-              )
+              return <option>{time}</option>;
             })}
           </select>
         </div>
@@ -201,9 +199,7 @@ const HamiltonInquireForm = () => {
             className='form_input bg-white'
           >
             {arrayOfEndTime.map((time) => {
-              return (
-                <option>{time}</option>
-              )
+              return <option>{time}</option>;
             })}
           </select>
         </div>
