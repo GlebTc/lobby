@@ -2,8 +2,11 @@
 import { useState } from 'react';
 import Image from 'next/image';
 
-const MainGallery = () => {
+const MenuCarousel = () => {
   const componentName = 'MAIN_PAGE_GALLERY';
+  const [imageUrlArray, setImageUrlArray] = useState<number[]>([
+    1, 2, 3, 4, 5, 6, 7, 8
+  ])
   const imageUrlNumber: number[] = [1, 2, 3, 4, 5, 6, 7, 8];
   const [currentIndex, setCurrentIndex] = useState<number>(3);
   const [timerOn, setTimerOn] = useState<boolean>(true);
@@ -19,7 +22,7 @@ const MainGallery = () => {
     <div
       className={`${componentName}_MAIN_CONTAINER relative h-[40dvh] sm:h-[450px] md:h-[80dvh] w-full p-4`}
     >
-      {imageUrlNumber.map((number, index) => {
+      {imageUrlArray.map((number, index) => {
         return (
           <div
             key={index}
@@ -64,6 +67,7 @@ const MainGallery = () => {
             }`}
             onClick={() => {
               setCurrentIndex(index);
+              setImageUrlArray(imageUrlNumber.slice(index));
             }}
           />
         ))}
@@ -72,4 +76,4 @@ const MainGallery = () => {
   );
 };
 
-export default MainGallery;
+export default MenuCarousel;

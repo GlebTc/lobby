@@ -6,7 +6,7 @@ import HamiltonInquireForm from './HamiltonInquireForm';
 const Inquire = () => {
   const componentName = 'HAMILTON_INQUIRE';
   return (
-    <div className={`${componentName}_MAIN_CONTAINER relative bg-[var(--main-bg-color)]`}>
+    <div className={`${componentName}_MAIN_CONTAINER relative bg-[#fff]`}>
       <div className='h-[185px] relative'>
         <Image
           src={private_events_hamilton_inquire}

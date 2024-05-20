@@ -1,5 +1,6 @@
 import MenuSvg from '../MenuSvg';
 import CalendarSvg from '../CalendarSvg';
+import Link from 'next/link';
 
 const LinksToronto = ({ componentName }: { componentName: string }) => {
   return (
@@ -15,7 +16,7 @@ const LinksToronto = ({ componentName }: { componentName: string }) => {
         <MenuSvg />
         View Menu
       </a>
-      <a
+      <Link
         href='/private-events/toronto'
         className={`${componentName}_BOOK_PRIVATE_EVENTS_CONTAINER border-t-[1px] border-[var(--secondary-color)] flex p-[10px] gap-8 text-gray-700 font-[500] text-[18px] items-center`}
         title='Lobby Bar Restaurant | Toronto | Book Private Event'
@@ -23,7 +24,7 @@ const LinksToronto = ({ componentName }: { componentName: string }) => {
       >
         <CalendarSvg />
         Book Private Events
-      </a>
+      </Link>
       <a
         href='/'
         className={`${componentName}_EXPLORE_UPCOMING_EVENTS_CONTAINER border-t-[1px] border-[var(--secondary-color)] flex p-[10px] gap-8 text-gray-700 font-[500] text-[18px] items-center`}

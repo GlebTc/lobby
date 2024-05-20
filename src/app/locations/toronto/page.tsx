@@ -2,7 +2,7 @@ import TorontoHeaderImage from './TorontoHeaderImage';
 import ContactInformationToronto from '@/src/app/locations/toronto/ContactInformationToronto';
 import LinksToronto from '@/src/app/locations/toronto/LinksToronto';
 import MapContainerToronto from '@/src/app/locations/toronto/MapContainerToronto';
-import MainGallery from '@/src/components/main/MainGallery';
+import MenuCarousel from '@/src/components/reusable/MenuCarousel';
 import TorontoHoursContainer from './TorontoHoursContainer';
 
 const locationsToronto = () => {
@@ -26,7 +26,7 @@ const locationsToronto = () => {
           <TorontoHoursContainer />
         </div>
       </div>
-      <MainGallery />
+      <MenuCarousel />
     </div>
   );
 };

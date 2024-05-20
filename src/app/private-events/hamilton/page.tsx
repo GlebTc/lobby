@@ -5,6 +5,7 @@ import PrivateEventsHamiltonSectionThree from '@/src/app/private-events/hamilton
 import PrivateEventsHamiltonSectionFour from '@/src/app/private-events/hamilton/PrivateEventsHamiltonSectionFour';
 import PrivateEventsHamiltonSectionFive from '@/src/app/private-events/hamilton/PrivateEventsHamiltonSectionFive';
 import PrivateEventsHamiltonSectionSix from '@/src/app/private-events/hamilton/PrivateEventsHamiltonSectionSix';
+import Link from 'next/link';
 
 const PrivateEventsHamilton = () => {
   const componentName = 'PRIVATE_EVENTS_HAMILTON';
@@ -18,14 +19,14 @@ const PrivateEventsHamilton = () => {
       <PrivateEventsHamiltonSectionFive />
       <PrivateEventsHamiltonSectionSix />
       <div className='w-full h-full flex justify-center text-center my-8'>
-        <a
+        <Link
           aria-label={`Lobby Bar Restaurant | Locations Hamilton | Call 289-389-3109`}
           title={`Lobby Bar Restaurant | Locations Hamilton | Call 289-389-3109`}
-          href='tel:4169016768'
+          href='/private-events/hamilton/inquire'
           className={`${componentName}_RESERVATION_BUTTON main_button`}
         >
           inquire now
-        </a>
+        </Link>
       </div>
     </div>
   );
