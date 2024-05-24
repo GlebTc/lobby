@@ -4,6 +4,7 @@ import './globals.css';
 import NavbarTopBar from '@/src/components/navbar/NavbarTopBar';
 import Navbar from '@/src/components/navbar/Navbar';
 import LocationPicker from '@/src/components/reusable/LocationPicker';
+import Footer from '@/src/components/footer/Footer';
 
 const poppins = Poppins({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
@@ -54,6 +55,7 @@ export default function RootLayout({
           <LocationPicker />
         </div>
         {children}
+        <Footer />
       </body>
     </html>
   );

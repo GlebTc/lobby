@@ -28,7 +28,7 @@ const MainSectionOne = () => {
             sizes='1'
             className='floating_container object-cover'
             priority
-            quality={100}
+            quality={50}
           />
         </div>
       </div>
