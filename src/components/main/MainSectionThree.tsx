@@ -15,7 +15,7 @@ const handleButtonClick = () => {
   return (
     <div>
       <div
-        className={`${componentName}_MAIN_CONTAINER h-fit grid md:grid-cols-2 md:py-8 lg:px-4 md:p-4`}
+        className={`${componentName}_MAIN_CONTAINER h-fit grid md:grid-cols-2 md:py-8 lg:px-4 md:p-4 bg-white`}
       >
         <div
           className={`${componentName}_IMG_CONTAINER h-full flex items-center order-2`}

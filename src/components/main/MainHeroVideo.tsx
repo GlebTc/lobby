@@ -1,5 +1,23 @@
 'use client';
 import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
+import localFont from 'next/font/local';
+
+
+
+const GlacialIndifferenceBold = localFont({
+  src: '../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
+  display: 'swap',
+});
+
+const futuraFontMedium = localFont({
+  src: '../../../public/fonts/static-fonts/FuturaPTMedium.otf',
+  display: 'swap',
+});
+
+const GlacialIndifferenceRegular = localFont({
+  src: '../../../public/fonts/static-fonts/GlacialIndifference-Regular.otf',
+  display: 'swap',
+});
 
 const MainHeroVideo = () => {
   const componentName = 'MAIN_PAGE_HERO_VIDEO';
@@ -33,17 +51,17 @@ const MainHeroVideo = () => {
         </video>
       </div>
       <div
-        className={`${componentName}_TEXT_AND_BUTTON_CONTAINER absolute top-0 left-0 w-[100%] h-[100%] flex flex-col gap-4 justify-center items-center text-white bg-gray-950/30 text-center`}
+        className={`${componentName}_TEXT_AND_BUTTON_CONTAINER absolute top-0 left-0 w-[100%] h-[100%] flex flex-col justify-center items-center text-white bg-gray-950/30 text-center`}
       >
-        <h1>Pure Delight</h1>
-        <p className='text-white pb-8'>Vibrant Moments and Incredible Nights</p>
+        <h1 className={`${GlacialIndifferenceBold.className} tracking-[-1px] leading-[42px] text-[42px]`}>Pure Delight</h1>
+        <p className={`${GlacialIndifferenceRegular.className} text-white pb-4`}>Vibrant Moments and Incredible Nights</p>
         <div
           aria-label={`Lobby Bar Restaurant | Main Page | Hero Video | Reserve Now Button`}
           title={`Lobby Bar Restaurant | Main Page | Hero Video | Reserve Now Button`}
           onClick={handleButtonClick}
-          className={`${componentName}_RESERVATION_BUTTON secondary_button cursor-pointer`}
+          className={`${componentName}_RESERVATION_BUTTON secondary_button cursor-pointer ${futuraFontMedium.className} tracking-wider`}
         >
-          reserve now
+          reservations
         </div>
       </div>
     </div>
