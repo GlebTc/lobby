@@ -3,12 +3,22 @@ import lobby_logo from '@/public/assets/lobby_logo.png';
 import Image from 'next/image';
 import navItems from '@/src/util/const/constants_main.json';
 import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
+import localFont from 'next/font/local';
+
+const futuraFontBook = localFont({
+  src: '../../../../public/fonts/static-fonts/FuturaPTBook.otf',
+  display: 'swap',
+});
+
+const futuraFontMedium = localFont({
+  src: '../../../../public/fonts/static-fonts/FuturaPTMedium.otf',
+  display: 'swap',
+});
 
 const NavDesktop = () => {
   const componentName = 'NAV_DESKTOP';
   const { showLocationPicker, setShowLocationPicker, setSelectedMenuItem } =
-  useLocationPickerStore();
-
+    useLocationPickerStore();
 
   const handleSelection = (itemHref: string) => {
     setSelectedMenuItem(itemHref);
@@ -17,7 +27,7 @@ const NavDesktop = () => {
 
   return (
     <div
-      className={`${componentName}_MAIN_CONTAINER bg-[var(--main-bg-color)] h-[65px] w-full flex justify-between items-center px-8`}
+      className={`${componentName}_MAIN_CONTAINER bg-[var(--main-bg-color)] h-[65px] w-full flex justify-between items-center px-8 text-[16px]`}
     >
       <a
         href='/'
@@ -34,19 +44,19 @@ const NavDesktop = () => {
       </a>
 
       <div
-        className={`${componentName}_NAV_ITEMS flex gap-8 text-md uppercase font-[500] items-center justify-end`}
+        className={`${componentName}_NAV_ITEMS flex md:gap-8 lg:gap-16 text-md uppercase font-[500] items-center justify-end`}
       >
         <a
           href='/'
           title={`Lobby Bar Restaurant | Desktop Menu | Home Link`}
           aria-label={`Lobby Bar Restaurant | Desktop Menu | Home Link`}
-          className={`${componentName}_MAPPED_NAV_ITEMS hover:text-[var(--secondary-color)] duration-[var(--main-duration)]`}
+          className={`${componentName}_MAPPED_NAV_ITEMS hover:text-[var(--secondary-color)] duration-[var(--main-duration)] ${futuraFontBook.className} font-bold tracking-wider`}
         >
           Home
         </a>
         {navItems.map((navItem, index) => (
           <div
-            className={`${componentName}_MAPPED_NAV_ITEMS hover:text-[var(--secondary-color)] duration-[var(--main-duration)] cursor-pointer`}
+            className={`${componentName}_MAPPED_NAV_ITEMS hover:text-[var(--secondary-color)] duration-[var(--main-duration)] cursor-pointer ${futuraFontBook.className} font-bold tracking-wider`}
             onClick={() => handleSelection(navItem.href)}
             title={`Lobby Bar Restaurant | Desktop Menu | ${navItem.alt} Link`}
             aria-label={`Lobby Bar Restaurant | Desktop Menu | ${navItem.alt} Link`}
@@ -56,12 +66,12 @@ const NavDesktop = () => {
           </div>
         ))}
         <div
-          className={`${componentName}_NAVBAR_RESERVATION_BUTTON main_button`}
+          className={`${componentName}_NAVBAR_RESERVATION_BUTTON main_button ${futuraFontMedium.className} tracking-wider`}
           onClick={() => handleSelection('reservations')}
           title={`Lobby Bar Restaurant | Desktop Menu | Reservations Link`}
           aria-label={`Lobby Bar Restaurant | Desktop Menu | Reservations Link`}
         >
-          Reservations
+          Reservation
         </div>
       </div>
     </div>

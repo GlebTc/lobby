@@ -1,14 +1,14 @@
 import type { Metadata } from 'next';
-import { Poppins } from 'next/font/google';
+import localFont from 'next/font/local';
 import './globals.css';
 import NavbarTopBar from '@/src/components/navbar/NavbarTopBar';
 import Navbar from '@/src/components/navbar/Navbar';
 import LocationPicker from '@/src/components/reusable/LocationPicker';
 import Footer from '@/src/components/footer/Footer';
 
-const poppins = Poppins({
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-  subsets: ['latin'],
+const futuraFontBook = localFont({
+  src: '../../public/fonts/static-fonts/FuturaPTBook.otf',
+  display: 'swap',
 });
 
 export const metadata: Metadata = {
@@ -44,10 +44,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`${poppins.className} relative`}>
+      <body className={`${futuraFontBook.className} relative`}>
         <NavbarTopBar />
         <div className='sticky top-0 z-[10]'>
-
           <Navbar />
         </div>
 

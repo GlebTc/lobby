@@ -11,6 +11,10 @@
   --menu-bar-h: 65px;
 }
 
+body {
+  @apply bg-white
+}
+
 h1 {
   @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-[700] tracking-widest py-4;
 }
@@ -24,7 +28,7 @@ h3 {
 }
 
 p {
-  @apply text-sm sm:text-base lg:text-xl text-gray-600;
+  @apply text-[16px];
 }
 
 .menu_price {

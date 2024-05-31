@@ -15,9 +15,9 @@ const MainSectionTwo = () => {
   return (
     <div className={`${componentName}_MAIN_CONTAINER relative h-[482px]`}>
       <div
-        className={`${componentName}_OVERLAY_CONTAINER absolute top-0 left-0 h-full w-full bg-gray-950/50`}
+        className={`${componentName}_OVERLAY_CONTAINER absolute top-0 left-0 h-full w-full`}
       ></div>
-      <div
+      {/* <div
         className={`${componentName}_BG_IMG_CONTAINER relative h-full w-full z-[-1]`}
       >
         <Image
@@ -31,7 +31,7 @@ const MainSectionTwo = () => {
           priority
           quality={10}
         />
-      </div>
+      </div> */}
       <div
         className={`${componentName}_TEXT_AND_BUTTON_CONTAINER absolute top-0 left-0 w-[100%] h-[100%] flex flex-col gap-4 justify-center items-center text-white bg-gray-950/50 text-center`}
       >

@@ -15,7 +15,7 @@ const MainSectionFour = () => {
   };
   return (
     <div
-      className={`${componentName}_MAIN_CONTAINER h-fit grid md:grid-cols-2 md:my-8 md:mx-4`}
+      className={`${componentName}_MAIN_CONTAINER h-fit grid md:grid-cols-2 md:py-8 md:px-4 bg-white`}
     >
       <div
         className={`${componentName}_EXPLORE_MENU_ONE_CONTAINER p-4 flex flex-col justify-start items-center gap-4`}
