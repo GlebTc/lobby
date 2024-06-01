@@ -3,6 +3,12 @@ import { IoClose } from 'react-icons/io5';
 import Link from 'next/link';
 import NewsLetter from '../navbar/NewsLetter';
 import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
+import localFont from 'next/font/local';
+
+const GlacialIndifferenceBold = localFont({
+  src: '../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
+  display: 'swap',
+});
 
 const LocationPicker = () => {
   const componentName = 'LOCATION_PICKER';
@@ -34,7 +40,7 @@ const LocationPicker = () => {
             <div
               className={`${componentName}_HEADER_CONTAINER relative h-[120px] w-[100%] border-b-[1px] border-[var(--secondary-color)] flex items-center justify-center`}
             >
-              <div className='font-[600] text-[16px] tracking-wide'>
+              <div className={`${GlacialIndifferenceBold.className} uppercase`}>
                 Choose A Location
               </div>
               <IoClose
@@ -50,7 +56,7 @@ const LocationPicker = () => {
                   : `${selectedMenuItem}/toronto`
               }
               onClick={handleCloseButtonClick}
-              className='h-[70px] w-[100%] border-b-[1px] border-[var(--secondary-color)] flex items-center justify-center hover:text-[var(--secondary-color)] duration-[var(--main-duration)]'
+              className='h-[70px] w-[100%] border-b-[1px] border-[var(--secondary-color)] flex items-center justify-center hover:text-[var(--secondary-color)] duration-[var(--main-duration)] text-[16px] uppercase'
             >
               Toronto
             </Link>
@@ -61,7 +67,7 @@ const LocationPicker = () => {
                   : `${selectedMenuItem}/hamilton`
               }
               onClick={handleCloseButtonClick}
-              className='h-[70px] w-[100%] border-b-[1px] border-[var(--secondary-color)] flex items-center justify-center hover:text-[var(--secondary-color)] duration-[var(--main-duration)]'
+              className='h-[70px] w-[100%] border-b-[1px] border-[var(--secondary-color)] flex items-center justify-center hover:text-[var(--secondary-color)] duration-[var(--main-duration)] text-[16px] uppercase'
             >
               Hamilton
             </Link>
