@@ -1,3 +1,10 @@
+import localFont from 'next/font/local';
+
+const GlacialIndifferenceBold = localFont({
+  src: '../../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
+  display: 'swap',
+});
+
 const ContactInformationToronto = ({
   componentName,
 }: {
@@ -7,10 +14,10 @@ const ContactInformationToronto = ({
     <div
     className={`${componentName}_CONTACT_INFORMATION_CONTENT_CONTAINER bg-[var(--main-bg-color)] w-[90%] flex flex-col justify-center items-center text-center py-2 uppercase shadow-md shadow-gray-300 h-[270px] mb-8`}
     >
-      <h1 className='tracking-tight'>Toronto</h1>
+      <h1 className={`tracking-tight ${GlacialIndifferenceBold.className} text-[30px]`}>Toronto</h1>
       <a
         href='https://www.opentable.ca/r/lobby-toronto'
-        className='main_button mb-4 w-[75%]'
+        className='uppercase text-base font-[500] px-4 py-2 bg-[var(--secondary-color)] text-white border-[1px] border-[var(--secondary-color)]  duration-[var(--main-duration)] hover:text-black min-w-[150px] cursor-pointer text-center mb-4 w-[65%]'
       >
         Reserve Now
       </a>

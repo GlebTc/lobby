@@ -8,13 +8,13 @@ import TorontoHoursContainer from './TorontoHoursContainer';
 const locationsToronto = () => {
   const componentName = 'LOCATIONS_TORONTO';
   return (
-    <div className={`${componentName}_MAIN_CONTAINER relative`}>
+    <div className={`${componentName}_MAIN_CONTAINER relative bg-white`}>
       <TorontoHeaderImage componentName={componentName} />
       <div
         className={`${componentName}_CONTENT_CONTAINER relative grid md:grid-cols-2 p-4`}
       >
         <div
-          className={`${componentName}_CONTACT_LINKS_MAP_CONTAINER relative top-[-120px] flex flex-col justify-center items-center gap-4 pt-8 h-fit`}
+          className={`${componentName}_CONTACT_LINKS_MAP_CONTAINER relative top-[-140px] flex flex-col justify-center items-center gap-2 pt-8 h-fit`}
         >
           <ContactInformationToronto componentName={componentName} />
           <LinksToronto componentName={componentName} />

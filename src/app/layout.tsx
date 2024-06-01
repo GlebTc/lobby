@@ -6,8 +6,8 @@ import Navbar from '@/src/components/navbar/Navbar';
 import LocationPicker from '@/src/components/reusable/LocationPicker';
 import Footer from '@/src/components/footer/Footer';
 
-const futuraFontBook = localFont({
-  src: '../../public/fonts/static-fonts/FuturaPTBook.otf',
+const futuraFontMedium = localFont({
+  src: '../../public/fonts/static-fonts/FuturaPTMedium.otf',
   display: 'swap',
 });
 
@@ -44,7 +44,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`${futuraFontBook.className} relative`}>
+      <body className={`${futuraFontMedium.className} relative`}>
         <NavbarTopBar />
         <div className='sticky top-0 z-[10]'>
           <Navbar />

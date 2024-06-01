@@ -27,7 +27,7 @@ const NewsLetter = () => {
     <div
       className={`${componentName} normal-case h-[60dvh] flex flex-col justify-center`}
     >
-      <p className='text-black font-[600] text-[17px] text-center leading-[20px] max-w-[290px] mx-auto mb-4'>
+      <p className='text-black text-[16px] text-center leading-[20px] max-w-[260px] mx-auto mb-4'>
         Sign up for our newsletter to receive exclusive offers & invitation to
         speacial events.
       </p>
@@ -63,7 +63,7 @@ const NewsLetter = () => {
           />
         </form>
         <div
-          className='main_button w-[85%] mx-auto my-4 normal-case'
+          className='px-4 py-2 bg-[var(--secondary-color)] text-white border-[1px] border-[var(--secondary-color)] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-[var(--secondary-color)] min-w-[150px] cursor-pointer text-center w-[85%] mx-auto my-4 normal-case'
           onClick={handleSubmit}
         >
           Sign Up

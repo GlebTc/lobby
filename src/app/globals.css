@@ -49,7 +49,7 @@ p {
 }
 
 .secondary_button {
-  @apply uppercase text-lg font-[500] border-2 border-white px-4 py-2 hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-black min-w-[150px];
+  @apply uppercase font-[500] border-2 border-white px-4 py-2 hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-black min-w-[150px];
 }
 
 .form_input {
