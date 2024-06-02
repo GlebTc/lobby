@@ -6,15 +6,20 @@ const MenuTorontoBrunchTower = () => {
     >
       <div className={`${componentName}_BRUNCH_TOWER_CONTAINER`}>
         <div>
-          <div className='flex justify-center gap-2 items-center'>
+          <div className='flex justify-center items-center'>
             <h3>Lobby Brunch tower</h3>
             <p className='text-[#c69a50] font-bold min-w-[150px]'>
               $180 | half $90
             </p>
           </div>
-          <p>CAN'T DECIDE WHAT TO HAVE?</p>
-          <p> HAVE IT ALL ON OUR SIGNATURE THREE TIER BRUNCH TOWER </p>
-          <p>{`{SERVES 2-4}`}</p>
+          <p className='text-center text-[#7d7d7d] text-[14px]'>
+            CAN'T DECIDE WHAT TO HAVE?
+          </p>
+          <p className='text-center text-[#7d7d7d] text-[14px]'>
+            {' '}
+            HAVE IT ALL ON OUR SIGNATURE THREE TIER BRUNCH TOWER{' '}
+          </p>
+          <p className='text-center text-[#7d7d7d] text-[14px]'>{`{SERVES 2-4}`}</p>
         </div>
       </div>
       <div
@@ -27,21 +32,27 @@ const MenuTorontoBrunchTower = () => {
           className={`${componentName}_TIER_ONE flex flex-col items-center w-full`}
         >
           <h3 className='font-bold'>BOTTOM TIER</h3>
-          <p>CROQUETTES, SALMON & AVOCADO BAGELS, BLUEBERRY PANCAKES, FRITTATA, TURKEY SAUSAGE</p>
+          <p className='text-center text-[#7d7d7d] text-[14px]'>
+            CROQUETTES, SALMON & AVOCADO BAGELS, BLUEBERRY PANCAKES, FRITTATA,
+            TURKEY SAUSAGE
+          </p>
         </div>
         <div
           className={`${componentName}_TIER_TWO flex flex-col items-center w-full`}
         >
           <h3 className='font-bold'>MIDDLE TIER</h3>
-          <p>
-          EGGS FLORENTINE, MINI CROISSANTS, HONEY & ORANGE LABNEH, GRANOLA
+          <p className='text-center text-[#7d7d7d] text-[14px]'>
+            EGGS FLORENTINE, MINI CROISSANTS, HONEY & ORANGE LABNEH, GRANOLA
           </p>
         </div>
         <div
           className={`${componentName}_TIER_THREE flex flex-col items-center w-full`}
         >
           <h3 className='font-bold'>TOP TIER</h3>
-          <p>SEASONAL FRUITS, MINI CHERRY CHEESECAKE, CANNOLI WITH RICOTTA, HAZEL NUT, SAMBUCA & CHOCOLATE FILLINGS.</p>
+          <p className='text-center text-[#7d7d7d] text-[14px]'>
+            SEASONAL FRUITS, MINI CHERRY CHEESECAKE, CANNOLI WITH RICOTTA, HAZEL
+            NUT, SAMBUCA & CHOCOLATE FILLINGS.
+          </p>
         </div>
       </div>
     </div>
