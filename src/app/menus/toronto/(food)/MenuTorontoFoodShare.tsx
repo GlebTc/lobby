@@ -1,14 +1,20 @@
 import menuTorontoFoodShare from '@/src/util/menu/toronto/food/menuTorontoFoodShare.json';
 import MenuTitleDescriptionPrice from '@/src/components/reusable/MenuTitleDescriptionPrice';
+import localFont from 'next/font/local';
+
+const GlacialIndifferenceRegular = localFont({
+  src: '../../../../../public/fonts/static-fonts/GlacialIndifference-Regular.otf',
+  display: 'swap',
+})
 
 const MenuTorontoFoodShare = () => {
   const componentName = 'MENU_TORONTO_FOOD_SHARE_OR_GO_SOLO';
   return (
-    <div className={`${componentName}_MAIN_CONTAINER flex flex-col gap-8 pt-8`}>
-      <h1 className={`text-[#c69a50] font-[300] tracking-tight`}>
+    <div className={`${componentName}_MAIN_CONTAINER flex flex-col gap-2 pt-4`}>
+      <h1 className={`text-[#c69a50] ${GlacialIndifferenceRegular.className} font-[400] tracking-tight text-[35px]`}>
         {menuTorontoFoodShare.title}
       </h1>
-      <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8'>
+      <div className='grid md:grid-cols-2 lg:grid-cols-3 md:gap-8'>
         {menuTorontoFoodShare.shares.map((item, index) => {
           return (
             <MenuTitleDescriptionPrice

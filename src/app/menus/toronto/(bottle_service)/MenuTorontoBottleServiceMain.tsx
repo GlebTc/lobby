@@ -9,9 +9,6 @@ const MenuTorontoBottlServiceMain = () => {
     <div
       className={`${componentName}_MAIN_CONTAINER flex flex-col gap-8 pt-8 p-4`}
     >
-      <h1 className={`text-[#c69a50] font-[300] tracking-tight`}>
-        {menuTorontoBottleServiceBottles.title}
-      </h1>
       <MenuTorontoBottleServiceBottles />
       <MenuTorontoBottleServicePackages />
       <GratuityFootNote />

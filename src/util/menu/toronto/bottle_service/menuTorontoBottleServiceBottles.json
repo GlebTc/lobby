@@ -3,7 +3,7 @@
   "bottles": [
     {
       "bottle_title": "vodka",
-      "bottle_list": [
+      "bottle_list_one": [
         {
           "name": "Grey Goose",
           "price": "320"
@@ -15,7 +15,9 @@
         {
           "name": "White Claw Mango",
           "price": "320"
-        },
+        }
+      ],
+      "bottle_list_two": [
         {
           "name": "Ciroc Original",
           "price": "320"
@@ -27,7 +29,9 @@
         {
           "name": "Ciroc Peach",
           "price": "320"
-        },
+        }
+      ],
+      "bottle_list_three": [
         {
           "name": "Ciroc Coconut",
           "price": "320"
@@ -40,11 +44,12 @@
           "name": "Ciroc Mango",
           "price": "320"
         }
-      ]
+      ],
+      "bottle_list_four": null
     },
     {
       "bottle_title": "Vodka Large Format",
-      "bottle_list": [
+      "bottle_list_one": [
         {
           "name": "Belvedere 1.75L",
           "price": "700"
@@ -61,7 +66,7 @@
     },
     {
       "bottle_title": "tequila",
-      "bottle_list": [
+      "bottle_list_one": [
         {
           "name": "Tromba Blanco",
           "price": "320"
@@ -73,7 +78,9 @@
         {
           "name": "Patron Silver",
           "price": "350"
-        },
+        }
+      ],
+      "bottle_list_two": [
         {
           "name": "Patron Reposado",
           "price": "400"
@@ -85,7 +92,9 @@
         {
           "name": "Casamigo Blanco",
           "price": "380"
-        },
+        }
+      ],
+      "bottle_list_three": [
         {
           "name": "Casamigo Reposado",
           "price": "420"
@@ -97,7 +106,9 @@
         {
           "name": "Cincoro Anejo",
           "price": "900"
-        },
+        }
+      ],
+      "bottle_list_four": [
         {
           "name": "Don Julio 1942",
           "price": "950"
@@ -110,7 +121,7 @@
     },
     {
       "bottle_title": "gin",
-      "bottle_list": [
+      "bottle_list_one": [
         {
           "name": "Hendricks",
           "price": "300"
@@ -122,16 +133,20 @@
         {
           "name": "Botanist",
           "price": "320"
-        },
+        }
+      ],
+      "bottle_list_two": [
         {
           "name": "Tanqueray",
           "price": "280"
         }
-      ]
+      ],
+      "bottle_list_three": null,
+      "bottle_list_four": null
     },
     {
       "bottle_title": "whiskey / scotch",
-      "bottle_list": [
+      "bottle_list_one": [
         {
           "name": "Jack Daniels",
           "price": "280"
@@ -144,16 +159,20 @@
         {
           "name": "Jameson",
           "price": "280"
-        },
+        }
+      ],
+      "bottle_list_two": [
         {
           "name": "Johnnie Walker Blue",
           "price": "1000"
         }
-      ]
+      ],
+      "bottle_list_three": null,
+      "bottle_list_four": null
     },
     {
       "bottle_title": "cognac",
-      "bottle_list": [
+      "bottle_list_one": [
         {
           "name": "Hennessy VS",
           "price": "350"
@@ -165,16 +184,20 @@
         {
           "name": "Remy Martin VSOP",
           "price": "400"
-        },
+        }
+      ],
+      "bottle_list_two": [
         {
           "name": "Dusse",
           "price": "480"
         }
-      ]
+      ],
+      "bottle_list_three": null,
+      "bottle_list_four": null
     },
     {
       "bottle_title": "rum",
-      "bottle_list": [
+      "bottle_list_one": [
         {
           "name": "Bacardi Spiced",
           "price": "280"
@@ -186,16 +209,20 @@
         {
           "name": "Bacardi 8",
           "price": "320"
-        },
+        }
+      ],
+      "bottle_list_two": [
         {
           "name": "Bumbu Craft",
           "price": "320"
         }
-      ]
+      ],
+      "bottle_list_three": null,
+      "bottle_list_four": null
     },
     {
       "bottle_title": "champagne",
-      "bottle_list": [
+      "bottle_list_one": [
         {
           "name": "Mionetto Prosecco",
           "price": "95"
@@ -207,7 +234,9 @@
         {
           "name": "Moet Chandon",
           "price": "350"
-        },
+        }
+      ],
+      "bottle_list_two": [
         {
           "name": "Moet Chandon Rose",
           "price": "370"
@@ -219,12 +248,15 @@
         {
           "name": "Dom Perignon Brut",
           "price": "750"
-        },
+        }
+      ],
+      "bottle_list_three": [
         {
           "name": "Ace of Spades",
           "price": "850"
         }
-      ]
+      ],
+      "bottle_list_four": null
     }
   ]
 }

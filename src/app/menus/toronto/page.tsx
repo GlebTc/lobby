@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import MenuTorontoDrinksMain from '@/src/app/menus/toronto/(drinks)/MenuTorontoDrinksMain';
 import MenuTorontoFoodMain from '@/src/app/menus/toronto/(food)/MenuTorontoFoodMain';
-import MenuHeader from '@/src/app/menus/MenuHeader';
+import MenuHeaderToronto from './MenuHeaderToronto';
 import MenuTorontoBrunchMain from './(brunch)/MenuTorontoBrunchMain';
 import MenuTorontoBottlServiceMain from './(bottle_service)/MenuTorontoBottleServiceMain';
 
@@ -15,7 +15,7 @@ const menusHamilton = () => {
     <div
       className={`${componentName}_MAIN_CONTAINER max-w-7xl mx-auto uppercase`}
     >
-      <MenuHeader
+      <MenuHeaderToronto
         category={category}
         setCategory={setCategory}
       />
