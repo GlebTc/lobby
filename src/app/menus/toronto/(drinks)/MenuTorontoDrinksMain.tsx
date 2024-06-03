@@ -1,7 +1,7 @@
 import MenuHamiltonDrinksBeer from '@/src/app/menus/toronto/(drinks)/MenuTorontoDrinksBeer';
 import MenuTorontoDrinksCocktails from '@/src/app/menus/toronto/(drinks)/MenuTorontoDrinksCocktails';
 import MenuTorontoDrinksWine from '@/src/app/menus/toronto/(drinks)/MenuTorontoDrinksWine';
-import MimosasFootNote from '@/src/app/menus/(reusable)/MimosasFootNote';
+
 
 const MenuTorontoDrinksMain = () => {
   const componentName = 'MENU_TORONTO_DRINKS_MAIN';
