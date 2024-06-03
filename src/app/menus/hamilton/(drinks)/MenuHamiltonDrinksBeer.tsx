@@ -35,14 +35,18 @@ const MenuHamiltonDrinksBeer = () => {
                   <thead>
                     <tr>
                       <th
-                        className={`text-[#c69a50] ${GlacialIndifferenceRegular.className} font-[400] tracking-tight text-[24px] text-left mb-8`}
+                        className={`text-[#c69a50] ${GlacialIndifferenceRegular.className} font-[400] tracking-tight text-[24px] text-left mb-8 w-[80%]`}
                       >
                         {draught_type.draught_type_title}
                       </th>
-                      <th className='italic font-light w-[60px] text-center'>
+                      <th
+                        className={`${GlacialIndifferenceRegular.className} italic text-[14px] lowercase min-w-[60px] text-left`}
+                      >
                         20 oz
                       </th>
-                      <th className='italic font-light w-[60px] text-center'>
+                      <th
+                        className={`${GlacialIndifferenceRegular.className} italic text-[14px] lowercase min-w-[60px] text-left`}
+                      >
                         16 oz
                       </th>
                     </tr>
@@ -51,14 +55,12 @@ const MenuHamiltonDrinksBeer = () => {
                     {draught_type.draught_list.map((beer, index) => (
                       <tr key={index}>
                         <td>
-                          <p className='text-left pr-12 text-[16px]'>
-                            {beer.brand}
-                          </p>
+                          <p className='text-left w-[80%]'>{beer.brand}</p>
                         </td>
-                        <td className='menu_price w-[60px] text-center'>
+                        <td className='min-w-[60px] text-left'>
                           ${beer.price_20}
                         </td>
-                        <td className='menu_price w-[60px] text-center'>
+                        <td className='min-w-[60px] text-left'>
                           ${beer.price_16}
                         </td>
                       </tr>
@@ -101,7 +103,9 @@ const MenuHamiltonDrinksBeer = () => {
                         >
                           {bottle_cans_type.bottles_cans_type_title}
                         </th>
-                        <th className='text-right pr-4 italic font-light'>
+                        <th
+                          className={`${GlacialIndifferenceRegular.className} italic text-[14px] lowercase w-[60px] text-left pr-4`}
+                        >
                           355 ml
                         </th>
                       </tr>
@@ -109,12 +113,12 @@ const MenuHamiltonDrinksBeer = () => {
                     <tbody>
                       {bottle_cans_type.bottles_cans_list.map((beer, index) => (
                         <tr key={index}>
-                          <td>
-                          <p className='text-left pr-12 text-[16px]'>
-                              {beer.brand}
-                            </p>
+                          <td className='text-left'>
+                            {beer.brand}
                           </td>
-                          <td className='menu_price text-right pr-4'>${beer.price}</td>
+                          <td className='w-[60px] text-left pr-4'>
+                            ${beer.price}
+                          </td>
                         </tr>
                       ))}
                     </tbody>

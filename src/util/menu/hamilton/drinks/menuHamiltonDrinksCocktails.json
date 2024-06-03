@@ -5,72 +5,72 @@
       "name": "lobby old fashioned",
       "description": "Four Roses Bourbon, Vanilla, Demerara, Tobacco",
       "description_two": null,
-      "price": "18"
+      "price": "$18"
     },
     {
       "name": "lychee martini",
       "description": "Grey Goose Vodka, St-Germain, Lychee Liqueur, Aperol, Lemon, Sparkling Wine",
-      "price": "20"
+      "price": "$20"
     },
     {
       "name": "porn star martini",
       "description": "Tito's Vodka, Passionfruit, Vanilla, Lime, Sparkling Wine",
-      "price": "20"
+      "price": "$20"
     },
     {
       "name": "the perfect lady",
       "description": "Bombay Gin, Peach, Lemon, Egg White",
-      "price": "19"
+      "price": "$19"
     },
     {
       "name": "jungle bird",
       "description": "Bacardi Black Rum, Campari, Pineapple, Lime",
-      "price": "18"
+      "price": "$18"
     },
     {
       "name": "south side",
       "description": "Bombay Gin, Lime, Mint",
-      "price": "18"
+      "price": "$18"
     },
     {
       "name": "lobby espresso martini",
       "description": "Grey Goose Vodka, Licor 43, Espresso, Kahlua, Frangelico, Cocoa Powder",
-      "price": "21"
+      "price": "$21"
     },
     {
       "name": "twilight",
       "description": "Cazadores Reposado Tequila, Vanilla, Chili, Coffee Liqueur, Espresso, Cinnamon",
-      "price": "20"
+      "price": "$20"
     },
     {
       "name": "caribbean queen",
       "description": "Plantation XO Rum, Coffee Liqueur, Espresso, Cocoa",
-      "price": "24"
+      "price": "$24"
     },
     {
       "name": "lobby margarita",
       "description": "Cazadores Blanco Tequila, Agave, Salt, Lime",
-      "price": "19"
+      "price": "$19"
     },
     {
       "name": "tijuana surprise",
       "description": "Cazadores Blanco Tequila, Jalapeno, Passionfruit, Agave, Lime",
-      "price": "20"
+      "price": "$20"
     },
     {
       "name": "del maguey vida",
       "description": "Mezcal, Pineapple, Cilantro, Agave, Lime",
-      "price": "20"
+      "price": "$20"
     },
     {
       "name": "el jefe",
       "description": "Patron Silver Tequila, Pierre Ferrand Dry Curacao, Agave, Salt, Lime",
-      "price": "24"
+      "price": "$24"
     },
     {
       "name": "oaxaca old fashioned",
       "description": "Patron Reposado Tequila, Del Maguey Vida Mezcal, Shanky’s, Agave, Mole Bitters",
-      "price": "20"
+      "price": "$20"
     }
   ]
 }

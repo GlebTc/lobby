@@ -10,11 +10,6 @@ const MenuTorontoDrinksWine = () => {
   const componentName = 'MENU_TORONTO_DRINKS_WINE';
   return (
     <div className={`${componentName}_MAIN_CONTAINER flex flex-col gap-2 pt-8`}>
-      <h1
-        className={`text-[#c69a50] ${GlacialIndifferenceRegular.className} font-[400] tracking-tight text-[35px]`}
-      >
-        {menuTorontoDrinksWine.title}
-      </h1>
       <div
         className={`${componentName}_WINE_LIST_CONTAINER grid md:grid-cols-2 gap-4`}
       >
@@ -26,11 +21,19 @@ const MenuTorontoDrinksWine = () => {
               >
                 <thead>
                   <tr>
-                    <th className='text-[#c69a50] font-[300] text-xl text-left w-[70%]'>
+                    <th className={`${GlacialIndifferenceRegular.className} text-[#c69a50] font-[300] text-2xl text-left w-[80%]`}>
                       {item.wine_type_title}
                     </th>
-                    <th>6oz</th>
-                    <th>bottle</th>
+                    <th
+                      className={`${GlacialIndifferenceRegular.className} italic text-[14px] lowercase`}
+                    >
+                      6oz
+                    </th>
+                    <th
+                      className={`${GlacialIndifferenceRegular.className} italic text-[14px] lowercase`}
+                    >
+                      bottle
+                    </th>
                   </tr>
                 </thead>
                 <tbody>
@@ -39,12 +42,8 @@ const MenuTorontoDrinksWine = () => {
                       <td>
                         <h4 className='text-left'>{item.brand}</h4>
                       </td>
-                      {item.price_6oz ? (
-                        <td className='menu_price'>${item.price_6oz}</td>
-                      ) : (
-                        <td></td>
-                      )}
-                      <td className='menu_price'>${item.price_bottle}</td>
+                      {item.price_6oz ? <td>${item.price_6oz}</td> : <td></td>}
+                      <td>${item.price_bottle}</td>
                     </tr>
                   ))}
                 </tbody>

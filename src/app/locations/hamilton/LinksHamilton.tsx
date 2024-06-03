@@ -9,7 +9,7 @@ const LinksHamilton = ({ componentName }: { componentName: string }) => {
     >
       <Link
         href='/menus/hamilton'
-        className={`${componentName}_VIEW_MENU_CONTAINER border-t-[1px] border-[var(--secondary-color)] flex p-[10px] gap-8 text-gray-700 font-[500] text-[18px] items-center`}
+        className={`${componentName}_VIEW_MENU_CONTAINER border-t-[1px] border-[var(--secondary-color)] flex p-[10px] gap-8 text-[#54595F] font-[500] text-[18px] items-center`}
         title='Lobby Bar Restaurant | Hamilton | View Menu'
         aria-label='Lobby Bar Restaurant | Hamilton | View Menu'
       >
@@ -18,7 +18,7 @@ const LinksHamilton = ({ componentName }: { componentName: string }) => {
       </Link>
       <Link
         href='/private-events/hamilton'
-        className={`${componentName}_BOOK_PRIVATE_EVENTS_CONTAINER border-t-[1px] border-[var(--secondary-color)] flex p-[10px] gap-8 text-gray-700 font-[500] text-[18px] items-center`}
+        className={`${componentName}_BOOK_PRIVATE_EVENTS_CONTAINER border-t-[1px] border-[var(--secondary-color)] flex p-[10px] gap-8 text-[#54595F] font-[500] text-[18px] items-center`}
         title='Lobby Bar Restaurant | Hamilton | Book Private Event'
         aria-label='Lobby Bar Restaurant | Hamilton | Book Private Event'
       >
@@ -27,7 +27,7 @@ const LinksHamilton = ({ componentName }: { componentName: string }) => {
       </Link>
       <Link
         href='/'
-        className={`${componentName}_EXPLORE_UPCOMING_EVENTS_CONTAINER border-t-[1px] border-[var(--secondary-color)] flex p-[10px] gap-8 text-gray-700 font-[500] text-[18px] items-center`}
+        className={`${componentName}_EXPLORE_UPCOMING_EVENTS_CONTAINER border-t-[1px] border-[var(--secondary-color)] flex p-[10px] gap-8 text-[#54595F] font-[500] text-[18px] items-center`}
         title='Lobby Bar Restaurant | Hamilton | Book Private Event'
         aria-label='Lobby Bar Restaurant | Hamilton | Book Private Event'
       >

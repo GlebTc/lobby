@@ -4,32 +4,32 @@
     {
       "name": "boston caesar",
       "description": "SALAD OF BUTTER LEAF LETTUCE, LEMON, CAPER, ANCHOVY & CRISP PANCETTA",
-      "price": "15"
+      "price": "$15"
     },
     {
       "name": "lobby salad",
       "description": "ARUGULA & FRESH HERBS DRESSED IN A CITRUS VINAIGRETTE TOPPED WITH PARMESAN",
-      "price": "16"
+      "price": "$16"
     },
     {
       "name": "spicy tuna sashimi",
       "description": "RAW YELLOWFIN TUNA, GARLIC, JALAPENO, CILANTRO & YUZU PONZU",
-      "price": "17"
+      "price": "$17"
     },
     {
       "name": "fritto misto",
       "description": "FRIED CALAMARI, SHRIMP, ATLANTIC COD, JALAPENO AND ONION WITH FRESH LEMON & SPICY CALABRESE DIP",
-      "price": "28"
+      "price": "$28"
     },
     {
       "name": "carpaccio",
       "description": "THINLY SLICED RAW BEEF FILLET, ARUGULA, EXTRA VIRGIN OLIVE OIL & SHAVINGS OF PADANO PARMIGIANO",
-      "price": "20"
+      "price": "$20"
     },
     {
       "name": "mortadella sandwich",
       "description": "TOASTED BRIOCHE, WARM MORTADELLA, GARLIC MAYO & PIPARRAS PEPPERS WITH CRISPY FRITES",
-      "price": "19"
+      "price": "$19"
     },
     {
       "name": "oysters",

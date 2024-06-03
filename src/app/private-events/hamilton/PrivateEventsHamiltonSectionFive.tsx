@@ -1,6 +1,11 @@
 import Image from 'next/image';
 import private_events_hamilton_six from '@/public/assets/private_events_hamilton_six.webp';
-import { FaCheck } from 'react-icons/fa';
+import localFont from 'next/font/local';
+
+const GlacialIndifferenceBold = localFont({
+  src: '../../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
+  display: 'swap',
+});
 
 const PrivateEventsHamiltonSectionFive = () => {
   const componentName = 'PRIVATE_EVENTS_HAMILTON_SECTION_FIVE';
@@ -8,8 +13,12 @@ const PrivateEventsHamiltonSectionFive = () => {
     <div
       className={`${componentName}_MAIN_CONTAINER grid md:grid-cols-2 h-full lg:min-h-[50dvh]`}
     >
-      <div className={`${componentName}_MAIN_CONTENT_CONTAINER md:order-2 p-4`}>
-        <h1 className='pb-4'>Food & Beverage</h1>
+      <div className={`${componentName}_MAIN_CONTENT_CONTAINER md:order-2 p-6`}>
+        <h1
+          className={`${GlacialIndifferenceBold.className} tracking-[-1px] leading-[42px] text-[32px] mb-4`}
+        >
+          Food & Beverage
+        </h1>
         <p className='mb-4'>
           From enticing appetizers to savory entrées, our culinary offerings are
           complemented by an extensive selection of cocktails, beer, and wine.

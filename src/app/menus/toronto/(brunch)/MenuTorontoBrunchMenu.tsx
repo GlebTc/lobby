@@ -8,7 +8,6 @@ const GlacialIndifferenceBold = localFont({
 
 const MenuTorontoBrunchMenu = () => {
   const componentName = 'MENU_HAMILTON_BRUNCH_MENU';
-  console.log(menuTorontoBrunch);
 
   return (
     <div className={`${componentName}_MAIN_CONTAINER flex flex-col gap-8`}>

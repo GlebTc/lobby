@@ -10,7 +10,7 @@ const TorontoHoursContainer = () => {
         <h3 className='font-[400]'>Friday 6:00pm - 2:00am</h3>
         <h3 className='font-[400]'>Saturday 6:00pm - 2:00am</h3>
         <h3 className='font-[400]'>Sunday 11:00am - 6:00pm</h3>
-        <h3 className='font-[400] mx-32'>
+        <h3 className='font-[400] mx-24'>
           Join Us for Toronto's favourite BRUNCH every Sunday
         </h3>
       </div>

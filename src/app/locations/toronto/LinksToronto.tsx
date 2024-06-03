@@ -9,7 +9,7 @@ const LinksToronto = ({ componentName }: { componentName: string }) => {
     >
       <Link
         href='/menus/toronto'
-        className={`${componentName}_VIEW_MENU_CONTAINER border-t-[1px] border-[var(--secondary-color)] flex p-[10px] gap-8 text-gray-700 font-[500] text-[18px] items-center`}
+        className={`${componentName}_VIEW_MENU_CONTAINER border-t-[1px] border-[var(--secondary-color)] flex p-[10px] gap-8 font-[500] text-[18px] items-center text-[#54595F]`}
         title='Lobby Bar Restaurant | Toronto | View Menu'
         aria-label='Lobby Bar Restaurant | Toronto | View Menu'
       >
@@ -18,7 +18,7 @@ const LinksToronto = ({ componentName }: { componentName: string }) => {
       </Link>
       <Link
         href='/private-events/toronto'
-        className={`${componentName}_BOOK_PRIVATE_EVENTS_CONTAINER border-t-[1px] border-[var(--secondary-color)] flex p-[10px] gap-8 text-gray-700 font-[500] text-[18px] items-center`}
+        className={`${componentName}_BOOK_PRIVATE_EVENTS_CONTAINER border-t-[1px] border-[var(--secondary-color)] flex p-[10px] gap-8 text-[#54595F] font-[500] text-[18px] items-center`}
         title='Lobby Bar Restaurant | Toronto | Book Private Event'
         aria-label='Lobby Bar Restaurant | Toronto | Book Private Event'
       >
@@ -27,7 +27,7 @@ const LinksToronto = ({ componentName }: { componentName: string }) => {
       </Link>
       <Link
         href='/'
-        className={`${componentName}_EXPLORE_UPCOMING_EVENTS_CONTAINER border-t-[1px] border-[var(--secondary-color)] flex p-[10px] gap-8 text-gray-700 font-[500] text-[18px] items-center`}
+        className={`${componentName}_EXPLORE_UPCOMING_EVENTS_CONTAINER border-t-[1px] border-[var(--secondary-color)] flex p-[10px] gap-8 text-[#54595F] font-[500] text-[18px] items-center`}
         title='Lobby Bar Restaurant | Toronto | Book Private Event'
         aria-label='Lobby Bar Restaurant | Toronto | Book Private Event'
       >
