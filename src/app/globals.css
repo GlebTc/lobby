@@ -44,14 +44,15 @@ p {
   @apply shadow-xl shadow-gray-400 rounded-lg mb-8;
 }
 
+/* The main bg button with balck text */
 .main_button {
-  @apply uppercase text-base font-[500] px-4 py-2 bg-[var(--secondary-color)] text-white border-[1px] border-[var(--secondary-color)] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-[var(--secondary-color)] min-w-[150px] cursor-pointer text-center;
+  @apply uppercase px-4 py-2 bg-[var(--secondary-color)] text-black border-[1px] border-[var(--secondary-color)] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-[var(--secondary-color)] cursor-pointer text-center text-[15px];
 }
 
 .secondary_button {
-  @apply uppercase font-[500] border-2 border-white px-4 py-2 hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-black min-w-[150px];
+  @apply uppercase font-[500] border-2 border-white px-4 py-2 hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-black;
 }
 
 .form_input {
-  @apply w-full border-[1px] border-black rounded-md p-2;
+  @apply w-full border-[1px] border-black rounded-sm p-2;
 }

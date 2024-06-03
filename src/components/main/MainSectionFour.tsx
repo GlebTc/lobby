@@ -26,14 +26,14 @@ const MainSectionFour = () => {
       <div
         className={`${componentName}_EXPLORE_MENU_ONE_CONTAINER p-4 flex flex-col justify-start items-center gap-4`}
       >
-        <div className='relative floating_container_all h-[90dvh] w-[80dvw] md:w-[40dvw]  rounded-lg'>
+        <div className='relative h-[90dvh] w-[90dvw] md:w-[40dvw]'>
           <Image
             src={main_section_four_img}
             alt={`Lobby Bar Restaurant | Main Page | Section Four | Indulge in Weekend Bliss Image`}
             title={`Lobby Bar Restaurant | Main Page | Section Four | Indulge in Weekend Bliss Image`}
             fill
             sizes='1'
-            className='object-cover rounded-lg'
+            className='object-cover'
             placeholder='blur'
             priority
             quality={10}
@@ -53,7 +53,7 @@ const MainSectionFour = () => {
           menu is a celebration of weekend indulgence
         </p>
         <div
-          className={`${componentName}_VIEW_MENU_BUTTON uppercase px-4 py-2 bg-[var(--secondary-color)] text-black border-[1px] border-[var(--secondary-color)] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-[var(--secondary-color)] min-w-[150px] cursor-pointer text-center`}
+          className={`${componentName}_VIEW_MENU_BUTTON main_button`}
           aria-label={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
           title={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
           onClick={handleButtonClick}
@@ -64,14 +64,14 @@ const MainSectionFour = () => {
       <div
         className={`${componentName}_EXPLORE_MENU_TWO_CONTAINER p-4 flex flex-col justify-center items-center gap-4`}
       >
-        <div className='relative floating_container_all h-[90dvh] w-[80dvw] md:w-[40dvw] rounded-lg'>
+        <div className='relative h-[90dvh] w-[90dvw] md:w-[40dvw]'>
           <Image
             src={main_section_four_img_two}
             alt={`Lobby Bar Restaurant | Main Page | Section Four | Elegance Meets Expereience Image`}
             title={`Lobby Bar Restaurant | Main Page | Section Four | Elegance Meets Expereience Image`}
             fill
             sizes='1'
-            className='object-cover rounded-lg'
+            className='object-cover'
             placeholder='blur'
             priority
             quality={10}
@@ -92,7 +92,7 @@ const MainSectionFour = () => {
           ambiance.
         </p>
         <div
-          className={`${componentName}_VIEW_MENU_BUTTON uppercase px-4 py-2 bg-[var(--secondary-color)] text-black border-[1px] border-[var(--secondary-color)] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-[var(--secondary-color)] min-w-[150px] cursor-pointer text-center`}
+          className={`${componentName}_VIEW_MENU_BUTTON main_button`}
           aria-label={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
           title={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
           onClick={handleButtonClick}

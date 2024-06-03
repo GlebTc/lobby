@@ -59,7 +59,7 @@ const MainSectionThree = () => {
             destinations.
           </p>
           <div
-            className={`${componentName}_VIEW_MENU_BUTTON uppercase px-4 py-2 bg-[var(--secondary-color)] text-black border-[1px] border-[var(--secondary-color)] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-[var(--secondary-color)] min-w-[150px] cursor-pointer text-center`}
+            className={`${componentName}_VIEW_MENU_BUTTON main_button`}
             aria-label={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
             title={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
             onClick={handleButtonClick}
@@ -85,7 +85,7 @@ const MainSectionThree = () => {
           masterpieces designed to elevate your dining experience.
         </p>
         <div
-          className={`${componentName}_VIEW_MENU_BUTTON uppercase px-4 py-2 bg-[var(--secondary-color)] text-black border-[1px] border-[var(--secondary-color)] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-[var(--secondary-color)] min-w-[150px] cursor-pointer text-center`}
+          className={`${componentName}_VIEW_MENU_BUTTON main_button`}
           aria-label={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
           title={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
           onClick={handleButtonClick}
