@@ -1,10 +1,5 @@
 import { MenuTitleDescriptionPriceProps } from '@/src/util/types';
-import localFont from 'next/font/local';
-
-const GlacialIndifferenceBold = localFont({
-  src: '../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
-  display: 'swap',
-});
+import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
 
 const MenuTitleDescriptionPrice = ({
   individual_menu_item_title,

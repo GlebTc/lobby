@@ -1,11 +1,6 @@
 import Image from 'next/image';
 import menu_header_toronto from '@/public/assets/menu_header_toronto.webp';
-import localFont from 'next/font/local';
-
-const GlacialIndifferenceBold = localFont({
-  src: '../../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
-  display: 'swap',
-});
+import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
 
 const MenuHeaderToronto = ({
   category,
@@ -15,12 +10,18 @@ const MenuHeaderToronto = ({
   setCategory: any;
 }) => {
   const componentName = 'TORONTO_MENU_HEADER';
-  const menuItems = ['drinks', 'food', 'brunch', 'bottle service']
+  const menuItems = ['drinks', 'food', 'brunch', 'bottle service'];
   return (
     <div className={`${componentName}_MAIN_CONTAINER relative`}>
       <div className={`${componentName}_IMAGE_CONTAINER relative h-[306px]`}>
-        <div className={`${componentName}_IMAGE_OVERLAY_AND_TEXT absolute top-0 left-0 w-full h-full bg-black/20 flex justify-center items-start text-white`}>
-            <h1 className={`${GlacialIndifferenceBold.className} mt-12 tracking-tight text-[30px]`}>toronto</h1>
+        <div
+          className={`${componentName}_IMAGE_OVERLAY_AND_TEXT absolute top-0 left-0 w-full h-full bg-black/20 flex justify-center items-start text-white`}
+        >
+          <h1
+            className={`${GlacialIndifferenceBold.className} mt-12 md:mt-24 tracking-tight text-[30px] md:text-[60px]`}
+          >
+            toronto
+          </h1>
         </div>
         <Image
           src={menu_header_toronto}

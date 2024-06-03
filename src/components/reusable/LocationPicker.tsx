@@ -3,12 +3,7 @@ import { IoClose } from 'react-icons/io5';
 import Link from 'next/link';
 import NewsLetter from '../navbar/NewsLetter';
 import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
-import localFont from 'next/font/local';
-
-const GlacialIndifferenceBold = localFont({
-  src: '../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
-  display: 'swap',
-});
+import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
 
 const LocationPicker = () => {
   const componentName = 'LOCATION_PICKER';

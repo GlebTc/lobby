@@ -1,10 +1,5 @@
 import menuTorontoBrunch from '@/src/util/menu/toronto/brunch/menuTorontoBrunch.json';
-import localFont from 'next/font/local';
-
-const GlacialIndifferenceBold = localFont({
-  src: '../../../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
-  display: 'swap',
-});
+import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
 
 const MenuTorontoBrunchMenu = () => {
   const componentName = 'MENU_HAMILTON_BRUNCH_MENU';
@@ -13,7 +8,7 @@ const MenuTorontoBrunchMenu = () => {
     <div className={`${componentName}_MAIN_CONTAINER flex flex-col gap-8`}>
       {menuTorontoBrunch.brunch.map((item, index) => {
         return (
-          <div>
+          <div key={index}>
             <div className='flex justify-center gap-2'>
               <h3 className={`${GlacialIndifferenceBold.className}`}>
                 {item.name}

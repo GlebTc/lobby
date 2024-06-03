@@ -1,11 +1,6 @@
 import menuHamiltonFoodAppetizers from '@/src/util/menu/hamilton/food/menuHamiltonFoodAppetizers.json';
 import MenuTitleDescriptionPrice from '@/src/components/reusable/MenuTitleDescriptionPrice';
-import localFont from 'next/font/local';
-
-const GlacialIndifferenceRegular = localFont({
-  src: '../../../../../public/fonts/static-fonts/GlacialIndifference-Regular.otf',
-  display: 'swap',
-});
+import { GlacialIndifferenceRegular } from '@/src/util/fonts/fonts';
 
 const MenuHamiltonFoodAppetizers = () => {
   const componentName = 'MENU_HAMILTON_FOODS_APPETIZERS';

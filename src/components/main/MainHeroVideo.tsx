@@ -2,17 +2,7 @@
 import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
 import Image from 'next/image';
 import main_section_two_img from '@/public/assets/main_section_two_img.webp';
-import localFont from 'next/font/local';
-
-const GlacialIndifferenceBold = localFont({
-  src: '../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
-  display: 'swap',
-});
-
-const GlacialIndifferenceRegular = localFont({
-  src: '../../../public/fonts/static-fonts/GlacialIndifference-Regular.otf',
-  display: 'swap',
-});
+import { GlacialIndifferenceRegular, GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
 
 const MainHeroVideo = () => {
   const componentName = 'MAIN_PAGE_HERO_VIDEO';

@@ -1,16 +1,6 @@
 'use client';
 import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
-import localFont from 'next/font/local';
-
-const GlacialIndifferenceBold = localFont({
-  src: '../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
-  display: 'swap',
-});
-
-const GlacialIndifferenceRegular = localFont({
-  src: '../../../public/fonts/static-fonts/GlacialIndifference-Regular.otf',
-  display: 'swap',
-});
+import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
 
 const MainSectionTwo = () => {
   const componentName = 'MAIN_SECTION_TWO';

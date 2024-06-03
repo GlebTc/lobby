@@ -1,11 +1,6 @@
 import menuTorontoDrinksCocktails from '@/src/util/menu/toronto/drinks/menuTorontoDrinksCocktails.json';
 import MenuTitleDescriptionPrice from '@/src/components/reusable/MenuTitleDescriptionPrice';
-import localFont from 'next/font/local';
-
-const GlacialIndifferenceRegular = localFont({
-  src: '../../../../../public/fonts/static-fonts/GlacialIndifference-Regular.otf',
-  display: 'swap',
-});
+import { GlacialIndifferenceRegular } from '@/src/util/fonts/fonts';
 
 const MenuTorontoDrinksCocktails = () => {
   const componentName = 'MENU_TORONTO_DRINKS_COCKTAILS';

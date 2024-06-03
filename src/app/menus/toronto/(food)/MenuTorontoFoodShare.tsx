@@ -1,11 +1,6 @@
 import menuTorontoFoodShare from '@/src/util/menu/toronto/food/menuTorontoFoodShare.json';
 import MenuTitleDescriptionPrice from '@/src/components/reusable/MenuTitleDescriptionPrice';
-import localFont from 'next/font/local';
-
-const GlacialIndifferenceRegular = localFont({
-  src: '../../../../../public/fonts/static-fonts/GlacialIndifference-Regular.otf',
-  display: 'swap',
-})
+import { GlacialIndifferenceRegular } from '@/src/util/fonts/fonts';
 
 const MenuTorontoFoodShare = () => {
   const componentName = 'MENU_TORONTO_FOOD_SHARE_OR_GO_SOLO';

@@ -1,16 +1,6 @@
 import Image from 'next/image';
 import private_events_toronto_one from '@/public/assets/private_events_toronto_one.webp';
-import localFont from 'next/font/local';
-
-const GlacialIndifferenceBold = localFont({
-  src: '../../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
-  display: 'swap',
-});
-
-const GlacialIndifferenceRegular = localFont({
-  src: '../../../../public/fonts/static-fonts/GlacialIndifference-Regular.otf',
-  display: 'swap',
-});
+import { GlacialIndifferenceRegular, GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
 
 const PrivateEventsTorontoMainHero = () => {
   const componentName = 'PRIVATE_EVENTS_TORONTO_MAIN_HERO';

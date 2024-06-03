@@ -1,12 +1,7 @@
 import Image from 'next/image';
 import private_events_hamilton_three from '@/public/assets/private_events_hamilton_three.webp';
 import { FaCheck } from 'react-icons/fa';
-import localFont from 'next/font/local';
-
-const GlacialIndifferenceBold = localFont({
-  src: '../../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
-  display: 'swap',
-});
+import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
 
 const PrivateEventsHamiltonSectionTwo = () => {
   const componentName = 'PRIVATE_EVENTS_HAMILTON_SECTION_TWO';
@@ -15,9 +10,11 @@ const PrivateEventsHamiltonSectionTwo = () => {
       className={`${componentName}_MAIN_CONTAINER grid md:grid-cols-2 h-full`}
     >
       <div className={`${componentName}_MAIN_CONTENT_CONTAINER p-6`}>
-      <h1
+        <h1
           className={`${GlacialIndifferenceBold.className} tracking-[-1px] leading-[42px] text-[32px] mb-4`}
-        >Patio</h1>
+        >
+          Patio
+        </h1>
 
         <p className='mb-4'>
           Surrounded by the vibrant energy of the city, this outdoor oasis is

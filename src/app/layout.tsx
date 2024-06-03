@@ -1,15 +1,12 @@
 import type { Metadata } from 'next';
-import localFont from 'next/font/local';
 import './globals.css';
 import NavbarTopBar from '@/src/components/navbar/NavbarTopBar';
 import Navbar from '@/src/components/navbar/Navbar';
 import LocationPicker from '@/src/components/reusable/LocationPicker';
 import Footer from '@/src/components/footer/Footer';
+import { futuraFontMedium } from '@/src/util/fonts/fonts';
 
-const futuraFontMedium = localFont({
-  src: '../../public/fonts/static-fonts/FuturaPTMedium.otf',
-  display: 'swap',
-});
+
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.lobby.ca/'),

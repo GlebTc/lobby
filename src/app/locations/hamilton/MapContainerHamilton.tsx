@@ -1,5 +1,3 @@
-import React from 'react';
-
 const MapContainerHamilton = ({ componentName }: { componentName: string }) => {
   return (
     <div

@@ -1,12 +1,7 @@
 import Image from 'next/image';
 import private_events_hamilton_seven from '@/public/assets/private_events_hamilton_seven.webp';
 import Link from 'next/link';
-import localFont from 'next/font/local';
-
-const GlacialIndifferenceBold = localFont({
-  src: '../../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
-  display: 'swap',
-});
+import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
 
 const PrivateEventsHamiltonSectionSix = () => {
   const componentName = 'PRIVATE_EVENTS_HAMILTON_SECTION_SIX';

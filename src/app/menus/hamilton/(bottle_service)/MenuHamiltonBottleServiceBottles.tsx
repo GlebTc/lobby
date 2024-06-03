@@ -1,11 +1,6 @@
 import menuHamiltonBottleServiceBottles from '@/src/util/menu/hamilton/bottle_service/menuHamiltonBottleServiceBottles.json';
 import MenuTitlePrice from '@/src/components/reusable/MenuTitlePrice';
-import localFont from 'next/font/local';
-
-const GlacialIndifferenceRegular = localFont({
-  src: '../../../../../public/fonts/static-fonts/GlacialIndifference-Regular.otf',
-  display: 'swap',
-});
+import { GlacialIndifferenceRegular } from '@/src/util/fonts/fonts';
 
 const MenuHamiltonBottleServiceBottles = () => {
   const componentName = 'MENU_HAMILTON_BOTTLE_SERVICE_BOTTLES';
