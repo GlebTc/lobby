@@ -1,11 +1,6 @@
 import Image from 'next/image';
 import lobby_hamilton_logo from '@/public/assets/lobby_hamilton_logo.webp';
-import localFont from 'next/font/local';
-
-const GlacialIndifferenceBold = localFont({
-  src: '../../../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
-  display: 'swap',
-});
+import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
 
 const HamiltonInquireHeader = () => {
   return (

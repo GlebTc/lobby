@@ -1,10 +1,5 @@
 import menuTorontoDrinksWine from '@/src/util/menu/toronto/drinks/menuTorontoDrinksWine.json';
-import localFont from 'next/font/local';
-
-const GlacialIndifferenceRegular = localFont({
-  src: '../../../../../public/fonts/static-fonts/GlacialIndifference-Regular.otf',
-  display: 'swap',
-});
+import { GlacialIndifferenceRegular } from '@/src/util/fonts/fonts';
 
 const MenuTorontoDrinksWine = () => {
   const componentName = 'MENU_TORONTO_DRINKS_WINE';

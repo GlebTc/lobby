@@ -1,12 +1,7 @@
 import menuHamiltonDrinksZeroProof from '@/src/util/menu/hamilton/drinks/menuHamiltonDrinksZeroProof.json';
 import MenuTitleDescriptionPrice from '@/src/components/reusable/MenuTitleDescriptionPrice';
 import MenuTitlePrice from '@/src/components/reusable/MenuTitlePrice';
-import localFont from 'next/font/local';
-
-const GlacialIndifferenceRegular = localFont({
-  src: '../../../../../public/fonts/static-fonts/GlacialIndifference-Regular.otf',
-  display: 'swap',
-});
+import { GlacialIndifferenceRegular } from '@/src/util/fonts/fonts';
 
 const MenuHamiltonDrinksZeroProof = () => {
   const componentName = 'MENU_HAMILTON_DRINKS_ZERO_PROOF';

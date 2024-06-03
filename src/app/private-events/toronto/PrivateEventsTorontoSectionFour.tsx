@@ -1,12 +1,7 @@
 import Image from 'next/image';
 import private_events_toronto_one from '@/public/assets/private_events_toronto_one.webp';
 import Link from 'next/link';
-import localFont from 'next/font/local';
-
-const GlacialIndifferenceBold = localFont({
-  src: '../../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
-  display: 'swap',
-});
+import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
 
 const PrivateEventsTorontoSectionFour = () => {
   const componentName = 'PRIVATE_EVENTS_TORONTO_SECTION_TWO';

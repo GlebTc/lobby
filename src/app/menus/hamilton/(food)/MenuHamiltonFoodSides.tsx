@@ -1,11 +1,5 @@
 import menuHamiltonFoodSides from '@/src/util/menu/hamilton/food/menuHamiltonFoodSides.json';
-
-import localFont from 'next/font/local';
-
-const GlacialIndifferenceRegular = localFont({
-  src: '../../../../../public/fonts/static-fonts/GlacialIndifference-Regular.otf',
-  display: 'swap',
-});
+import { GlacialIndifferenceRegular } from '@/src/util/fonts/fonts';
 
 const MenuHamiltonFoodSides = () => {
   const componentName = 'MENU_HAMILTON_FOODS_ENTREES';
@@ -20,8 +14,13 @@ const MenuHamiltonFoodSides = () => {
       <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-8'>
         {menuHamiltonFoodSides.sides.map((item, index) => {
           return (
-            <div className='flex justify-between'>
-              <p className='text-left pr-12 text-[#7d7d7d] text-[14px]'>{item.name}</p>
+            <div
+              className='flex justify-between'
+              key={index}
+            >
+              <p className='text-left pr-12 text-[#7d7d7d] text-[14px]'>
+                {item.name}
+              </p>
 
               <p className='menu_price'>${item.price}</p>
             </div>

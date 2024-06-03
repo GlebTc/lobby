@@ -2,12 +2,7 @@ import menuHamiltonBrunch from '@/src/util/menu/hamilton/brunch/menuHamiltonBrun
 import MenuTorontoBrunchTower from '@/src/app/menus/toronto/(brunch)/MenuTorontoBrunchTower';
 import MenuTorontoBrunchMenu from '@/src/app/menus/toronto/(brunch)/MenuTorontoBrunchMenu';
 import MenuTorontoBrunchDrinks from '@/src/app/menus/toronto/(brunch)/MenuTorontoBrunchDrinks';
-import localFont from 'next/font/local';
-
-const GlacialIndifferenceRegular = localFont({
-  src: '../../../../../public/fonts/static-fonts/GlacialIndifference-Regular.otf',
-  display: 'swap',
-})
+import { GlacialIndifferenceRegular } from '@/src/util/fonts/fonts';
 
 const MenuTorontoBrunchMain = () => {
   const componentName = 'MENU_TORONTO_BRUNCH_MAIN';

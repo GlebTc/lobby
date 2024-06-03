@@ -1,15 +1,5 @@
 import menuTorontoBottleServicePackages from '@/src/util/menu/toronto/bottle_service/menuTorontoBottleServicePackages.json';
-import localFont from 'next/font/local';
-
-const GlacialIndifferenceRegular = localFont({
-  src: '../../../../../public/fonts/static-fonts/GlacialIndifference-Regular.otf',
-  display: 'swap',
-})
-
-const GlacialIndifferenceBold = localFont({
-  src: '../../../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
-  display: 'swap',
-})
+import { GlacialIndifferenceRegular, GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
 
 const MenuTorontoBottleServicePackages = () => {
   const componentName = 'MENU_TORONTO_BOTTLE_SERVICE_PACKAGES';

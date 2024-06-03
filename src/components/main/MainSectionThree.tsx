@@ -2,12 +2,7 @@
 import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
 import Image from 'next/image';
 import main_section_three_img from '@/public/assets/main_section_three_img.webp';
-import localFont from 'next/font/local';
-
-const GlacialIndifferenceBold = localFont({
-  src: '../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
-  display: 'swap',
-});
+import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
 
 const MainSectionThree = () => {
   const componentName = 'MAIN_SECTION_THREE';

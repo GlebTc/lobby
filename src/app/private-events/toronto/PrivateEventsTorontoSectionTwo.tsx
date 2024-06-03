@@ -1,12 +1,7 @@
 import Image from 'next/image';
 import private_events_toronto_three from '@/public/assets/private_events_toronto_three.webp';
 import { FaCheck } from 'react-icons/fa';
-import localFont from 'next/font/local';
-
-const GlacialIndifferenceBold = localFont({
-  src: '../../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
-  display: 'swap',
-});
+import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
 
 const PrivateEventsTorontoSectionTwo = () => {
   const componentName = 'PRIVATE_EVENTS_TORONTO_SECTION_TWO';

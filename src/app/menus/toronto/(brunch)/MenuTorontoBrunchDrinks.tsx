@@ -1,14 +1,7 @@
-import localFont from 'next/font/local';
-
-const GlacialIndifferenceRegular = localFont({
-  src: '../../../../../public/fonts/static-fonts/GlacialIndifference-Regular.otf',
-  display: 'swap',
-});
-
-const GlacialIndifferenceBold = localFont({
-  src: '../../../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
-  display: 'swap',
-});
+import {
+  GlacialIndifferenceBold,
+  GlacialIndifferenceRegular,
+} from '@/src/util/fonts/fonts';
 
 const MenuTorontoBrunchDrinks = () => {
   const componentName = 'MENU_TORONTO_BRUNCH_DRINKS';
@@ -62,7 +55,7 @@ const MenuTorontoBrunchDrinks = () => {
       </div>
       {drinksArray.map((item, index) => {
         return (
-          <div className='flex justify-between mx-4 my-2'>
+          <div className='flex justify-between mx-4 my-2' key={index}>
             <h3 className={`${GlacialIndifferenceBold.className}`}>
               {item.name}
             </h3>
@@ -75,7 +68,7 @@ const MenuTorontoBrunchDrinks = () => {
       <div className='mt-12'>
         {drinksArrayTwo.map((item, index) => {
           return (
-            <div className='flex justify-between mx-4 my-2'>
+            <div className='flex justify-between mx-4 my-2' key={index}>
               <h3 className={`${GlacialIndifferenceBold.className}`}>
                 {item.name}
               </h3>

@@ -1,12 +1,7 @@
 import Image from 'next/image';
 import private_events_hamilton_five from '@/public/assets/private_events_hamilton_five.webp';
 import { FaCheck } from 'react-icons/fa';
-import localFont from 'next/font/local';
-
-const GlacialIndifferenceBold = localFont({
-  src: '../../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
-  display: 'swap',
-});
+import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
 
 const PrivateEventsHamiltonSectionFour = () => {
   const componentName = 'PRIVATE_EVENTS_HAMILTON_SECTION_FOUR';
@@ -23,7 +18,7 @@ const PrivateEventsHamiltonSectionFour = () => {
 
         <p className='mb-4'>
           Seats 30 comfortably, with additional space for 45 standing, perfect
-          for a flexible event format with passed hors d’oeuvres and cocktails.
+          for a flexible event format with passed hors d'oeuvres and cocktails.
           Ideal for vibrant receptions with guests enjoying passed canapés and
           mingling.
         </p>

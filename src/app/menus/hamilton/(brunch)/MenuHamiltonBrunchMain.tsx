@@ -2,12 +2,7 @@ import menuHamiltonBrunch from '@/src/util/menu/hamilton/brunch/menuHamiltonBrun
 import MenuHamiltonBrunchTower from './MenuHamiltonBrunchTower';
 import MenuHamiltonBrunchMenu from '@/src/app/menus/hamilton/(brunch)/MenuHamiltonBrunchMenu';
 import MenuHamiltonFoodDesserts from '../(food)/MenuHamiltonFoodDesserts';
-import localFont from 'next/font/local';
-
-const GlacialIndifferenceRegular = localFont({
-  src: '../../../../../public/fonts/static-fonts/GlacialIndifference-Regular.otf',
-  display: 'swap',
-});
+import { GlacialIndifferenceRegular } from '@/src/util/fonts/fonts';
 
 const MenuHamiltonMain = () => {
   const componentName = 'MENU_HAMILTON_BRUNCH_MAIN';

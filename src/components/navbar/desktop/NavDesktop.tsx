@@ -3,17 +3,7 @@ import lobby_logo from '@/public/assets/lobby_logo.png';
 import Image from 'next/image';
 import navItems from '@/src/util/const/constants_main.json';
 import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
-import localFont from 'next/font/local';
-
-const futuraFontBook = localFont({
-  src: '../../../../public/fonts/static-fonts/FuturaPTBook.otf',
-  display: 'swap',
-});
-
-const futuraFontMedium = localFont({
-  src: '../../../../public/fonts/static-fonts/FuturaPTMedium.otf',
-  display: 'swap',
-});
+import { futuraFontBook, futuraFontMedium } from '@/src/util/fonts/fonts';
 
 const NavDesktop = () => {
   const componentName = 'NAV_DESKTOP';
