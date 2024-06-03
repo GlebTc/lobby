@@ -1,6 +1,12 @@
 import Image from 'next/image';
 import private_events_toronto_three from '@/public/assets/private_events_toronto_three.webp';
 import { FaCheck } from 'react-icons/fa';
+import localFont from 'next/font/local';
+
+const GlacialIndifferenceBold = localFont({
+  src: '../../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
+  display: 'swap',
+});
 
 const PrivateEventsTorontoSectionTwo = () => {
   const componentName = 'PRIVATE_EVENTS_TORONTO_SECTION_TWO';
@@ -8,8 +14,12 @@ const PrivateEventsTorontoSectionTwo = () => {
     <div
       className={`${componentName}_MAIN_CONTAINER grid md:grid-cols-2 h-full`}
     >
-      <div className={`${componentName}_MAIN_CONTENT_CONTAINER p-4`}>
-        <h1 className='pb-4'>The Mezzanine</h1>
+      <div className={`${componentName}_MAIN_CONTENT_CONTAINER p-6`}>
+        <h1
+          className={`${GlacialIndifferenceBold.className} tracking-[-1px] leading-[42px] text-[32px] mb-4`}
+        >
+          The Mezzanine
+        </h1>
         <p>
           The Mezzanine provides an elevated landing overlooking the main venue,
           designed with style and comfort in mind. Ideal for business socials
@@ -21,7 +31,7 @@ const PrivateEventsTorontoSectionTwo = () => {
           in this chic semi-private space.
         </p>
         <p className='mb-4'>Capacity:</p>
-        <ul>
+        <ul className='mb-4'>
           <li className='flex items-center gap-2'>
             <FaCheck />
             <p>50 cocktail reception</p>

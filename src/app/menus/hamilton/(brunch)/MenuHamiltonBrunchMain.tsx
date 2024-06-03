@@ -2,17 +2,21 @@ import menuHamiltonBrunch from '@/src/util/menu/hamilton/brunch/menuHamiltonBrun
 import MenuHamiltonBrunchTower from './MenuHamiltonBrunchTower';
 import MenuHamiltonBrunchMenu from '@/src/app/menus/hamilton/(brunch)/MenuHamiltonBrunchMenu';
 import MenuHamiltonFoodDesserts from '../(food)/MenuHamiltonFoodDesserts';
-import MenuHotBeverages from '@/src/app/menus/(reusable)/MenuHotBeverages';
-import MimosasFootNote from '@/src/app/menus/(reusable)/MimosasFootNote';
+import localFont from 'next/font/local';
+
+const GlacialIndifferenceRegular = localFont({
+  src: '../../../../../public/fonts/static-fonts/GlacialIndifference-Regular.otf',
+  display: 'swap',
+});
 
 const MenuHamiltonMain = () => {
   const componentName = 'MENU_HAMILTON_BRUNCH_MAIN';
   return (
     <div
-      className={`${componentName}_MAIN_CONTAINER flex flex-col gap-8 pt-8 p-4`}
+      className={`${componentName}_MAIN_CONTAINER flex flex-col gap-4 pt-8 p-4`}
     >
       <h1
-        className={`${componentName}_HEADER text-[#c69a50] font-[300] tracking-tight`}
+        className={`text-[#c69a50] ${GlacialIndifferenceRegular.className} font-[400] tracking-tight text-[35px]`}
       >
         {menuHamiltonBrunch.title}
       </h1>
@@ -21,7 +25,6 @@ const MenuHamiltonMain = () => {
         <MenuHamiltonBrunchMenu />
       </div>
       <MenuHamiltonFoodDesserts />
-
     </div>
   );
 };

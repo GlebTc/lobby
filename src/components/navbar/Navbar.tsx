@@ -23,7 +23,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`bg-white ${navShadow ? 'shadow-md shadow-gray-600' : ''}`}>
+    <div className={`bg-white ${navShadow ? 'shadow-md shadow-gray-400' : ''}`}>
       <div className='hidden md:block'>
         <NavDesktop />
       </div>

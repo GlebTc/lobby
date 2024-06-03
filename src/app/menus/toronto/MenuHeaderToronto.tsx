@@ -2,7 +2,6 @@ import Image from 'next/image';
 import menu_header_toronto from '@/public/assets/menu_header_toronto.webp';
 import localFont from 'next/font/local';
 
-
 const GlacialIndifferenceBold = localFont({
   src: '../../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
   display: 'swap',

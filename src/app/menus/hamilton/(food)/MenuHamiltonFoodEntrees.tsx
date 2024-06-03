@@ -1,12 +1,20 @@
 import menuHamiltonFoodEntrees from '@/src/util/menu/hamilton/food/menuHamiltonFoodEntrees.json';
 import MenuTitleDescriptionPrice from '@/src/components/reusable/MenuTitleDescriptionPrice';
+import localFont from 'next/font/local';
+
+const GlacialIndifferenceRegular = localFont({
+  src: '../../../../../public/fonts/static-fonts/GlacialIndifference-Regular.otf',
+  display: 'swap',
+});
 
 const MenuHamiltonFoodEntrees = () => {
   const componentName = 'MENU_HAMILTON_FOODS_ENTREES';
 
   return (
     <div className={`${componentName}_MAIN_CONTAINER flex flex-col gap-8 pt-8`}>
-      <h1 className={`text-[#c69a50] font-[300] tracking-tight`}>
+            <h1
+        className={`text-[#c69a50] ${GlacialIndifferenceRegular.className} font-[400] tracking-tight text-[35px]`}
+      >
         {menuHamiltonFoodEntrees.title}
       </h1>
       <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8'>

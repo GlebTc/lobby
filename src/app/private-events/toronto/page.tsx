@@ -14,16 +14,6 @@ const PrivateEventsToronto = () => {
       <PrivateEventsTorontoSectionTwo />
       <PrivateEventsTorontoSectionThree />
       <PrivateEventsTorontoSectionFour />
-      <div className='w-full h-full flex justify-center text-center my-8'>
-        <Link
-          aria-label={`Lobby Bar Restaurant | Locations Toronto | Call (416) 901-6768`}
-          title={`Lobby Bar Restaurant | Locations Toronto | Call (416) 901-6768`}
-          href='/private-events/toronto/inquire'
-          className={`${componentName}_NAVBAR_RESERVATION_BUTTON main_button`}
-        >
-          inquire now
-        </Link>
-      </div>
     </div>
   );
 };

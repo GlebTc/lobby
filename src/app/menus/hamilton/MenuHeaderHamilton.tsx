@@ -1,7 +1,14 @@
 import Image from 'next/image';
 import lobby_hamilton_menu from '@/public/assets/lobby_hamilton_menu.webp';
+import localFont from 'next/font/local';
 
-const MenuHeader = ({
+
+const GlacialIndifferenceBold = localFont({
+  src: '../../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
+  display: 'swap',
+});
+
+const MenuHeaderHamilton = ({
   category,
   setCategory,
 }: {
@@ -13,6 +20,9 @@ const MenuHeader = ({
   return (
     <div className={`${componentName}_MAIN_CONTAINER relative`}>
       <div className={`${componentName}_IMAGE_CONTAINER relative h-[306px]`}>
+      <div className={`${componentName}_IMAGE_OVERLAY_AND_TEXT absolute top-0 left-0 w-full h-full bg-black/20 flex justify-center items-start text-white`}>
+            <h1 className={`${GlacialIndifferenceBold.className} mt-12 tracking-tight text-[30px]`}>hamilton</h1>
+        </div>
         <Image
           src={lobby_hamilton_menu}
           alt='Lobby Hamilton Menu'
@@ -41,4 +51,4 @@ const MenuHeader = ({
   );
 };
 
-export default MenuHeader;
+export default MenuHeaderHamilton;

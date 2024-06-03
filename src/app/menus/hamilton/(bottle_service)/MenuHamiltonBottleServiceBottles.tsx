@@ -1,5 +1,11 @@
 import menuHamiltonBottleServiceBottles from '@/src/util/menu/hamilton/bottle_service/menuHamiltonBottleServiceBottles.json';
 import MenuTitlePrice from '@/src/components/reusable/MenuTitlePrice';
+import localFont from 'next/font/local';
+
+const GlacialIndifferenceRegular = localFont({
+  src: '../../../../../public/fonts/static-fonts/GlacialIndifference-Regular.otf',
+  display: 'swap',
+});
 
 const MenuHamiltonBottleServiceBottles = () => {
   const componentName = 'MENU_HAMILTON_BOTTLE_SERVICE_BOTTLES';
@@ -9,15 +15,15 @@ const MenuHamiltonBottleServiceBottles = () => {
         return (
           <div
             key={index}
-            className={`${componentName}_BOTTLE_HEADING_AND_LIST_CONTAINER flex-flex-col gap-4`}
+            className={`${componentName}_BOTTLE_HEADING_AND_LIST_CONTAINER flex flex-col gap-4`}
           >
-            <h2
-              className={`text-[#c69a50] tracking-tight border-b-2 my-4 pb-4`}
+            <h1
+              className={`text-[#c69a50] ${GlacialIndifferenceRegular.className} font-[400] tracking-tight text-[35px]`}
             >
               {item.bottle_title}
-            </h2>
-            <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8'>
-              {item.bottle_list.map((item, index) => {
+            </h1>
+            <div className='grid md:grid-cols-2 lg:grid-cols-3 md:gap-8'>
+              {item.bottle_list_one.map((item, index) => {
                 return (
                   <MenuTitlePrice
                     key={index}
@@ -26,6 +32,30 @@ const MenuHamiltonBottleServiceBottles = () => {
                   />
                 );
               })}
+            </div>
+            <div className='grid md:grid-cols-2 lg:grid-cols-3 md:gap-8'>
+              {item.bottle_list_two &&
+                item.bottle_list_two.map((item, index) => {
+                  return (
+                    <MenuTitlePrice
+                      key={index}
+                      individual_menu_item_title={item.name}
+                      individual_menu_item_price_one={item.price}
+                    />
+                  );
+                })}
+            </div>
+            <div className='grid md:grid-cols-2 lg:grid-cols-3 md:gap-8 mb-4'>
+              {item.bottle_list_three &&
+                item.bottle_list_three.map((item, index) => {
+                  return (
+                    <MenuTitlePrice
+                      key={index}
+                      individual_menu_item_title={item.name}
+                      individual_menu_item_price_one={item.price}
+                    />
+                  );
+                })}
             </div>
           </div>
         );
