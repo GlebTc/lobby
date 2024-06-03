@@ -1,5 +1,12 @@
 'use client';
 import { useState } from 'react';
+import { Roboto } from 'next/font/google';
+
+const roboto = Roboto({
+  weight: ['400', '500'],
+  display: 'swap',
+  subsets: ['latin'],
+});
 
 const HamiltonInquireForm = () => {
   const componentName = 'TORONTO_INQUIRE_FORM';
@@ -235,7 +242,7 @@ const HamiltonInquireForm = () => {
         </div>
         <button
           type='submit'
-          className='uppercase text-base font-[500] p-4 bg-[var(--secondary-color)] text-white border-[1px] border-[var(--secondary-color)] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-[var(--secondary-color)] min-w-[150px] cursor-pointer text-center w-full rounded-md'
+          className={`${roboto.className} ${componentName}_SUBMIT_BUTTON uppercase text-[18px] font-[500] p-3 bg-[var(--secondary-color)] text-white border-[1px] border-[var(--secondary-color)] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-[var(--secondary-color)] min-w-[150px] cursor-pointer text-center w-full rounded-md`}
         >
           Send Message
         </button>
