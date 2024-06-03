@@ -3,36 +3,36 @@
   "hot_beverages": [
     {
       "name": "espresso",
-      "price": "3.00"
+      "price": "3"
     },
     {
       "name": "long espresso",
-      "price": "3.00"
+      "price": "3"
     },
     {
       "name": "hot chocolate",
-      "price": "3.00"
+      "price": "3"
     },
     {
       "name": "americano",
-      "price": "4.00"
+      "price": "4"
     },
     {
       "name": "macchiato",
-      "price": "4.00"
+      "price": "4"
     },
     {
       "name": "cappuccino",
-      "price": "4.00"
+      "price": "4"
     },
 
     {
       "name": "coffee late",
-      "price": "4.00"
+      "price": "4"
     },
     {
       "name": "mochaccino",
-      "price": "4.00"
+      "price": "4"
     }
   ]
 }

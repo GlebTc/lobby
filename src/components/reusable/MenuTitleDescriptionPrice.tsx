@@ -26,7 +26,7 @@ const MenuTitleDescriptionPrice = ({
         )}
       </div>
       {individual_menu_item_price_one && (
-        <p className={`${GlacialIndifferenceBold.className} menu_price`}>${individual_menu_item_price_one}</p>
+        <p className={`${GlacialIndifferenceBold.className} menu_price`}>{individual_menu_item_price_one}</p>
       )}
     </div>
   );

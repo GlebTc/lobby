@@ -5,17 +5,17 @@
       "name": "tiramisu",
       "description": "ESPRESSO-SOAKED LADY FINGER CAKE WITH ZABAGLIONE & CACAO",
       "description_two": null,
-      "price": "14"
+      "price": "$14"
     },
     {
       "name": "strawberry champagne cheesecake",
       "description": "VANILLA CHEESECAKE MARBLED WITH STRAWBERRY BAKED ATOP A CHOCOLATE COOKIE GRAHAM",
-      "price": "10"
+      "price": "$10"
     },
     {
       "name": "GERTIE'S PEANUT BUTTER PIE",
       "description": "ROASTED VIRGINIA PEANUTS, PEANUT BUTTER MOUSSE & OOZES WITH CARAMEL {SERVES 2-4}",
-      "price": "18"
+      "price": "$18"
     }
   ]
 }

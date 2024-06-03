@@ -1,6 +1,12 @@
 import Image from 'next/image';
 import private_events_hamilton_four from '@/public/assets/private_events_hamilton_four.webp';
 import { FaCheck } from 'react-icons/fa';
+import localFont from 'next/font/local';
+
+const GlacialIndifferenceBold = localFont({
+  src: '../../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
+  display: 'swap',
+});
 
 const PrivateEventsHamiltonSectionThree = () => {
   const componentName = 'PRIVATE_EVENTS_HAMILTON_SECTION_THREE';
@@ -8,8 +14,10 @@ const PrivateEventsHamiltonSectionThree = () => {
     <div
       className={`${componentName}_MAIN_CONTAINER grid md:grid-cols-2 h-full lg:min-h-[50dvh]`}
     >
-      <div className={`${componentName}_MAIN_CONTENT_CONTAINER md:order-2 p-4`}>
-        <h1 className='pb-4'>Rooftop Terrace</h1>
+      <div className={`${componentName}_MAIN_CONTENT_CONTAINER md:order-2 p-6`}>
+      <h1
+          className={`${GlacialIndifferenceBold.className} tracking-[-1px] leading-[42px] text-[32px] mb-4`}
+        >Rooftop Terrace</h1>
         <p className='mb-4'>
           With a standing capacity for 80 guests and seating for 30, this
           elevated escape offers breathtaking views and a more intimate setting.
@@ -36,7 +44,7 @@ const PrivateEventsHamiltonSectionThree = () => {
       <div
         className={`${componentName}_IMAGE_CONTAINER h-full flex items-center md:p-4`}
       >
-        <div className='relative h-[40dvh] md:h-[50dvh] w-full'>
+        <div className='relative h-[45dvh] md:h-[50dvh] w-full'>
           <Image
             src={private_events_hamilton_four}
             alt='Private Events Hamilton'

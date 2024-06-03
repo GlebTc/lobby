@@ -26,12 +26,13 @@ const MainHeroVideo = () => {
 
   return (
     <div
-      className={`${componentName}_MAIN_CONTAINER relative h-[415px] sm:h-[531px] md:h-[539px] lg:h-[calc(100dvh-65px-41px)]`}
+      className={`${componentName}_MAIN_CONTAINER relative h-[55dvh] sm:h-[531px] md:h-[539px] lg:h-[calc(100dvh-65px-41px)]`}
     >
       <div className='fixed top-0 left-0 h-full w-full z-[-10]'>
         <Image
           src={main_section_two_img}
-          alt='test'
+          alt='Lobby Bar Restaurant | Main Page Hero Image'
+          title='Lobby Bar Restaurant | Main Page Hero Image'
           priority
           fill
           className='object-cover'

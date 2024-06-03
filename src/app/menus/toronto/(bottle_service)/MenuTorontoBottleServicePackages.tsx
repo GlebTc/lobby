@@ -6,6 +6,11 @@ const GlacialIndifferenceRegular = localFont({
   display: 'swap',
 })
 
+const GlacialIndifferenceBold = localFont({
+  src: '../../../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
+  display: 'swap',
+})
+
 const MenuTorontoBottleServicePackages = () => {
   const componentName = 'MENU_TORONTO_BOTTLE_SERVICE_PACKAGES';
   return (
@@ -15,7 +20,7 @@ const MenuTorontoBottleServicePackages = () => {
       >
         {menuTorontoBottleServicePackages.title}
       </h1>
-      <div className='grid md:grid-cols-2 gap-8 md:gap-8'>
+      <div className='grid md:grid-cols-2 gap-4 md:gap-8'>
         {menuTorontoBottleServicePackages.packages.map((item, index) => {
           return (
             <div
@@ -23,22 +28,22 @@ const MenuTorontoBottleServicePackages = () => {
               className={`${componentName}_PACKAGE_HEADING_AND_LIST_CONTAINER flex justify-between`}
             >
               <div>
-                <h3>{item.name}</h3>
-                <p className='text-[#7d7d7d] text-left'>
+                <h3 className={`${GlacialIndifferenceBold.className}`}>{item.name}</h3>
+                <p className='text-[#7d7d7d] text-left text-[14px]'>
                   {item.description_one}
                 </p>
-                <p className='text-[#7d7d7d] text-left'>
+                <p className='text-[#7d7d7d] text-left text-[14px]'>
                   {item.description_two}
                 </p>
-                <p className='text-[#7d7d7d] text-left'>
+                <p className='text-[#7d7d7d] text-left text-[14px]'>
                   {item.description_three}
                 </p>
                 {item.description_four && (
-                  <p className='text-[#7d7d7d] text-left'>
+                  <p className='text-[#7d7d7d] text-left text-[14px]'>
                     {item.description_four}
                   </p>
                 )}
-                <p className='text-[10px] tracking-wide text-gray-500 italic normal-case'>
+                <p className='text-[11.2px] tracking-wide text-gray-500 italic normal-case'>
                   {item.notes}
                 </p>
               </div>

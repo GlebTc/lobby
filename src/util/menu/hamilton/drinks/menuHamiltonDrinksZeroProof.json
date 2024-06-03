@@ -7,32 +7,32 @@
         "name": "lavender love",
         "description": "LAVENDER HONEY SYRUP, LEMON JUICE, SIMPLE SYRUP, SODA",
         "description_two": null,
-        "price": "6.00"
+        "price": "$6"
       },
       {
         "name": "paloma paradise",
         "description": "RUBY RED GRAPEFRUIT JUICE, SIMPLE SYRUP, SODA",
-        "price": "6.00"
+        "price": "$6"
       },
       {
         "name": "virgin mojito",
         "description": "LIME, SUGAR, MINT",
-        "price": "6.00"
+        "price": "$6"
       },
       {
         "name": "lobby temple",
         "description": "ORANGE, LEMON-LIME, GRENADINE, PINEAPPLE",
-        "price": "6.00"
+        "price": "$6"
       }
     ],
     "non_alcoholic": [
       {
         "name": "san bendetto still",
-        "price": "6.00"
+        "price": "6"
       },
       {
         "name": "san bendetto sparkling",
-        "price": "6.00"
+        "price": "6"
       }
     ]    
   }

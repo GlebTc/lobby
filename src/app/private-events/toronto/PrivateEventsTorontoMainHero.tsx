@@ -38,8 +38,8 @@ const PrivateEventsTorontoMainHero = () => {
             Private Groups & Corporate Events
           </h1>
           <p
-          className={`${GlacialIndifferenceRegular.className} text-white pb-4 text-[18px]mx-4`}
-        >
+            className={`${GlacialIndifferenceRegular.className} text-white pb-4 text-[18px] mx-4`}
+          >
             We host private parties, groups and corporate events at the lobby
             Toronto venue
           </p>
