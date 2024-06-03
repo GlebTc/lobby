@@ -28,13 +28,15 @@ const LobbyBrunchTower = () => {
           className={`${componentName}_TIER_ONE flex flex-col items-center w-full`}
         >
           <h3 className='font-bold'>BOTTOM TIER</h3>
-          <p>BLUEBERRY PANCAKES, CROQUETTES, SCRAMBLED EGGS, TURKEY SAUSAGE</p>
+          <p className='text-center text-[#7d7d7d] text-[14px]'>
+            BLUEBERRY PANCAKES, CROQUETTES, SCRAMBLED EGGS, TURKEY SAUSAGE
+          </p>
         </div>
         <div
           className={`${componentName}_TIER_TWO flex flex-col items-center w-full`}
         >
           <h3 className='font-bold'>MIDDLE TIER</h3>
-          <p>
+          <p className='text-center text-[#7d7d7d] text-[14px]'>
             EGGS FLORENTINE, SMOKED SALMON & AVOCADO BAGELS, HONEY & ORANGE
             LABNEH, GRANOLA
           </p>
@@ -43,7 +45,9 @@ const LobbyBrunchTower = () => {
           className={`${componentName}_TIER_THREE flex flex-col items-center w-full`}
         >
           <h3 className='font-bold'>TOP TIER</h3>
-          <p>SEASONAL FRUIT</p>
+          <p className='text-center text-[#7d7d7d] text-[14px]'>
+            SEASONAL FRUIT
+          </p>
         </div>
       </div>
     </div>

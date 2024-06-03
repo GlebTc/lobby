@@ -3,78 +3,91 @@
   "bottles": [
     {
       "bottle_title": "vodka",
-      "bottle_list": [
+      "bottle_list_one": [
         {
           "name": "Grey Goose",
           "price": "290"
         },
         {
           "name": "Grey Goose 1.75L",
-          "price": "675"
+          "price": "670"
         },
         {
           "name": "Grey Goose 3L",
           "price": "1050"
-        },
+        }
+      ],
+      "bottle_list_two": [
         {
           "name": "Ciroc Flavours",
           "price": "300"
         }
-      ]
+      ],
+      "bottle_list_three": null,
+      "bottle_list_four": null
     },
+
     {
       "bottle_title": "tequila",
-      "bottle_list": [
+      "bottle_list_one": [
         {
           "name": "CAZADORES BLANCO",
           "price": "270"
         },
         {
-          "name": "Patron Silver",
+          "name": "PATRON SILVER",
           "price": "320"
         },
         {
-          "name": "Patron Reposado",
+          "name": "PATRON REPOSADO",
           "price": "350"
-        },
+        }
+      ],
+      "bottle_list_two": [
         {
-          "name": "Patron El Cielo",
+          "name": "PATRON EL CIELO",
           "price": "750"
         },
         {
-          "name": "casamigos blanco",
+          "name": "CASAMIGOS BLANCO",
           "price": "360"
         },
         {
-          "name": "casamigos reposado",
+          "name": "CASAMIGOS REPOSADO",
           "price": "400"
-        },
+        }
+      ],
+      "bottle_list_three": [
         {
-          "name": "don julio 1942",
+          "name": "Don Julio 1942",
           "price": "950"
         },
         {
-          "name": "clase azul 1L",
+          "name": "Clase Azul",
           "price": "1000"
         }
-      ]
+      ],
+      "bottle_list_four": null
     },
     {
       "bottle_title": "gin",
-      "bottle_list": [
+      "bottle_list_one": [
         {
           "name": "bombay",
-          "price": "260"
+          "price": "280"
         },
         {
           "name": "Hendricks",
-          "price": "290"
+          "price": "300"
         }
-      ]
+      ],
+      "bottle_list_two": null,
+      "bottle_list_three": null,
+      "bottle_list_four": null
     },
     {
       "bottle_title": "whiskey / scotch",
-      "bottle_list": [
+      "bottle_list_one": [
         {
           "name": "Jack Daniels",
           "price": "270"
@@ -83,38 +96,43 @@
           "name": "Jameson",
           "price": "270"
         },
-
         {
-          "name": "Johnnie Walker Black",
+          "name": "JOHNNY WALKER BLACK",
           "price": "320"
-        },
+        }
+      ],
+      "bottle_list_two": [
         {
           "name": "Johnnie Walker Blue",
           "price": "1000"
         }
-      ]
+      ],
+      "bottle_list_three": null,
+      "bottle_list_four": null
     },
     {
       "bottle_title": "cognac",
-      "bottle_list": [
-
+      "bottle_list_one": [
         {
-          "name": "Remy Martin VSOP",
+          "name": "RÉMY MARTIN VSOP",
           "price": "370"
         },
         {
-          "name": "Remy Martin XO",
+          "name": "RÉMY MARTIN XO",
           "price": "900"
         },
         {
-          "name": "Hennessy VS",
+          "name": "HENNESSY VS",
           "price": "350"
         }
-      ]
+      ],
+      "bottle_list_two": null,
+      "bottle_list_three": null,
+      "bottle_list_four": null
     },
     {
       "bottle_title": "rum",
-      "bottle_list": [
+      "bottle_list_one": [
         {
           "name": "Bacardi White",
           "price": "270"
@@ -123,36 +141,43 @@
           "name": "Bacardi Spiced",
           "price": "270"
         }
-      ]
+      ],
+      "bottle_list_two": null,
+      "bottle_list_three": null,
+      "bottle_list_four": null
     },
     {
       "bottle_title": "champagne",
-      "bottle_list": [
+      "bottle_list_one": [
         {
-          "name": "Lux Belaire",
+          "name": "LUX BELAIRE",
           "price": "270"
         },
         {
-          "name": "Moet Chandon",
+          "name": "MOET CHANDON",
           "price": "320"
         },
         {
-          "name": "Moet Chandon Rose",
+          "name": "MOET CHANDON ROSE",
+          "price": "350"
+        }
+      ],
+      "bottle_list_two": [
+        {
+          "name": "VEUVE CLICQUOT",
           "price": "350"
         },
         {
-          "name": "Veuve Clicquot",
-          "price": "350"
-        },
-        {
-          "name": "Dom Perignon Brut",
+          "name": "DOM PERIGNON BRUT",
           "price": "800"
         },
         {
-          "name": "Ace of Spades",
+          "name": "ACE OF SPADES",
           "price": "1000"
         }
-      ]
+      ],
+      "bottle_list_three": null,
+      "bottle_list_four": null
     }
   ]
 }

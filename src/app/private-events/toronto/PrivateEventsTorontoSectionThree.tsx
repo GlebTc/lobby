@@ -1,5 +1,11 @@
 import Image from 'next/image';
 import private_events_toronto_four from '@/public/assets/gallery/gallery_img_07.webp';
+import localFont from 'next/font/local';
+
+const GlacialIndifferenceBold = localFont({
+  src: '../../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
+  display: 'swap',
+});
 
 const PrivateEventsTorontoSectionThree = () => {
   const componentName = 'PRIVATE_EVENTS_TORONTO_SECTION_THREE';
@@ -7,8 +13,12 @@ const PrivateEventsTorontoSectionThree = () => {
     <div
       className={`${componentName}_MAIN_CONTAINER grid md:grid-cols-2 h-full`}
     >
-      <div className={`${componentName}_MAIN_CONTENT_CONTAINER md:order-2 p-4`}>
-        <h1 className='pb-4'>Food & Beverage</h1>
+      <div className={`${componentName}_MAIN_CONTENT_CONTAINER md:order-2 p-6`}>
+        <h1
+          className={`${GlacialIndifferenceBold.className} tracking-[-1px] leading-[42px] text-[32px] mb-4`}
+        >
+          Food & Beverage
+        </h1>
 
         <p className='mb-4'>
           Indulge in a culinary journey at Lobby Toronto, where our menu

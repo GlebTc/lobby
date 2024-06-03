@@ -1,6 +1,12 @@
 import Image from 'next/image';
 import private_events_toronto_two from '@/public/assets/private_events_toronto_two.webp';
 import { FaCheck } from 'react-icons/fa';
+import localFont from 'next/font/local';
+
+const GlacialIndifferenceBold = localFont({
+  src: '../../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
+  display: 'swap',
+});
 
 const PrivateEventsTorontoSectionOne = () => {
   const componentName = 'PRIVATE_EVENTS_TORONTO_SECTION_ONE';
@@ -8,8 +14,12 @@ const PrivateEventsTorontoSectionOne = () => {
     <div
       className={`${componentName}_MAIN_CONTAINER grid md:grid-cols-2 h-full lg:min-h-[50dvh]`}
     >
-      <div className={`${componentName}_MAIN_CONTENT_CONTAINER md:order-2 p-4`}>
-        <h1 className='pb-4'>Full Venue</h1>
+      <div className={`${componentName}_MAIN_CONTENT_CONTAINER md:order-2 p-6`}>
+        <h1
+          className={`${GlacialIndifferenceBold.className} tracking-[-1px] leading-[42px] text-[32px]`}
+        >
+          Full Venue
+        </h1>
         <p className='mb-4'>
           Step into an urban oasis in downtown Toronto's Queen West
           neighborhood, where Lobby offers a tropical escape with lush greenery,

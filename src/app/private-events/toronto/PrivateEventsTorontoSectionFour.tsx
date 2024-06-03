@@ -1,5 +1,12 @@
 import Image from 'next/image';
 import private_events_toronto_one from '@/public/assets/private_events_toronto_one.webp';
+import Link from 'next/link';
+import localFont from 'next/font/local';
+
+const GlacialIndifferenceBold = localFont({
+  src: '../../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
+  display: 'swap',
+});
 
 const PrivateEventsTorontoSectionFour = () => {
   const componentName = 'PRIVATE_EVENTS_TORONTO_SECTION_TWO';
@@ -8,7 +15,11 @@ const PrivateEventsTorontoSectionFour = () => {
       className={`${componentName}_MAIN_CONTAINER grid md:grid-cols-2 h-full`}
     >
       <div className={`${componentName}_MAIN_CONTENT_CONTAINER p-4`}>
-        <h1 className='pb-4'>Your Next Steps</h1>
+        <h1
+          className={`${GlacialIndifferenceBold.className} tracking-[-1px] leading-[42px] text-[32px] mb-4`}
+        >
+          Your Next Steps
+        </h1>
 
         <p className='mb-4'>
           Take the first step towards an extraordinary experience by clicking
@@ -19,6 +30,16 @@ const PrivateEventsTorontoSectionFour = () => {
           celebrations at Lobby Toronto.
         </p>
       </div>
+  
+        <Link
+          aria-label={`Lobby Bar Restaurant | Locations Toronto | Call (416) 901-6768`}
+          title={`Lobby Bar Restaurant | Locations Toronto | Call (416) 901-6768`}
+          href='/private-events/toronto/inquire'
+          className={`${componentName}_NAVBAR_RESERVATION_BUTTON main_button mb-8 max-w-[155px] mx-auto`}
+        >
+          inquire now
+        </Link>
+ 
       <div
         className={`${componentName}_IMAGE_CONTAINER h-full flex items-center md:p-4`}
       >
