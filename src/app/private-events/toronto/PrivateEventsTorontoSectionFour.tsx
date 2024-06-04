@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import private_events_toronto_one from '@/public/assets/private_events_toronto_one.webp';
-import Link from 'next/link';
 import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
 
 const PrivateEventsTorontoSectionFour = () => {
@@ -25,16 +24,7 @@ const PrivateEventsTorontoSectionFour = () => {
           celebrations at Lobby Toronto.
         </p>
       </div>
-  
-        <Link
-          aria-label={`Lobby Bar Restaurant | Private Events Inquire Toronto`}
-          title={`Lobby Bar Restaurant | Private Events Inquire Toronto`}
-          href='/private-events/toronto/inquire'
-          className={`${componentName}_NAVBAR_RESERVATION_BUTTON main_button mb-8 max-w-[155px] mx-auto`}
-        >
-          inquire now
-        </Link>
- 
+
       <div
         className={`${componentName}_IMAGE_CONTAINER h-full flex items-center md:p-4`}
       >

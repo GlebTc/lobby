@@ -28,7 +28,7 @@ const LocationPicker = () => {
           <div
             className={`${
               showLocationPicker
-                ? `${componentName}_SIDE_MENU_CONTAINER fixed top-0 left-0 w-[300px] sm:w-[350px] max-w-screen h-full bg-[#fff9ef] duration-[var(--main-duration)]`
+                ? `${componentName}_SIDE_MENU_CONTAINER fixed top-0 left-0 w-[300px] sm:w-[350px] h-full bg-[#fff9ef] duration-[var(--main-duration)]`
                 : `${componentName}_SIDE_MENU_CONTAINER fixed top-0 left-[-350px] w-[350px] h-full bg-[#fff9ef] duration-[var(--main-duration)]`
             }`}
           >
