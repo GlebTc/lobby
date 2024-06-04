@@ -6,8 +6,6 @@ import LocationPicker from '@/src/components/reusable/LocationPicker';
 import Footer from '@/src/components/footer/Footer';
 import { futuraFontMedium } from '@/src/util/fonts/fonts';
 
-
-
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.lobby.ca/'),
   title: {
