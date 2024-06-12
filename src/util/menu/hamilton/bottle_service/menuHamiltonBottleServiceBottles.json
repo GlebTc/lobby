@@ -31,8 +31,8 @@
       "bottle_title": "tequila",
       "bottle_list_one": [
         {
-          "name": "CAZADORES BLANCO",
-          "price": "270"
+          "name": "Olmeca Altos Plata",
+          "price": "280"
         },
         {
           "name": "PATRON SILVER",
@@ -63,7 +63,7 @@
           "price": "950"
         },
         {
-          "name": "Clase Azul",
+          "name": "Clase Azul 1L",
           "price": "1000"
         }
       ],
@@ -74,11 +74,11 @@
       "bottle_list_one": [
         {
           "name": "bombay",
-          "price": "280"
+          "price": "260"
         },
         {
           "name": "Hendricks",
-          "price": "300"
+          "price": "290"
         }
       ],
       "bottle_list_two": null,
@@ -89,24 +89,19 @@
       "bottle_title": "whiskey / scotch",
       "bottle_list_one": [
         {
-          "name": "Jack Daniels",
-          "price": "270"
-        },
-        {
           "name": "Jameson",
           "price": "270"
         },
         {
-          "name": "JOHNNY WALKER BLACK",
+          "name": "Johnny Walker Black",
           "price": "320"
-        }
-      ],
-      "bottle_list_two": [
+        },
         {
-          "name": "Johnnie Walker Blue",
+          "name": "Johnny Walker Blue",
           "price": "1000"
         }
       ],
+      "bottle_list_two": null,
       "bottle_list_three": null,
       "bottle_list_four": null
     },
@@ -140,6 +135,10 @@
         {
           "name": "Bacardi Spiced",
           "price": "270"
+        },
+        {
+          "name": "bumbu",
+          "price": "300"
         }
       ],
       "bottle_list_two": null,
@@ -150,21 +149,25 @@
       "bottle_title": "champagne",
       "bottle_list_one": [
         {
-          "name": "LUX BELAIRE",
+          "name": "Luc Belaire Rare Rosé",
           "price": "270"
         },
         {
-          "name": "MOET CHANDON",
+          "name": "Mumm Grand Cordon Brut",
           "price": "320"
         },
         {
-          "name": "MOET CHANDON ROSE",
+          "name": "Moët Chandon",
+          "price": "320"
+        },
+        {
+          "name": "Moët Chandon Rosé",
           "price": "350"
         }
       ],
       "bottle_list_two": [
         {
-          "name": "VEUVE CLICQUOT",
+          "name": "Veuve Clicquot",
           "price": "350"
         },
         {

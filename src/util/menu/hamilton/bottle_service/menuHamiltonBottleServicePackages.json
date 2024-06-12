@@ -12,7 +12,8 @@
         },
         {
             "name": "We only drink tequila",
-            "description_one": "6X Casamigos Reposado",
+            "description_one": "6X Casamigos Reposado OR",
+            "description_two": "7x Patron Reposado",
             "price": 2200
         },
         {
