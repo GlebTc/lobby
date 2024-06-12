@@ -5,8 +5,8 @@ import Image from 'next/image';
 const MenuCarousel = () => {
   const componentName = 'MAIN_PAGE_GALLERY';
   const [imageUrlArray, setImageUrlArray] = useState<number[]>([
-    1, 2, 3, 4, 5, 6, 7, 8
-  ])
+    1, 2, 3, 4, 5, 6, 7, 8,
+  ]);
   const imageUrlNumber: number[] = [1, 2, 3, 4, 5, 6, 7, 8];
   const [currentIndex, setCurrentIndex] = useState<number>(3);
   const [timerOn, setTimerOn] = useState<boolean>(true);
@@ -40,11 +40,9 @@ const MenuCarousel = () => {
               title={`Lobby Bar Restaurant | Main Page Carousel | Image 0${number}`}
               fill
               className='object-cover w-full h-full'
-              quality={10}
+              quality={100}
               loading='lazy'
             />
-
-            
           </div>
         );
       })}

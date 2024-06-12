@@ -51,7 +51,7 @@ const PrivateEventsTorontoSectionOne = () => {
             className='floating_container object-cover'
             placeholder='blur'
             priority
-            quality={10}
+            quality={100}
           />
         </div>
       </div>

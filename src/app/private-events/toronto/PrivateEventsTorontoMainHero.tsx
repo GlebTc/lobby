@@ -1,6 +1,9 @@
 import Image from 'next/image';
 import private_events_toronto_one from '@/public/assets/private_events_toronto_one.webp';
-import { GlacialIndifferenceRegular, GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
+import {
+  GlacialIndifferenceRegular,
+  GlacialIndifferenceBold,
+} from '@/src/util/fonts/fonts';
 
 const PrivateEventsTorontoMainHero = () => {
   const componentName = 'PRIVATE_EVENTS_TORONTO_MAIN_HERO';
@@ -14,7 +17,7 @@ const PrivateEventsTorontoMainHero = () => {
           alt='Private Events Toronto'
           fill
           className='object-cover'
-          quality={10}
+          quality={100}
         />
         <div
           className={`${componentName}_IMAGE_OVERLAY absolute top-0 left-0 w-full h-full z-[1] bg-gray-900/30`}

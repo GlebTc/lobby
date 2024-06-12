@@ -1,7 +1,10 @@
 import Image from 'next/image';
 import private_events_hamilton_one from '@/public/assets/private_events_hamilton_one.webp';
 import Link from 'next/link';
-import { GlacialIndifferenceRegular, GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
+import {
+  GlacialIndifferenceRegular,
+  GlacialIndifferenceBold,
+} from '@/src/util/fonts/fonts';
 
 const PrivateEventsHamiltonMainHero = () => {
   const componentName = 'PRIVATE_EVENTS_HAMILTON_MAIN_HERO';
@@ -15,7 +18,8 @@ const PrivateEventsHamiltonMainHero = () => {
           alt='Private Events Hamilton'
           fill
           className='object-cover'
-          quality={10}
+          quality={100}
+          sizes='auto'
         />
         <div
           className={`${componentName}_IMAGE_OVERLAY absolute top-0 left-0 w-full h-full z-[1] bg-gray-900/30`}

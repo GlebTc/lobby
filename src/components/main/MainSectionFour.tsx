@@ -27,11 +27,11 @@ const MainSectionFour = () => {
             alt={`Lobby Bar Restaurant | Main Page | Section Four | Indulge in Weekend Bliss Image`}
             title={`Lobby Bar Restaurant | Main Page | Section Four | Indulge in Weekend Bliss Image`}
             fill
-            sizes='1'
+            sizes='auto'
             className='object-cover'
             placeholder='blur'
             priority
-            quality={10}
+            quality={100}
           />
         </div>
         <div
@@ -65,11 +65,11 @@ const MainSectionFour = () => {
             alt={`Lobby Bar Restaurant | Main Page | Section Four | Elegance Meets Expereience Image`}
             title={`Lobby Bar Restaurant | Main Page | Section Four | Elegance Meets Expereience Image`}
             fill
-            sizes='1'
+            sizes='auto'
             className='object-cover'
             placeholder='blur'
             priority
-            quality={10}
+            quality={100}
           />
         </div>
         <div
