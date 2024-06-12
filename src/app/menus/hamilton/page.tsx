@@ -5,6 +5,7 @@ import MenuHamiltonFoodMain from '@/src/app/menus/hamilton/(food)/MenuHamiltonFo
 import MenuHeaderHamilton from './MenuHeaderHamilton';
 import MenuHamiltonBrunchMain from '@/src/app/menus/hamilton/(brunch)/MenuHamiltonBrunchMain';
 import MenuHamiltonBottlServiceMain from '@/src/app/menus/hamilton/(bottle_service)/MenuHamiltonBottlServiceMain';
+import MenuHamiltonLunchMain from '@/src/app/menus/hamilton/(lunch)/MenuHamiltonLunchMain'
 
 const menusHamilton = () => {
   const componentName = 'MENUS_HAMILTON';
@@ -21,6 +22,7 @@ const menusHamilton = () => {
       {category === 'food' && <MenuHamiltonFoodMain />}
       {category === 'brunch' && <MenuHamiltonBrunchMain />}
       {category === 'bottle service' && <MenuHamiltonBottlServiceMain />}
+      {category === 'lunch' && <MenuHamiltonLunchMain />}
     </div>
   );
 };

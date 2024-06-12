@@ -10,7 +10,7 @@ const MenuHeaderHamilton = ({
   setCategory: any;
 }) => {
   const componentName = 'HAMILTON_MENU_HEADER';
-  const menuItems = ['drinks', 'food', 'brunch', 'bottle service']
+  const menuItems = ['drinks', 'food', 'brunch', 'lunch', 'bottle service', 'happy hour (coming soon)']
   return (
     <div className={`${componentName}_MAIN_CONTAINER relative`}>
       <div className={`${componentName}_IMAGE_CONTAINER relative h-[306px]`}>
@@ -28,12 +28,12 @@ const MenuHeaderHamilton = ({
         className={`${componentName}_MENU_LIST_CONTAINER absolute left-0 bottom-0 w-full`}
       >
         <ul
-          className={`${componentName}_MENU_LIST flex flex-col md:flex-row gap-1 bg-white md:w-[80%] mx-auto`}
+          className={`${componentName}_MENU_LIST flex flex-col lg:flex-row gap-1 bg-white lg:w-[80%] mx-auto`}
         >
           {menuItems.map((category: any, index: any) => (
             <li
               key={index}
-              className={`${componentName}_MENU_LIST_ITEM uppercase text-center bg-gray-200 w-full py-2 cursor-pointer hover:bg-gray-300 transition-colors duration-300 ease-in-out`}
+              className={`${componentName}_MENU_LIST_ITEM uppercase bg-gray-200 w-full py-2 cursor-pointer hover:bg-gray-300 transition-colors duration-300 ease-in-out flex justify-center items-center px-2 text-center`}
               onClick={() => setCategory(category)}
             >
               {category}
