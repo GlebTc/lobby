@@ -6,20 +6,23 @@ import HamiltonInquireForm from './HamiltonInquireForm';
 const Inquire = () => {
   const componentName = 'HAMILTON_INQUIRE';
   return (
-    <div className={`${componentName}_MAIN_CONTAINER relative bg-[var(--main-bg-color)]`}>
-      <div className='h-[102px] md:h-[185px] relative'>50
+    <div
+      className={`${componentName}_MAIN_CONTAINER relative bg-[var(--main-bg-color)]`}
+    >
+      <div className='h-[102px] md:h-[185px] relative'>
+        50
         <Image
           src={private_events_hamilton_inquire}
           fill
-          sizes='1'
+          sizes='auto'
           alt='Private Events Hamilton Inquire'
           className='object-cover w-full h-full'
-          quality={50}
+          quality={100}
           priority
         />
       </div>
       <div className='mb-12'>
-      <HamiltonInquireHeader />
+        <HamiltonInquireHeader />
       </div>
       <HamiltonInquireForm />
     </div>

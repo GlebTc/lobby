@@ -14,7 +14,7 @@ const HamiltonInquireHeader = () => {
       <Image
         src={lobby_hamilton_logo}
         alt='Lobby Hamilton Logo'
-        quality={10}
+        quality={100}
         priority
       />
     </div>

@@ -27,11 +27,11 @@ const MainSectionThree = () => {
               alt={`Lobby Bar Restaurant | Main Page | Savor Flavor in Two Cities Image`}
               title={`Lobby Bar Restaurant | Main Page | Savor Flavor in Two Cities Image`}
               fill
-              sizes='1'
+              sizes='auto'
               className='floating_container object-cover'
               placeholder='blur'
               priority
-              quality={50}
+              quality={100}
             />
           </div>
         </div>
