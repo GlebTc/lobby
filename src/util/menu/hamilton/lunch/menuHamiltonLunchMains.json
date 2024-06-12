@@ -1,0 +1,37 @@
+{
+    "title": "mains",
+    "mains": [
+      {
+        "name": "Banquet Burger",
+        "description": "6 oz prime rib beef patty, bacon, smoked cheddar, pineapple jalapeno relish, garlic mayo and fresh cut fries",
+        "description_two": null,
+        "price": "$22"
+      },
+      {
+        "name": "Wedge Salad",
+        "description": "iceberg lettuce, tomatoes, onions, crispy shallots, bacon and chives layered with house made blue cheese dressing",
+        "price": "$18"
+      },
+      {
+        "name": "Falafel Salad Bowl",
+        "description": "crunchy falafel, grape tomatoes, cucumber, smoked paprika hummus, marinated chickpeas and lemon tahini vinaigrette",
+        "price": "$21"
+      },
+      {
+        "name": "Lobster Roll",
+        "description": "canadian atlantic lobster salad in a toasted brioche roll, served with fresh fried potato chips and greens in grapefruit vinaigrette",
+        "price": "$22"
+      },
+      {
+        "name": "Thai Curry Moules Frites",
+        "description": "PEI mussels cooked in a spicy coconut broth with asian herbs and a side of fresh cut fries",
+        "price": "$24"
+      },
+      {
+        "name": "Fried Chicken",
+        "description": "crispy fried chicken tenders served with bibb lettuce, house pickled cucumber, accompanied with a hot honey and dill ranch sauce",
+        "price": "$24"
+      }
+    ]
+  }
+  
