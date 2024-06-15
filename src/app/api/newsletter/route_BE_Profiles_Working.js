@@ -37,7 +37,7 @@ export async function POST(req) {
         type: 'profile',
         attributes: {
           email: email,
-          phone_number: '+15005550006',
+          phone_number: `${formattedPhone}`,
           first_name: name,
           last_name: lastName,
 
