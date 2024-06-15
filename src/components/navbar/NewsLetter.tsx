@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import axios from 'axios';
 
 const NewsLetter = () => {
   const componentName = 'NEWSLETTER';
@@ -20,9 +21,25 @@ const NewsLetter = () => {
     }));
   };
 
-  const handleSubmit = () => {
-    console.log(formData);
-  };
+     const handleSubmit = async (e: any) => {
+        e.preventDefault();
+        console.log('Submitting Form');
+        try {
+          const response = await fetch('/api/newsletter', {
+            method: 'POST',
+            body: JSON.stringify(formData),
+          });
+          if (response.ok) {
+            console.log(response)
+            console.log('FE - New Entry Suceessfully Created');
+          }
+        } catch {
+          console.log(
+            'FE - There was an error sending your message. Please try again.'
+          );
+        }
+      };
+
   return (
     <div
       className={`${componentName} normal-case h-[60dvh] flex flex-col justify-center`}
