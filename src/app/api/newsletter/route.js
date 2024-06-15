@@ -1,8 +1,7 @@
 // This on works but does not subscriobe to the newsletter
+// Receiving ID now in response
 
 import { NextResponse } from 'next/server';
-
-let globalProfileId; // Declare a global variable to store the profileId
 
 export async function POST(req) {
   const { name, lastName, email, phone } = await req.json();
@@ -25,20 +24,20 @@ export async function POST(req) {
 
   const formattedPhone = formatPhoneNumber(phone);
 
-  const profileOptions = {
+  const options = {
     method: 'POST',
     headers: {
       accept: 'application/json',
       revision: '2024-05-15',
       'content-type': 'application/json',
-      Authorization: `Klaviyo-API-Key ${process.env.KLAVIYO_PRIVATE_API_KEY}`,
+      Authorization: 'Klaviyo-API-Key pk_ca70fcf150d4056d1e055d87ceabdae44b',
     },
     body: JSON.stringify({
       data: {
         type: 'profile',
         attributes: {
           email: email,
-          phone_number: '+15005550006',
+          phone_number: `${formattedPhone}`,
           first_name: name,
           last_name: lastName,
 
@@ -51,10 +50,12 @@ export async function POST(req) {
   try {
     const response = await fetch(
       'https://a.klaviyo.com/api/profiles/',
-      profileOptions
+      options
     );
 
     const responseData = await response.json(); // Parse the JSON response
+    console.log('Response Data:', responseData); // Log the parsed response data
+    console.log('Response User ID:', responseData.data.id); // Log the user ID from the response data
 
     if (!response.ok) {
       const errorText = await response.text(); // Get the error message from the response
@@ -65,9 +66,6 @@ export async function POST(req) {
       );
     }
 
-    globalProfileId = responseData.data.id; // Assign the profile ID to the global variable
-    console.log('Profile ID:', globalProfileId); // Log the profile ID
-
     return NextResponse.json({ message: 'Subscription successful' });
   } catch (error) {
     console.error(error);
@@ -76,9 +74,4 @@ export async function POST(req) {
       500
     );
   }
-}
-
-// Another function that uses globalProfileId
-function anotherFunction() {
-  console.log('Global Profile ID:', globalProfileId);
 }
