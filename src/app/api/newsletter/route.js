@@ -2,9 +2,6 @@ import { NextResponse } from 'next/server';
 
 export async function POST(req) {
   const { name, lastName, email, phone } = await req.json();
-  if (!name || !lastName || !email || !phone) {
-    return NextResponse.json({ message: 'Missing required fields' });
-  }
 
   // Function to format phone number
   function formatPhoneNumber(phone) {
@@ -19,7 +16,16 @@ export async function POST(req) {
     }
   }
 
-  const formattedPhone = formatPhoneNumber(phone);
+  const attributes = {
+    email: email,
+    first_name: name,
+    last_name: lastName,
+    properties: { newKey: 'New Value' },
+  };
+
+  if (phone) {
+    attributes.phone_number = formatPhoneNumber(phone);
+  }
 
   const options = {
     method: 'POST',
@@ -32,13 +38,7 @@ export async function POST(req) {
     body: JSON.stringify({
       data: {
         type: 'profile',
-        attributes: {
-          email: email,
-          phone_number: `${formattedPhone}`,
-          first_name: name,
-          last_name: lastName,
-          properties: { newKey: 'New Value' },
-        },
+        attributes: attributes,
       },
     }),
   };
@@ -64,8 +64,6 @@ export async function POST(req) {
     return NextResponse.json({ message: 'Subscription successful' });
   } catch (error) {
     console.error('Error subscribing to newsletter:', error);
-    return NextResponse.json(
-      { message: 'Error subscribing to newsletter' }
-    );
+    return NextResponse.json({ message: 'Error subscribing to newsletter' });
   }
 }
