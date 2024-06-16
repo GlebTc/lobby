@@ -51,8 +51,8 @@ const HamiltonInquireForm = () => {
     phone: '',
     eventStyle: '',
     eventDate: '',
-    startTime: '11am',
-    endTime: '',
+    startTime: '11am by default (not changed by user)',
+    endTime: 'Not specified by user',
     guestCount: '',
     additionalDetails: '',
   });
