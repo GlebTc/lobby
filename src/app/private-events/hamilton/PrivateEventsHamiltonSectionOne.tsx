@@ -7,9 +7,9 @@ const PrivateEventsHamiltonSectionOne = () => {
   const componentName = 'PRIVATE_EVENTS_HAMILTON_SECTION_ONE';
   return (
     <div
-      className={`${componentName}_MAIN_CONTAINER grid md:grid-cols-2 h-full lg:min-h-[50dvh]`}
+      className={`${componentName}_MAIN_CONTAINER grid md:grid-cols-2 h-full lg:min-h-[50dvh] py-6`}
     >
-      <div className={`${componentName}_MAIN_CONTENT_CONTAINER md:order-2 p-6`}>
+      <div className={`${componentName}_MAIN_CONTENT_CONTAINER md:order-2 px-4 pb-4`}>
         <h1
           className={`${GlacialIndifferenceBold.className} tracking-[-1px] leading-[42px] text-[32px]`}
         >
