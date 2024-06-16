@@ -86,7 +86,8 @@ const HamiltonInquireForm = () => {
         button.style.backgroundColor = '#a6e3b5';
         button.textContent = 'Message Sent';
       } else {
-        console.log('FE NOT OKAY');
+        console.log('Toronto FE Error');
+        console.log(response)
         const button = document.querySelector(
           '.submit-button'
         ) as HTMLButtonElement;
