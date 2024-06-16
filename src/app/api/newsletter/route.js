@@ -50,7 +50,7 @@ export async function POST(req) {
     );
 
     const responseData = await response.json(); // Parse the JSON response
-    console.log('Response from Klaviyo:', responseData);
+    // console.log('Response from Klaviyo:', responseData);
 
     if (!response.ok) {
       const errorText = await response.text(); // Get the error message from the response

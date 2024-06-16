@@ -30,8 +30,7 @@ const NewsLetter = () => {
             body: JSON.stringify(formData),
           });
           if (response.ok) {
-            console.log(response)
-            console.log('FE - New Entry Suceessfully Created');
+            alert('Thank you for signing up for our newsletter!');
           }
         } catch {
           console.log(

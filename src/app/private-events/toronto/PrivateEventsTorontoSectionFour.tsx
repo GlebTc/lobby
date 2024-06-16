@@ -6,9 +6,9 @@ const PrivateEventsTorontoSectionFour = () => {
   const componentName = 'PRIVATE_EVENTS_TORONTO_SECTION_TWO';
   return (
     <div
-      className={`${componentName}_MAIN_CONTAINER grid md:grid-cols-2 h-full`}
+      className={`${componentName}_MAIN_CONTAINER grid md:grid-cols-2 h-full py-6`}
     >
-      <div className={`${componentName}_MAIN_CONTENT_CONTAINER p-4`}>
+      <div className={`${componentName}_MAIN_CONTENT_CONTAINER px-4`}>
         <h1
           className={`${GlacialIndifferenceBold.className} tracking-[-1px] leading-[42px] text-[32px] mb-4`}
         >

@@ -40,8 +40,7 @@ export async function POST(req) {
   });
   const mailData = {
     from: {
-      name: `${name}`,
-      address: `webdevelopmenthamilton@gmail.com`,
+      name: `Hamilton Private Event Form Submission`,
     },
     replyTo: email,
     to: 'webdevelopmenthamilton@gmail.com',
