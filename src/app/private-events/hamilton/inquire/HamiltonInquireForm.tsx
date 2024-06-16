@@ -69,20 +69,51 @@ const HamiltonInquireForm = () => {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log('Form Data to Submit:', formData);
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      eventStyle: '',
-      eventDate: '',
-      startTime: '',
-      endTime: '',
-      guestCount: '',
-      additionalDetails: '',
-    });
+    try {
+      const response = await fetch('/api/private-hamilton', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+      if (response.ok) {
+        alert('Hamilton Event Inquiry Submitted - Thank you');
+        const button = document.querySelector(
+          '.submit-button'
+        ) as HTMLButtonElement;
+        button.style.backgroundColor = '#a6e3b5';
+        button.textContent = 'Message Sent';
+      } else {
+        console.log('FE NOT OKAY');
+        const button = document.querySelector(
+          '.submit-button'
+        ) as HTMLButtonElement;
+        button.style.backgroundColor = '#e3aca6';
+        button.textContent = 'Something Went Wrong';
+        setTimeout(() => {
+          button.style.backgroundColor = '#C0D6FF'; // Reset the button background color
+          button.textContent = 'Try Again Please'; // Reset the button text
+        }, 3000); // 3 seconds (3000 milliseconds)
+      }
+    } catch {
+      console.log(
+        'FE CATCH There was an error sending your message. Please try again.'
+      );
+    }
+    // setFormData({
+    //   name: '',
+    //   email: '',
+    //   phone: '',
+    //   eventStyle: '',
+    //   eventDate: '',
+    //   startTime: '',
+    //   endTime: '',
+    //   guestCount: '',
+    //   additionalDetails: '',
+    // });
   };
 
   return (

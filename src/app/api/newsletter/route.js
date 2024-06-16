@@ -54,8 +54,8 @@ export async function POST(req) {
     );
 
     const responseData = await response.json(); // Parse the JSON response
-    console.log('Response Data:', responseData); // Log the parsed response data
-    console.log('Response User ID:', responseData.data.id); // Log the user ID from the response data
+    // console.log('Response Data:', responseData); // Log the parsed response data
+    // console.log('Response User ID:', responseData.data.id); // Log the user ID from the response data
 
     if (!response.ok) {
       const errorText = await response.text(); // Get the error message from the response
