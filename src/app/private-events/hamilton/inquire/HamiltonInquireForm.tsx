@@ -51,7 +51,7 @@ const HamiltonInquireForm = () => {
     phone: '',
     eventStyle: '',
     eventDate: '',
-    startTime: '',
+    startTime: '11am',
     endTime: '',
     guestCount: '',
     additionalDetails: '',
@@ -81,40 +81,23 @@ const HamiltonInquireForm = () => {
       });
       if (response.ok) {
         alert('Hamilton Event Inquiry Submitted - Thank you');
-        const button = document.querySelector(
-          '.submit-button'
-        ) as HTMLButtonElement;
-        button.style.backgroundColor = '#a6e3b5';
-        button.textContent = 'Message Sent';
       } else {
-        console.log('Toronto FE Error');
-        console.log(response)
-        const button = document.querySelector(
-          '.submit-button'
-        ) as HTMLButtonElement;
-        button.style.backgroundColor = '#e3aca6';
-        button.textContent = 'Something Went Wrong';
-        setTimeout(() => {
-          button.style.backgroundColor = '#C0D6FF'; // Reset the button background color
-          button.textContent = 'Try Again Please'; // Reset the button text
-        }, 3000); // 3 seconds (3000 milliseconds)
+        console.log('Hamilton FE Error');
       }
-    } catch {
-      console.log(
-        'FE CATCH There was an error sending your message. Please try again.'
-      );
+    } catch (error) {
+      console.log('Hamilton FE Error', error);
     }
-    // setFormData({
-    //   name: '',
-    //   email: '',
-    //   phone: '',
-    //   eventStyle: '',
-    //   eventDate: '',
-    //   startTime: '',
-    //   endTime: '',
-    //   guestCount: '',
-    //   additionalDetails: '',
-    // });
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      eventStyle: '',
+      eventDate: '',
+      startTime: '',
+      endTime: '',
+      guestCount: '',
+      additionalDetails: '',
+    });
   };
 
   return (
