@@ -1,6 +1,8 @@
 'use client';
 import { useState } from 'react';
 import { Roboto } from 'next/font/google';
+import IsLoading from '@/src/components/reusable/IsLoading';
+import ThankYou from '@/src/components/reusable/ThankYou';
 
 const roboto = Roboto({
   weight: ['400', '500'],
@@ -10,6 +12,8 @@ const roboto = Roboto({
 
 const HamiltonInquireForm = () => {
   const componentName = 'HAMILTON_INQUIRE_FORM';
+  const [isLoading, setIsLoading] = useState(false);
+  const [isThankYou, setIsThankYou] = useState(false);
   const arrayOfStartTime = [
     '11am',
     '12pm',
@@ -71,6 +75,7 @@ const HamiltonInquireForm = () => {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setIsLoading(true);
     try {
       const response = await fetch('/api/private-hamilton', {
         method: 'POST',
@@ -80,7 +85,8 @@ const HamiltonInquireForm = () => {
         body: JSON.stringify(formData),
       });
       if (response.ok) {
-        alert('Hamilton Event Inquiry Submitted - Thank you');
+        setIsLoading(false);
+        setIsThankYou(true);
       } else {
         console.log('Hamilton FE Error');
       }
@@ -102,6 +108,17 @@ const HamiltonInquireForm = () => {
 
   return (
     <div className={`${componentName}_MAIN_CONTAINER`}>
+      {isLoading && (
+        <IsLoading loadingMessage='Submitting Hamilton Private Event Inquiry' />
+      )}
+      {isThankYou && (
+        <ThankYou
+          thankYouMessage='Thank You for Your Inquiry!'
+          thankYouMessageTwo='We Will Contact You Shortly With Details'
+          isThankYou={isThankYou}
+          setIsThankYou={setIsThankYou}
+        />
+      )}
       <form
         onSubmit={handleSubmit}
         className={`${componentName}_FORM_CONTAINER p-8 flex flex-col items-start gap-2`}
