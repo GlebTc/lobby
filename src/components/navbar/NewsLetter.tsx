@@ -1,9 +1,9 @@
 'use client';
 import { useState } from 'react';
-import axios from 'axios';
 
 const NewsLetter = () => {
   const componentName = 'NEWSLETTER';
+
   const [formData, setFormData] = useState({
     name: '',
     lastName: '',
@@ -21,23 +21,23 @@ const NewsLetter = () => {
     }));
   };
 
-     const handleSubmit = async (e: any) => {
-        e.preventDefault();
-        console.log('Submitting Form');
-        try {
-          const response = await fetch('/api/newsletter', {
-            method: 'POST',
-            body: JSON.stringify(formData),
-          });
-          if (response.ok) {
-            alert('Thank you for signing up for our newsletter!');
-          }
-        } catch {
-          console.log(
-            'FE - There was an error sending your message. Please try again.'
-          );
-        }
-      };
+  const handleSubmit = async (e: any) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch('/api/newsletter', {
+        method: 'POST',
+        body: JSON.stringify(formData),
+      });
+      if (response.ok) {
+        alert('Thank you for signing up for our newsletter!');
+      }
+    } catch {
+      console.log(
+        'FE - There was an error sending your message. Please try again.'
+      );
+    }
+  };
 
   return (
     <div
