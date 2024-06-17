@@ -41,13 +41,19 @@ const NewsLetter = () => {
         'FE - There was an error sending your message. Please try again.'
       );
     }
+    setFormData({
+      name: '',
+      lastName: '',
+      email: '',
+      phone: '',
+    });
   };
 
   return (
     <div
       className={`${componentName} normal-case h-[60dvh] flex flex-col justify-center`}
     >
-            {isLoading && (
+      {isLoading && (
         <IsLoading loadingMessage='Adding Information to Newsletter List' />
       )}
       {isThankYou && (
