@@ -50,20 +50,18 @@ export async function POST(req) {
     );
 
     const responseData = await response.json(); // Parse the JSON response
-    // console.log('Response from Klaviyo:', responseData);
+    console.log('Response from Klaviyo:', responseData);
 
     if (!response.ok) {
       const errorText = await response.text(); // Get the error message from the response
-      console.error('Error subscribing to newsletter:', errorText);
+
       return NextResponse.json(
-        { message: 'Error subscribing to newsletter' },
-        500
+        { message: 'Error subscribing to newsletter' }
       );
     }
 
     return NextResponse.json({ message: 'Subscription successful' });
   } catch (error) {
-    console.error('Error subscribing to newsletter:', error);
     return NextResponse.json({ message: 'Error subscribing to newsletter' });
   }
 }

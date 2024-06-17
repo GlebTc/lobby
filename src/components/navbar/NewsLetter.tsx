@@ -1,9 +1,12 @@
 'use client';
 import { useState } from 'react';
+import IsLoading from '@/src/components/reusable/IsLoading';
+import ThankYou from '@/src/components/reusable/ThankYou';
 
 const NewsLetter = () => {
   const componentName = 'NEWSLETTER';
-
+  const [isLoading, setIsLoading] = useState(false);
+  const [isThankYou, setIsThankYou] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
     lastName: '',
@@ -23,14 +26,15 @@ const NewsLetter = () => {
 
   const handleSubmit = async (e: any) => {
     e.preventDefault();
-
+    setIsLoading(true);
     try {
       const response = await fetch('/api/newsletter', {
         method: 'POST',
         body: JSON.stringify(formData),
       });
       if (response.ok) {
-        alert('Thank you for signing up for our newsletter!');
+        setIsLoading(false);
+        setIsThankYou(true);
       }
     } catch {
       console.log(
@@ -43,6 +47,17 @@ const NewsLetter = () => {
     <div
       className={`${componentName} normal-case h-[60dvh] flex flex-col justify-center`}
     >
+            {isLoading && (
+        <IsLoading loadingMessage='Adding Information to Newsletter List' />
+      )}
+      {isThankYou && (
+        <ThankYou
+          thankYouMessage='Congratulations!!'
+          thankYouMessageTwo='You have been added to our newsletter list.'
+          isThankYou={isThankYou}
+          setIsThankYou={setIsThankYou}
+        />
+      )}
       <p className='text-black text-[16px] text-center leading-[20px] max-w-[260px] mx-auto mb-4'>
         Sign up for our newsletter to receive exclusive offers & invitation to
         speacial events.
