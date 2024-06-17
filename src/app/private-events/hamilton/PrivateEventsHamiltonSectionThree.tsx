@@ -7,11 +7,11 @@ const PrivateEventsHamiltonSectionThree = () => {
   const componentName = 'PRIVATE_EVENTS_HAMILTON_SECTION_THREE';
   return (
     <div
-      className={`${componentName}_MAIN_CONTAINER grid md:grid-cols-2 h-full lg:min-h-[50dvh] py-6`}
+      className={`${componentName}_MAIN_CONTAINER grid md:grid-cols-2 h-full lg:min-h-[50dvh] gap-4 md:p-4`}
     >
-      <div className={`${componentName}_MAIN_CONTENT_CONTAINER md:order-2 px-4 pb-4`}>
+      <div className={`${componentName}_MAIN_CONTENT_CONTAINER md:order-2 p-4`}>
         <h1
-          className={`${GlacialIndifferenceBold.className} tracking-[-1px] leading-[42px] text-[32px] mb-4`}
+          className={`${GlacialIndifferenceBold.className} tracking-[-1px] leading-[42px] text-[32px] pb-4`}
         >
           Rooftop Terrace
         </h1>
@@ -39,7 +39,7 @@ const PrivateEventsHamiltonSectionThree = () => {
         </ul>
       </div>
       <div
-        className={`${componentName}_IMAGE_CONTAINER h-full flex items-center md:p-4`}
+        className={`${componentName}_IMAGE_CONTAINER relative h-full flex items-center md:p-4`}
       >
         <div className='relative h-[45dvh] md:h-[50dvh] w-full'>
           <Image

@@ -7,9 +7,9 @@ const PrivateEventsHamiltonSectionSix = () => {
   const componentName = 'PRIVATE_EVENTS_HAMILTON_SECTION_SIX';
   return (
     <div
-    className={`${componentName}_MAIN_CONTAINER grid md:grid-cols-2 h-full py-6`}
+    className={`${componentName}_MAIN_CONTAINER grid md:grid-cols-2 h-full lg:min-h-[50dvh] gap-4 md:p-4`}
   >
-    <div className={`${componentName}_MAIN_CONTENT_CONTAINER px-4 pb-4`}>
+    <div className={`${componentName}_MAIN_CONTENT_CONTAINER p-4`}>
       <h1
           className={`${GlacialIndifferenceBold.className} tracking-[-1px] leading-[42px] text-[32px] mb-4`}
         >
@@ -25,9 +25,9 @@ const PrivateEventsHamiltonSectionSix = () => {
         </p>
       </div>
       <div
-        className={`${componentName}_IMAGE_CONTAINER h-full flex items-center md:p-4`}
+        className={`${componentName}_IMAGE_CONTAINER relative h-full flex items-center md:p-4`}
       >
-        <div className='relative h-[40dvh] md:h-[50dvh] w-full'>
+        <div className='relative h-[45dvh] md:h-[50dvh] w-full'>
           <Image
             src={private_events_hamilton_seven}
             alt='Private Events Hamilton'

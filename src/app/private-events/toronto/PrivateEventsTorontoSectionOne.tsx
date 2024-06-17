@@ -7,11 +7,11 @@ const PrivateEventsTorontoSectionOne = () => {
   const componentName = 'PRIVATE_EVENTS_TORONTO_SECTION_ONE';
   return (
     <div
-      className={`${componentName}_MAIN_CONTAINER grid md:grid-cols-2 h-full lg:min-h-[50dvh]`}
+      className={`${componentName}_MAIN_CONTAINER grid md:grid-cols-2 h-full lg:min-h-[50dvh] gap-4 md:p-4`}
     >
-      <div className={`${componentName}_MAIN_CONTENT_CONTAINER md:order-2 p-6`}>
+      <div className={`${componentName}_MAIN_CONTENT_CONTAINER md:order-2 p-4`}>
         <h1
-          className={`${GlacialIndifferenceBold.className} tracking-[-1px] leading-[42px] text-[32px]`}
+          className={`${GlacialIndifferenceBold.className} tracking-[-1px] leading-[42px] text-[32px] pb-4`}
         >
           Full Venue
         </h1>
@@ -40,9 +40,9 @@ const PrivateEventsTorontoSectionOne = () => {
         </ul>
       </div>
       <div
-        className={`${componentName}_IMAGE_CONTAINER h-full flex items-center md:p-4`}
+        className={`${componentName}_IMAGE_CONTAINER relative h-full flex items-center md:p-4`}
       >
-        <div className='relative h-[40dvh] md:h-[50dvh] w-full'>
+        <div className='relative h-[45dvh] md:h-[50dvh] w-full'>
           <Image
             src={private_events_toronto_two}
             alt='Private Events Toronto'
