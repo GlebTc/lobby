@@ -1,9 +1,6 @@
 import Image from 'next/image';
 import private_events_toronto_one from '@/public/assets/private_events_toronto_one.webp';
-import {
-  GlacialIndifferenceRegular,
-  GlacialIndifferenceBold,
-} from '@/src/util/fonts/fonts';
+import { HeaderRegular, HeaderBold } from '@/src/util/fonts/fonts';
 
 const PrivateEventsTorontoMainHero = () => {
   const componentName = 'PRIVATE_EVENTS_TORONTO_MAIN_HERO';
@@ -26,12 +23,12 @@ const PrivateEventsTorontoMainHero = () => {
           className={`${componentName}_IMAGE_OVERLAY_TEXT absolute top-0 left-0 h-full w-full flex flex-col justify-center items-center gap-2 text-white text-center z-[2]`}
         >
           <h1
-            className={`${GlacialIndifferenceBold.className} tracking-[-1px] leading-[42px] text-[24px]`}
+            className={`${HeaderBold.className} tracking-[-1px] leading-[42px] text-[24px]`}
           >
             Private Groups & Corporate Events
           </h1>
           <p
-            className={`${GlacialIndifferenceRegular.className} text-white pb-4 text-[18px] mx-4`}
+            className={`${HeaderRegular.className} text-white pb-4 text-[18px] mx-4`}
           >
             We host private parties, groups and corporate events at the lobby
             Toronto venue

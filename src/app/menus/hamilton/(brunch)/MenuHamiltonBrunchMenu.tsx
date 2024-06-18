@@ -1,5 +1,5 @@
 import menuHamiltonBrunch from '@/src/util/menu/hamilton/brunch/menuHamiltonBrunch.json';
-import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
+import { HeaderBold } from '@/src/util/fonts/fonts';
 
 const MenuHamiltonBrunchMenu = () => {
   const componentName = 'MENU_HAMILTON_BRUNCH_MENU';
@@ -10,10 +10,10 @@ const MenuHamiltonBrunchMenu = () => {
         return (
           <div key={index}>
             <div className='flex justify-center gap-2'>
-              <h3 className={`${GlacialIndifferenceBold.className}`}>
+              <h3 className={`${HeaderBold.className}`}>
                 {item.name}
               </h3>
-              <p className={`${GlacialIndifferenceBold.className} menu_price`}>
+              <p className={`${HeaderBold.className} menu_price`}>
                 ${item.price}
               </p>
             </div>

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import menu_header_toronto from '@/public/assets/menu_header_toronto.webp';
-import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
+import { HeaderBold } from '@/src/util/fonts/fonts';
 
 const MenuHeaderToronto = ({
   category,
@@ -18,7 +18,7 @@ const MenuHeaderToronto = ({
           className={`${componentName}_IMAGE_OVERLAY_AND_TEXT absolute top-0 left-0 w-full h-full bg-black/20 flex justify-center items-start text-white`}
         >
           <h1
-            className={`${GlacialIndifferenceBold.className} mt-12 md:mt-24 tracking-tight text-[30px] md:text-[60px]`}
+            className={`${HeaderBold.className} mt-12 md:mt-24 tracking-tight text-[30px] md:text-[60px]`}
           >
             toronto
           </h1>

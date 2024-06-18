@@ -1,9 +1,9 @@
-import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
+import { HeaderBold } from '@/src/util/fonts/fonts';
 
 const HamiltonInquireHeader = () => {
   return (
     <div
-      className={`${GlacialIndifferenceBold.className} max-w-[80%] mx-auto uppercase flex flex-col gap-2 items-center border-b-[1px] border-black py-4`}
+      className={`${HeaderBold.className} max-w-[80%] mx-auto uppercase flex flex-col gap-2 items-center border-b-[1px] border-black py-4`}
     >
       <h2 className='text-[19px] md:text-[28px] lg:text-[32px]'>
         Plannig a Special Occasion or Business Event?

@@ -1,13 +1,13 @@
 import menuHamiltonLunchStarters from '@/src/util/menu/hamilton/lunch/menuHamiltonLunchStarters.json';
 import MenuTitleDescriptionPrice from '@/src/components/reusable/MenuTitleDescriptionPrice';
-import { GlacialIndifferenceRegular } from '@/src/util/fonts/fonts';
+import { HeaderRegular } from '@/src/util/fonts/fonts';
 
 const MenuHamiltonLunchStarters = () => {
   const componentName = 'MENU_HAMILTON_LUNCH_STARTERS';
   return (
     <div className={`${componentName}_MAIN_CONTAINER flex flex-col gap-8 pt-8`}>
       <h1
-        className={`text-[#c69a50] ${GlacialIndifferenceRegular.className} font-[400] tracking-tight text-[35px]`}
+        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] tracking-tight text-[35px]`}
       >
         {menuHamiltonLunchStarters.title}
       </h1>

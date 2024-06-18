@@ -1,6 +1,6 @@
 import menuHamiltonBottleServiceBottles from '@/src/util/menu/hamilton/bottle_service/menuHamiltonBottleServiceBottles.json';
 import MenuTitlePrice from '@/src/components/reusable/MenuTitlePrice';
-import { GlacialIndifferenceRegular } from '@/src/util/fonts/fonts';
+import { HeaderRegular } from '@/src/util/fonts/fonts';
 
 const MenuHamiltonBottleServiceBottles = () => {
   const componentName = 'MENU_HAMILTON_BOTTLE_SERVICE_BOTTLES';
@@ -13,7 +13,7 @@ const MenuHamiltonBottleServiceBottles = () => {
             className={`${componentName}_BOTTLE_HEADING_AND_LIST_CONTAINER flex flex-col gap-4`}
           >
             <h1
-              className={`text-[#c69a50] ${GlacialIndifferenceRegular.className} font-[400] tracking-tight text-[35px]`}
+              className={`text-[#c69a50] ${HeaderRegular.className} font-[400] tracking-tight text-[35px]`}
             >
               {item.bottle_title}
             </h1>

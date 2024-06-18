@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import private_events_toronto_one from '@/public/assets/private_events_toronto_one.webp';
-import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
+import { HeaderBold } from '@/src/util/fonts/fonts';
 
 const PrivateEventsTorontoSectionFour = () => {
   const componentName = 'PRIVATE_EVENTS_TORONTO_SECTION_TWO';
@@ -10,7 +10,7 @@ const PrivateEventsTorontoSectionFour = () => {
   >
     <div className={`${componentName}_MAIN_CONTENT_CONTAINER p-4`}>
       <h1
-          className={`${GlacialIndifferenceBold.className} tracking-[-1px] leading-[42px] text-[32px] mb-4`}
+          className={`${HeaderBold.className} tracking-[-1px] leading-[42px] text-[32px] mb-4`}
         >
           Your Next Steps
         </h1>

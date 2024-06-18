@@ -1,12 +1,12 @@
 import menuHamiltonDrinksWine from '@/src/util/menu/hamilton/drinks/menuHamiltonDrinksWine.json';
-import { GlacialIndifferenceRegular } from '@/src/util/fonts/fonts';
+import { HeaderRegular } from '@/src/util/fonts/fonts';
 
 const MenuHamiltonDrinksWine = () => {
   const componentName = 'MENU_HAMILTON_DRINKS_WINE';
   return (
     <div className={`${componentName}_MAIN_CONTAINER flex flex-col pt-8`}>
       <h1
-        className={`text-[#c69a50] ${GlacialIndifferenceRegular.className} font-[400] tracking-tight text-[35px] mb-8`}
+        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] tracking-tight text-[35px] mb-8`}
       >
         {menuHamiltonDrinksWine.title}
       </h1>
@@ -22,17 +22,17 @@ const MenuHamiltonDrinksWine = () => {
                 <thead>
                   <tr>
                     <th
-                      className={`text-[#c69a50] ${GlacialIndifferenceRegular.className} font-[400] tracking-tight text-[24px] text-left mb-8`}
+                      className={`text-[#c69a50] ${HeaderRegular.className} font-[400] tracking-tight text-[24px] text-left mb-8`}
                     >
                       {item.wine_type_title}
                     </th>
                     <th
-                      className={`${GlacialIndifferenceRegular.className} italic text-[14px] lowercase w-[50px]`}
+                      className={`${HeaderRegular.className} italic text-[14px] lowercase w-[50px]`}
                     >
                       6oz
                     </th>
                     <th
-                      className={`${GlacialIndifferenceRegular.className} italic text-[14px] lowercase w-[50px]`}
+                      className={`${HeaderRegular.className} italic text-[14px] lowercase w-[50px]`}
                     >
                       bottle
                     </th>

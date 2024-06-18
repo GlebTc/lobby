@@ -1,10 +1,7 @@
 import Image from 'next/image';
 import private_events_hamilton_one from '@/public/assets/private_events_hamilton_one.webp';
 import Link from 'next/link';
-import {
-  GlacialIndifferenceRegular,
-  GlacialIndifferenceBold,
-} from '@/src/util/fonts/fonts';
+import { HeaderRegular, HeaderBold } from '@/src/util/fonts/fonts';
 
 const PrivateEventsHamiltonMainHero = () => {
   const componentName = 'PRIVATE_EVENTS_HAMILTON_MAIN_HERO';
@@ -28,12 +25,12 @@ const PrivateEventsHamiltonMainHero = () => {
           className={`${componentName}_IMAGE_OVERLAY_TEXT absolute top-0 left-0 h-full w-full flex flex-col justify-center items-center gap-4 text-white text-center z-[2]`}
         >
           <h1
-            className={`${GlacialIndifferenceBold.className} tracking-[-1px] leading-[42px] text-[24px]`}
+            className={`${HeaderBold.className} tracking-[-1px] leading-[42px] text-[24px]`}
           >
             Private Groups & Corporate Events
           </h1>
           <p
-            className={`${GlacialIndifferenceRegular.className} text-white pb-4 text-[18px] mx-4`}
+            className={`${HeaderRegular.className} text-white pb-4 text-[18px] mx-4`}
           >
             The lobby Hamilton venue is perfect for private groups, parties and
             corporate events

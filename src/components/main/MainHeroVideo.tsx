@@ -2,7 +2,7 @@
 import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
 import Image from 'next/image';
 import main_section_two_img from '@/public/assets/main_section_two_img.webp';
-import { GlacialIndifferenceRegular, GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
+import { HeaderRegular, HeaderBold } from '@/src/util/fonts/fonts';
 
 const MainHeroVideo = () => {
   const componentName = 'MAIN_PAGE_HERO_VIDEO';
@@ -48,13 +48,11 @@ const MainHeroVideo = () => {
         className={`${componentName}_TEXT_AND_BUTTON_CONTAINER absolute top-0 left-0 w-[100%] h-[100%] flex flex-col justify-center items-center text-white bg-gray-950/30 text-center`}
       >
         <h1
-          className={`${GlacialIndifferenceBold.className} tracking-[-1px] leading-[42px] text-[42px]`}
+          className={`${HeaderBold.className} tracking-[-1px] leading-[42px] text-[42px]`}
         >
           Pure Delight
         </h1>
-        <p
-          className={`${GlacialIndifferenceRegular.className} text-white pb-4 text-[22px]`}
-        >
+        <p className={`${HeaderRegular.className} text-white pb-4 text-[22px]`}>
           Vibrant Moments and Incredible Nights
         </p>
         <div

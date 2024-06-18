@@ -1,12 +1,12 @@
 import menuTorontoBottleServicePackages from '@/src/util/menu/toronto/bottle_service/menuTorontoBottleServicePackages.json';
-import { GlacialIndifferenceRegular, GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
+import { HeaderRegular, HeaderBold } from '@/src/util/fonts/fonts';
 
 const MenuTorontoBottleServicePackages = () => {
   const componentName = 'MENU_TORONTO_BOTTLE_SERVICE_PACKAGES';
   return (
     <div>
       <h1
-        className={`text-[#c69a50] ${GlacialIndifferenceRegular.className} font-[400] tracking-tight text-[35px] mb-4`}
+        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] tracking-tight text-[35px] mb-4`}
       >
         {menuTorontoBottleServicePackages.title}
       </h1>
@@ -18,7 +18,7 @@ const MenuTorontoBottleServicePackages = () => {
               className={`${componentName}_PACKAGE_HEADING_AND_LIST_CONTAINER flex justify-between`}
             >
               <div>
-                <h3 className={`${GlacialIndifferenceBold.className}`}>{item.name}</h3>
+                <h3 className={`${HeaderBold.className}`}>{item.name}</h3>
                 <p className='text-[#7d7d7d] text-left text-[14px]'>
                   {item.description_one}
                 </p>

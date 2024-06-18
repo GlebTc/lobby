@@ -1,5 +1,5 @@
 import { MenuTitleDescriptionPriceProps } from '@/src/util/types';
-import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
+import { HeaderBold } from '@/src/util/fonts/fonts';
 
 const MenuTitleDescriptionPrice = ({
   individual_menu_item_title,
@@ -10,7 +10,7 @@ const MenuTitleDescriptionPrice = ({
   return (
     <div className='flex justify-between mb-4'>
       <div>
-        <h3 className={`${GlacialIndifferenceBold.className}`}>{individual_menu_item_title}</h3>
+        <h3 className={`${HeaderBold.className}`}>{individual_menu_item_title}</h3>
         <p className='text-left pr-12 text-[#7d7d7d] text-[14px]'>
           {individual_menu_item_description}
         </p>
@@ -21,7 +21,7 @@ const MenuTitleDescriptionPrice = ({
         )}
       </div>
       {individual_menu_item_price_one && (
-        <p className={`${GlacialIndifferenceBold.className} menu_price`}>{individual_menu_item_price_one}</p>
+        <p className={`${HeaderBold.className} menu_price`}>{individual_menu_item_price_one}</p>
       )}
     </div>
   );
