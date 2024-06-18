@@ -6,7 +6,7 @@ const MenuTorontoDrinksWine = () => {
   return (
     <div className={`${componentName}_MAIN_CONTAINER flex flex-col gap-2 pt-8`}>
       <div
-        className={`${componentName}_WINE_LIST_CONTAINER grid md:grid-cols-2 gap-4`}
+        className={`${componentName}_WINE_LIST_CONTAINER grid md:grid-cols-2 gap-4 track`}
       >
         {menuTorontoDrinksWine.wines.map((item, index) => {
           return (
@@ -17,7 +17,7 @@ const MenuTorontoDrinksWine = () => {
                 <thead>
                   <tr>
                     <th
-                      className={`${HeaderRegular.className} text-[#c69a50] font-[300] text-2xl text-left w-[80%]`}
+                      className={`${HeaderRegular.className} text-[#c69a50] font-[300] text-2xl text-left w-[80%] tracking-widest`}
                     >
                       {item.wine_type_title}
                     </th>

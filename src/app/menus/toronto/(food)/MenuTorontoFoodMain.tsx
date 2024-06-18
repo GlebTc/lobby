@@ -12,7 +12,7 @@ const MenuTorontoFoodMain = () => {
       <MenuTorontoRolls />
       <div>
         <h1
-          className={`text-[#c69a50] ${HeaderRegular.className} font-[400] tracking-tight text-[35px] mt-8 mb-4`}
+          className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[35px] mt-8 mb-4`}
         >
           DESSERTS
         </h1>

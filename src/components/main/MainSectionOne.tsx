@@ -34,7 +34,7 @@ const MainSectionOne = () => {
         </div>
       </div>
       <div
-        className={`${componentName}_CONTENT_CONTAINER flex flex-col items-center justify-center gap-4 h-[255px] p-4 lg:p-12 text-center`}
+        className={`${componentName}_CONTENT_CONTAINER flex flex-col items-center justify-center gap-4 sm:min-h-[255px] p-4 lg:p-12 text-center`}
       >
         <div
           className={`${componentName}_HEADINGS_CONTAINER flex flex-col items-center`}

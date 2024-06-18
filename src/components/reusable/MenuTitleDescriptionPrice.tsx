@@ -10,7 +10,7 @@ const MenuTitleDescriptionPrice = ({
   return (
     <div className='flex justify-between mb-4'>
       <div>
-        <h3 className={`${HeaderRegular.className} tracking-wider`}>{individual_menu_item_title}</h3>
+        <h3 className={`${HeaderRegular.className}`}>{individual_menu_item_title}</h3>
         <p className='text-left pr-12 text-[#7d7d7d] text-[14px]'>
           {individual_menu_item_description}
         </p>

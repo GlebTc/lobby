@@ -13,7 +13,7 @@ const MenuTorontoBrunchMain = () => {
       <div className='relative flex items-center mx-[40px]'>
         <div className='flex-grow border-t border-gray-300 border-1'></div>
         <h1
-          className={`text-[#c69a50] ${HeaderRegular.className} font-[400] tracking-tight text-[35px] mx-4`}
+          className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[35px] mx-4`}
         >
           {menuHamiltonBrunch.title}
         </h1>

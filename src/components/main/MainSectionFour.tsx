@@ -38,7 +38,7 @@ const MainSectionFour = () => {
           className={`${componentName}_HEADINGS_CONTAINER text-3xl font-[700] tracking-widest flex flex-col items-center text-center`}
         >
           <h2
-            className={`${HeaderBold.className} text-[32px] tracking-tight`}
+            className={`${HeaderBold.className} text-[32px]`}
           >
             Indulge in Weekend Bliss
           </h2>
@@ -76,7 +76,7 @@ const MainSectionFour = () => {
           className={`${componentName}_HEADINGS_CONTAINER text-3xl font-[700] tracking-widest flex flex-col items-center text-center`}
         >
           <h2
-            className={`${HeaderBold.className} text-[32px] tracking-tight`}
+            className={`${HeaderBold.className} text-[32px]`}
           >
             Elegance Meets Excellence
           </h2>
