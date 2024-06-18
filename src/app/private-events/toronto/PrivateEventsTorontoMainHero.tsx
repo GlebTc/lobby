@@ -22,9 +22,7 @@ const PrivateEventsTorontoMainHero = () => {
         <div
           className={`${componentName}_IMAGE_OVERLAY_TEXT absolute top-0 left-0 h-full w-full flex flex-col justify-center items-center gap-2 text-white text-center z-[2]`}
         >
-          <h1
-            className={`${HeaderBold.className} tracking-[-1px] leading-[42px] text-[24px]`}
-          >
+          <h1 className={`${HeaderBold.className}  leading-[42px] text-[24px]`}>
             Private Groups & Corporate Events
           </h1>
           <p

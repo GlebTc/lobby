@@ -10,7 +10,7 @@ const PrivateEventsTorontoSectionThree = () => {
     >
       <div className={`${componentName}_MAIN_CONTENT_CONTAINER md:order-2 p-4`}>
         <h1
-          className={`${HeaderBold.className} tracking-[-1px] leading-[42px] text-[32px] pb-4`}
+          className={`${HeaderBold.className}  leading-[42px] text-[32px] pb-4`}
         >
           Food & Beverage
         </h1>

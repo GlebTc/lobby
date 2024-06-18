@@ -18,7 +18,7 @@ const MenuTorontoFoodMain = () => {
         </h1>
         <div className='flex justify-between mb-4'>
           <div>
-            <h3>Chocolate Cake</h3>
+          <h3 className={`${HeaderRegular.className}`}>Chocolate Cake</h3>
             <p className='text-left pr-12 text-[#7d7d7d] text-[14px]'>
               CHOCOLATE CAKE, VANILLA CHANTILLY CREAM, CANDIED NUTS, BERRY JAM,
               BARQUILLO

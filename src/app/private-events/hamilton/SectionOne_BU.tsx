@@ -9,10 +9,10 @@ const PrivateEventsHamiltonSectionOne = () => {
     <div
       className={`${componentName}_MAIN_CONTAINER grid md:grid-cols-2 h-full lg:min-h-[50dvh] py-6`}
     >
-      <div className={`${componentName}_MAIN_CONTENT_CONTAINER md:order-2 px-4 pb-4`}>
-        <h1
-          className={`${HeaderBold.className} tracking-[-1px] leading-[42px] text-[32px]`}
-        >
+      <div
+        className={`${componentName}_MAIN_CONTENT_CONTAINER md:order-2 px-4 pb-4`}
+      >
+        <h1 className={`${HeaderBold.className}  leading-[42px] text-[32px]`}>
           Full Venue
         </h1>
         <p className='mb-4'>

@@ -19,8 +19,8 @@ const menusHamilton = () => {
         setCategory={setCategory}
       />
       {category === 'drinks' && <MenuHamiltonDrinksMain />}
-      {category === 'food' && <MenuHamiltonFoodMain />}
-      {category === 'brunch' && <MenuHamiltonBrunchMain />}
+      {category === 'dinner' && <MenuHamiltonFoodMain />}
+      {category === 'sunday brunch' && <MenuHamiltonBrunchMain />}
       {category === 'bottle service' && <MenuHamiltonBottlServiceMain />}
       {category === 'lunch' && <MenuHamiltonLunchMain />}
     </div>

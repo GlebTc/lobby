@@ -47,9 +47,7 @@ const MainHeroVideo = () => {
       <div
         className={`${componentName}_TEXT_AND_BUTTON_CONTAINER absolute top-0 left-0 w-[100%] h-[100%] flex flex-col justify-center items-center text-white bg-gray-950/30 text-center`}
       >
-        <h1
-          className={`${HeaderBold.className} tracking-[-1px] leading-[42px] text-[42px]`}
-        >
+        <h1 className={`${HeaderBold.className}  leading-[42px] text-[42px]`}>
           Pure Delight
         </h1>
         <p className={`${HeaderRegular.className} text-white pb-4 text-[22px]`}>

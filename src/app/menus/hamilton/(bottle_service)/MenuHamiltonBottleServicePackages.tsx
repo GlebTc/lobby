@@ -18,7 +18,7 @@ const MenuHamiltonBottleServicePackages = () => {
               className={`${componentName}_PACKAGE_HEADING_AND_LIST_CONTAINER flex justify-between`}
             >
               <div>
-                <h3>{item.name}</h3>
+              <h3 className={`${HeaderRegular.className}`}>{item.name}</h3>
                 <p className='text-[#7d7d7d] text-left'>
                   {item.description_one}
                 </p>
