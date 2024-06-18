@@ -2,7 +2,7 @@
 import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
 import Image from 'next/image';
 import main_section_three_img from '@/public/assets/main_section_three_img.webp';
-import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
+import { HeaderBold } from '@/src/util/fonts/fonts';
 
 const MainSectionThree = () => {
   const componentName = 'MAIN_SECTION_THREE';
@@ -42,7 +42,7 @@ const MainSectionThree = () => {
             className={`${componentName}_HEADINGS_CONTAINER text-3xl font-[700] tracking-widest flex flex-col items-center`}
           >
             <h2
-              className={`${GlacialIndifferenceBold.className} text-[32px] tracking-tight`}
+              className={`${HeaderBold.className} text-[32px] tracking-tight`}
             >
               Savor Flavor in Two Cities
             </h2>
@@ -70,7 +70,7 @@ const MainSectionThree = () => {
           className={`${componentName}_HEADINGS_CONTAINER tracking-widest flex flex-col items-center`}
         >
           <h2
-            className={`${GlacialIndifferenceBold.className} text-[32px] tracking-tight`}
+            className={`${HeaderBold.className} text-[32px] tracking-tight`}
           >
             Delicious Culinary Masterpieces
           </h2>

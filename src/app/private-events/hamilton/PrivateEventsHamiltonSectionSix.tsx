@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import private_events_hamilton_seven from '@/public/assets/private_events_hamilton_seven.webp';
 import Link from 'next/link';
-import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
+import { HeaderBold } from '@/src/util/fonts/fonts';
 
 const PrivateEventsHamiltonSectionSix = () => {
   const componentName = 'PRIVATE_EVENTS_HAMILTON_SECTION_SIX';
@@ -11,7 +11,7 @@ const PrivateEventsHamiltonSectionSix = () => {
   >
     <div className={`${componentName}_MAIN_CONTENT_CONTAINER p-4`}>
       <h1
-          className={`${GlacialIndifferenceBold.className} tracking-[-1px] leading-[42px] text-[32px] mb-4`}
+          className={`${HeaderBold.className} tracking-[-1px] leading-[42px] text-[32px] mb-4`}
         >
           Your Next Steps
         </h1>

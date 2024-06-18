@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import private_events_hamilton_six from '@/public/assets/private_events_hamilton_six.webp';
-import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
+import { HeaderBold } from '@/src/util/fonts/fonts';
 
 const PrivateEventsHamiltonSectionFive = () => {
   const componentName = 'PRIVATE_EVENTS_HAMILTON_SECTION_FIVE';
@@ -10,7 +10,7 @@ const PrivateEventsHamiltonSectionFive = () => {
     >
       <div className={`${componentName}_MAIN_CONTENT_CONTAINER md:order-2 p-4`}>
         <h1
-          className={`${GlacialIndifferenceBold.className} tracking-[-1px] leading-[42px] text-[32px] pb-4`}
+          className={`${HeaderBold.className} tracking-[-1px] leading-[42px] text-[32px] pb-4`}
         >
           Food & Beverage
         </h1>

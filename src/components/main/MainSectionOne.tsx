@@ -2,7 +2,7 @@
 import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
 import Image from 'next/image';
 import main_section_one_img_smaller from '@/public/assets/main_section_one_img_smaller.webp';
-import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
+import { HeaderBold } from '@/src/util/fonts/fonts';
 
 const MainSectionOne = () => {
   const componentName = 'MAIN_SECTION_ONE';
@@ -39,7 +39,7 @@ const MainSectionOne = () => {
         <div
           className={`${componentName}_HEADINGS_CONTAINER flex flex-col items-center`}
         >
-          <h2 className={`${GlacialIndifferenceBold.className} text-[32px]`}>
+          <h2 className={`${HeaderBold.className} text-[32px]`}>
             Global Flavors, Unforgettable Moments
           </h2>
         </div>

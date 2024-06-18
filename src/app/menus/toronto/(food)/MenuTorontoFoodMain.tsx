@@ -1,7 +1,7 @@
 import MenuTorontoFoodShare from '@/src/app/menus/toronto/(food)/MenuTorontoFoodShare';
 import MenuTorontoChickenWings from './MenuTorontoChickenWings';
 import MenuTorontoRolls from './MenuTorontoRolls';
-import { GlacialIndifferenceRegular } from '@/src/util/fonts/fonts';
+import { HeaderRegular } from '@/src/util/fonts/fonts';
 
 const MenuTorontoFoodMain = () => {
   const componentName = 'MENU_TORONTO_FOOD_MAIN';
@@ -12,7 +12,7 @@ const MenuTorontoFoodMain = () => {
       <MenuTorontoRolls />
       <div>
         <h1
-          className={`text-[#c69a50] ${GlacialIndifferenceRegular.className} font-[400] tracking-tight text-[35px] mt-8 mb-4`}
+          className={`text-[#c69a50] ${HeaderRegular.className} font-[400] tracking-tight text-[35px] mt-8 mb-4`}
         >
           DESSERTS
         </h1>

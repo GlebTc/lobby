@@ -1,14 +1,14 @@
 import menuHamiltonDrinksZeroProof from '@/src/util/menu/hamilton/drinks/menuHamiltonDrinksZeroProof.json';
 import MenuTitleDescriptionPrice from '@/src/components/reusable/MenuTitleDescriptionPrice';
 import MenuTitlePrice from '@/src/components/reusable/MenuTitlePrice';
-import { GlacialIndifferenceRegular } from '@/src/util/fonts/fonts';
+import { HeaderRegular } from '@/src/util/fonts/fonts';
 
 const MenuHamiltonDrinksZeroProof = () => {
   const componentName = 'MENU_HAMILTON_DRINKS_ZERO_PROOF';
   return (
     <div className={`${componentName}_MAIN_CONTAINER flex flex-col pt-8`}>
       <h1
-        className={`text-[#c69a50] ${GlacialIndifferenceRegular.className} font-[400] tracking-tight text-[35px] my-2`}
+        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] tracking-tight text-[35px] my-2`}
       >
         {menuHamiltonDrinksZeroProof.title}
       </h1>
@@ -16,7 +16,7 @@ const MenuHamiltonDrinksZeroProof = () => {
         className={`${componentName}_MOCKTAILS_HEADING_AND_LIST_CONTAINER flex-flex-col gap-4`}
       >
         <h2
-          className={`text-[#c69a50] ${GlacialIndifferenceRegular.className} font-[400] tracking-tight text-[26px] text-left mb-8`}
+          className={`text-[#c69a50] ${HeaderRegular.className} font-[400] tracking-tight text-[26px] text-left mb-8`}
         >
           mocktails
         </h2>
@@ -36,7 +36,7 @@ const MenuHamiltonDrinksZeroProof = () => {
           })}
         </div>
         <h2
-          className={`text-[#c69a50] ${GlacialIndifferenceRegular.className} font-[400] tracking-tight text-[26px] text-left my-8`}
+          className={`text-[#c69a50] ${HeaderRegular.className} font-[400] tracking-tight text-[26px] text-left my-8`}
         >
           non alcoholic
         </h2>

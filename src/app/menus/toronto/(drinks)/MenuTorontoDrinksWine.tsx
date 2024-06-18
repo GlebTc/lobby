@@ -1,5 +1,5 @@
 import menuTorontoDrinksWine from '@/src/util/menu/toronto/drinks/menuTorontoDrinksWine.json';
-import { GlacialIndifferenceRegular } from '@/src/util/fonts/fonts';
+import { HeaderRegular } from '@/src/util/fonts/fonts';
 
 const MenuTorontoDrinksWine = () => {
   const componentName = 'MENU_TORONTO_DRINKS_WINE';
@@ -16,16 +16,18 @@ const MenuTorontoDrinksWine = () => {
               >
                 <thead>
                   <tr>
-                    <th className={`${GlacialIndifferenceRegular.className} text-[#c69a50] font-[300] text-2xl text-left w-[80%]`}>
+                    <th
+                      className={`${HeaderRegular.className} text-[#c69a50] font-[300] text-2xl text-left w-[80%]`}
+                    >
                       {item.wine_type_title}
                     </th>
                     <th
-                      className={`${GlacialIndifferenceRegular.className} italic text-[14px] lowercase`}
+                      className={`${HeaderRegular.className} italic text-[14px] lowercase`}
                     >
                       6oz
                     </th>
                     <th
-                      className={`${GlacialIndifferenceRegular.className} italic text-[14px] lowercase`}
+                      className={`${HeaderRegular.className} italic text-[14px] lowercase`}
                     >
                       bottle
                     </th>

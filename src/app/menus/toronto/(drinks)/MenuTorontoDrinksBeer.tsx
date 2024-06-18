@@ -1,13 +1,13 @@
 import menuTorontoDrinksBeer from '@/src/util/menu/toronto/drinks/menuTorontoDrinksBeer.json';
 import MenuTitleDescriptionPrice from '@/src/components/reusable/MenuTitleDescriptionPrice';
-import { GlacialIndifferenceRegular } from '@/src/util/fonts/fonts';
+import { HeaderRegular } from '@/src/util/fonts/fonts';
 
 const MenuHamiltonDrinksBeer = () => {
   const componentName = 'MENU_TORONTO_DRINKS_BEERS';
   return (
     <div className={`${componentName}_MAIN_CONTAINER flex flex-col gap-2 pt-4`}>
       <h1
-        className={`text-[#c69a50] ${GlacialIndifferenceRegular.className} font-[400] tracking-tight text-[35px]`}
+        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] tracking-tight text-[35px]`}
       >
         {menuTorontoDrinksBeer.title}
       </h1>

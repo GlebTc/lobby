@@ -1,12 +1,12 @@
 import { NextFont } from 'next/dist/compiled/@next/font';
 import localFont from 'next/font/local';
 
-export const GlacialIndifferenceBold: NextFont = localFont({
-  src: '../../../public/fonts/static-fonts/GlacialIndifference-Bold.otf',
+export const HeaderBold: NextFont = localFont({
+  src: '../../../public/fonts/static-fonts/Stacion-Regular.otf',
   display: 'swap',
 });
 
-export const GlacialIndifferenceRegular: NextFont = localFont({
+export const HeaderRegular: NextFont = localFont({
   src: '../../../public/fonts/static-fonts/GlacialIndifference-Regular.otf',
   display: 'swap',
 });

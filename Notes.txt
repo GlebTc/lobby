@@ -9,3 +9,6 @@ Layout.tsx - relative - z-none
             ==== z-none - menu location picker works
             ==== z-none - button location picker is behind navbar
 
+========================== 24 - 07 - 18 - Updates ==========================
+- Change heading fonts to Stacion
+- Change body font to Termina

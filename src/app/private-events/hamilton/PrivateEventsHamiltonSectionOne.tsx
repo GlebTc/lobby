@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import private_events_hamilton_two from '@/public/assets/private_events_hamilton_two.webp';
 import { FaCheck } from 'react-icons/fa';
-import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
+import { HeaderBold } from '@/src/util/fonts/fonts';
 
 const PrivateEventsHamiltonSectionOne = () => {
   const componentName = 'PRIVATE_EVENTS_HAMILTON_SECTION_ONE';
@@ -11,7 +11,7 @@ const PrivateEventsHamiltonSectionOne = () => {
     >
       <div className={`${componentName}_MAIN_CONTENT_CONTAINER md:order-2 p-4`}>
         <h1
-          className={`${GlacialIndifferenceBold.className} tracking-[-1px] leading-[42px] text-[32px] pb-4`}
+          className={`${HeaderBold.className} tracking-[-1px] leading-[42px] text-[32px] pb-4`}
         >
           Full Venue
         </h1>

@@ -2,7 +2,7 @@ import menuHamiltonBrunch from '@/src/util/menu/hamilton/brunch/menuHamiltonBrun
 import MenuTorontoBrunchTower from '@/src/app/menus/toronto/(brunch)/MenuTorontoBrunchTower';
 import MenuTorontoBrunchMenu from '@/src/app/menus/toronto/(brunch)/MenuTorontoBrunchMenu';
 import MenuTorontoBrunchDrinks from '@/src/app/menus/toronto/(brunch)/MenuTorontoBrunchDrinks';
-import { GlacialIndifferenceRegular } from '@/src/util/fonts/fonts';
+import { HeaderRegular } from '@/src/util/fonts/fonts';
 
 const MenuTorontoBrunchMain = () => {
   const componentName = 'MENU_TORONTO_BRUNCH_MAIN';
@@ -12,7 +12,9 @@ const MenuTorontoBrunchMain = () => {
     >
       <div className='relative flex items-center mx-[40px]'>
         <div className='flex-grow border-t border-gray-300 border-1'></div>
-        <h1 className={`text-[#c69a50] ${GlacialIndifferenceRegular.className} font-[400] tracking-tight text-[35px] mx-4`}>
+        <h1
+          className={`text-[#c69a50] ${HeaderRegular.className} font-[400] tracking-tight text-[35px] mx-4`}
+        >
           {menuHamiltonBrunch.title}
         </h1>
         <div className='flex-grow border-t border-gray-300 border-1'></div>

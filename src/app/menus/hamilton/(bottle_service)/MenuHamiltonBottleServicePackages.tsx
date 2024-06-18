@@ -1,12 +1,12 @@
 import menuHamiltonBottleServicePackages from '@/src/util/menu/hamilton/bottle_service/menuHamiltonBottleServicePackages.json';
-import { GlacialIndifferenceRegular } from '@/src/util/fonts/fonts';
+import { HeaderRegular } from '@/src/util/fonts/fonts';
 
 const MenuHamiltonBottleServicePackages = () => {
   const componentName = 'MENU_HAMILTON_BOTTLE_SERVICE_PACKAGES';
   return (
     <div>
       <h1
-        className={`text-[#c69a50] ${GlacialIndifferenceRegular.className} font-[400] tracking-tight text-[35px] mb-4`}
+        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] tracking-tight text-[35px] mb-4`}
       >
         {menuHamiltonBottleServicePackages.title}
       </h1>

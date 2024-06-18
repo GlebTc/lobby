@@ -1,7 +1,4 @@
-import {
-  GlacialIndifferenceBold,
-  GlacialIndifferenceRegular,
-} from '@/src/util/fonts/fonts';
+import { HeaderBold, HeaderRegular } from '@/src/util/fonts/fonts';
 
 const MenuTorontoBrunchDrinks = () => {
   const componentName = 'MENU_TORONTO_BRUNCH_DRINKS';
@@ -47,7 +44,7 @@ const MenuTorontoBrunchDrinks = () => {
       <div className='relative flex items-center mx-[40px] mb-8'>
         <div className='flex-grow border-t border-gray-300 border-1'></div>
         <h1
-          className={`text-[#c69a50] ${GlacialIndifferenceRegular.className} font-[400] tracking-tight text-[35px] mx-4`}
+          className={`text-[#c69a50] ${HeaderRegular.className} font-[400] tracking-tight text-[35px] mx-4`}
         >
           Drinks
         </h1>
@@ -55,11 +52,12 @@ const MenuTorontoBrunchDrinks = () => {
       </div>
       {drinksArray.map((item, index) => {
         return (
-          <div className='flex justify-between mx-4 my-2' key={index}>
-            <h3 className={`${GlacialIndifferenceBold.className}`}>
-              {item.name}
-            </h3>
-            <p className={`${GlacialIndifferenceBold.className} menu_price`}>
+          <div
+            className='flex justify-between mx-4 my-2'
+            key={index}
+          >
+            <h3 className={`${HeaderBold.className}`}>{item.name}</h3>
+            <p className={`${HeaderBold.className} menu_price`}>
               ${item.price}
             </p>
           </div>
@@ -68,11 +66,12 @@ const MenuTorontoBrunchDrinks = () => {
       <div className='mt-12'>
         {drinksArrayTwo.map((item, index) => {
           return (
-            <div className='flex justify-between mx-4 my-2' key={index}>
-              <h3 className={`${GlacialIndifferenceBold.className}`}>
-                {item.name}
-              </h3>
-              <p className={`${GlacialIndifferenceBold.className} menu_price`}>
+            <div
+              className='flex justify-between mx-4 my-2'
+              key={index}
+            >
+              <h3 className={`${HeaderBold.className}`}>{item.name}</h3>
+              <p className={`${HeaderBold.className} menu_price`}>
                 ${item.price}
               </p>
             </div>

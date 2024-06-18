@@ -3,7 +3,7 @@ import { IoClose } from 'react-icons/io5';
 import Link from 'next/link';
 import NewsLetter from '../navbar/NewsLetter';
 import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
-import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
+import { HeaderBold } from '@/src/util/fonts/fonts';
 
 const LocationPicker = () => {
   const componentName = 'LOCATION_PICKER';
@@ -34,7 +34,7 @@ const LocationPicker = () => {
           <div
             className={`${componentName}_HEADER_CONTAINER relative h-[120px] w-[100%] border-b-[1px] border-[var(--secondary-color)] flex items-center justify-center`}
           >
-            <div className={`${GlacialIndifferenceBold.className} uppercase`}>
+            <div className={`${HeaderBold.className} uppercase`}>
               Choose A Location
             </div>
             <IoClose

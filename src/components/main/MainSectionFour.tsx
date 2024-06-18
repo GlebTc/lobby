@@ -3,7 +3,7 @@ import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
 import Image from 'next/image';
 import main_section_four_img from '@/public/assets/main_section_four_img.webp';
 import main_section_four_img_two from '@/public/assets/main_section_four_img_two.webp';
-import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
+import { HeaderBold } from '@/src/util/fonts/fonts';
 
 const MainSectionFour = () => {
   const componentName = 'MAIN_SECTION_FOUR';
@@ -38,7 +38,7 @@ const MainSectionFour = () => {
           className={`${componentName}_HEADINGS_CONTAINER text-3xl font-[700] tracking-widest flex flex-col items-center text-center`}
         >
           <h2
-            className={`${GlacialIndifferenceBold.className} text-[32px] tracking-tight`}
+            className={`${HeaderBold.className} text-[32px] tracking-tight`}
           >
             Indulge in Weekend Bliss
           </h2>
@@ -76,7 +76,7 @@ const MainSectionFour = () => {
           className={`${componentName}_HEADINGS_CONTAINER text-3xl font-[700] tracking-widest flex flex-col items-center text-center`}
         >
           <h2
-            className={`${GlacialIndifferenceBold.className} text-[32px] tracking-tight`}
+            className={`${HeaderBold.className} text-[32px] tracking-tight`}
           >
             Elegance Meets Excellence
           </h2>

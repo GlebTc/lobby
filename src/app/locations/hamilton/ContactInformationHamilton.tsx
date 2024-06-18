@@ -1,4 +1,4 @@
-import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
+import { HeaderBold } from '@/src/util/fonts/fonts';
 
 const ContactInformationHamilton = ({
   componentName,
@@ -10,7 +10,7 @@ const ContactInformationHamilton = ({
       className={`${componentName}_CONTACT_INFORMATION_CONTENT_CONTAINER bg-[var(--main-bg-color)] w-[90%] flex flex-col justify-center items-center text-center py-2 uppercase shadow-md shadow-gray-300 h-[270px] mb-8`}
     >
       <h1
-        className={`tracking-tight ${GlacialIndifferenceBold.className} text-[30px] mb-4`}
+        className={`tracking-tight ${HeaderBold.className} text-[30px] mb-4`}
       >
         Hamilton
       </h1>

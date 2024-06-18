@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import private_events_hamilton_three from '@/public/assets/private_events_hamilton_three.webp';
 import { FaCheck } from 'react-icons/fa';
-import { GlacialIndifferenceBold } from '@/src/util/fonts/fonts';
+import { HeaderBold } from '@/src/util/fonts/fonts';
 
 const PrivateEventsHamiltonSectionTwo = () => {
   const componentName = 'PRIVATE_EVENTS_HAMILTON_SECTION_TWO';
@@ -11,7 +11,7 @@ const PrivateEventsHamiltonSectionTwo = () => {
   >
     <div className={`${componentName}_MAIN_CONTENT_CONTAINER p-4`}>
       <h1
-          className={`${GlacialIndifferenceBold.className} tracking-[-1px] leading-[42px] text-[32px] mb-4`}
+          className={`${HeaderBold.className} tracking-[-1px] leading-[42px] text-[32px] mb-4`}
         >
           Patio
         </h1>
