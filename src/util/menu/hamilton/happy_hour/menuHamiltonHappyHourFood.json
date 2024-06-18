@@ -1,0 +1,51 @@
+{
+    "title": "appetizers",
+    "appetizers": [
+      {
+        "name": "Gaucamole and tortilla chips",
+        "description": "Avocado, cilantro, lime juice and freshly fried tortilla chips",
+        "price": "$12"
+      },
+      {
+        "name": "SPICY TUNA SASHIMI",
+        "description": "raw yellowfin tuna, garlic, jalapeno, cilantro & yuzu ponzu",
+        "price": "$13"
+      },
+      {
+        "name": "CRISPY MUSHROOMS",
+        "description": "oyster and honey mushrooms battered and fried served with a citrus infused aioli",
+        "price": "$9"
+      },
+      {
+        "name": "TRUFFLE FRITES",
+        "description": "Parmesan, truffle oil, triple cooked frites & truffle mayo",
+        "price": "$10"
+      },
+      {
+        "name": "COCONUT SEA BASS C E V I C H E",
+        "description": "fresh sea bass cured in lime juice mixed with jalapeno, red onion, mango and avocado- served with taro chips",
+        "price": "$18"
+      },
+      {
+        "name": "FRITTO MISTO",
+        "description": "fried calamari, shrimp, atlantic cod, jalapeno and onion with fresh lemon & spicy calabrese dip",
+        "price": "$22"
+      },
+      {
+        "name": "STEAK TARTARE",
+        "description": "beef tenderloin, dijon mustard, shallots, quails egg chives, baby gem lettuce, grilled focaccia",
+        "price": "$26"
+      },
+      {
+        "name": "FRIED CHICKEN",
+        "description": "crispy fried chicken tenders served with bibb lettuce, house pickled cucumber, accompanied with a hot honey and dill ranch sauce",
+        "price": "$24"
+      },
+      {
+        "name": "Strawberry champagne cheesecake",
+        "description": "vanilla cheesecake marbled with strawberry baked atop a chocolate cookie graham",
+        "price": "$8"
+      }
+    ]
+  }
+  

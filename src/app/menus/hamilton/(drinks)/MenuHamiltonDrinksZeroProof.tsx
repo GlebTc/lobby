@@ -18,8 +18,7 @@ const MenuHamiltonDrinksZeroProof = () => {
         <h2
           className={`text-[#c69a50] ${HeaderRegular.className} font-[400] tracking-tight text-[26px] text-left mb-8`}
         >
-          mocktails
-        </h2>
+          mocktails        </h2>
         <div
           className={`${componentName}_MOCKTAILS_LIST_CONTAINER grid sm:grid-cols-2 lg:grid-cols-3 gap-2`}
         >

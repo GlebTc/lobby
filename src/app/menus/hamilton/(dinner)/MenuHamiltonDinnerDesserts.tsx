@@ -1,18 +1,19 @@
-import menuHamiltonFoodAppetizers from '@/src/util/menu/hamilton/food/menuHamiltonFoodAppetizers.json';
+import menuHamiltonDinnerDesserts from '@/src/util/menu/hamilton/dinner/menuHamiltonDinnerDesserts.json';
 import MenuTitleDescriptionPrice from '@/src/components/reusable/MenuTitleDescriptionPrice';
 import { HeaderRegular } from '@/src/util/fonts/fonts';
 
-const MenuHamiltonFoodAppetizers = () => {
-  const componentName = 'MENU_HAMILTON_FOODS_APPETIZERS';
+const MenuHamiltonDinnerDesserts = () => {
+  const componentName = 'MENU_HAMILTON_FOODS_DESSERTS';
+
   return (
-    <div className={`${componentName}_MAIN_CONTAINER flex flex-col gap-8 pt-8`}>
+    <div className={`${componentName}_MAIN_CONTAINER flex flex-col gap-2 pt-8`}>
       <h1
         className={`text-[#c69a50] ${HeaderRegular.className} font-[400] tracking-tight text-[35px]`}
       >
-        {menuHamiltonFoodAppetizers.title}
+        {menuHamiltonDinnerDesserts.title}
       </h1>
       <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8'>
-        {menuHamiltonFoodAppetizers.appetizers.map((item, index) => {
+        {menuHamiltonDinnerDesserts.desserts.map((item, index) => {
           return (
             <MenuTitleDescriptionPrice
               key={index}
@@ -28,4 +29,4 @@ const MenuHamiltonFoodAppetizers = () => {
   );
 };
 
-export default MenuHamiltonFoodAppetizers;
+export default MenuHamiltonDinnerDesserts;
