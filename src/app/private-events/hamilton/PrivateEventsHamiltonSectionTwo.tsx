@@ -7,11 +7,11 @@ const PrivateEventsHamiltonSectionTwo = () => {
   const componentName = 'PRIVATE_EVENTS_HAMILTON_SECTION_TWO';
   return (
     <div
-    className={`${componentName}_MAIN_CONTAINER grid md:grid-cols-2 h-full lg:min-h-[50dvh] gap-4 md:p-4`}
-  >
-    <div className={`${componentName}_MAIN_CONTENT_CONTAINER p-4`}>
-      <h1
-          className={`${HeaderBold.className} tracking-[-1px] leading-[42px] text-[32px] mb-4`}
+      className={`${componentName}_MAIN_CONTAINER grid md:grid-cols-2 h-full lg:min-h-[50dvh] gap-4 md:p-4`}
+    >
+      <div className={`${componentName}_MAIN_CONTENT_CONTAINER p-4`}>
+        <h1
+          className={`${HeaderBold.className}  leading-[42px] text-[32px] mb-4`}
         >
           Patio
         </h1>

@@ -7,16 +7,16 @@ export const HeaderBold: NextFont = localFont({
 });
 
 export const HeaderRegular: NextFont = localFont({
-  src: '../../../public/fonts/static-fonts/GlacialIndifference-Regular.otf',
+  src: '../../../public/fonts/static-fonts/Stacion-Light.otf',
   display: 'swap',
 });
 
-export const futuraFontMedium = localFont({
-  src: '../../../public/fonts/static-fonts/FuturaPTMedium.otf',
+export const BodyMedium = localFont({
+  src: '../../../public/fonts/static-fonts/TerminaTest-Medium.otf',
   display: 'swap',
 });
 
-export const futuraFontBook = localFont({
-  src: '../../../public/fonts/static-fonts/FuturaPTBook.otf',
+export const BodyRegular = localFont({
+  src: '../../../public/fonts/static-fonts/TerminaTest-Regular.otf',
   display: 'swap',
 });

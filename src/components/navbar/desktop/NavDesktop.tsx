@@ -3,7 +3,7 @@ import lobby_logo from '@/public/assets/lobby_logo.png';
 import Image from 'next/image';
 import navItems from '@/src/util/const/constants_main.json';
 import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
-import { futuraFontBook, futuraFontMedium } from '@/src/util/fonts/fonts';
+import { BodyRegular, BodyMedium } from '@/src/util/fonts/fonts';
 
 const NavDesktop = () => {
   const componentName = 'NAV_DESKTOP';
@@ -40,13 +40,13 @@ const NavDesktop = () => {
           href='/'
           title={`Lobby Bar Restaurant | Desktop Menu | Home Link`}
           aria-label={`Lobby Bar Restaurant | Desktop Menu | Home Link`}
-          className={`${componentName}_MAPPED_NAV_ITEMS hover:text-[var(--secondary-color)] duration-[var(--main-duration)] ${futuraFontBook.className} font-bold tracking-wider`}
+          className={`${componentName}_MAPPED_NAV_ITEMS hover:text-[var(--secondary-color)] duration-[var(--main-duration)] ${BodyRegular.className} font-bold tracking-wider text-[14px]`}
         >
           Home
         </a>
         {navItems.map((navItem, index) => (
           <div
-            className={`${componentName}_MAPPED_NAV_ITEMS hover:text-[var(--secondary-color)] duration-[var(--main-duration)] cursor-pointer ${futuraFontBook.className} font-bold tracking-wider`}
+            className={`${componentName}_MAPPED_NAV_ITEMS hover:text-[var(--secondary-color)] duration-[var(--main-duration)] cursor-pointer ${BodyRegular.className} font-bold tracking-wider text-[14px]`}
             onClick={() => handleSelection(navItem.href)}
             title={`Lobby Bar Restaurant | Desktop Menu | ${navItem.alt} Link`}
             aria-label={`Lobby Bar Restaurant | Desktop Menu | ${navItem.alt} Link`}
@@ -56,7 +56,7 @@ const NavDesktop = () => {
           </div>
         ))}
         <div
-          className={`${componentName}_NAVBAR_RESERVATION_BUTTON main_button ${futuraFontMedium.className} tracking-wider`}
+          className={`${componentName}_NAVBAR_RESERVATION_BUTTON main_button ${BodyMedium.className} tracking-wider text-[14px]`}
           onClick={() => handleSelection('reservations')}
           title={`Lobby Bar Restaurant | Desktop Menu | Reservations Link`}
           aria-label={`Lobby Bar Restaurant | Desktop Menu | Reservations Link`}

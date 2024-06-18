@@ -4,7 +4,7 @@ import NavbarTopBar from '@/src/components/navbar/NavbarTopBar';
 import Navbar from '@/src/components/navbar/Navbar';
 import LocationPicker from '@/src/components/reusable/LocationPicker';
 import Footer from '@/src/components/footer/Footer';
-import { futuraFontMedium } from '@/src/util/fonts/fonts';
+import { BodyMedium } from '@/src/util/fonts/fonts';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.lobby.ca/'),
@@ -39,7 +39,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`${futuraFontMedium.className} relative`}>
+      <body className={`${BodyMedium.className} relative`}>
         <NavbarTopBar />
         <div className='sticky top-0 z-[10]'>
           <Navbar />
