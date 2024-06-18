@@ -12,3 +12,4 @@ Layout.tsx - relative - z-none
 ========================== 24 - 07 - 18 - Updates ==========================
 - Change heading fonts to Stacion
 - Change body font to Termina
+- Add hours for Hamilton menu sections: (Happy Hour hours are unclear)

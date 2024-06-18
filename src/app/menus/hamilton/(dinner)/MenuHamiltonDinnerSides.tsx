@@ -1,7 +1,7 @@
-import menuHamiltonFoodSides from '@/src/util/menu/hamilton/food/menuHamiltonFoodSides.json';
+import menuHamiltonDinnerSides from '@/src/util/menu/hamilton/dinner/menuHamiltonDinnerSides.json';
 import { HeaderRegular } from '@/src/util/fonts/fonts';
 
-const MenuHamiltonFoodSides = () => {
+const MenuHamiltonDinnerSides = () => {
   const componentName = 'MENU_HAMILTON_FOODS_ENTREES';
 
   return (
@@ -9,10 +9,10 @@ const MenuHamiltonFoodSides = () => {
       <h1
         className={`text-[#c69a50] ${HeaderRegular.className} font-[400] tracking-tight text-[35px]`}
       >
-        {menuHamiltonFoodSides.title}
+        {menuHamiltonDinnerSides.title}
       </h1>
       <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-8'>
-        {menuHamiltonFoodSides.sides.map((item, index) => {
+        {menuHamiltonDinnerSides.sides.map((item, index) => {
           return (
             <div
               className='flex justify-between'
@@ -31,4 +31,4 @@ const MenuHamiltonFoodSides = () => {
   );
 };
 
-export default MenuHamiltonFoodSides;
+export default MenuHamiltonDinnerSides;
