@@ -7,7 +7,7 @@ const MenuHamiltonDinnerSides = () => {
   return (
     <div className={`${componentName}_MAIN_CONTAINER flex flex-col gap-2 pt-8`}>
       <h1
-        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] tracking-tight text-[35px]`}
+        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[35px]`}
       >
         {menuHamiltonDinnerSides.title}
       </h1>

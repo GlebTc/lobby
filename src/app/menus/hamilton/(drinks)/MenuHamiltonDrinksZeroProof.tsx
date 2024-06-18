@@ -8,7 +8,7 @@ const MenuHamiltonDrinksZeroProof = () => {
   return (
     <div className={`${componentName}_MAIN_CONTAINER flex flex-col pt-8`}>
       <h1
-        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] tracking-tight text-[35px] my-2`}
+        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[35px] my-2`}
       >
         {menuHamiltonDrinksZeroProof.title}
       </h1>
@@ -16,7 +16,7 @@ const MenuHamiltonDrinksZeroProof = () => {
         className={`${componentName}_MOCKTAILS_HEADING_AND_LIST_CONTAINER flex-flex-col gap-4`}
       >
         <h2
-          className={`text-[#c69a50] ${HeaderRegular.className} font-[400] tracking-tight text-[26px] text-left mb-8`}
+          className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[26px] text-left mb-8`}
         >
           mocktails        </h2>
         <div
@@ -35,7 +35,7 @@ const MenuHamiltonDrinksZeroProof = () => {
           })}
         </div>
         <h2
-          className={`text-[#c69a50] ${HeaderRegular.className} font-[400] tracking-tight text-[26px] text-left my-8`}
+          className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[26px] text-left my-8`}
         >
           non alcoholic
         </h2>

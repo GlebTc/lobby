@@ -6,7 +6,7 @@ const MenuHamiltonBottleServicePackages = () => {
   return (
     <div>
       <h1
-        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] tracking-tight text-[35px] mb-4`}
+        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[35px] mb-4`}
       >
         {menuHamiltonBottleServicePackages.title}
       </h1>

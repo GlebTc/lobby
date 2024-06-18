@@ -7,7 +7,7 @@ const MenuHamiltonDrinksCoffee = () => {
   return (
     <div className={`${componentName}_MAIN_CONTAINER pt-8`}>
       <h2
-        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] tracking-tight text-[26px] text-left my-8`}
+        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[26px] text-left my-8`}
       >
         Coffee
       </h2>

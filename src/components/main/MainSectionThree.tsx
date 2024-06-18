@@ -42,7 +42,7 @@ const MainSectionThree = () => {
             className={`${componentName}_HEADINGS_CONTAINER text-3xl font-[700] tracking-widest flex flex-col items-center`}
           >
             <h2
-              className={`${HeaderBold.className} text-[32px] tracking-tight`}
+              className={`${HeaderBold.className} text-[32px]`}
             >
               Savor Flavor in Two Cities
             </h2>
@@ -70,7 +70,7 @@ const MainSectionThree = () => {
           className={`${componentName}_HEADINGS_CONTAINER tracking-widest flex flex-col items-center`}
         >
           <h2
-            className={`${HeaderBold.className} text-[32px] tracking-tight`}
+            className={`${HeaderBold.className} text-[32px]`}
           >
             Delicious Culinary Masterpieces
           </h2>

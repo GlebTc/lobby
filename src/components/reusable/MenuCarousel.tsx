@@ -20,7 +20,7 @@ const MenuCarousel = () => {
 
   return (
     <div
-      className={`${componentName}_MAIN_CONTAINER relative h-[40dvh] sm:h-[450px] md:h-[80dvh] w-full p-4`}
+      className={`${componentName}_MAIN_CONTAINER relative h-[40dvh] sm:h-[450px] md:h-[80dvh] w-full p-4 bg-white`}
     >
       {imageUrlArray.map((number, index) => {
         return (

@@ -20,11 +20,11 @@ h1 {
 }
 
 h2 {
-  @apply font-[600] text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center
+  @apply font-[600] text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center tracking-widest;
 }
 
 h3 {
-  @apply font-bold
+  @apply font-bold tracking-widest;
 }
 
 p {

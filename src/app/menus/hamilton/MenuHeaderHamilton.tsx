@@ -26,7 +26,7 @@ const MenuHeaderHamilton = ({
           className={`${componentName}_IMAGE_OVERLAY_AND_TEXT absolute top-0 left-0 w-full h-full bg-black/20 flex justify-center items-start text-white`}
         >
           <h1
-            className={`${HeaderBold.className} mt-12 md:mt-24 tracking-tight text-[30px] md:text-[60px]`}
+            className={`${HeaderBold.className} mt-12 md:mt-24 text-[30px] md:text-[60px]`}
           >
             hamilton
           </h1>

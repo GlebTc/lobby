@@ -8,7 +8,7 @@ const MenuTorontoDrinksCocktails = () => {
   return (
     <div className={`${componentName}_MAIN_CONTAINER flex flex-col pt-8`}>
       <h1
-        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] tracking-tight text-[35px]`}
+        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[35px]`}
       >
         {menuTorontoDrinksCocktails.title}
       </h1>
@@ -17,7 +17,7 @@ const MenuTorontoDrinksCocktails = () => {
           return (
             <div key={index}>
               <h2
-                className={`text-[#c69a50] font-[300] tracking-tight text-[20px] text-left py-2`}
+                className={`text-[#c69a50] font-[300] text-[20px] text-left py-2`}
               >
                 {item.cocktail_type_title}
               </h2>
