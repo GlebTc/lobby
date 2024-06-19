@@ -3,7 +3,7 @@ import lobby_logo from '@/public/assets/lobby_logo.png';
 import Image from 'next/image';
 import navItems from '@/src/util/const/constants_main.json';
 import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
-import { BodyRegular, BodyMedium } from '@/src/util/fonts/fonts';
+import { BodyMedium } from '@/src/util/fonts/fonts';
 
 const NavDesktop = () => {
   const componentName = 'NAV_DESKTOP';
@@ -40,13 +40,13 @@ const NavDesktop = () => {
           href='/'
           title={`Lobby Bar Restaurant | Desktop Menu | Home Link`}
           aria-label={`Lobby Bar Restaurant | Desktop Menu | Home Link`}
-          className={`${componentName}_MAPPED_NAV_ITEMS hover:text-[var(--secondary-color)] duration-[var(--main-duration)] ${BodyRegular.className} font-bold tracking-wider text-[14px]`}
+          className={`${componentName}_MAPPED_NAV_ITEMS hover:text-[var(--secondary-color)] duration-[var(--main-duration)] tracking-wider text-[16px] leading-[20px]`}
         >
           Home
         </a>
         {navItems.map((navItem, index) => (
           <div
-            className={`${componentName}_MAPPED_NAV_ITEMS hover:text-[var(--secondary-color)] duration-[var(--main-duration)] cursor-pointer ${BodyRegular.className} font-bold tracking-wider text-[14px]`}
+            className={`${componentName}_MAPPED_NAV_ITEMS hover:text-[var(--secondary-color)] duration-[var(--main-duration)] cursor-pointer tracking-wider text-[16px] leading-[20px]`}
             onClick={() => handleSelection(navItem.href)}
             title={`Lobby Bar Restaurant | Desktop Menu | ${navItem.alt} Link`}
             aria-label={`Lobby Bar Restaurant | Desktop Menu | ${navItem.alt} Link`}

@@ -50,14 +50,14 @@ const MainHeroVideo = () => {
         <h1 className={`${HeaderBold.className}  leading-[42px] text-[42px]`}>
           Pure Delight
         </h1>
-        <p className={`${HeaderRegular.className} text-white pb-4 text-[22px]`}>
+        <p className={`${HeaderRegular.className} text-white pb-4 text-[22px] leading-[42px]`}>
           Vibrant Moments and Incredible Nights
         </p>
         <div
           aria-label={`Lobby Bar Restaurant | Main Page | Hero Video | Reserve Now Button`}
           title={`Lobby Bar Restaurant | Main Page | Hero Video | Reserve Now Button`}
           onClick={handleButtonClick}
-          className={`${componentName}_RESERVATION_BUTTON secondary_button cursor-pointer tracking-wider text-[15px]`}
+          className={`${componentName}_RESERVATION_BUTTON secondary_button cursor-pointer tracking-wider text-[15px] leading-[15px]`}
         >
           reservations
         </div>

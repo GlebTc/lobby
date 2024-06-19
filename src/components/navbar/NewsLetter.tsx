@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import IsLoading from '@/src/components/reusable/IsLoading';
 import ThankYou from '@/src/components/reusable/ThankYou';
+import { FuturaBoldCondesedBT, RobotoRegular } from '@/src/util/fonts/fonts';
 
 const NewsLetter = () => {
   const componentName = 'NEWSLETTER';
@@ -64,10 +65,13 @@ const NewsLetter = () => {
           setIsThankYou={setIsThankYou}
         />
       )}
-      <p className='text-black text-[16px] text-center leading-[20px] max-w-[260px] mx-auto mb-4'>
-        Sign up for our newsletter to receive exclusive offers & invitation to
-        speacial events.
-      </p>
+      <div
+        className={`${FuturaBoldCondesedBT.className} text-black text-[17px] text-center leading-[20px] max-w-[260px] mx-auto mb-4`}
+      >
+        <p>Sign up for our newsletter</p>
+        <p> to receive exclusive</p>
+        <p> offers & invitation to speacial events</p>
+      </div>
       <div className={`${componentName}_FORM_CONTAINER`}>
         <form className='w-full flex flex-col gap-2'>
           <input
@@ -100,7 +104,7 @@ const NewsLetter = () => {
           />
         </form>
         <div
-          className='px-4 py-2 bg-[var(--secondary-color)] text-white border-[1px] border-[var(--secondary-color)] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-[var(--secondary-color)] min-w-[150px] cursor-pointer text-center w-[85%] mx-auto my-4 normal-case'
+          className={`${RobotoRegular.className} px-4 py-2 bg-[var(--secondary-color)] text-white border-[1px] border-[var(--secondary-color)] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-[var(--secondary-color)] min-w-[150px] cursor-pointer text-center w-[85%] mx-auto my-4 font-[600] text-[15px]`}
           onClick={handleSubmit}
         >
           Sign Up

@@ -16,9 +16,7 @@ const MenuTorontoDrinksCocktails = () => {
         {menuTorontoDrinksCocktails.cocktails.types.map((item, index) => {
           return (
             <div key={index}>
-              <h2
-                className={`text-[#c69a50] font-[300] text-[20px] text-left py-2`}
-              >
+              <h2 className={`text-[#c69a50] text-[20px] text-left py-2 font-[300]`}>
                 {item.cocktail_type_title}
               </h2>
               <div className='grid md:grid-cols-2 lg:grid-cols-3 md:gap-4'>
@@ -28,9 +26,7 @@ const MenuTorontoDrinksCocktails = () => {
                       key={index}
                       individual_menu_item_title={item.name}
                       individual_menu_item_description={item.description}
-                      individual_menu_item_description_two={
-                        item.description_two
-                      }
+                      individual_menu_item_description_two={item.description_two}
                       individual_menu_item_price_one={item.price}
                     />
                   );

@@ -16,15 +16,15 @@ body {
 }
 
 h1 {
-  @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-[700] tracking-widest;
+  @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-[600];
 }
 
 h2 {
-  @apply font-[600] text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center tracking-widest;
+  @apply font-[600] text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center;
 }
 
 h3 {
-  @apply font-bold tracking-widest;
+  @apply font-bold;
 }
 
 p {
@@ -46,11 +46,11 @@ p {
 
 /* The main bg button with balck text */
 .main_button {
-  @apply uppercase px-4 py-2 bg-[var(--secondary-color)] text-black border-[1px] border-[var(--secondary-color)] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-[var(--secondary-color)] cursor-pointer text-center text-[15px];
+  @apply uppercase px-[24px] py-[12px] bg-[var(--secondary-color)] text-black border-[1px] border-[var(--secondary-color)] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-[var(--secondary-color)] cursor-pointer text-center text-[15px] leading-[15px];
 }
 
 .secondary_button {
-  @apply uppercase font-[500] border-2 border-white px-4 py-2 hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-black;
+  @apply uppercase font-[500] border-[1px] border-white px-[24px] py-[12px] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-black text-[15px] leading-[15px];
 }
 
 .form_input {

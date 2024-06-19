@@ -1,5 +1,6 @@
 import menuTorontoDrinksWine from '@/src/util/menu/toronto/drinks/menuTorontoDrinksWine.json';
 import { HeaderRegular } from '@/src/util/fonts/fonts';
+import { FuturaBoldCondesedBT } from '@/src/util/fonts/fonts';
 
 const MenuTorontoDrinksWine = () => {
   const componentName = 'MENU_TORONTO_DRINKS_WINE';
@@ -10,24 +11,24 @@ const MenuTorontoDrinksWine = () => {
       >
         {menuTorontoDrinksWine.wines.map((item, index) => {
           return (
-            <div key={index}>
+            <div key={index} className={`${componentName}_WINE_TABLE w-full text-center`}>
               <table
                 className={`${componentName}_WINE_TABLE w-full text-center`}
               >
                 <thead>
                   <tr>
                     <th
-                      className={`${HeaderRegular.className} text-[#c69a50] font-[300] text-2xl text-left w-[80%] tracking-widest`}
+                      className={`${HeaderRegular.className} text-[#c69a50] font-[300] text-2xl text-left w-[80%] tracking-widest py-2`}
                     >
                       {item.wine_type_title}
                     </th>
                     <th
-                      className={`${HeaderRegular.className} italic text-[14px] lowercase`}
+                      className={`${HeaderRegular.className} italic text-[14px] lowercase font-[300]`}
                     >
                       6oz
                     </th>
                     <th
-                      className={`${HeaderRegular.className} italic text-[14px] lowercase`}
+                      className={`${HeaderRegular.className} italic text-[14px] lowercase font-[300]`}
                     >
                       bottle
                     </th>
@@ -36,11 +37,11 @@ const MenuTorontoDrinksWine = () => {
                 <tbody>
                   {item.wine_list.map((item, index) => (
                     <tr key={index}>
-                      <td>
+                      <td className='py-1'>
                         <h4 className='text-left'>{item.brand}</h4>
                       </td>
-                      {item.price_6oz ? <td>${item.price_6oz}</td> : <td></td>}
-                      <td>${item.price_bottle}</td>
+                      {item.price_6oz ? <td className={`${FuturaBoldCondesedBT.className}`}>${item.price_6oz}</td> : <td></td>}
+                      <td className={`${FuturaBoldCondesedBT.className}`}>${item.price_bottle}</td>
                     </tr>
                   ))}
                 </tbody>
