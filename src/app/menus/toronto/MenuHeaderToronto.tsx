@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import menu_header_toronto from '@/public/assets/menu_header_toronto.webp';
-import { HeaderBold } from '@/src/util/fonts/fonts';
+import { HeaderBold, BodyMedium } from '@/src/util/fonts/fonts';
 
 const MenuHeaderToronto = ({
   category,
@@ -10,7 +10,7 @@ const MenuHeaderToronto = ({
   setCategory: any;
 }) => {
   const componentName = 'TORONTO_MENU_HEADER';
-  const menuItems = ['drinks', 'food', 'brunch', 'bottle service'];
+  const menuItems = ['drinks', 'brunch', 'food', 'bottle service'];
   return (
     <div className={`${componentName}_MAIN_CONTAINER relative`}>
       <div className={`${componentName}_IMAGE_CONTAINER relative h-[306px]`}>
@@ -39,7 +39,7 @@ const MenuHeaderToronto = ({
           {menuItems.map((category: any, index: any) => (
             <li
               key={index}
-              className={`${componentName}_MENU_LIST_ITEM uppercase text-center bg-gray-200 w-full py-2 cursor-pointer hover:bg-gray-300 transition-colors duration-300 ease-in-out flex justify-center items-center`}
+              className={`${componentName}_MENU_LIST_ITEM uppercase text-center bg-gray-200 w-full py-2 cursor-pointer hover:bg-gray-300 transition-colors duration-300 ease-in-out flex justify-center items-center text-[12px] md:text-[18px]`}
               onClick={() => setCategory(category)}
             >
               {category}
