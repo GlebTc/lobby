@@ -1,5 +1,5 @@
 import menuHamiltonDrinksWine from '@/src/util/menu/hamilton/drinks/menuHamiltonDrinksWine.json';
-import { HeaderRegular } from '@/src/util/fonts/fonts';
+import { HeaderRegular, FuturaBoldCondesedBT } from '@/src/util/fonts/fonts';
 
 const MenuHamiltonDrinksWine = () => {
   const componentName = 'MENU_HAMILTON_DRINKS_WINE';
@@ -27,12 +27,12 @@ const MenuHamiltonDrinksWine = () => {
                       {item.wine_type_title}
                     </th>
                     <th
-                      className={`${HeaderRegular.className} italic text-[14px] lowercase w-[50px]`}
+                      className={`${HeaderRegular.className} italic text-[16px] lowercase font-[300] text-left`}
                     >
                       6oz
                     </th>
                     <th
-                      className={`${HeaderRegular.className} italic text-[14px] lowercase w-[50px]`}
+                      className={`${HeaderRegular.className} italic text-[16px] lowercase font-[300] text-left`}
                     >
                       bottle
                     </th>
@@ -46,8 +46,20 @@ const MenuHamiltonDrinksWine = () => {
                           {item.brand}
                         </p>
                       </td>
-                      {item.price_6oz ? <td>${item.price_6oz}</td> : <td></td>}
-                      <td>${item.price_bottle}</td>
+                      {item.price_6oz ? (
+                        <td
+                          className={`${FuturaBoldCondesedBT.className} w-[60px] text-left`}
+                        >
+                          ${item.price_6oz}
+                        </td>
+                      ) : (
+                        <td></td>
+                      )}
+                      <td
+                        className={`${FuturaBoldCondesedBT.className} w-[60px] text-left`}
+                      >
+                        ${item.price_bottle}
+                      </td>
                     </tr>
                   ))}
                 </tbody>

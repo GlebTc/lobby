@@ -53,6 +53,14 @@ p {
   @apply uppercase font-[500] border-[1px] border-white px-[24px] py-[12px] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-black text-[15px] leading-[15px];
 }
 
+.form_label {
+  @apply uppercase leading-4 mt-1;
+}
+
 .form_input {
   @apply w-full border-[1px] border-black rounded-sm p-2;
+}
+
+.sign_up_input {
+  @apply w-[85%] mx-auto p-4 border-b-[1px] border-[var(--secondary-color)] focus:outline-[var(--secondary-color)] h-[40px] text-[14px] placeholder-gray-500
 }

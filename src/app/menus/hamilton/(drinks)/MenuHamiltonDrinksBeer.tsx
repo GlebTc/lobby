@@ -1,12 +1,12 @@
 import menuHamiltonDrinksBeer from '@/src/util/menu/hamilton/drinks/menuHamiltonDrinksBeer.json';
-import { HeaderRegular } from '@/src/util/fonts/fonts';
+import { HeaderRegular, FuturaBoldCondesedBT } from '@/src/util/fonts/fonts';
 
 const MenuHamiltonDrinksBeer = () => {
   const componentName = 'MENU_HAMILTON_DRINKS_BEER';
   return (
     <div className={`${componentName}_MAIN_CONTAINER flex flex-col pt-8`}>
       <h1
-        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[35px] mb-2`}
+        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[35px] mb-4`}
       >
         {menuHamiltonDrinksBeer.title}
       </h1>
@@ -35,12 +35,12 @@ const MenuHamiltonDrinksBeer = () => {
                         {draught_type.draught_type_title}
                       </th>
                       <th
-                        className={`${HeaderRegular.className} italic text-[14px] lowercase min-w-[60px] text-left`}
+                        className={`${HeaderRegular.className} italic text-[16px] lowercase font-[300] text-left`}
                       >
                         20 oz
                       </th>
                       <th
-                        className={`${HeaderRegular.className} italic text-[14px] lowercase min-w-[60px] text-left`}
+                        className={`${HeaderRegular.className} italic text-[16px] lowercase font-[300] text-left`}
                       >
                         16 oz
                       </th>
@@ -52,10 +52,14 @@ const MenuHamiltonDrinksBeer = () => {
                         <td>
                           <p className='text-left w-[80%]'>{beer.brand}</p>
                         </td>
-                        <td className='min-w-[60px] text-left'>
+                        <td
+                          className={`${FuturaBoldCondesedBT.className} min-w-[60px] text-left`}
+                        >
                           ${beer.price_20}
                         </td>
-                        <td className='min-w-[60px] text-left'>
+                        <td
+                          className={`${FuturaBoldCondesedBT.className} min-w-[60px] text-left`}
+                        >
                           ${beer.price_16}
                         </td>
                       </tr>
@@ -99,7 +103,7 @@ const MenuHamiltonDrinksBeer = () => {
                           {bottle_cans_type.bottles_cans_type_title}
                         </th>
                         <th
-                          className={`${HeaderRegular.className} italic text-[14px] lowercase w-[60px] text-left pr-4`}
+                          className={`${HeaderRegular.className} italic text-[16px] lowercase font-[300] text-left`}
                         >
                           355 ml
                         </th>
@@ -109,7 +113,10 @@ const MenuHamiltonDrinksBeer = () => {
                       {bottle_cans_type.bottles_cans_list.map((beer, index) => (
                         <tr key={index}>
                           <td className='text-left'>{beer.brand}</td>
-                          <td className='w-[60px] text-left pr-4'>
+
+                          <td
+                            className={`${FuturaBoldCondesedBT.className} w-[60px] text-left pr-4`}
+                          >
                             ${beer.price}
                           </td>
                         </tr>

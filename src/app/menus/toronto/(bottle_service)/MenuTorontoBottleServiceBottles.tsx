@@ -1,6 +1,6 @@
 import menuTorontoBottleServiceBottles from '@/src/util/menu/toronto/bottle_service/menuTorontoBottleServiceBottles.json';
 import MenuTitlePrice from '@/src/components/reusable/MenuTitlePrice';
-import { HeaderRegular } from '@/src/util/fonts/fonts';
+import { HeaderRegular, HeaderBold } from '@/src/util/fonts/fonts';
 
 const MenuTorontoBottleServiceBottles = () => {
   const componentName = 'MENU_TORONTO_BOTTLE_SERVICE_BOTTLES';
