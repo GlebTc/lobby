@@ -26,7 +26,7 @@ const MenuHeaderHamilton = ({
           className={`${componentName}_IMAGE_OVERLAY_AND_TEXT absolute top-0 left-0 w-full h-full bg-black/20 flex justify-center items-start text-white`}
         >
           <h1
-            className={`${HeaderBold.className} mt-12 md:mt-24 text-[30px] md:text-[60px]`}
+            className={`${HeaderBold.className} mt-8 md:mt-24 text-[30px] md:text-[60px]`}
           >
             hamilton
           </h1>
@@ -47,7 +47,7 @@ const MenuHeaderHamilton = ({
           {menuHamiltonCategories.map((category: any, index: any) => (
             <li
               key={index}
-              className={`${componentName}_MENU_LIST_ITEM uppercase bg-gray-200 w-full py-2 cursor-pointer hover:bg-gray-300 transition-colors duration-300 ease-in-out flex justify-center items-center px-2 text-center`}
+              className={`${componentName}_MENU_LIST_ITEM uppercase bg-gray-200 w-full py-2 cursor-pointer hover:bg-gray-300 transition-colors duration-300 ease-in-out flex justify-center items-center px-2 text-center text-[12px] md:text-[18px]`}
               onClick={() => setCategory(category)}
             >
               {category}

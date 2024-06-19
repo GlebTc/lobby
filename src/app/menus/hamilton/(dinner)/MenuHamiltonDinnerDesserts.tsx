@@ -6,7 +6,7 @@ const MenuHamiltonDinnerDesserts = () => {
   const componentName = 'MENU_HAMILTON_FOODS_DESSERTS';
 
   return (
-    <div className={`${componentName}_MAIN_CONTAINER flex flex-col gap-2 pt-8`}>
+    <div className={`${componentName}_MAIN_CONTAINER flex flex-col gap-4 pt-8`}>
       <h1
         className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[35px]`}
       >

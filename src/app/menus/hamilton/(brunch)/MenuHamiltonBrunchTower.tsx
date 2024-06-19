@@ -1,4 +1,4 @@
-import { HeaderRegular } from '@/src/util/fonts/fonts';
+import { HeaderBold } from '@/src/util/fonts/fonts';
 
 const LobbyBrunchTower = () => {
   const componentName = 'LOBBY_BRUNCH_TOWER';
@@ -9,12 +9,12 @@ const LobbyBrunchTower = () => {
       <div className={`${componentName}_BRUNCH_TOWER_CONTAINER`}>
         <div>
           <div className='flex justify-center gap-2 items-center'>
-          <h3 className={`${HeaderRegular.className}`}>Lobby Brunch tower</h3>
-            <p className='text-[#c69a50] font-bold min-w-[150px]'>
+          <h3 className={`${HeaderBold.className}`}>Lobby Brunch tower</h3>
+            <p className={`${HeaderBold.className} text-[#c69a50] font-bold min-w-[150px]`}>
               $140 | half $75
             </p>
           </div>
-          <p>
+          <p className='text-center text-[#7d7d7d] text-[14px]'>
             CAN'T DECIDE WHAT TO HAVE? HAVE IT ALL ON OUR SIGNATURE THREE TIER
             BRUNCH TOWER {'{SERVES 2-4}'}
           </p>
@@ -29,7 +29,7 @@ const LobbyBrunchTower = () => {
         <div
           className={`${componentName}_TIER_ONE flex flex-col items-center w-full`}
         >
-          <h3 className={`${HeaderRegular.className}`}>BOTTOM TIER</h3>
+          <h3 className={`${HeaderBold.className}`}>BOTTOM TIER</h3>
           <p className='text-center text-[#7d7d7d] text-[14px]'>
             BLUEBERRY PANCAKES, CROQUETTES, SCRAMBLED EGGS, TURKEY SAUSAGE
           </p>
@@ -37,7 +37,7 @@ const LobbyBrunchTower = () => {
         <div
           className={`${componentName}_TIER_TWO flex flex-col items-center w-full`}
         >
-          <h3 className={`${HeaderRegular.className}`}>MIDDLE TIER</h3>
+          <h3 className={`${HeaderBold.className}`}>MIDDLE TIER</h3>
           <p className='text-center text-[#7d7d7d] text-[14px]'>
             EGGS FLORENTINE, SMOKED SALMON & AVOCADO BAGELS, HONEY & ORANGE
             LABNEH, GRANOLA
@@ -46,7 +46,7 @@ const LobbyBrunchTower = () => {
         <div
           className={`${componentName}_TIER_THREE flex flex-col items-center w-full`}
         >
-          <h3 className={`${HeaderRegular.className}`}>TOP TIER</h3>
+          <h3 className={`${HeaderBold.className}`}>TOP TIER</h3>
           <p className='text-center text-[#7d7d7d] text-[14px]'>
             SEASONAL FRUIT
           </p>

@@ -20,7 +20,7 @@ const ContactInformationHamilton = ({
       >
         Reserve Now
       </a>
-      <div className='flex flex-col font-[500]'>
+      <div className='flex flex-col'>
         <h3 className='font-[500] text-[18px]'>151 James Street South,</h3>
         <h3 className='font-[500] text-[18px]'>Hamilton, ON L8P 2Z5</h3>
         <a

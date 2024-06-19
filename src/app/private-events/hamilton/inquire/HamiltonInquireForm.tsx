@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import { Roboto } from 'next/font/google';
+import { FuturaBoldCondesedBT } from '@/src/util/fonts/fonts';
 import IsLoading from '@/src/components/reusable/IsLoading';
 import ThankYou from '@/src/components/reusable/ThankYou';
 
@@ -123,11 +124,15 @@ const HamiltonInquireForm = () => {
         onSubmit={handleSubmit}
         className={`${componentName}_FORM_CONTAINER p-8 flex flex-col items-start gap-2`}
       >
-        <h2 className='uppercase'>Contact Information</h2>
+        <h2
+          className={`${FuturaBoldCondesedBT.className} uppercase text-[24px] font-[400]`}
+        >
+          Contact Information
+        </h2>
         <div className='grid w-full'>
           <label
             htmlFor='name'
-            className='uppercase'
+            className='form_label'
           >
             Name
           </label>
@@ -144,7 +149,7 @@ const HamiltonInquireForm = () => {
         <div className='grid w-full'>
           <label
             htmlFor='email'
-            className='uppercase'
+            className='form_label'
           >
             Email
           </label>
@@ -161,7 +166,7 @@ const HamiltonInquireForm = () => {
         <div className='grid w-full'>
           <label
             htmlFor='phone'
-            className='uppercase'
+            className='form_label'
           >
             Phone
           </label>
@@ -175,11 +180,15 @@ const HamiltonInquireForm = () => {
             required
           />
         </div>
-        <h2 className='uppercase my-4'>Event Details</h2>
+        <h2
+          className={`${FuturaBoldCondesedBT.className} uppercase text-[24px] font-[400] my-4`}
+        >
+          Event Details
+        </h2>
         <div className='grid w-full'>
           <label
             htmlFor='eventStyle'
-            className='uppercase'
+            className='form_label'
           >
             Event Style
           </label>
@@ -195,7 +204,7 @@ const HamiltonInquireForm = () => {
         <div className='grid w-full'>
           <label
             htmlFor='eventDate'
-            className='uppercase'
+            className='form_label'
           >
             Event Date
           </label>
@@ -211,7 +220,7 @@ const HamiltonInquireForm = () => {
         <div className='grid w-full'>
           <label
             htmlFor='startTime'
-            className='uppercase'
+            className='form_label'
           >
             Start Time
           </label>
@@ -229,7 +238,7 @@ const HamiltonInquireForm = () => {
         <div className='grid w-full'>
           <label
             htmlFor='endTime'
-            className='uppercase'
+            className='form_label'
           >
             End Time
           </label>
@@ -247,7 +256,7 @@ const HamiltonInquireForm = () => {
         <div className='grid w-full'>
           <label
             htmlFor='guestCount'
-            className='uppercase'
+            className='form_label'
           >
             Number of Guests (Minimum of 10)
           </label>
@@ -262,7 +271,7 @@ const HamiltonInquireForm = () => {
         <div className='grid w-full'>
           <label
             htmlFor='additionalDetails'
-            className='uppercase'
+            className='form_label'
           >
             Additional Details
           </label>

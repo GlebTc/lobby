@@ -52,7 +52,7 @@ const NewsLetter = () => {
 
   return (
     <div
-      className={`${componentName} normal-case h-[60dvh] flex flex-col justify-center`}
+      className={`${componentName} normal-case h-[50dvh] flex flex-col justify-center`}
     >
       {isLoading && (
         <IsLoading loadingMessage='Adding Information to Newsletter List' />
@@ -78,28 +78,28 @@ const NewsLetter = () => {
             type='text'
             name='name'
             placeholder='Name'
-            className='w-[85%] mx-auto p-4 border-b-[1px] border-[var(--secondary-color)] focus:outline-[var(--secondary-color)]'
+            className='sign_up_input'
             onChange={handleChange}
           />
           <input
             type='text'
             name='lastName'
             placeholder='Last Name'
-            className='w-[85%] mx-auto p-4 border-b-[1px] border-[var(--secondary-color)] focus:outline-[var(--secondary-color)]'
+            className='sign_up_input'
             onChange={handleChange}
           />
           <input
             type='email'
             name='email'
             placeholder='Email'
-            className='w-[85%] mx-auto p-4 border-b-[1px] border-[var(--secondary-color)] focus:outline-[var(--secondary-color)]'
+            className='sign_up_input'
             onChange={handleChange}
           />
           <input
             type='tel'
             name='phone'
             placeholder='Phone Number'
-            className='w-[85%] mx-auto p-4 border-b-[1px] border-[var(--secondary-color)] focus:outline-[var(--secondary-color)]'
+            className='sign_up_input'
             onChange={handleChange}
           />
         </form>
