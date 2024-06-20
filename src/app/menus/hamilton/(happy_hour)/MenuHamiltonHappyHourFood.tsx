@@ -7,13 +7,11 @@ const MenuHamiltonHappyHourFood = () => {
 
   return (
     <div className={`${componentName}_MAIN_CONTAINER flex flex-col pt-8`}>
-      <h1
-        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[35px] my-2`}
-      >
+      <h1 className={`text-[#c69a50] ${HeaderRegular.className} mb-2`}>
         {menuHamiltonHappyHourFood.title}
       </h1>
       <div
-        className={`${componentName}_FOOD_CONTAINER grid sm:grid-cols-2 lg:grid-cols-3 gap-2`}
+        className={`${componentName}_FOOD_CONTAINER grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8`}
       >
         {menuHamiltonHappyHourFood.food_list.map((item, index) => {
           return (

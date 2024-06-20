@@ -4,9 +4,7 @@ const MenuHamiltonHappyHourHappyDays = () => {
   const componentName = 'MENU_HAMILTON_HAPPY_HOUR_HAPPY_DAYS';
   return (
     <div className={`${componentName}_MAIN_CONTAINER flex flex-col pt-8`}>
-      <h1
-        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[35px] my-2`}
-      >
+<h1 className={`text-[#c69a50] ${HeaderRegular.className} mb-2`}>
         Happy Days
       </h1>
       <div
@@ -19,7 +17,7 @@ const MenuHamiltonHappyHourHappyDays = () => {
             Tuesday
           </h3>
           <p className='text-center text-[#c69a50] text-[14px]'>buck-a-shuck</p>
-          <p>3pm - CLOSE</p>
+          <p className='text-center text-[14px]'>3pm - CLOSE</p>
         </div>
 
         <div
@@ -31,7 +29,7 @@ const MenuHamiltonHappyHourHappyDays = () => {
           <p className='text-center text-[#c69a50] text-[14px]'>
             $5 mix drinks
           </p>
-          <p>3-6pm & 9pm-CLOSE</p>
+          <p className='text-center text-[14px]'>3-6pm & 9pm-CLOSE</p>
         </div>
 
         <div
@@ -43,7 +41,7 @@ const MenuHamiltonHappyHourHappyDays = () => {
           <p className='text-center text-[#c69a50] text-[14px]'>
             Half off wine (bottles only)
           </p>
-          <p>3pm - CLOSE</p>
+          <p className='text-center text-[14px]'>3pm - CLOSE</p>
         </div>
 
         <div
@@ -66,7 +64,7 @@ const MenuHamiltonHappyHourHappyDays = () => {
           <p className='text-center text-[#c69a50] text-[14px]'>
             $35 bottomless mimosas
           </p>
-          <p>10am - 3pm</p>
+          <p className='text-center text-[14px]'>10am - 3pm</p>
         </div>
       </div>
     </div>

@@ -7,12 +7,10 @@ const MenuHamiltonDinnerDesserts = () => {
 
   return (
     <div className={`${componentName}_MAIN_CONTAINER flex flex-col gap-4 pt-8`}>
-      <h1
-        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[35px]`}
-      >
+<h1 className={`text-[#c69a50] ${HeaderRegular.className} mb-2`}>
         {menuHamiltonDinnerDesserts.title}
       </h1>
-      <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8'>
+      <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-x-8'>
         {menuHamiltonDinnerDesserts.desserts.map((item, index) => {
           return (
             <MenuTitleDescriptionPrice

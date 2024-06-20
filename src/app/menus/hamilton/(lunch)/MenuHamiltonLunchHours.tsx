@@ -5,7 +5,7 @@ const MenuHamiltonLunchHours = () => {
   return (
     <div>
       <p className={`${HeaderBold.className} text-center text-[#7d7d7d] text-[20px]`}>
-        Saturday: 11am - 3pm
+        Tuesday-Saturday: 11am - 3pm
       </p>
     </div>
   );

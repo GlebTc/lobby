@@ -5,21 +5,19 @@ const MenuHamiltonDrinksBeer = () => {
   const componentName = 'MENU_HAMILTON_DRINKS_BEER';
   return (
     <div className={`${componentName}_MAIN_CONTAINER flex flex-col pt-8`}>
-      <h1
-        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[35px] mb-4`}
-      >
+      <h1 className={`text-[#c69a50] ${HeaderRegular.className} mb-2`}>
         {menuHamiltonDrinksBeer.title}
       </h1>
       <div
         className={`${componentName}_DRAUGHTS_HEADING_AND_LIST_CONTAINER flex flex-col`}
       >
         <h2
-          className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[26px] text-left mb-8`}
+          className={`text-[#c69a50] ${HeaderRegular.className} text-left mb-8`}
         >
           Draughts
         </h2>
         <div
-          className={`${componentName}_DRAUGHTS_LIST_CONTAINER grid sm:grid-cols-2 lg:grid-cols-3 gap-8`}
+          className={`${componentName}_DRAUGHTS_LIST_CONTAINER grid md:grid-cols-2 gap-8`}
         >
           {menuHamiltonDrinksBeer.beers.draughts.map((draught_type, index) => {
             return (
@@ -30,17 +28,17 @@ const MenuHamiltonDrinksBeer = () => {
                   <thead>
                     <tr>
                       <th
-                        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[24px] text-left mb-8 w-[80%]`}
+                        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[22px] text-left w-[90%]`}
                       >
                         {draught_type.draught_type_title}
                       </th>
                       <th
-                        className={`${HeaderRegular.className} italic text-[16px] lowercase font-[300] text-left`}
+                        className={`${HeaderRegular.className} italic text-[15px] lowercase font-[300] text-left`}
                       >
                         20 oz
                       </th>
                       <th
-                        className={`${HeaderRegular.className} italic text-[16px] lowercase font-[300] text-left`}
+                        className={`${HeaderRegular.className} italic text-[15px] lowercase font-[300] text-left`}
                       >
                         16 oz
                       </th>
@@ -50,15 +48,17 @@ const MenuHamiltonDrinksBeer = () => {
                     {draught_type.draught_list.map((beer, index) => (
                       <tr key={index}>
                         <td>
-                          <p className='text-left w-[80%]'>{beer.brand}</p>
+                          <p className='text-left w-[80%] text-[15px]'>
+                            {beer.brand}
+                          </p>
                         </td>
                         <td
-                          className={`${FuturaBoldCondesedBT.className} min-w-[60px] text-left`}
+                          className={`${FuturaBoldCondesedBT.className} min-w-[60px] text-left text-[14px]`}
                         >
                           ${beer.price_20}
                         </td>
                         <td
-                          className={`${FuturaBoldCondesedBT.className} min-w-[60px] text-left`}
+                          className={`${FuturaBoldCondesedBT.className} min-w-[60px] text-left text-[14px]`}
                         >
                           ${beer.price_16}
                         </td>
@@ -75,35 +75,33 @@ const MenuHamiltonDrinksBeer = () => {
       <div
         className={`${componentName}_BOTTLES_CANS_HEADING_AND_LIST_CONTAINER flex-flex-col mt-12`}
       >
-        <h1
-          className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[35px]`}
-        >
+        <h1 className={`text-[#c69a50] ${HeaderRegular.className} mb-2`}>
           {menuHamiltonDrinksBeer.title}
         </h1>
         <h2
-          className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[26px] text-left mt-4 mb-8`}
+          className={`text-[#c69a50] ${HeaderRegular.className} text-left mb-8`}
         >
           bottles/cans
         </h2>
         <div
-          className={`${componentName}_BOTTLES_CANS_LIST_CONTAINER grid sm:grid-cols-2 lg:grid-cols-3 gap-8`}
+          className={`${componentName}_DRAUGHTS_LIST_CONTAINER grid md:grid-cols-2 gap-8`}
         >
           {menuHamiltonDrinksBeer.beers.bottles_cans.map(
             (bottle_cans_type, index) => {
               return (
                 <div key={index}>
                   <table
-                    className={`${componentName}_BOTTLES_CANS_TABLE uppercase w-full text-center`}
+                    className={`${componentName}_DRAUGHTS_TABLE w-full text-center`}
                   >
                     <thead>
-                      <tr className='text-left'>
+                      <tr>
                         <th
-                          className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[24px] text-left mb-8`}
+                          className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[22px] text-left w-[90%]`}
                         >
                           {bottle_cans_type.bottles_cans_type_title}
                         </th>
                         <th
-                          className={`${HeaderRegular.className} italic text-[16px] lowercase font-[300] text-left`}
+                          className={`${HeaderRegular.className} italic text-[15px] lowercase font-[300] text-left`}
                         >
                           355 ml
                         </th>
@@ -112,10 +110,15 @@ const MenuHamiltonDrinksBeer = () => {
                     <tbody>
                       {bottle_cans_type.bottles_cans_list.map((beer, index) => (
                         <tr key={index}>
-                          <td className='text-left'>{beer.brand}</td>
+                          <td>
+                            {' '}
+                            <p className='text-left w-[80%] text-[15px]'>
+                              {beer.brand}
+                            </p>
+                          </td>
 
                           <td
-                            className={`${FuturaBoldCondesedBT.className} w-[60px] text-left pr-4`}
+                            className={`${FuturaBoldCondesedBT.className} min-w-[60px] text-left text-[14px]`}
                           >
                             ${beer.price}
                           </td>

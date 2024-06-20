@@ -8,7 +8,7 @@ const MenuTorontoDrinksCocktails = () => {
   return (
     <div className={`${componentName}_MAIN_CONTAINER flex flex-col pt-8`}>
       <h1
-        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[35px]`}
+        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[30px]`}
       >
         {menuTorontoDrinksCocktails.title}
       </h1>
@@ -16,7 +16,7 @@ const MenuTorontoDrinksCocktails = () => {
         {menuTorontoDrinksCocktails.cocktails.types.map((item, index) => {
           return (
             <div key={index}>
-              <h2 className={`text-[#c69a50] text-[20px] text-left py-2 font-[300]`}>
+              <h2 className={`text-[#c69a50] text-[18px] text-left py-2 font-[300]`}>
                 {item.cocktail_type_title}
               </h2>
               <div className='grid md:grid-cols-2 lg:grid-cols-3 md:gap-4'>

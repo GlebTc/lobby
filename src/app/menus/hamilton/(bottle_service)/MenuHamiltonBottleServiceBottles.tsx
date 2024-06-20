@@ -12,9 +12,7 @@ const MenuHamiltonBottleServiceBottles = () => {
             key={index}
             className={`${componentName}_BOTTLE_HEADING_AND_LIST_CONTAINER flex flex-col gap-4`}
           >
-            <h1
-              className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[35px] mt-4`}
-            >
+            <h1 className={`text-[#c69a50] ${HeaderRegular.className} mb-2`}>
               {item.bottle_title}
             </h1>
             <div className='grid md:grid-cols-2 lg:grid-cols-3 md:gap-8'>

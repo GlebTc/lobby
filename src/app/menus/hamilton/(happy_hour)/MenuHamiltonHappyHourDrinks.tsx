@@ -8,21 +8,19 @@ const MenuHamiltonDrinksZeroProof = () => {
 
   return (
     <div className={`${componentName}_MAIN_CONTAINER flex flex-col pt-8`}>
-      <h1
-        className={`text-[#c69a50] ${HeaderRegular.className} font-[400]  text-[35px] my-2`}
-      >
+      <h1 className={`text-[#c69a50] ${HeaderRegular.className} mb-2`}>
         {menuHamiltonHappyHourDrinks.title}
       </h1>
       <div
-        className={`${componentName}_BEER_HEADING_AND_LIST_CONTAINER flex-flex-col gap-4`}
+        className={`${componentName}_DRAUGHTS_HEADING_AND_LIST_CONTAINER flex flex-col`}
       >
         <h2
-          className={`text-[#c69a50] ${HeaderRegular.className} font-[400]  text-[26px] text-left mb-8`}
+          className={`text-[#c69a50] ${HeaderRegular.className} text-left mb-8`}
         >
           Beer{' '}
         </h2>
         <div
-          className={`${componentName}_BEER_LIST_CONTAINER grid sm:grid-cols-2 lg:grid-cols-3 gap-2`}
+          className={`${componentName}_BEER_LIST_CONTAINER grid sm:grid-cols-2 lg:grid-cols-3 gap-8`}
         >
           {menuHamiltonHappyHourDrinks.beer.map((item, index) => {
             return (
@@ -39,11 +37,9 @@ const MenuHamiltonDrinksZeroProof = () => {
       </div>
 
       <div
-        className={`${componentName}_FROZEN_COCKTAILS_HEADING_AND_LIST_CONTAINER flex-flex-col gap-4`}
+        className={`${componentName}_FROZEN_COCKTAILS_HEADING_AND_LIST_CONTAINER flex-flex-col gap-4 mt-12`}
       >
-        <h2
-          className={`text-[#c69a50] ${HeaderRegular.className} font-[400]  text-[26px] text-left`}
-        >
+        <h2 className={`text-[#c69a50] ${HeaderRegular.className} text-left`}>
           Frozen Cocktails{' '}
         </h2>
         <p
@@ -53,7 +49,7 @@ const MenuHamiltonDrinksZeroProof = () => {
         </p>
 
         <div
-          className={`${componentName}_FROZEN_COCKTAILS_LIST_CONTAINER grid sm:grid-cols-2 lg:grid-cols-3 gap-2`}
+          className={`${componentName}_FROZEN_COCKTAILS_LIST_CONTAINER grid sm:grid-cols-2 lg:grid-cols-3 gap-8`}
         >
           {menuHamiltonHappyHourDrinks.frozen_cocktails.map((item, index) => {
             return (
@@ -70,15 +66,15 @@ const MenuHamiltonDrinksZeroProof = () => {
       </div>
 
       <div
-        className={`${componentName}_SIGNATURE_COCKTAILS_HEADING_AND_LIST_CONTAINER flex-flex-col gap-4`}
+        className={`${componentName}_SIGNATURE_COCKTAILS_HEADING_AND_LIST_CONTAINER flex-flex-col gap-4 mt-12`}
       >
         <h2
-          className={`text-[#c69a50] ${HeaderRegular.className} font-[400]  text-[26px] text-left mb-8`}
+          className={`text-[#c69a50] ${HeaderRegular.className} text-left mb-8`}
         >
           Signature Cocktails{' '}
         </h2>
         <div
-          className={`${componentName}_SIGNATURE_COCKTAILS_LIST_CONTAINER grid sm:grid-cols-2 lg:grid-cols-3 gap-2`}
+          className={`${componentName}_SIGNATURE_COCKTAILS_LIST_CONTAINER grid sm:grid-cols-2 lg:grid-cols-3 gap-8`}
         >
           {menuHamiltonHappyHourDrinks.signature_cocktails.map(
             (item, index) => {
@@ -97,15 +93,15 @@ const MenuHamiltonDrinksZeroProof = () => {
       </div>
 
       <div
-        className={`${componentName}_WINE_HEADING_AND_LIST_CONTAINER flex-flex-col gap-4`}
+        className={`${componentName}_WINE_HEADING_AND_LIST_CONTAINER flex-flex-col gap-4 mt-12`}
       >
         <h2
-          className={`text-[#c69a50] ${HeaderRegular.className} font-[400]  text-[26px] text-left`}
+          className={`text-[#c69a50] ${HeaderRegular.className} text-left`}
         >
           Wine{' '}
         </h2>
         <table
-          className={`${componentName}_WINE_TABLE w-full text-center mb-8`}
+          className={`${componentName}_WINE_TABLE w-full md:max-w-[45dvw] lg:max-w-[35dvw] text-center mb-8`}
         >
           <thead>
             <tr>
@@ -142,12 +138,12 @@ const MenuHamiltonDrinksZeroProof = () => {
         className={`${componentName}_COCKTAIL_TOWERS_HEADING_AND_LIST_CONTAINER flex-flex-col gap-4`}
       >
         <h2
-          className={`text-[#c69a50] ${HeaderRegular.className} font-[400]  text-[26px] text-left mb-8`}
+          className={`text-[#c69a50] ${HeaderRegular.className} text-left mb-8`}
         >
           Cocktail Towers
         </h2>
         <div
-          className={`${componentName}_COCKTAIL_TOWERS_LIST_CONTAINER grid sm:grid-cols-2 lg:grid-cols-3 gap-2`}
+          className={`${componentName}_COCKTAIL_TOWERS_LIST_CONTAINER grid sm:grid-cols-2 lg:grid-cols-3 gap-8`}
         >
           {menuHamiltonHappyHourDrinks.cocktail_towers.map((item, index) => {
             return (

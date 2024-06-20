@@ -16,15 +16,15 @@ body {
 }
 
 h1 {
-  @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-[600];
+  @apply text-[30px] font-[400];
 }
 
 h2 {
-  @apply font-[600] text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center;
+  @apply font-[400] text-[24px] text-center;
 }
 
 h3 {
-  @apply font-bold;
+  @apply text-[15px] font-bold tracking-tight;
 }
 
 p {

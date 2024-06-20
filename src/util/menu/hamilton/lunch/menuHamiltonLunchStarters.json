@@ -2,6 +2,16 @@
   "title": "starters",
   "starters": [
     {
+      "name": "Crispy Mushrooms",
+      "description": "oyster and honey mushrooms battered and fried served with a citrus infused aioli",
+      "price": "$13"
+    },
+    {
+      "name": "Spicy Tuna Sashimi",
+      "description": "raw yellowfin tuna, garlic, jalapeno, cilantro & yuzu ponzu",
+      "price": "$17"
+    },
+    {
       "name": "COCONUT SEA BASS CEVICHE",
       "description": "fresh sea bass cured in lime juice mixed with jalapeno, red onion, mango and avocado- served with taro chips",
       "description_two": null,
@@ -16,16 +26,6 @@
       "name": "CRUDITÉS",
       "description": "seasonal ontario veggies accompanied with a trio of dips curried yogurt, smoked paprika hummus and buttermilk dill ranch",
       "price": "$32"
-    },
-    {
-      "name": "Crispy Mushrooms",
-      "description": "oyster and honey mushrooms battered and fried served with a citrus infused aioli",
-      "price": "$13"
-    },
-    {
-      "name": "Spicy Tuna Sashimi",
-      "description": "raw yellowfin tuna, garlic, jalapeno, cilantro & yuzu ponzu",
-      "price": "$17"
     }
   ]
 }

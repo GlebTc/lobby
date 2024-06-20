@@ -6,13 +6,13 @@ const MenuHamiltonDrinksCoffee = () => {
   const componentName = 'MENU_TORONTO_COFFEE';
   return (
     <div className={`${componentName}_MAIN_CONTAINER pt-8`}>
-      <h2
-        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[26px] text-left my-8`}
-      >
+        <h2
+          className={`text-[#c69a50] ${HeaderRegular.className} text-left my-8`}
+        >
         Coffee
       </h2>
       <div
-        className={`${componentName}_COFFEE_LIST_CONTAINER grid sm:grid-cols-2 lg:grid-cols-3 gap-4`}
+        className={`${componentName}_COFFEE_LIST_CONTAINER grid gap-6 max-w-[530px]`}
       >
         {menuHamiltonDrinksCoffee.hot_beverages.map((item, index) => {
           return (

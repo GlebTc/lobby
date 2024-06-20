@@ -11,7 +11,7 @@ const MenuTitleDescriptionPrice = ({
     <div className='flex justify-between mb-4'>
       <div>
         <h3 className={`${HeaderBold.className}`}>{individual_menu_item_title}</h3>
-        <p className='text-left pr-12 text-[#7d7d7d] text-[14px]'>
+        <p className='text-left pr-12 text-[#7d7d7d] text-[12px]'>
           {individual_menu_item_description}
         </p>
         {individual_menu_item_description_two && (
