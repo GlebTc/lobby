@@ -47,17 +47,17 @@ const MainHeroVideo = () => {
       <div
         className={`${componentName}_TEXT_AND_BUTTON_CONTAINER absolute top-0 left-0 w-[100%] h-[100%] flex flex-col justify-center items-center text-white bg-gray-950/30 text-center`}
       >
-        <h1 className={`${HeaderBold.className}  leading-[42px] text-[42px]`}>
+        <h1 className={`${HeaderBold.className}  leading-[42px] text-[36px]`}>
           Pure Delight
         </h1>
-        <p className={`${HeaderRegular.className} text-white pb-4 text-[22px] leading-[42px]`}>
-          Vibrant Moments and Incredible Nights
+        <p className={`${HeaderRegular.className} text-white pb-4 text-[20px] leading-[42px]`}>
+          Vibrant moments and incredible nights
         </p>
         <div
           aria-label={`Lobby Bar Restaurant | Main Page | Hero Video | Reserve Now Button`}
           title={`Lobby Bar Restaurant | Main Page | Hero Video | Reserve Now Button`}
           onClick={handleButtonClick}
-          className={`${componentName}_RESERVATION_BUTTON secondary_button cursor-pointer tracking-wider text-[15px] leading-[15px]`}
+          className={`${componentName}_RESERVATION_BUTTON uppercase font-[500] border-[1px] border-white px-[20px] py-[10px] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-black text-[15px] leading-[15px];`}
         >
           reservations
         </div>

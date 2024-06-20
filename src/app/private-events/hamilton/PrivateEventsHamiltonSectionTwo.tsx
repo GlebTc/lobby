@@ -9,32 +9,32 @@ const PrivateEventsHamiltonSectionTwo = () => {
     <div
       className={`${componentName}_MAIN_CONTAINER grid md:grid-cols-2 h-full lg:min-h-[50dvh] gap-4 md:p-4`}
     >
-      <div className={`${componentName}_MAIN_CONTENT_CONTAINER p-4`}>
+      <div className={`${componentName}_MAIN_CONTENT_CONTAINER p-4 flex flex-col justify-center`}>
         <h1
-          className={`${HeaderBold.className}  leading-[42px] text-[32px] mb-4`}
+          className={`${HeaderBold.className}  leading-[42px] text-[36px] pb-4`}
         >
           Patio
         </h1>
 
-        <p className='mb-4'>
+        <p className='mb-4 text-[14px]'>
           Surrounded by the vibrant energy of the city, this outdoor oasis is
           ideal for those who relish al fresco events. Embrace the natural charm
           of our Patio for an intimate or lively gathering beneath the open
           skies.
         </p>
-        <p className='mb-4'>Capacity:</p>
+        <p className='text-[14px] mb-4'>Capacity:</p>
         <ul>
           <li className='flex items-center gap-2'>
             <FaCheck />
-            <p>2,800 sq ft</p>
+            <p className='text-[14px]'>2,800 sq ft</p>
           </li>
           <li className='flex items-center gap-2'>
             <FaCheck />
-            <p>180 cocktail reception</p>
+            <p className='text-[14px]'>180 cocktail reception</p>
           </li>
           <li className='flex items-center gap-2'>
             <FaCheck />
-            <p>80 seated</p>
+            <p className='text-[14px]'>80 seated</p>
           </li>
         </ul>
       </div>

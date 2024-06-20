@@ -13,7 +13,7 @@ const MenuHamiltonHappyHourHappyDays = () => {
         <div
           className={`${componentName}_TUESDAY flex flex-col items-center w-full`}
         >
-          <h3 className={`${HeaderRegular.className} tracking-wider`}>
+          <h3 className={`${HeaderRegular.className}`}>
             Tuesday
           </h3>
           <p className='text-center text-[#c69a50] text-[14px]'>buck-a-shuck</p>
@@ -23,7 +23,7 @@ const MenuHamiltonHappyHourHappyDays = () => {
         <div
           className={`${componentName}_WEDNESDAY flex flex-col items-center w-full`}
         >
-          <h3 className={`${HeaderRegular.className} tracking-wider`}>
+          <h3 className={`${HeaderRegular.className}`}>
             Wednesday
           </h3>
           <p className='text-center text-[#c69a50] text-[14px]'>
@@ -35,7 +35,7 @@ const MenuHamiltonHappyHourHappyDays = () => {
         <div
           className={`${componentName}_THURSDAY flex flex-col items-center w-full`}
         >
-          <h3 className={`${HeaderRegular.className} tracking-wider`}>
+          <h3 className={`${HeaderRegular.className}`}>
             Thursday
           </h3>
           <p className='text-center text-[#c69a50] text-[14px]'>
@@ -47,7 +47,7 @@ const MenuHamiltonHappyHourHappyDays = () => {
         <div
           className={`${componentName}_FRIDAY_&_SATURDAY flex flex-col items-center w-full`}
         >
-          <h3 className={`${HeaderRegular.className} tracking-wider`}>
+          <h3 className={`${HeaderRegular.className}`}>
             Friday & Saturday
           </h3>
           <p className='text-center text-[#c69a50] text-[14px]'>
@@ -58,7 +58,7 @@ const MenuHamiltonHappyHourHappyDays = () => {
         <div
           className={`${componentName}_TIER_ONE flex flex-col items-center w-full`}
         >
-          <h3 className={`${HeaderRegular.className} tracking-wider`}>
+          <h3 className={`${HeaderRegular.className}`}>
             Sunday
           </h3>
           <p className='text-center text-[#c69a50] text-[14px]'>

@@ -9,31 +9,31 @@ const PrivateEventsHamiltonSectionOne = () => {
     <div
       className={`${componentName}_MAIN_CONTAINER grid md:grid-cols-2 h-full lg:min-h-[50dvh] gap-4 md:p-4`}
     >
-      <div className={`${componentName}_MAIN_CONTENT_CONTAINER md:order-2 p-4`}>
+      <div className={`${componentName}_MAIN_CONTENT_CONTAINER md:order-2 p-4 flex flex-col justify-center`}>
         <h1
-          className={`${HeaderBold.className}  leading-[42px] text-[32px] pb-4`}
+          className={`${HeaderBold.className}  leading-[42px] text-[36px] pb-4`}
         >
           Full Venue
         </h1>
-        <p className='mb-4'>
+        <p className='mb-4 text-[14px]'>
           Our versatile and stylish venue is the perfect canvas for any
           occasion. Whether it's a corporate gathering or a special celebration,
           make your mark in this dynamic setting, where seamless design and
           functionality converge for an unforgettable experience.
         </p>
-        <p className='mb-4'>Capacity:</p>
+        <p className='mb-4 text-[14px]'>Capacity:</p>
         <ul>
           <li className='flex items-center gap-2'>
             <FaCheck />
-            <p>3,800 sq ft</p>
+            <p className='text-[14px]'>3,800 sq ft</p>
           </li>
           <li className='flex items-center gap-2'>
             <FaCheck />
-            <p>204 cocktail reception</p>
+            <p className='text-[14px]'>204 cocktail reception</p>
           </li>
           <li className='flex items-center gap-2'>
             <FaCheck />
-            <p>100 seated</p>
+            <p className='text-[14px]'>100 seated</p>
           </li>
         </ul>
       </div>

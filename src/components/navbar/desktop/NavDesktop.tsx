@@ -17,7 +17,7 @@ const NavDesktop = () => {
 
   return (
     <div
-      className={`${componentName}_MAIN_CONTAINER bg-[var(--main-bg-color)] h-[65px] w-full flex justify-between items-center px-8 text-[16px]`}
+      className={`${componentName}_MAIN_CONTAINER bg-[var(--main-bg-color)] h-[var(--menu-bar-h)] w-full flex justify-between items-center px-20 text-[14px]`}
     >
       <a
         href='/'
@@ -40,13 +40,13 @@ const NavDesktop = () => {
           href='/'
           title={`Lobby Bar Restaurant | Desktop Menu | Home Link`}
           aria-label={`Lobby Bar Restaurant | Desktop Menu | Home Link`}
-          className={`${componentName}_MAPPED_NAV_ITEMS hover:text-[var(--secondary-color)] duration-[var(--main-duration)] tracking-wider text-[16px] leading-[20px]`}
+          className={`${componentName}_MAPPED_NAV_ITEMS hover:text-[var(--secondary-color)] duration-[var(--main-duration)] tracking-wider text-[14px] leading-[20px]`}
         >
           Home
         </a>
         {navItems.map((navItem, index) => (
           <div
-            className={`${componentName}_MAPPED_NAV_ITEMS hover:text-[var(--secondary-color)] duration-[var(--main-duration)] cursor-pointer tracking-wider text-[16px] leading-[20px]`}
+            className={`${componentName}_MAPPED_NAV_ITEMS hover:text-[var(--secondary-color)] duration-[var(--main-duration)] cursor-pointer tracking-wider text-[14px] leading-[20px]`}
             onClick={() => handleSelection(navItem.href)}
             title={`Lobby Bar Restaurant | Desktop Menu | ${navItem.alt} Link`}
             aria-label={`Lobby Bar Restaurant | Desktop Menu | ${navItem.alt} Link`}
@@ -56,7 +56,7 @@ const NavDesktop = () => {
           </div>
         ))}
         <div
-          className={`${componentName}_NAVBAR_RESERVATION_BUTTON main_button ${BodyMedium.className} tracking-wider text-[14px]`}
+          className={`${componentName}_NAVBAR_RESERVATION_BUTTON ${BodyMedium.className} uppercase px-[20px] py-[10px] bg-[var(--secondary-color)] border-[1px] border-[var(--secondary-color)] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-[var(--secondary-color)] cursor-pointer text-center text-[15px] leading-[15px] text-white`}
           onClick={() => handleSelection('reservations')}
           title={`Lobby Bar Restaurant | Desktop Menu | Reservations Link`}
           aria-label={`Lobby Bar Restaurant | Desktop Menu | Reservations Link`}

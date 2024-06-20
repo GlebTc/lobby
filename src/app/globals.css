@@ -8,7 +8,8 @@
   --main-text-color: #e09900;
   --main-duration: 0.7s;
   --top-bar-h: 51px;
-  --menu-bar-h: 65px;
+  --menu-bar-h: 60px;
+  --max-width: 1700px;
 }
 
 body {
@@ -46,11 +47,11 @@ p {
 
 /* The main bg button with balck text */
 .main_button {
-  @apply uppercase px-[24px] py-[12px] bg-[var(--secondary-color)] text-black border-[1px] border-[var(--secondary-color)] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-[var(--secondary-color)] cursor-pointer text-center text-[15px] leading-[15px];
+  @apply uppercase px-[20px] py-[10px] bg-[var(--secondary-color)] border-[1px] border-[var(--secondary-color)] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-[var(--secondary-color)] cursor-pointer text-center text-[15px] leading-[15px];
 }
 
 .secondary_button {
-  @apply uppercase font-[500] border-[1px] border-white px-[24px] py-[12px] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-black text-[15px] leading-[15px];
+  @apply uppercase font-[500] border-[1px] border-white px-[20px] py-[10px] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-black text-[15px] leading-[15px];
 }
 
 .form_label {

@@ -39,11 +39,11 @@ const MainSectionOne = () => {
         <div
           className={`${componentName}_HEADINGS_CONTAINER flex flex-col items-center`}
         >
-          <h2 className={`${HeaderBold.className} text-[32px]`}>
+          <h2 className={`${HeaderBold.className} text-[30px]`}>
             Global Flavors, Unforgettable Moments
           </h2>
         </div>
-        <p className={`text-[16px]`}>
+        <p className={`text-[14px] md:px-20`}>
           At Lobby, we currate a journey of global flavors, paired with
           handcrafted coctails and an inviting atmosphere that transforms dining
           into an experience.

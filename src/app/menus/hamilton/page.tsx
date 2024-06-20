@@ -15,7 +15,7 @@ const menusHamilton = () => {
 
   return (
     <div
-      className={`${componentName}_MAIN_CONTAINER max-w-[1700px] mx-auto uppercase`}
+      className={`${componentName}_MAIN_CONTAINER max-w-[var(--max-width)] mx-auto uppercase`}
     >
       <MenuHeaderHamilton
         category={category}

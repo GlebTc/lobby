@@ -35,15 +35,15 @@ const MainSectionFour = () => {
           />
         </div>
         <div
-          className={`${componentName}_HEADINGS_CONTAINER text-3xl font-[700] tracking-widest flex flex-col items-center text-center`}
+          className={`${componentName}_HEADINGS_CONTAINER text-3xl font-[700] flex flex-col items-center text-center`}
         >
           <h2
-            className={`${HeaderBold.className} text-[32px]`}
+            className={`${HeaderBold.className} text-[30px]`}
           >
             Indulge in Weekend Bliss
           </h2>
         </div>
-        <p className='text-center px-8'>
+        <p className='text-center px-8 md:px-12'>
           Brunch like never before. From classics to innovative creations, our
           menu is a celebration of weekend indulgence
         </p>
@@ -73,15 +73,15 @@ const MainSectionFour = () => {
           />
         </div>
         <div
-          className={`${componentName}_HEADINGS_CONTAINER text-3xl font-[700] tracking-widest flex flex-col items-center text-center`}
+          className={`${componentName}_HEADINGS_CONTAINER text-3xl font-[700] flex flex-col items-center text-center`}
         >
           <h2
-            className={`${HeaderBold.className} text-[32px]`}
+            className={`${HeaderBold.className} text-[30px]`}
           >
             Elegance Meets Excellence
           </h2>
         </div>
-        <p className='text-center px-8'>
+        <p className='text-center px-8 md:px-16'>
           As the sun sets, join us for a dinner that transcends the ordinary.
           Immerse yourself in an evening of culinary delight and sophisticated
           ambiance.

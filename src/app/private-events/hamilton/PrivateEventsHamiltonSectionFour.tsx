@@ -9,32 +9,32 @@ const PrivateEventsHamiltonSectionFour = () => {
     <div
       className={`${componentName}_MAIN_CONTAINER grid md:grid-cols-2 h-full lg:min-h-[50dvh] gap-4 md:p-4`}
     >
-      <div className={`${componentName}_MAIN_CONTENT_CONTAINER p-4`}>
+      <div className={`${componentName}_MAIN_CONTENT_CONTAINER p-4 flex flex-col justify-center`}>
         <h1
-          className={`${HeaderBold.className}  leading-[42px] text-[32px] mb-4`}
+          className={`${HeaderBold.className}  leading-[42px] text-[36px] pb-4`}
         >
           Private Room
         </h1>
 
-        <p className='mb-4'>
+        <p className='mb-4 text-[14px]'>
           Seats 30 comfortably, with additional space for 45 standing, perfect
           for a flexible event format with passed hors d'oeuvres and cocktails.
           Ideal for vibrant receptions with guests enjoying passed canapés and
           mingling.
         </p>
-        <p className='mb-4'>Capacity:</p>
+        <p className='text-[14px] mb-4'>Capacity:</p>
         <ul>
           <li className='flex items-center gap-2'>
             <FaCheck />
-            <p>500 sq ft</p>
+            <p className='text-[14px]'>500 sq ft</p>
           </li>
           <li className='flex items-center gap-2'>
             <FaCheck />
-            <p>45 cocktail reception</p>
+            <p className='text-[14px]'>45 cocktail reception</p>
           </li>
           <li className='flex items-center gap-2'>
             <FaCheck />
-            <p>30 seated</p>
+            <p className='text-[14px]'>30 seated</p>
           </li>
         </ul>
       </div>
