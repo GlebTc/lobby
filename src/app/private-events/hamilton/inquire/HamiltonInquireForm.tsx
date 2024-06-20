@@ -122,10 +122,10 @@ const HamiltonInquireForm = () => {
       )}
       <form
         onSubmit={handleSubmit}
-        className={`${componentName}_FORM_CONTAINER p-8 flex flex-col items-start gap-2`}
+        className={`${componentName}_FORM_CONTAINER p-4 flex flex-col items-start gap-2`}
       >
         <h2
-          className={`${FuturaBoldCondesedBT.className} uppercase text-[20px] font-[400]`}
+          className={`${FuturaBoldCondesedBT.className} uppercase text-[22px] font-[400]`}
         >
           Contact Information
         </h2>
@@ -181,7 +181,7 @@ const HamiltonInquireForm = () => {
           />
         </div>
         <h2
-          className={`${FuturaBoldCondesedBT.className} uppercase text-[20px] font-[400] my-4`}
+          className={`${FuturaBoldCondesedBT.className} uppercase text-[22px] font-[400] my-4`}
         >
           Event Details
         </h2>

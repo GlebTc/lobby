@@ -7,7 +7,7 @@ const Inquire = () => {
   const componentName = 'HAMILTON_INQUIRE';
   return (
     <div
-      className={`${componentName}_MAIN_CONTAINER relative bg-[var(--main-bg-color)]`}
+      className={`${componentName}_MAIN_CONTAINER relative bg-[#FFFEF7]`}
     >
       <div className='h-[102px] md:h-[185px] relative'>
         50

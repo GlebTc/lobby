@@ -16,10 +16,11 @@
       "description": "RAW YELLOWFIN TUNA, GARLIC, JALAPENO, CILANTRO & YUZU PONZU",
       "price": "$17"
     },
+
     {
-      "name": "fritto misto",
-      "description": "FRIED CALAMARI, SHRIMP, ATLANTIC COD, JALAPENO AND ONION WITH FRESH LEMON & SPICY CALABRESE DIP",
-      "price": "$28"
+      "name": "mortadella sandwich",
+      "description": "TOASTED BRIOCHE, WARM MORTADELLA, GARLIC MAYO & PIPARRAS PEPPERS WITH CRISPY FRITES",
+      "price": "$19"
     },
     {
       "name": "carpaccio",
@@ -27,10 +28,11 @@
       "price": "$20"
     },
     {
-      "name": "mortadella sandwich",
-      "description": "TOASTED BRIOCHE, WARM MORTADELLA, GARLIC MAYO & PIPARRAS PEPPERS WITH CRISPY FRITES",
-      "price": "$19"
+      "name": "fritto misto",
+      "description": "FRIED CALAMARI, SHRIMP, ATLANTIC COD, JALAPENO AND ONION WITH FRESH LEMON & SPICY CALABRESE DIP",
+      "price": "$28"
     },
+
     {
       "name": "oysters",
       "description": "DAILY SELECTION, SERVED WITH FRESH HORSERADISH & LEMON",
