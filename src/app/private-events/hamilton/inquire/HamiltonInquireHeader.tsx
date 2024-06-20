@@ -5,7 +5,7 @@ import { HeaderBold } from '@/src/util/fonts/fonts';
 const HamiltonInquireHeader = () => {
   return (
     <div
-      className={`${HeaderBold.className} max-w-[80%] md:max-w-[40%] mx-auto uppercase flex flex-col gap-2 items-center border-b-[1px] border-black py-4 text-center`}
+      className={`${HeaderBold.className} max-w-[80%] lg:max-w-[40%] mx-auto uppercase flex flex-col gap-2 items-center border-b-[1px] border-black py-8 text-center`}
     >
       <h2 className='text-[30px]'>
         Plannig a Special Occasion or Business Event?

@@ -9,7 +9,7 @@ const MenuHamiltonDrinksCocktails = () => {
       <h1 className={`text-[#c69a50] ${HeaderRegular.className} mb-2`}>
         {menuHamiltonDrinksCocktails.title}
       </h1>
-      <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8'>
+      <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-x-8'>
         {menuHamiltonDrinksCocktails.cocktails.map((item, index) => {
           return (
             <MenuTitleDescriptionPrice

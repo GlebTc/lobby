@@ -27,7 +27,7 @@ const LobbyBrunchTower = () => {
       </div>
       <div className={`${componentName}_TIER_OPTIONS`}>
         <div
-          className={`${componentName}_TIER_ONE flex flex-col items-center w-full`}
+          className={`${componentName}_TIER_ONE flex flex-col items-center w-full gap-2`}
         >
           <h3 className={`${HeaderBold.className}`}>BOTTOM TIER</h3>
           <p className='text-center text-[#7d7d7d] text-[14px]'>
