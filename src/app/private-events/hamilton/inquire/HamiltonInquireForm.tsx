@@ -108,7 +108,7 @@ const HamiltonInquireForm = () => {
   };
 
   return (
-    <div className={`${componentName}_MAIN_CONTAINER`}>
+    <div className={`${componentName}_MAIN_CONTAINER max-w-5xl mx-auto`}>
       {isLoading && (
         <IsLoading loadingMessage='Submitting Hamilton Private Event Inquiry' />
       )}
@@ -125,14 +125,14 @@ const HamiltonInquireForm = () => {
         className={`${componentName}_FORM_CONTAINER p-8 flex flex-col items-start gap-2`}
       >
         <h2
-          className={`${FuturaBoldCondesedBT.className} uppercase text-[24px] font-[400]`}
+          className={`${FuturaBoldCondesedBT.className} uppercase text-[20px] font-[400]`}
         >
           Contact Information
         </h2>
         <div className='grid w-full'>
           <label
             htmlFor='name'
-            className='form_label'
+            className='form_label text-[14px]'
           >
             Name
           </label>
@@ -142,14 +142,14 @@ const HamiltonInquireForm = () => {
             value={formData.name}
             onChange={handleChange}
             placeholder='First and Last Name'
-            className='form_input'
+            className='form_input '
             required
           />
         </div>
         <div className='grid w-full'>
           <label
             htmlFor='email'
-            className='form_label'
+            className='form_label text-[14px]'
           >
             Email
           </label>
@@ -166,7 +166,7 @@ const HamiltonInquireForm = () => {
         <div className='grid w-full'>
           <label
             htmlFor='phone'
-            className='form_label'
+            className='form_label text-[14px]'
           >
             Phone
           </label>
@@ -175,20 +175,20 @@ const HamiltonInquireForm = () => {
             name='phone'
             value={formData.phone}
             onChange={handleChange}
-            placeholder='Phone'
+            placeholder='(905) 123-4567'
             className='form_input'
             required
           />
         </div>
         <h2
-          className={`${FuturaBoldCondesedBT.className} uppercase text-[24px] font-[400] my-4`}
+          className={`${FuturaBoldCondesedBT.className} uppercase text-[20px] font-[400] my-4`}
         >
           Event Details
         </h2>
         <div className='grid w-full'>
           <label
             htmlFor='eventStyle'
-            className='form_label'
+            className='form_label text-[14px]'
           >
             Event Style
           </label>
@@ -204,7 +204,7 @@ const HamiltonInquireForm = () => {
         <div className='grid w-full'>
           <label
             htmlFor='eventDate'
-            className='form_label'
+            className='form_label text-[14px]'
           >
             Event Date
           </label>
@@ -220,7 +220,7 @@ const HamiltonInquireForm = () => {
         <div className='grid w-full'>
           <label
             htmlFor='startTime'
-            className='form_label'
+            className='form_label text-[14px]'
           >
             Start Time
           </label>
@@ -238,7 +238,7 @@ const HamiltonInquireForm = () => {
         <div className='grid w-full'>
           <label
             htmlFor='endTime'
-            className='form_label'
+            className='form_label text-[14px]'
           >
             End Time
           </label>
@@ -256,7 +256,7 @@ const HamiltonInquireForm = () => {
         <div className='grid w-full'>
           <label
             htmlFor='guestCount'
-            className='form_label'
+            className='form_label text-[14px]'
           >
             Number of Guests (Minimum of 10)
           </label>
@@ -271,9 +271,9 @@ const HamiltonInquireForm = () => {
         <div className='grid w-full'>
           <label
             htmlFor='additionalDetails'
-            className='form_label'
+            className='form_label text-[14px]'
           >
-            Additional Details
+            ADDITIONAL DETAILS YOU WOULD LIKE TO SHARE:
           </label>
           <textarea
             name='additionalDetails'
@@ -285,7 +285,7 @@ const HamiltonInquireForm = () => {
         </div>
         <button
           type='submit'
-          className={`${roboto.className} ${componentName}_SUBMIT_BUTTON uppercase text-[18px] font-[500] p-3 bg-[var(--secondary-color)] text-white border-[1px] border-[var(--secondary-color)] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-[var(--secondary-color)] min-w-[150px] cursor-pointer text-center w-full rounded-md`}
+          className={`${roboto.className} ${componentName}_SUBMIT_BUTTON uppercase text-[16px] font-[500] p-3 bg-[var(--secondary-color)] text-white border-[1px] border-[var(--secondary-color)] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-[var(--secondary-color)] min-w-[150px] cursor-pointer text-center w-full rounded-md`}
         >
           Send Message
         </button>

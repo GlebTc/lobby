@@ -8,13 +8,13 @@ const PrivateEventsHamiltonSectionFive = () => {
     <div
       className={`${componentName}_MAIN_CONTAINER grid md:grid-cols-2 h-full lg:min-h-[50dvh] gap-4 md:p-4`}
     >
-      <div className={`${componentName}_MAIN_CONTENT_CONTAINER md:order-2 p-4`}>
-        <h1
-          className={`${HeaderBold.className}  leading-[42px] text-[32px] pb-4`}
+      <div className={`${componentName}_MAIN_CONTENT_CONTAINER md:order-2 p-4 flex flex-col justify-center`}>
+      <h1
+          className={`${HeaderBold.className}  leading-[42px] text-[36px] pb-4`}
         >
           Food & Beverage
         </h1>
-        <p className='mb-4'>
+        <p className='mb-4 text-[14px]'>
           From enticing appetizers to savory entrées, our culinary offerings are
           complemented by an extensive selection of cocktails, beer, and wine.
           Elevate your dining experience in the heart of Hamilton, where

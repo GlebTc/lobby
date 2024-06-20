@@ -18,14 +18,7 @@ const PrivateEventsHamilton = () => {
       <PrivateEventsHamiltonSectionFour />
       <PrivateEventsHamiltonSectionFive />
       <PrivateEventsHamiltonSectionSix />
-      <Link
-        aria-label={`Lobby Bar Restaurant | Private Events Inquire Hamilton`}
-        title={`Lobby Bar Restaurant | Private Events Inquire Hamilton`}
-        href='/private-events/hamilton/inquire'
-        className={`${componentName}_NAVBAR_RESERVATION_BUTTON main_button my-8 max-w-[155px] mx-auto`}
-      >
-        inquire now
-      </Link>
+
     </div>
   );
 };

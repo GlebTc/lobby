@@ -9,32 +9,32 @@ const PrivateEventsHamiltonSectionThree = () => {
     <div
       className={`${componentName}_MAIN_CONTAINER grid md:grid-cols-2 h-full lg:min-h-[50dvh] gap-4 md:p-4`}
     >
-      <div className={`${componentName}_MAIN_CONTENT_CONTAINER md:order-2 p-4`}>
-        <h1
-          className={`${HeaderBold.className}  leading-[42px] text-[32px] pb-4`}
+      <div className={`${componentName}_MAIN_CONTENT_CONTAINER md:order-2 p-4 flex flex-col justify-center`}>
+      <h1
+          className={`${HeaderBold.className}  leading-[42px] text-[36px] pb-4`}
         >
           Rooftop Terrace
         </h1>
-        <p className='mb-4'>
+        <p className='mb-4 text-[14px]'>
           With a standing capacity for 80 guests and seating for 30, this
           elevated escape offers breathtaking views and a more intimate setting.
           Whether you choose to book it independently or in conjunction with the
           main patio, our Rooftop Terrace provides a unique and stylish backdrop
           for those seeking an elevated experience in the heart of Hamilton.
         </p>
-        <p className='mb-4'>Capacity:</p>
+        <p className='text-[14px] mb-4'>Capacity:</p>
         <ul>
           <li className='flex items-center gap-2'>
             <FaCheck />
-            <p>900 sq ft</p>
+            <p className='text-[14px]'>900 sq ft</p>
           </li>
           <li className='flex items-center gap-2'>
             <FaCheck />
-            <p>80 cocktail reception</p>
+            <p className='text-[14px]'>80 cocktail reception</p>
           </li>
           <li className='flex items-center gap-2'>
             <FaCheck />
-            <p>30 seated</p>
+            <p className='text-[14px]'>30 seated</p>
           </li>
         </ul>
       </div>

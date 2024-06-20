@@ -5,18 +5,18 @@ import { HeaderBold } from '@/src/util/fonts/fonts';
 const HamiltonInquireHeader = () => {
   return (
     <div
-      className={`${HeaderBold.className} max-w-[80%] mx-auto uppercase flex flex-col gap-2 items-center border-b-[1px] border-black py-4 text-center`}
+      className={`${HeaderBold.className} max-w-[80%] md:max-w-[40%] mx-auto uppercase flex flex-col gap-2 items-center border-b-[1px] border-black py-4 text-center`}
     >
-      <h2 className='text-[19px] md:text-[28px] lg:text-[32px]'>
+      <h2 className='text-[30px]'>
         Plannig a Special Occasion or Business Event?
       </h2>
-      <h3 className='text-[16px] md:text-[24px] lg:text-[28px]'>Host With Us At Lobby Hamilton!</h3>
+      <h3 className='text-[24px]'>Host With Us At Lobby Hamilton!</h3>
       <Image
         src={lobby_hamilton_logo}
         alt='Lobby Hamilton Logo'
         quality={100}
         priority
-        className='h-[95px] w-[130px]'
+        className='h-[90px] w-[120px]'
       />
     </div>
   );
