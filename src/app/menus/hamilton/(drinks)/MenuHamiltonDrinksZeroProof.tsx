@@ -7,20 +7,19 @@ const MenuHamiltonDrinksZeroProof = () => {
   const componentName = 'MENU_HAMILTON_DRINKS_ZERO_PROOF';
   return (
     <div className={`${componentName}_MAIN_CONTAINER flex flex-col pt-8`}>
-      <h1
-        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[35px] my-2`}
-      >
+      <h1 className={`text-[#c69a50] ${HeaderRegular.className} mb-2`}>
         {menuHamiltonDrinksZeroProof.title}
       </h1>
       <div
         className={`${componentName}_MOCKTAILS_HEADING_AND_LIST_CONTAINER flex-flex-col gap-4`}
       >
         <h2
-          className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[26px] text-left mb-8`}
+          className={`text-[#c69a50] ${HeaderRegular.className} text-left mb-8`}
         >
-          mocktails        </h2>
+          mocktails{' '}
+        </h2>
         <div
-          className={`${componentName}_MOCKTAILS_LIST_CONTAINER grid sm:grid-cols-2 lg:grid-cols-3 gap-2`}
+          className={`${componentName}_MOCKTAILS_LIST_CONTAINER grid sm:grid-cols-2 lg:grid-cols-3 gap-8`}
         >
           {menuHamiltonDrinksZeroProof.zeros.mocktails.map((item, index) => {
             return (
@@ -35,12 +34,12 @@ const MenuHamiltonDrinksZeroProof = () => {
           })}
         </div>
         <h2
-          className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[26px] text-left my-8`}
+          className={`text-[#c69a50] ${HeaderRegular.className} text-left my-8`}
         >
           non alcoholic
         </h2>
         <div
-          className={`${componentName}_NON_ALCOHOLIC_LIST_CONTAINER grid sm:grid-cols-2 lg:grid-cols-3 gap-2`}
+          className={`${componentName}_NON_ALCOHOLIC_LIST_CONTAINER grid gap-6 max-w-[530px]`}
         >
           {menuHamiltonDrinksZeroProof.zeros.non_alcoholic.map(
             (item, index) => {

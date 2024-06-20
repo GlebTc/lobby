@@ -1,9 +1,10 @@
 {
   "title": "entrÉes",
-  "entrees": [
+  "entrees_one": [
     {
       "name": "rigatoni alla vodka",
       "description": "RIGATONI PASTA IN A CLASSIC ROSÉ SAUCE WITH ITALIAN CHILI & GRANA PADANO",
+      "description_two": null,
       "price": "$18"
     },
     {
@@ -20,7 +21,9 @@
       "name": "chicken parmesan",
       "description": "LIGHTLY BREADED CHICKEN BREAST WITH TOMATO SAUCE, MOZZARELLA AND GRANA PADANO CHEESES, SERVED WITH YOUR CHOICE OF SIDE",
       "price": "$26"
-    },
+    }
+  ],
+  "entrees_two": [
     {
       "name": "sea bass",
       "description": "PAN ROASTED CYPRIAN FILLET WITH ZUCCHINI, PRESERVED CHILLIES, OLIVE OIL & HERBS",
@@ -37,10 +40,13 @@
       "name": "striploin steak",
       "description": "GRILLED 12OZ AAA STRIPLOIN STEAK SERVED WITH BRAISED GREENS, SALSA VERDE & YOUR PREFERRED SIDE",
       "price": "$48"
-    },
+    }
+  ],
+  "entrees_three": [
     {
       "name": "tomahawk",
       "description": "GRILLED 45OZ BONE-IN RIB STEAK SERVED WITH BRUSSELS SPROUTS, CRISPY FRITES AND SALSA VERDE",
+      "description_two": null,
       "price": "MP"
     },
     {

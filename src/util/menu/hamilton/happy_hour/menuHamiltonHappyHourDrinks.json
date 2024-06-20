@@ -3,13 +3,13 @@
 
   "beer": [
     {
-      "name": "20 oz draught $7",
+      "name": "20 oz draught",
       "description": "Heinken, Canadian, Coors light, blue moon, coors original, Madri",
       "description_two": null,
       "price": "$7.00"
     },
     {
-      "name": "bucket of Heineken $35",
+      "name": "bucket of Heineken",
       "description": "6 Heinekens on ice",
       "price": "$35"
     },
@@ -22,55 +22,55 @@
 
   "frozen_cocktails": [
     {
-      "name": "Harvey Wallbanger Bellini $11",
+      "name": "Harvey Wallbanger Bellini",
       "description": "Beatties vodka, orange, vanilla, peach, Prosecco",
       "description_two": null,
       "price": "$11"
     },
     {
-      "name": "Blue-Garita $11",
+      "name": "Blue-Garita",
       "description": "Olmeca Altos Plata Tequila, Blue Curaçao, Agave, Salt, Lime",
       "price": "$11"
     },
     {
-      "name": "Piña Colada $10",
+      "name": "Piña Colada",
       "description": "Bacardi white, Bacardi black, coconut, pineapple",
       "price": "$10"
     },
     {
-      "name": "Strawberry Daiquiri $10",
+      "name": "Strawberry Daiquiri",
       "description": "Bacardi white, Bacardi black, strawberry, lime, cherry",
       "price": "$10"
     }
   ],
   "signature_cocktails": [
     {
-      "name": "Caesar $8",
+      "name": "Caesar",
       "description": "Beatties vodka, Clamato, spice blend",
       "description_two": null,
       "price": "$8"
     },
     {
-      "name": "Aperol spritz $12",
+      "name": "Aperol spritz",
       "description": "Aperol, Prosecco, soda, orange",
       "price": "$12"
     }
   ],
   "cocktail_towers": [
     {
-      "name": "Tower roulette $60",
+      "name": "Tower roulette",
       "description": "Play tower roulette & get served 5 cocktails of the dealer’s choice",
       "description_two": null,
       "price": "$60"
     },
     {
-      "name": "Espresso Martini Tower $85",
+      "name": "Espresso Martini Tower",
       "description": "Tower of 5, grey goose vodka, licor 43, espresso, kahlua, frangelico, cocoa powder.",
       "description_two": null,
       "price": "$85"
     },
     {
-      "name": "Lobby Spritz Tower $170",
+      "name": "Lobby Spritz Tower",
       "description": "Tower of 12, Codigo Tequila Rosa, Aperol, Strawberry & a 750ml bottle of luc belaire rare rosé sparkling.",
       "description_two": null,
       "price": "$170"

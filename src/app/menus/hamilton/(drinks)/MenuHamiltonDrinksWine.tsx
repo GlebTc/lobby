@@ -5,9 +5,7 @@ const MenuHamiltonDrinksWine = () => {
   const componentName = 'MENU_HAMILTON_DRINKS_WINE';
   return (
     <div className={`${componentName}_MAIN_CONTAINER flex flex-col pt-8`}>
-      <h1
-        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[35px] mb-8`}
-      >
+      <h1 className={`text-[#c69a50] ${HeaderRegular.className} mb-8`}>
         {menuHamiltonDrinksWine.title}
       </h1>
       <div
@@ -22,17 +20,17 @@ const MenuHamiltonDrinksWine = () => {
                 <thead>
                   <tr>
                     <th
-                      className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[24px] text-left mb-8`}
+                      className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[22px] text-left w-[90%]`}
                     >
                       {item.wine_type_title}
                     </th>
                     <th
-                      className={`${HeaderRegular.className} italic text-[16px] lowercase font-[300] text-left`}
+                      className={`${HeaderRegular.className} italic text-[15px] lowercase font-[300] text-left`}
                     >
                       6oz
                     </th>
                     <th
-                      className={`${HeaderRegular.className} italic text-[16px] lowercase font-[300] text-left`}
+                      className={`${HeaderRegular.className} italic text-[15px] lowercase font-[300] text-left`}
                     >
                       bottle
                     </th>
@@ -42,7 +40,7 @@ const MenuHamiltonDrinksWine = () => {
                   {item.wine_list.map((item, index) => (
                     <tr key={index}>
                       <td>
-                        <p className='text-left pr-12 text-[16px]'>
+                      <p className='text-left w-[80%] text-[15px]'>
                           {item.brand}
                         </p>
                       </td>
