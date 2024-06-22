@@ -12,10 +12,10 @@ const MenuHamiltonBottleServiceBottles = () => {
             key={index}
             className={`${componentName}_BOTTLE_HEADING_AND_LIST_CONTAINER flex flex-col gap-4`}
           >
-            <h1 className={`text-[#c69a50] ${HeaderRegular.className} mb-2`}>
+            <h1 className={`text-[#c69a50] ${HeaderRegular.className}`}>
               {item.bottle_title}
             </h1>
-            <div className='grid md:grid-cols-2 lg:grid-cols-3 md:gap-8'>
+            <div className='grid md:grid-cols-2 lg:grid-cols-3 md:gap-6 md:gap-x-8'>
               {item.bottle_list_one.map((item, index) => {
                 return (
                   <MenuTitlePrice
@@ -26,7 +26,7 @@ const MenuHamiltonBottleServiceBottles = () => {
                 );
               })}
             </div>
-            <div className='grid md:grid-cols-2 lg:grid-cols-3 md:gap-8'>
+            <div className='grid md:grid-cols-2 lg:grid-cols-3 md:gap-6 md:gap-x-8'>
               {item.bottle_list_two &&
                 item.bottle_list_two.map((item, index) => {
                   return (
@@ -38,7 +38,7 @@ const MenuHamiltonBottleServiceBottles = () => {
                   );
                 })}
             </div>
-            <div className='grid md:grid-cols-2 lg:grid-cols-3 md:gap-8 mb-4'>
+            <div className='grid md:grid-cols-2 lg:grid-cols-3 md:gap-6 md:gap-x-8 mb-4'>
               {item.bottle_list_three &&
                 item.bottle_list_three.map((item, index) => {
                   return (

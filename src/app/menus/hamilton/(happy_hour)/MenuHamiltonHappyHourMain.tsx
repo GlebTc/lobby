@@ -5,7 +5,7 @@ import MenuHamiltonHappyHourHappyDays from './MenuHamiltonHappyHourHappyDays';
 const MenuHamiltonDrinksMain = () => {
   const componentName = 'MENU_HAMILTON_HAPPY_HOUR_MAIN';
   return (
-    <div className={`${componentName}_MAIN_CONTAINER p-4`}>
+    <div className={`${componentName}_MAIN_CONTAINER p-4 md:p-2`}>
       <MenuHamiltonHappyHourHours />
       <MenuHamiltonHappyHourDrinks />
       <MenuHamiltonHappyHourFood />
