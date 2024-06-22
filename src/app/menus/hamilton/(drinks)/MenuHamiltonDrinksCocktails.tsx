@@ -6,10 +6,10 @@ const MenuHamiltonDrinksCocktails = () => {
   const componentName = 'MENU_HAMILTON_DRINKS_COCKTAILS';
   return (
     <div className={`${componentName}_MAIN_CONTAINER flex flex-col pt-8`}>
-      <h1 className={`text-[#c69a50] ${HeaderRegular.className} mb-2`}>
+      <h1 className={`text-[#c69a50] ${HeaderRegular.className} mb-6`}>
         {menuHamiltonDrinksCocktails.title}
       </h1>
-      <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-x-8'>
+      <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-x-10'>
         {menuHamiltonDrinksCocktails.cocktails.map((item, index) => {
           return (
             <MenuTitleDescriptionPrice

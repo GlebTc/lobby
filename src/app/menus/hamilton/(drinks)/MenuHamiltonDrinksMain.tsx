@@ -7,7 +7,7 @@ import MenuHamiltonDrinksCoffee from '@/src/app/menus/hamilton/(drinks)/MenuHami
 const MenuHamiltonDrinksMain = () => {
     const componentName = 'MENU_HAMILTON_DRINKS_MAIN';
   return (
-    <div className={`${componentName}_MAIN_CONTAINER p-4`}>
+    <div className={`${componentName}_MAIN_CONTAINER p-4 md:p-2`}>
       <MenuHamiltonDrinksCocktails />
       <MenuHamiltonDrinksBeer />
       <MenuHamiltonDrinksWine />

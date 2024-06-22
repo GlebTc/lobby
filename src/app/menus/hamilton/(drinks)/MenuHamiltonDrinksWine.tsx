@@ -25,12 +25,12 @@ const MenuHamiltonDrinksWine = () => {
                       {item.wine_type_title}
                     </th>
                     <th
-                      className={`${HeaderRegular.className} italic text-[15px] lowercase font-[300] text-left`}
+                      className={`${HeaderRegular.className} italic text-[15px] lowercase font-[300] text-left pr-4`}
                     >
                       6oz
                     </th>
                     <th
-                      className={`${HeaderRegular.className} italic text-[15px] lowercase font-[300] text-left`}
+                      className={`${HeaderRegular.className} italic text-[15px] lowercase font-[300] text-left pr-4`}
                     >
                       bottle
                     </th>
@@ -46,7 +46,7 @@ const MenuHamiltonDrinksWine = () => {
                       </td>
                       {item.price_6oz ? (
                         <td
-                          className={`${FuturaBoldCondesedBT.className} w-[60px] text-left`}
+                          className={`${FuturaBoldCondesedBT.className} w-[60px] text-left pr-4`}
                         >
                           ${item.price_6oz}
                         </td>
@@ -54,7 +54,7 @@ const MenuHamiltonDrinksWine = () => {
                         <td></td>
                       )}
                       <td
-                        className={`${FuturaBoldCondesedBT.className} w-[60px] text-left`}
+                        className={`${FuturaBoldCondesedBT.className} w-[60px] text-left pr-4`}
                       >
                         ${item.price_bottle}
                       </td>

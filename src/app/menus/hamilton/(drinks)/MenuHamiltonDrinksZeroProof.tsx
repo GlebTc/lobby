@@ -11,7 +11,7 @@ const MenuHamiltonDrinksZeroProof = () => {
         {menuHamiltonDrinksZeroProof.title}
       </h1>
       <div
-        className={`${componentName}_MOCKTAILS_HEADING_AND_LIST_CONTAINER flex-flex-col gap-4`}
+        className={`${componentName}_MOCKTAILS_HEADING_AND_LIST_CONTAINER flex flex-col`}
       >
         <h2
           className={`text-[#c69a50] ${HeaderRegular.className} text-left mb-8`}

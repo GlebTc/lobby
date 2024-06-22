@@ -9,7 +9,7 @@ const MenuHamiltonMain = () => {
   const componentName = 'MENU_HAMILTON_BRUNCH_MAIN';
   return (
     <div
-      className={`${componentName}_MAIN_CONTAINER flex flex-col gap-4 pt-4 p-8`}
+      className={`${componentName}_MAIN_CONTAINER flex flex-col gap-4 pt-2 p-8`}
     >
       <MenuHamiltonBrunchHours />
       <h1 className={`text-[#c69a50] ${HeaderRegular.className} mb-2`}>
