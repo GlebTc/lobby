@@ -57,7 +57,7 @@ const MainHeroVideo = () => {
           aria-label={`Lobby Bar Restaurant | Main Page | Hero Video | Reserve Now Button`}
           title={`Lobby Bar Restaurant | Main Page | Hero Video | Reserve Now Button`}
           onClick={handleButtonClick}
-          className={`${componentName}_RESERVATION_BUTTON uppercase font-[500] border-[1px] border-white px-[20px] py-[10px] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-black text-[15px] leading-[15px];`}
+          className={`${componentName}_RESERVATION_BUTTON uppercase font-[500] border-[1px] border-white px-[20px] py-[10px] hover:bg-[var(--main-bg-color)] duration-[var(--main-duration)] hover:text-black text-[15px] leading-[15px] cursor-pointer`}
         >
           reservations
         </div>

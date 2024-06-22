@@ -48,20 +48,24 @@ export async function POST(req) {
       'https://a.klaviyo.com/api/profiles/',
       options
     );
-
-    const responseData = await response.json(); // Parse the JSON response
-    console.log('Response from Klaviyo:', responseData);
+    const responseData = await response.json();
+    // console.log(responseData);
 
     if (!response.ok) {
-      const errorText = await response.text(); // Get the error message from the response
-
-      return NextResponse.json(
-        { message: 'Error subscribing to newsletter' }
-      );
+      return NextResponse.json({
+        error: 'Error subscribing to newsletter',
+        details: responseData,
+      });
     }
 
-    return NextResponse.json({ message: 'Subscription successful' });
+    return NextResponse.json({
+      message: 'Subscription successful',
+      profile: responseData,
+    });
   } catch (error) {
-    return NextResponse.json({ message: 'Error subscribing to newsletter' });
+    return NextResponse.json({
+      error: 'Error subscribing to newsletter',
+      details: error.message,
+    });
   }
 }
