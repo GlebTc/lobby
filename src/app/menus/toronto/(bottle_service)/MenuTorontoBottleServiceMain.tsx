@@ -1,4 +1,3 @@
-import menuTorontoBottleServiceBottles from '@/src/util/menu/toronto/bottle_service/menuTorontoBottleServiceBottles.json';
 import MenuTorontoBottleServiceBottles from '@/src/app/menus/toronto/(bottle_service)/MenuTorontoBottleServiceBottles';
 import MenuTorontoBottleServicePackages from '@/src/app/menus/toronto/(bottle_service)/MenuTorontoBottleServicePackages';
 import GratuityFootNote from '@/src/app/menus/(reusable)/GratuityFootNote';

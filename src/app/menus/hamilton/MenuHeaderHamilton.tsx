@@ -11,14 +11,6 @@ const MenuHeaderHamilton = ({
   setCategory: any;
 }) => {
   const componentName = 'HAMILTON_MENU_HEADER';
-  const menuItems = [
-    'drinks',
-    'dinner',
-    'lunch',
-    'sunday brunch',
-    'happy hour',
-    'bottle service',
-  ];
   return (
     <div className={`${componentName}_MAIN_CONTAINER relative`}>
       <div className={`${componentName}_IMAGE_CONTAINER relative h-[306px]`}>
@@ -33,7 +25,8 @@ const MenuHeaderHamilton = ({
         </div>
         <Image
           src={lobby_hamilton_menu}
-          alt='Lobby Hamilton Menu'
+          alt='Lobby Bar & Restaurant Hamilton | Menu Header Image'
+          title='Lobby Bar & Restaurant Hamilton | Menu Header Image'
           fill
           className='object-cover object-center md:object-bottom opacity-80 z-[-1]'
         />

@@ -1,4 +1,3 @@
-import menuHamiltonBottleServiceBottles from '@/src/util/menu/hamilton/bottle_service/menuHamiltonBottleServiceBottles.json';
 import MenuHamiltonBottleServiceBottles from '@/src/app/menus/hamilton/(bottle_service)/MenuHamiltonBottleServiceBottles';
 import MenuHamiltonBottleServicePackages from '@/src/app/menus/hamilton/(bottle_service)/MenuHamiltonBottleServicePackages';
 import GratuityFootNote from '@/src/app/menus/(reusable)/GratuityFootNote';

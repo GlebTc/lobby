@@ -5,13 +5,11 @@ import { HeaderRegular } from '@/src/util/fonts/fonts';
 const MenuHamiltonDrinksBeer = () => {
   const componentName = 'MENU_TORONTO_DRINKS_BEERS';
   return (
-    <div className={`${componentName}_MAIN_CONTAINER flex flex-col gap-2 pt-4`}>
-      <h1
-        className={`text-[#c69a50] ${HeaderRegular.className} font-[400] text-[30px] mb-1`}
-      >
+    <div className={`${componentName}_MAIN_CONTAINER flex flex-col pt-8`}>
+      <h1 className={`text-[#c69a50] ${HeaderRegular.className} mb-6`}>
         {menuTorontoDrinksBeer.title}
       </h1>
-      <div className='grid md:grid-cols-2 lg:grid-cols-3 md:gap-4'>
+      <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-x-10'>
         {menuTorontoDrinksBeer.beers.map((item, index) => {
           return (
             <MenuTitleDescriptionPrice
