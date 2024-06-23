@@ -6,7 +6,7 @@ import { HeaderRegular, HeaderBold } from '@/src/util/fonts/fonts';
 const MenuTorontoFoodMain = () => {
   const componentName = 'MENU_TORONTO_FOOD_MAIN';
   return (
-    <div className={`${componentName}_MAIN_CONTAINER p-4`}>
+    <div className={`${componentName}_MAIN_CONTAINER p-4 md:p-2`}>
       <MenuTorontoFoodShare />
       <MenuTorontoChickenWings />
       <MenuTorontoRolls />

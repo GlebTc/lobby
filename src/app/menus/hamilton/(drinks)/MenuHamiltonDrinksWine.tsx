@@ -40,7 +40,7 @@ const MenuHamiltonDrinksWine = () => {
                   {item.wine_list.map((item, index) => (
                     <tr key={index}>
                       <td>
-                      <p className='text-left w-[80%] text-[15px]'>
+                        <p className='text-left w-[80%] text-[15px]'>
                           {item.brand}
                         </p>
                       </td>

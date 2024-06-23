@@ -6,7 +6,7 @@ import MenuTorontoDrinksWine from '@/src/app/menus/toronto/(drinks)/MenuTorontoD
 const MenuTorontoDrinksMain = () => {
   const componentName = 'MENU_TORONTO_DRINKS_MAIN';
   return (
-    <div className={`${componentName}_MAIN_CONTAINER p-4`}>
+    <div className={`${componentName}_MAIN_CONTAINER p-4 md:p-2`}>
       <MenuHamiltonDrinksBeer />
       <MenuTorontoDrinksCocktails />
       <MenuTorontoDrinksWine />

@@ -3,7 +3,7 @@ import MenuTitleDescriptionPrice from '@/src/components/reusable/MenuTitleDescri
 import { HeaderRegular } from '@/src/util/fonts/fonts';
 
 const MenuHamiltonDinnerAppetizers = () => {
-  const componentName = 'MENU_HAMILTON_FOODS_APPETIZERS';
+  const componentName = 'MENU_HAMILTON_DINNER_APPETIZERS';
   return (
     <div className={`${componentName}_MAIN_CONTAINER flex flex-col gap-8 pt-8`}>
       <h1 className={`text-[#c69a50] ${HeaderRegular.className} mb-2`}>

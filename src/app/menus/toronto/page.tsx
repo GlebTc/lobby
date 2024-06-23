@@ -13,15 +13,15 @@ const menusHamilton = () => {
 
   return (
     <div
-      className={`${componentName}_MAIN_CONTAINER max-w-7xl mx-auto uppercase`}
+      className={`${componentName}_MAIN_CONTAINER max-w-[var(--max-width)] mx-auto uppercase`}
     >
       <MenuHeaderToronto
         category={category}
         setCategory={setCategory}
       />
       {category === 'drinks' && <MenuTorontoDrinksMain />}
-      {category === 'food' && <MenuTorontoFoodMain />}
       {category === 'brunch' && <MenuTorontoBrunchMain />}
+      {category === 'food' && <MenuTorontoFoodMain />}
       {category === 'bottle service' && <MenuTorontoBottlServiceMain />}
     </div>
   );
