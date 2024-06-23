@@ -1,7 +1,8 @@
 'use client';
 import { IoClose } from 'react-icons/io5';
 import Link from 'next/link';
-import NewsLetter from '../navbar/NewsLetter';
+
+import NewsletterMain from '@/src/components/navbar/newsletter/NewsletterMain';
 import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
 import { HeaderBold } from '@/src/util/fonts/fonts';
 
@@ -65,7 +66,7 @@ const LocationPicker = () => {
           >
             Hamilton
           </Link>
-          <NewsLetter />
+          <NewsletterMain />
         </div>
       </div>
     </div>
