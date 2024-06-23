@@ -43,6 +43,12 @@
       "price": "$24"
     },
     {
+      "name": "mortadella sliders",
+      "description": "Toasted brioche, warm mortadella, garlic mayo & piparras peppers",
+      "description_two": "sub beef +$2",
+      "price": "$9"
+    },
+    {
       "name": "Strawberry champagne cheesecake",
       "description": "vanilla cheesecake marbled with strawberry baked atop a chocolate cookie graham",
       "price": "$8"

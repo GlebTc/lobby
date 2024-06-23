@@ -43,7 +43,8 @@ export async function POST(req) {
       name: `Toronto Private Event Form Submission`,
     },
     replyTo: email,
-    to: 'webdevelopmenthamilton@gmail.com',
+    to: 'RSVP@lobby.ca',
+    cc: 'webdevelopmenthamilton@gmail.com',
     subject: `Toronto Private Event Request for ${eventDate} for ${name}`,
 
     html: `

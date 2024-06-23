@@ -2,6 +2,11 @@
   "title": "entrÉes",
   "entrees_one": [
     {
+      "name": "LOBSTER RAVIOLI",
+      "description": "pasta pillows filled with lobster, leeks, sautéed onions, confit garlic and ricotta cheese, served in a lobster rosé sauce",
+      "price": "$27"
+    },
+    {
       "name": "rigatoni alla vodka",
       "description": "RIGATONI PASTA IN A CLASSIC ROSÉ SAUCE WITH ITALIAN CHILI & GRANA PADANO",
       "description_two": null,

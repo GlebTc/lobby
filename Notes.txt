@@ -13,3 +13,10 @@ Layout.tsx - relative - z-none
 - Change heading fonts to Stacion
 - Change body font to Termina
 - Add hours for Hamilton menu sections: (Happy Hour hours are unclear)
+
+
+
+24 - 06 - 22 - Updates
+- Images to Change
+    - Main Section Lobby Cappuchino
+    https://www.cactusclubcafe.com/

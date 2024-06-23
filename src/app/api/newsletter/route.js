@@ -54,7 +54,7 @@ export async function POST(req) {
     if (!response.ok) {
       return NextResponse.json({
         error: 'Error subscribing to newsletter',
-        details: responseData,
+        data: responseData,
       });
     }
 
@@ -64,8 +64,7 @@ export async function POST(req) {
     });
   } catch (error) {
     return NextResponse.json({
-      error: 'Error subscribing to newsletter',
-      details: error.message,
+      error,
     });
   }
 }
