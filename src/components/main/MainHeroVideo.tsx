@@ -37,6 +37,7 @@ const MainHeroVideo = () => {
           autoPlay
           muted
           loop
+          playsInline
         >
           <source
             src='/assets/lobby_hero_video.mp4'
