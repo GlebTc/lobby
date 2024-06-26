@@ -29,7 +29,7 @@ const MainHeroVideo = () => {
         />
       </div>
       <div
-        className={`${componentName}_VIDEO_CONTAINER h-[100%] relative overflow-hidden`}
+        className={`${componentName}_VIDEO_CONTAINER h-[100%] relative overflow-hidden bg-[var(--main-bg-color)]`}
       >
         <video
           className='object-cover w-full h-full z-[-1]'
@@ -50,7 +50,9 @@ const MainHeroVideo = () => {
         <h1 className={`${HeaderBold.className}  leading-[42px] text-[36px]`}>
           Pure Delight
         </h1>
-        <p className={`${HeaderRegular.className} text-white pb-4 text-[20px] leading-[42px]`}>
+        <p
+          className={`${HeaderRegular.className} text-white pb-4 text-[20px] leading-[42px]`}
+        >
           Vibrant moments and incredible nights
         </p>
         <div
