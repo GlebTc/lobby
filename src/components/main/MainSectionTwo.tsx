@@ -12,7 +12,7 @@ const MainSectionTwo = () => {
     setShowLocationPicker(showLocationPicker);
   };
   return (
-    <div className={`${componentName}_MAIN_CONTAINER relative h-[482px]`}>
+    <div className={`${componentName}_MAIN_CONTAINER relative h-[70dvh]`}>
       <div
         className={`${componentName}_OVERLAY_CONTAINER absolute top-0 left-0 h-full w-full`}
       ></div>

@@ -14,6 +14,11 @@ const MainSectionFour = () => {
     setSelectedMenuItem('menus');
     setShowLocationPicker(showLocationPicker);
   };
+
+  const handleButtonClickReserveNow = () => {
+    setSelectedMenuItem('reservations');
+    setShowLocationPicker(showLocationPicker);
+  };
   return (
     <div
       className={`${componentName}_MAIN_CONTAINER h-fit grid md:grid-cols-2 md:py-8 md:px-4 bg-white`}
@@ -37,23 +42,21 @@ const MainSectionFour = () => {
         <div
           className={`${componentName}_HEADINGS_CONTAINER text-3xl font-[700] flex flex-col items-center text-center`}
         >
-          <h2
-            className={`${HeaderBold.className} text-[30px]`}
-          >
-            Indulge in Weekend Bliss
+          <h2 className={`${HeaderBold.className} text-[30px]`}>
+            For The Wine Lovers
           </h2>
         </div>
         <p className='text-center px-8 md:px-12'>
-          Brunch like never before. From classics to innovative creations, our
-          menu is a celebration of weekend indulgence
+          Enjoy 1/2 price bottles of wine on Thursdays.
         </p>
+        <p className='text-center px-8 md:px-12'>Hours vary by location.</p>
         <div
-          className={`${componentName}_VIEW_MENU_BUTTON main_button`}
-          aria-label={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
-          title={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
-          onClick={handleButtonClick}
+          className={`${componentName}_RESERVE_NOW_BUTTON main_button`}
+          aria-label={`Lobby Bar Restaurant | Main Page | Section One | Reserve Now Button`}
+          title={`Lobby Bar Restaurant | Main Page | Section One | Reserve Now Button`}
+          onClick={handleButtonClickReserveNow}
         >
-          explore menu
+          Reserve Now
         </div>
       </div>
       <div
@@ -75,16 +78,12 @@ const MainSectionFour = () => {
         <div
           className={`${componentName}_HEADINGS_CONTAINER text-3xl font-[700] flex flex-col items-center text-center`}
         >
-          <h2
-            className={`${HeaderBold.className} text-[30px]`}
-          >
-            Elegance Meets Excellence
+          <h2 className={`${HeaderBold.className} text-[30px]`}>
+            Happy Hour & Late Night Specials
           </h2>
         </div>
         <p className='text-center px-8 md:px-16'>
-          As the sun sets, join us for a dinner that transcends the ordinary.
-          Immerse yourself in an evening of culinary delight and sophisticated
-          ambiance.
+          Join us for undeniable daily Happy Hour & Late Night specials.
         </p>
         <div
           className={`${componentName}_VIEW_MENU_BUTTON main_button`}
@@ -92,7 +91,7 @@ const MainSectionFour = () => {
           title={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
           onClick={handleButtonClick}
         >
-          explore menu
+          view menu
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 'use client';
 import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
 import Image from 'next/image';
-import main_section_two_img from '@/public/assets/main_section_two_img.webp';
+import main_section_two_img from '@/public/assets/full_bg_img.webp';
 import { HeaderRegular, HeaderBold } from '@/src/util/fonts/fonts';
 
 const MainHeroVideo = () => {
