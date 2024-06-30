@@ -1,7 +1,7 @@
 'use client';
 import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
 import Image from 'next/image';
-import main_section_one_img_smaller from '@/public/assets/main_section_one_img_smaller.webp';
+import main_section_one_img from '@/public/assets/main_section_one_img.webp';
 import { HeaderBold } from '@/src/util/fonts/fonts';
 
 const MainSectionOne = () => {
@@ -10,7 +10,7 @@ const MainSectionOne = () => {
     useLocationPickerStore();
 
   const handleButtonClick = () => {
-    setSelectedMenuItem('menus');
+    setSelectedMenuItem('reservations');
     setShowLocationPicker(showLocationPicker);
   };
   return (
@@ -20,11 +20,11 @@ const MainSectionOne = () => {
       <div
         className={`${componentName}_IMG_CONTAINER h-full flex items-center`}
       >
-        <div className='relative h-[48vh] w-full'>
+        <div className='relative h-[48vh] lg:h-[75dvh] w-full'>
           <Image
-            src={main_section_one_img_smaller}
-            alt={`Lobby Bar Restaurant | Main Page | Lobby Cappucino Image`}
-            title={`Lobby Bar Restaurant | Main Page | Lobby Cappucino Image`}
+            src={main_section_one_img}
+            alt={`Lobby Bar Restaurant | Main Page | Summer Slushie Vibe Picture`}
+            title={`Lobby Bar Restaurant | Main Page | Summer Slushie Vibe Picture`}
             fill
             sizes='auto'
             className='floating_container object-cover'
@@ -40,21 +40,19 @@ const MainSectionOne = () => {
           className={`${componentName}_HEADINGS_CONTAINER flex flex-col items-center`}
         >
           <h2 className={`${HeaderBold.className} text-[30px]`}>
-            Global Flavors, Unforgettable Moments
+          Summer Sessions Are Here
           </h2>
         </div>
         <p className={`text-[14px] md:px-20`}>
-          At Lobby, we currate a journey of global flavors, paired with
-          handcrafted coctails and an inviting atmosphere that transforms dining
-          into an experience.
+        Join us every Wednesday for $5 drink deals from 3pm-6pm & 9pm-close.
         </p>
         <div
           className={`${componentName}_VIEW_MENU_BUTTON main_button`}
-          aria-label={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
+          aria-label={`Lobby Bar Restaurant | Main Page | Section One | Reserve Now Button`}
           title={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
           onClick={handleButtonClick}
         >
-          view menu
+          Reserve now
         </div>
       </div>
     </div>

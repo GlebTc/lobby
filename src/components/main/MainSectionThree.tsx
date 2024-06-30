@@ -10,7 +10,7 @@ const MainSectionThree = () => {
     useLocationPickerStore();
 
   const handleButtonClick = () => {
-    setSelectedMenuItem('menus');
+    setSelectedMenuItem('locations');
     setShowLocationPicker(showLocationPicker);
   };
   return (
@@ -21,7 +21,7 @@ const MainSectionThree = () => {
         <div
           className={`${componentName}_IMG_CONTAINER h-full flex items-center order-2`}
         >
-          <div className='relative h-[48dvh] w-full'>
+          <div className='relative h-[48vh] lg:h-[75dvh] w-full'>
             <Image
               src={main_section_three_img}
               alt={`Lobby Bar Restaurant | Main Page | Savor Flavor in Two Cities Image`}
@@ -44,15 +44,13 @@ const MainSectionThree = () => {
             <h2
               className={`${HeaderBold.className} text-[30px]`}
             >
-              Savor Flavor in Two Cities
+              Enjoy $1 Oysters
             </h2>
           </div>
           <p className={`text-[14px] md:px-20`}>
-            Experience our distinctive ambience and flavors in both Hamilton and
-            Toronto. Our commitment to excellence transcends locations, offering
-            you the same exceptional dining and nightlife in two vibrant
-            destinations.
+          Join us Tuesdays for Buck-A-Shuck from 3pm - close at lobby Hamilton and Thursdays from 6pm - 9pm at our Toronto location.
           </p>
+          <p className={`text-[14px] md:px-20`}>No hidden fees or restrictions.</p>
           <div
             className={`${componentName}_VIEW_MENU_BUTTON main_button`}
             aria-label={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
@@ -76,8 +74,7 @@ const MainSectionThree = () => {
           </h2>
         </div>
         <p className={`text-[14px] md:px-20`}>
-          Explore a carousel of flavors. Our menu is a symphony of culinary
-          masterpieces designed to elevate your dining experience.
+        Try our new creations and explore a carousel of flavours our guests can’t get enough of.
         </p>
         <div
           className={`${componentName}_VIEW_MENU_BUTTON main_button`}
