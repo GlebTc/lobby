@@ -44,7 +44,7 @@ export async function POST(req) {
     },
     replyTo: email,
     to: 'Hamilton@lobby.ca',
-    cc: 'webdevelopmenthamilton@gmail.com',
+    bcc: 'webdevelopmenthamilton@gmail.com',
     subject: `Hamilton Private Event Request for ${eventDate} for ${name}`,
 
     html: `
