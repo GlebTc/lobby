@@ -29,7 +29,8 @@ const MainSectionThree = () => {
               fill
               sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
               className='floating_container object-cover'
-              quality={80} // Adjusted quality to 80
+              quality={80}
+              priority
             />
           </div>
         </div>
