@@ -21,15 +21,15 @@ const MainSectionOne = () => {
         className={`${componentName}_IMG_CONTAINER h-full flex items-center`}
       >
         <div className='relative h-[48vh] lg:h-[75dvh] w-full'>
-          <Image
+        <Image
             src={main_section_one_img}
-            alt={`Lobby Bar Restaurant | Main Page | Summer Slushie Vibe Picture`}
-            title={`Lobby Bar Restaurant | Main Page | Summer Slushie Vibe Picture`}
+            alt='Lobby Bar Restaurant | Main Page | Summer Slushie Vibe Picture'
+            title='Lobby Bar Restaurant | Main Page | Summer Slushie Vibe Picture'
             fill
-            sizes='auto'
+            sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
             className='floating_container object-cover'
             priority
-            quality={100}
+            quality={80} // Adjusted quality to 80
           />
         </div>
       </div>

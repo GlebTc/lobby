@@ -19,6 +19,7 @@ const MainSectionFour = () => {
     setSelectedMenuItem('reservations');
     setShowLocationPicker(showLocationPicker);
   };
+
   return (
     <div
       className={`${componentName}_MAIN_CONTAINER h-fit grid md:grid-cols-2 md:py-8 md:px-4 bg-white`}
@@ -29,14 +30,12 @@ const MainSectionFour = () => {
         <div className='relative h-[90dvh] w-[90dvw] md:w-[40dvw]'>
           <Image
             src={main_section_four_img}
-            alt={`Lobby Bar Restaurant | Main Page | Section Four | Indulge in Weekend Bliss Image`}
-            title={`Lobby Bar Restaurant | Main Page | Section Four | Indulge in Weekend Bliss Image`}
+            alt='Lobby Bar Restaurant | Main Page | Section Four | Indulge in Weekend Bliss Image'
+            title='Lobby Bar Restaurant | Main Page | Section Four | Indulge in Weekend Bliss Image'
             fill
-            sizes='auto'
+            sizes='(max-width: 768px) 90vw, (max-width: 1200px) 40vw, 35vw'
             className='object-cover'
-            placeholder='blur'
-            priority
-            quality={100}
+            quality={80} // Adjusted quality to 80
           />
         </div>
         <div
@@ -47,13 +46,13 @@ const MainSectionFour = () => {
           </h2>
         </div>
         <p className='text-center px-8 md:px-12'>
-          Enjoy 1/2 price bottles of wine on Thursdays.
+          Enjoy 1/2 price bottles of wine on Thursdays.{' '}
+          <span className='italic'>Hours vary by location.</span>
         </p>
-        <p className='text-center px-8 md:px-12'>Hours vary by location.</p>
         <div
-          className={`${componentName}_RESERVE_NOW_BUTTON main_button`}
-          aria-label={`Lobby Bar Restaurant | Main Page | Section One | Reserve Now Button`}
-          title={`Lobby Bar Restaurant | Main Page | Section One | Reserve Now Button`}
+          className={`${componentName}_RESERVE_NOW_BUTTON main_button mt-2`}
+          aria-label='Lobby Bar Restaurant | Main Page | Section One | Reserve Now Button'
+          title='Lobby Bar Restaurant | Main Page | Section One | Reserve Now Button'
           onClick={handleButtonClickReserveNow}
         >
           Reserve Now
@@ -65,14 +64,12 @@ const MainSectionFour = () => {
         <div className='relative h-[90dvh] w-[90dvw] md:w-[40dvw]'>
           <Image
             src={main_section_four_img_two}
-            alt={`Lobby Bar Restaurant | Main Page | Section Four | Elegance Meets Expereience Image`}
-            title={`Lobby Bar Restaurant | Main Page | Section Four | Elegance Meets Expereience Image`}
+            alt='Lobby Bar Restaurant | Main Page | Section Four | Elegance Meets Experience Image'
+            title='Lobby Bar Restaurant | Main Page | Section Four | Elegance Meets Experience Image'
             fill
-            sizes='auto'
+            sizes='(max-width: 768px) 90vw, (max-width: 1200px) 40vw, 35vw'
             className='object-cover'
-            placeholder='blur'
-            priority
-            quality={100}
+            quality={80} // Adjusted quality to 80
           />
         </div>
         <div
@@ -86,9 +83,9 @@ const MainSectionFour = () => {
           Join us for undeniable daily Happy Hour & Late Night specials.
         </p>
         <div
-          className={`${componentName}_VIEW_MENU_BUTTON main_button`}
-          aria-label={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
-          title={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
+          className={`${componentName}_VIEW_MENU_BUTTON main_button mt-2`}
+          aria-label='Lobby Bar Restaurant | Main Page | Section One | View Menu Button'
+          title='Lobby Bar Restaurant | Main Page | Section One | View Menu Button'
           onClick={handleButtonClick}
         >
           view menu
