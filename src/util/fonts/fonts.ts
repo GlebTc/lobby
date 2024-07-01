@@ -22,11 +22,6 @@ export const BodyMedium = localFont({
   display: 'swap',
 });
 
-// export const BodyRegular = localFont({
-//   src: '../../../public/fonts/static-fonts/TerminaTest-Regular.otf',
-//   display: 'swap',
-// });
-
 export const RobotoRegular = Roboto({
   subsets: ['latin'],
   display: 'swap',

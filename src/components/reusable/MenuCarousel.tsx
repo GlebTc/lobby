@@ -43,7 +43,7 @@ const MenuCarousel = () => {
               sizes='(max-width: 768px) 30vw, (max-width: 1200px) 30vw, 30vw'
               className='object-contain w-full h-full'
               quality={80} // Adjusted quality to 80
-              loading='lazy'
+              priority
             />
           </div>
 
