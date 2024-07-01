@@ -24,33 +24,31 @@ const MainSectionThree = () => {
           <div className='relative h-[48vh] lg:h-[75dvh] w-full'>
             <Image
               src={main_section_three_img}
-              alt={`Lobby Bar Restaurant | Main Page | Savor Flavor in Two Cities Image`}
-              title={`Lobby Bar Restaurant | Main Page | Savor Flavor in Two Cities Image`}
+              alt='Lobby Bar Restaurant | Main Page | Savor Flavor in Two Cities Image'
+              title='Lobby Bar Restaurant | Main Page | Savor Flavor in Two Cities Image'
               fill
-              sizes='auto'
+              sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
               className='floating_container object-cover'
-              placeholder='blur'
-              priority
-              quality={100}
+              quality={80} // Adjusted quality to 80
             />
           </div>
         </div>
         <div
-          className={`${componentName}_CONTENT_CONTAINER flex flex-col items-center justify-center gap-4 h-full p-4 lg:p-12 text-center sm:min-h-[245px]`}
+          className={`${componentName}_CONTENT_CONTAINER flex flex-col items-center justify-center gap-8 h-full p-4 lg:p-12 text-center sm:min-h-[245px]`}
         >
           <div
-            className={`${componentName}_HEADINGS_CONTAINER text-3xl font-[700] flex flex-col items-center`}
+            className={`${componentName}_HEADINGS_CONTAINER text-3xl font-[700] flex justify-center`}
           >
-            <h2
-              className={`${HeaderBold.className} text-[30px]`}
-            >
+            <h2 className={`${HeaderBold.className} text-[30px]`}>
               Enjoy $1 Oysters
             </h2>
           </div>
           <p className={`text-[14px] md:px-20`}>
-          Join us Tuesdays for Buck-A-Shuck from 3pm - close at lobby Hamilton and Thursdays from 6pm - 9pm at our Toronto location.
+            Join us Tuesdays for Buck-A-Shuck from 3pm - close at lobby Hamilton
+            and Thursdays from 6pm - 9pm at our Toronto location.{' '}
+            <span className='italic'> No hidden fees or restrictions.</span>
           </p>
-          <p className={`text-[14px] md:px-20`}>No hidden fees or restrictions.</p>
+
           <div
             className={`${componentName}_VIEW_MENU_BUTTON main_button`}
             aria-label={`Lobby Bar Restaurant | Main Page | Section One | View Menu Button`}
@@ -67,14 +65,13 @@ const MainSectionThree = () => {
         <div
           className={`${componentName}_HEADINGS_CONTAINER flex flex-col items-center`}
         >
-          <h2
-            className={`${HeaderBold.className} text-[30px]`}
-          >
+          <h2 className={`${HeaderBold.className} text-[30px]`}>
             Delicious Culinary Masterpieces
           </h2>
         </div>
         <p className={`text-[14px] md:px-20`}>
-        Try our new creations and explore a carousel of flavours our guests can’t get enough of.
+          Try our new creations and explore a carousel of flavours our guests
+          can’t get enough of.
         </p>
         <div
           className={`${componentName}_VIEW_MENU_BUTTON main_button`}

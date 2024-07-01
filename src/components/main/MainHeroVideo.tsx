@@ -1,7 +1,7 @@
 'use client';
 import { useLocationPickerStore } from '@/src/util/stores/LocationPickerStore';
 import Image from 'next/image';
-import main_section_two_img from '@/public/assets/full_bg_img.webp';
+import full_bg_img from '@/public/assets/full_bg_img.webp';
 import { HeaderRegular, HeaderBold } from '@/src/util/fonts/fonts';
 
 const MainHeroVideo = () => {
@@ -20,12 +20,15 @@ const MainHeroVideo = () => {
     >
       <div className='fixed top-0 left-0 h-full w-full z-[-10]'>
         <Image
-          src={main_section_two_img}
+          src={full_bg_img}
           alt='Lobby Bar Restaurant | Main Page Hero Image'
           title='Lobby Bar Restaurant | Main Page Hero Image'
-          priority
+          loading='lazy'
           fill
+          sizes='100vw'
+          quality={80} // Adjusted quality to 80
           className='object-cover'
+          placeholder='blur'
         />
       </div>
       <div
