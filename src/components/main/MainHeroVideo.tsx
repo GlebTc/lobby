@@ -23,10 +23,10 @@ const MainHeroVideo = () => {
           src={full_bg_img}
           alt='Lobby Bar Restaurant | Main Page Hero Image'
           title='Lobby Bar Restaurant | Main Page Hero Image'
-          loading='lazy'
+          priority
           fill
           sizes='100vw'
-          quality={80} // Adjusted quality to 80
+          quality={70}
           className='object-cover'
           placeholder='blur'
         />
